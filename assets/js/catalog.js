@@ -164,6 +164,25 @@
   async function init() {
     const grids = S.qsa("[data-course-grid]");
     if (!grids.length) return;
+
+    // Detect file:// protocol and show clear instructions
+    if (window.location.protocol === "file:") {
+      grids.forEach((grid) => {
+        grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1; text-align:center; padding:60px 20px;">
+          ${S.icon("shield")}
+          <h3 style="margin-top:16px">Please use a local web server</h3>
+          <p style="color:var(--muted); max-width:420px; margin:12px auto; line-height:1.5">
+            Opening HTML files directly (file://) blocks course loading.<br><br>
+            <strong>To run locally:</strong><br>
+            1. Open a terminal in this folder<br>
+            2. Run: <code>node server-local.js</code><br>
+            3. Open: <code>http://localhost:3000</code>
+          </p>
+        </div>`;
+      });
+      return;
+    }
+
     renderTargets = grids;
     const params = new URLSearchParams(window.location.search);
     const initialTopic = params.get("topic");
@@ -177,7 +196,7 @@
         grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
           ${S.icon("shield")}
           <h3>Course catalog could not load</h3>
-          <p>If you opened this page directly from a file, start a small local web server first. See the README for the one-line command.</p>
+          <p>Make sure the local server is running: <code>node server-local.js</code></p>
         </div>`;
       });
       return;
