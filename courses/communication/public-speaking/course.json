@@ -1,0 +1,1091 @@
+{
+  "id": "public-speaking",
+  "title": "Public Speaking with Confidence",
+  "topic": "Communication",
+  "topicSlug": "communication",
+  "level": "Beginner",
+  "duration": "4h 30m",
+  "description": "Prepare and deliver a talk that people remember. Practice structure, voice, body language, nerves, Q&A, and a complete five-minute capstone presentation.",
+  "icon": "mic",
+  "color": "#D94F7A",
+  "accent": "#FFE3EC",
+  "badge": {
+    "name": "Confident Voice",
+    "icon": "mic",
+    "description": "Awarded for completing Public Speaking with Confidence and its final assessment."
+  },
+  "skills": [
+    "Talk structure",
+    "Voice",
+    "Body language",
+    "Q&A"
+  ],
+  "outcomes": [
+    "Analyse an audience and define a clear speaking objective",
+    "Structure a talk with a strong opening, body, and close",
+    "Use voice, pace, pause, and body language deliberately",
+    "Manage nerves with practical preparation routines",
+    "Handle questions and recover from mistakes gracefully",
+    "Write, rehearse, and deliver a five-minute talk"
+  ],
+  "prerequisites": [
+    "A topic you care enough about to speak for five minutes",
+    "A phone or camera for recording one rehearsal",
+    "A quiet space for practice"
+  ],
+  "tools": [
+    "A timer",
+    "A phone or webcam",
+    "A notebook or notes app",
+    "Optional: a trusted listener"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Audience and message",
+      "summary": "Decide who you are speaking to and what they should remember.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Know your audience",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Public speaking is not performance in a vacuum. It is a relationship with a specific group of people in a specific moment."
+            },
+            {
+              "type": "p",
+              "text": "Before writing, answer four questions: Who are they? What do they already know? What do they care about? What do I want them to do or feel? The answers determine your examples, your level of detail, and your tone."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Audience",
+                "What they need",
+                "What to avoid"
+              ],
+              "rows": [
+                [
+                  "Beginners",
+                  "Context, definitions, simple examples",
+                  "Jargon and assumed knowledge"
+                ],
+                [
+                  "Experts",
+                  "Evidence, nuance, a new angle",
+                  "Explaining the basics they already know"
+                ],
+                [
+                  "Decision-makers",
+                  "The recommendation, impact, and next step",
+                  "A long history of the project"
+                ],
+                [
+                  "Sceptics",
+                  "Acknowledged objections and credible proof",
+                  "Ignoring the real concern"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Write for one person",
+              "text": "Imagine the most important person in the room and speak to them. It keeps the language specific and human, even in a large audience."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the most useful audience question before writing a talk?",
+              "options": [
+                "What font should I use?",
+                "What do they already know and what do I want them to do?",
+                "How many slides can I fit?",
+                "What is the room's Wi-Fi password?"
+              ],
+              "answer": 1,
+              "explanation": "Audience knowledge and desired outcome determine the content and level of detail."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "One sentence, one promise",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A talk should make one promise and keep it. If you cannot state the promise in a sentence, the audience will not be able to either."
+            },
+            {
+              "type": "p",
+              "text": "Write a sentence in this shape: 'By the end of this talk, you will know how to [specific thing] so that [benefit].' This becomes your compass when deciding what to include."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Weak promise",
+                "Strong promise"
+              ],
+              "rows": [
+                [
+                  "I will talk about productivity",
+                  "You will leave with a 10-minute weekly reset that keeps your priorities visible"
+                ],
+                [
+                  "Our project update",
+                  "You will know the one decision we need to keep the launch on track"
+                ],
+                [
+                  "About public speaking",
+                  "You will have a three-step opening that makes your next talk easier to start"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Specific is kind",
+              "text": "A narrow promise respects the audience's time. A broad topic usually means you will either rush or leave people unsure what they gained."
+            },
+            {
+              "type": "quiz",
+              "question": "Which is the strongest speaking promise?",
+              "options": [
+                "I will discuss communication",
+                "By the end, you will know a three-step method for handling difficult questions",
+                "Communication is important",
+                "I have many slides"
+              ],
+              "answer": 1,
+              "explanation": "It is specific, outcome-oriented, and easy for the audience to remember."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Opening, body, close",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A reliable structure is: hook, promise, three points, close. It is simple enough to remember under pressure and flexible enough for most talks."
+            },
+            {
+              "type": "p",
+              "text": "The opening earns attention. The body delivers the promise in two or three clear movements. The close returns to the opening and makes the next step obvious. Do not end with a trail-off or a rushed 'that's it'."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Hook",
+                  "text": "A surprising fact, a short story, a question, or a concrete image. Ten to twenty seconds."
+                },
+                {
+                  "title": "Promise",
+                  "text": "Tell the audience what they will leave with. This gives them a reason to keep listening."
+                },
+                {
+                  "title": "Point 1",
+                  "text": "The first essential idea, with an example or evidence."
+                },
+                {
+                  "title": "Point 2",
+                  "text": "The second idea, connected logically to the first."
+                },
+                {
+                  "title": "Point 3",
+                  "text": "The final idea, often the most important or practical."
+                },
+                {
+                  "title": "Close",
+                  "text": "Return to the opening, restate the promise, and give one clear next step."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use signposts",
+              "text": "Say 'First...', 'The second thing...', 'Which brings me to...'. Signposts are not filler; they help the audience build a mental map."
+            },
+            {
+              "type": "quiz",
+              "question": "What should the close do?",
+              "options": [
+                "Introduce a new topic",
+                "Return to the opening promise and make the next step clear",
+                "Apologise for running out of time",
+                "Read the slides one more time"
+              ],
+              "answer": 1,
+              "explanation": "A strong close resolves the talk and makes the takeaway actionable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Delivery",
+      "summary": "Voice, body, and the nervous system.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Voice, pace, and pause",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Your voice is an instrument. Volume, pace, pitch, and pause carry meaning that words alone cannot."
+            },
+            {
+              "type": "p",
+              "text": "Most nervous speakers rush and get quieter. Deliberate pauses are especially powerful: they give the audience time to process, signal that a point matters, and give you time to breathe."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Speak one notch slower than feels natural to you.",
+                "Pause after the key sentence, not in the middle of it.",
+                "Vary pitch to avoid a monotone, but do not force a performance.",
+                "Project from the belly, not the throat; breathe low.",
+                "Use emphasis on one or two words per sentence, not every word.",
+                "Drink water before speaking; avoid shouting to fill a large room without amplification."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Record a 30-second sample",
+              "text": "Read a paragraph aloud and record it. Listen for pace, volume, and filler words. Most people improve simply by hearing themselves once."
+            },
+            {
+              "type": "quiz",
+              "question": "Why is pause useful in a talk?",
+              "options": [
+                "It fills silence",
+                "It gives the audience time to process and adds emphasis",
+                "It proves you forgot the words",
+                "It makes the talk longer"
+              ],
+              "answer": 1,
+              "explanation": "Strategic silence lets key points land and gives the speaker time to breathe."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Body language and eye contact",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Your body communicates before your first sentence. Standing grounded and looking at people helps the audience trust you and helps you stay present."
+            },
+            {
+              "type": "p",
+              "text": "Aim for a stable stance, shoulders relaxed, hands available for natural gestures. Move with purpose rather than pacing. Eye contact is not a staring contest; hold one person's gaze for a thought, then move to another part of the room."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Stand with both feet grounded.",
+                "Keep your hands out of your pockets and away from your face.",
+                "Use gestures to show size, sequence, or contrast.",
+                "Look at people, not over their heads.",
+                "Avoid turning your back to the audience to read the screen.",
+                "Smile when it is appropriate; it changes both your face and your nervous system.",
+                "Use the clicker in one hand and keep the other free."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Nervous habits are usually invisible",
+              "text": "The audience cannot feel your heart rate. They notice only what they can see. If your hands shake, hold the clicker with both hands or rest your hands on the lectern."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best use of eye contact during a talk?",
+              "options": [
+                "Stare at one person the whole time",
+                "Look at the back wall",
+                "Hold one person's gaze for a thought, then move around the room",
+                "Read every word from the screen"
+              ],
+              "answer": 2,
+              "explanation": "Moving eye contact creates connection without pressure or distraction."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Managing nerves",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Nerves are energy. The goal is not to eliminate them but to stop them from steering the talk."
+            },
+            {
+              "type": "p",
+              "text": "Prepare the opening until it is automatic, because the first thirty seconds are the most nerve-heavy. Breathe slowly before you begin. Arrive early, test the room, and have water nearby. Give yourself a realistic standard: clear and useful, not flawless."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Prepare more than you think you need",
+                  "text": "Know your opening, your three points, and your close cold. Notes can help in the middle."
+                },
+                {
+                  "title": "Warm up your voice",
+                  "text": "Hum, sigh, and say a few sentences aloud before you enter the room."
+                },
+                {
+                  "title": "Use slow breathing",
+                  "text": "Inhale for four counts, exhale for six. Repeat a few times. A longer exhale calms the body."
+                },
+                {
+                  "title": "Reframe the feeling",
+                  "text": "Say 'I am excited' instead of 'I am terrified'. The physical sensation is similar; the interpretation is not."
+                },
+                {
+                  "title": "Focus on service",
+                  "text": "Ask what the audience needs from you. It shifts attention away from self-consciousness."
+                },
+                {
+                  "title": "Have a recovery plan",
+                  "text": "If you lose your place, pause, look at your notes, and say the last point in one sentence. Then continue."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not memorise every word",
+              "text": "A word-for-word script makes one forgotten sentence feel catastrophic. Memorise the structure and the opening; keep the middle flexible."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the most useful preparation for nerves in the first minute?",
+              "text": "No answer needed",
+              "options": [
+                "Memorise the entire talk word for word",
+                "Rehearse the opening and first transition until automatic",
+                "Avoid thinking about the talk",
+                "Speak as fast as possible"
+              ],
+              "answer": 1,
+              "explanation": "A confident opening buys time for your nerves to settle and sets the tone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Visuals and story",
+      "summary": "Make slides and examples support the spoken message.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Slides are not your script",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A slide should support the speaker, not replace them. If the audience is reading a wall of text, they are not listening to you."
+            },
+            {
+              "type": "p",
+              "text": "One idea per slide. A sentence title that states the point. A visual or a few short lines. Put the explanation in your spoken words and speaker notes."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Poor slide",
+                "Better slide"
+              ],
+              "rows": [
+                [
+                  "A paragraph of explanation",
+                  "A sentence title and one supporting visual"
+                ],
+                [
+                  "Six small bullet points",
+                  "One key point and a concrete example"
+                ],
+                [
+                  "A complex unlabelled chart",
+                  "A simplified chart with the insight in the title"
+                ],
+                [
+                  "A generic stock photo",
+                  "A real image that illustrates the point"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "The 3-second test",
+              "text": "Show a slide to someone for three seconds, then hide it. If they cannot say what the main point was, the slide is doing too much."
+            },
+            {
+              "type": "quiz",
+              "question": "What belongs in the speaker's detailed explanation?",
+              "options": [
+                "The slide body",
+                "The speaker notes and spoken delivery",
+                "The slide title only",
+                "The footer"
+              ],
+              "answer": 1,
+              "explanation": "Slides should carry the point; the speaker carries the explanation."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Tell a story with evidence",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Stories make ideas memorable. Evidence makes them credible. A strong talk uses both, in the right proportion."
+            },
+            {
+              "type": "p",
+              "text": "A useful story shape is: a specific person or situation, a complication, and a resolution that illustrates the point. Keep it short. Then support the point with evidence, such as a number, a quote, or a demonstration."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Start with a concrete detail, not an abstract concept.",
+                "Name the stakes: why did this matter to someone?",
+                "Use one story per major point, not five.",
+                "After the story, state the connection explicitly.",
+                "Use evidence to reinforce, not to overwhelm.",
+                "Make sure the story is true or clearly labelled as illustrative."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Specific beats dramatic",
+              "text": "A small, true detail is more persuasive than a grand claim. 'The support queue waited an extra 14 minutes on Mondays' is stronger than 'customer experience was bad'."
+            },
+            {
+              "type": "quiz",
+              "question": "What should follow a story in a persuasive talk?",
+              "options": [
+                "A new unrelated story",
+                "An explicit connection to the point and supporting evidence",
+                "An apology",
+                "A long biography"
+              ],
+              "answer": 1,
+              "explanation": "The audience should not have to guess why the story matters."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Numbers people can feel",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A number is only persuasive when the audience can interpret it. Give it scale, comparison, and consequence."
+            },
+            {
+              "type": "p",
+              "text": "'We saved 8,400 hours' is abstract. 'We saved 8,400 hours, equivalent to four full-time people, which let the team take on two more clients without hiring' is a story. Use comparison, round numbers when precision is not needed, and one number at a time."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Raw",
+                "Interpreted"
+              ],
+              "rows": [
+                [
+                  "Response time: 4.7 hours",
+                  "Customers wait nearly a full working day for a reply"
+                ],
+                [
+                  "38% of users",
+                  "More than one in three users"
+                ],
+                [
+                  "Budget: $1.2m",
+                  "About the cost of eight new hires"
+                ],
+                [
+                  "Error rate fell 0.7 points",
+                  "One fewer error in every 140 orders"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not hide uncertainty",
+              "text": "If a number is an estimate, say so. Credibility is lost faster by an overconfident claim than by a clearly labelled assumption."
+            },
+            {
+              "type": "quiz",
+              "question": "What makes a statistic easier to understand?",
+              "options": [
+                "More decimal places",
+                "A comparison or consequence that gives it scale",
+                "Reading it faster",
+                "Using a different font"
+              ],
+              "answer": 1,
+              "explanation": "Comparison translates an abstract number into something the audience can interpret."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Rehearse and respond",
+      "summary": "Practice out loud, gather useful feedback, and handle the unexpected.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Rehearse out loud",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Silent rehearsal is not rehearsal. You need to hear the sentences, feel the timing, and practise the transitions between ideas."
+            },
+            {
+              "type": "p",
+              "text": "Do three passes: one for structure, one for timing, and one for delivery. Use a timer. Record at least one pass on your phone. Watching yourself is uncomfortable, but it is also the fastest feedback loop."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Structure pass",
+                  "text": "Say the whole talk without notes. Notice where you get lost; that is where the structure needs work."
+                },
+                {
+                  "title": "Timing pass",
+                  "text": "Use a timer and adjust the amount of content, not just the speed of your speech."
+                },
+                {
+                  "title": "Delivery pass",
+                  "text": "Focus on pauses, eye contact, and not rushing. Record it."
+                },
+                {
+                  "title": "Review",
+                  "text": "Watch with sound to check pace and filler words; watch muted to check posture and gestures."
+                },
+                {
+                  "title": "Final dress rehearsal",
+                  "text": "Stand up, use the clicker or slides, and do the opening exactly as you will in the room."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Practise the first 30 seconds more than anything",
+              "text": "A strong opening settles your nerves and sets the audience's expectations. It is worth ten repetitions on its own."
+            },
+            {
+              "type": "quiz",
+              "question": "Why rehearse out loud rather than only in your head?",
+              "options": [
+                "It makes the talk shorter",
+                "It tests timing, wording, and transitions in a realistic way",
+                "It removes the need for notes",
+                "It changes the audience"
+              ],
+              "answer": 1,
+              "explanation": "Spoken rehearsal exposes awkward phrasing and timing problems that silent reading misses."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Get feedback that helps",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Useful feedback is specific, behavioural, and tied to the audience's experience. 'You were great' is kind but not actionable."
+            },
+            {
+              "type": "p",
+              "text": "Ask a listener two questions: What was the main point? Where did you lose attention? Then ask for one thing to keep and one thing to change. Avoid collecting ten opinions at once; it will make you second-guess everything."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Feedback",
+                "Usefulness"
+              ],
+              "rows": [
+                [
+                  "'You spoke too fast in the middle'",
+                  "Specific and fixable"
+                ],
+                [
+                  "'The second example was confusing'",
+                  "Specific and useful"
+                ],
+                [
+                  "'You were good'",
+                  "Kind, but not actionable"
+                ],
+                [
+                  "'I would use a different font'",
+                  "Possibly irrelevant to the talk"
+                ],
+                [
+                  "'I could not tell what you wanted me to do'",
+                  "Important: the ask is unclear"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Keep the feedback loop small",
+              "text": "One trusted listener is enough for a short talk. The goal is not to please everyone; it is to make the message land."
+            },
+            {
+              "type": "quiz",
+              "question": "Which feedback is most useful for improving a talk?",
+              "options": [
+                "'It was fine'",
+                "A specific moment where attention dropped and why",
+                "A comment about the room temperature",
+                "A list of every filler word"
+              ],
+              "answer": 1,
+              "explanation": "Specific moments give you something concrete to revise."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Q&A and recovering from mistakes",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Questions are not an interruption to the talk; they are part of it. And mistakes are normal. The audience remembers how you recover, not that you stumbled."
+            },
+            {
+              "type": "p",
+              "text": "Listen to the whole question before answering. Repeat or paraphrase it for the room if needed. Answer briefly, then check whether you addressed it. If you do not know, say so and offer a follow-up. Do not invent an answer."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Pause and listen",
+                  "text": "Do not start answering while the person is still speaking."
+                },
+                {
+                  "title": "Clarify if needed",
+                  "text": "Ask 'Do you mean X or Y?' if the question is ambiguous."
+                },
+                {
+                  "title": "Answer the room",
+                  "text": "Speak to everyone, not only the questioner."
+                },
+                {
+                  "title": "Keep it short",
+                  "text": "Answer the question, add one supporting detail, then stop."
+                },
+                {
+                  "title": "Handle the unknown",
+                  "text": "Say 'I do not know, but I can find out and follow up.' Write it down so you remember."
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "When something goes wrong"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Lost your place:** pause, look at your notes, say 'Where I was going was...' and continue.",
+                "**Slide fails:** keep talking; describe the point in words. Do not spend minutes fixing technology.",
+                "**Said something wrong:** correct it plainly. 'Let me correct that; the figure is 18%, not 80%.'",
+                "**Question is hostile:** stay calm, acknowledge the concern, answer the substance, and move on.",
+                "**Mind goes blank:** return to your last signpost or your opening promise."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Plan the difficult question",
+              "text": "Write down the question you least want to be asked. Prepare a calm, honest answer. It will probably not be as bad as you imagine, and you will be ready."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best response when you do not know an answer?",
+              "options": [
+                "Invent a plausible answer",
+                "Say you do not know and offer to follow up",
+                "Ignore the question",
+                "Blame the audience"
+              ],
+              "answer": 1,
+              "explanation": "Honesty preserves credibility. A clear follow-up commitment is stronger than a made-up answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Capstone: your five-minute talk",
+      "summary": "Write it, rehearse it, deliver it, and reflect.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Write the talk",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Your capstone is a five-minute talk on a topic you know or care about. Five minutes is short enough to finish and long enough to require real structure."
+            },
+            {
+              "type": "p",
+              "text": "Use one sentence for the promise, three points for the body, and a concrete opening and close. Write the outline, not a word-for-word script. Then write the opening and closing sentences exactly; those are worth memorising."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Section",
+                "Time",
+                "Content"
+              ],
+              "rows": [
+                [
+                  "Hook",
+                  "30 seconds",
+                  "A story, question, or striking detail"
+                ],
+                [
+                  "Promise",
+                  "15 seconds",
+                  "What the audience will leave with"
+                ],
+                [
+                  "Point 1",
+                  "75 seconds",
+                  "Idea plus example"
+                ],
+                [
+                  "Point 2",
+                  "75 seconds",
+                  "Idea plus evidence"
+                ],
+                [
+                  "Point 3",
+                  "75 seconds",
+                  "Idea plus practical takeaway"
+                ],
+                [
+                  "Close",
+                  "30 seconds",
+                  "Return to promise and next step"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Cut, do not rush",
+              "text": "If the talk is too long, remove a point or an example. Speaking faster is not editing."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best fix for a talk that runs too long?",
+              "options": [
+                "Speak faster",
+                "Cut content or an example",
+                "Skip the close",
+                "Add more slides"
+              ],
+              "answer": 1,
+              "explanation": "Respect the audience's time by editing content, not by compressing delivery."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Rehearse the whole talk",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Rehearse the capstone at least three times: once for structure, once for time, and once as a full performance."
+            },
+            {
+              "type": "p",
+              "text": "Record the full performance and watch it. Use the feedback questions from the previous module. Fix the biggest issue first, then rehearse again. Do not keep adding content after the structure is working."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "The opening makes the audience want to listen.",
+                "The promise is stated clearly within the first minute.",
+                "There are three distinct points, each with a concrete example.",
+                "The close returns to the opening and gives a next step.",
+                "The talk fits the time limit with room to breathe.",
+                "You can deliver it without reading a script.",
+                "Your voice is audible and your pace is steady.",
+                "You have a plan for a lost place or a technical failure."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Rehearse standing up",
+              "text": "Sitting at a desk changes your breathing and energy. Practise in the posture and space you will actually use."
+            },
+            {
+              "type": "quiz",
+              "question": "What should you do after recording your rehearsal?",
+              "options": [
+                "Delete it immediately",
+                "Watch it and identify the single biggest improvement",
+                "Add ten more slides",
+                "Memorise every word"
+              ],
+              "answer": 1,
+              "explanation": "One focused improvement per rehearsal is more effective than trying to fix everything at once."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Deliver and reflect",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Delivery day is not about being perfect. It is about being present, clear, and useful to the people in the room."
+            },
+            {
+              "type": "p",
+              "text": "Arrive early, test the setup, breathe, and start with the opening you practised. When questions come, listen fully. When something goes wrong, pause and continue. Afterwards, write down three things that worked and one thing to improve next time."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Moment",
+                "What to do"
+              ],
+              "rows": [
+                [
+                  "Before you start",
+                  "Stand still, breathe, look at the audience, smile if appropriate"
+                ],
+                [
+                  "First sentence",
+                  "Deliver the memorised opening slowly and clearly"
+                ],
+                [
+                  "During the talk",
+                  "Use signposts, pause after key points, make eye contact"
+                ],
+                [
+                  "When you lose your place",
+                  "Pause, check notes, restate the last point, continue"
+                ],
+                [
+                  "During Q&A",
+                  "Listen, clarify, answer briefly, move on"
+                ],
+                [
+                  "Afterwards",
+                  "Thank the audience, note what worked, ask for one improvement"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Confidence is a by-product",
+              "text": "You do not need to feel confident before you speak. You need a clear message, a structure you trust, and enough rehearsal to begin. Confidence often arrives after the first thirty seconds."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best way to build confidence for future talks?",
+              "options": [
+                "Avoid speaking again",
+                "Reflect on what worked and choose one specific improvement",
+                "Memorise a new script for every room",
+                "Wait until you feel ready"
+              ],
+              "answer": 1,
+              "explanation": "Deliberate reflection turns each talk into useful experience for the next one."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Confident Voice assessment",
+    "intro": "Answer all eight questions. Score 80% or higher to earn the Confident Voice badge and certificate.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What should determine the content and level of detail in a talk?",
+        "options": [
+          "The slide template",
+          "The audience and the desired outcome",
+          "The font size",
+          "The number of slides"
+        ],
+        "answer": 1,
+        "explanation": "Audience knowledge and the intended outcome shape the talk."
+      },
+      {
+        "question": "What is the strongest speaking promise?",
+        "options": [
+          "I will talk about a topic",
+          "By the end, you will know a specific, useful thing",
+          "I have prepared many slides",
+          "Communication is important"
+        ],
+        "answer": 1,
+        "explanation": "A specific outcome gives the audience a reason to listen and a way to measure value."
+      },
+      {
+        "question": "What should the close of a talk do?",
+        "options": [
+          "Introduce a new topic",
+          "Return to the opening promise and make the next step clear",
+          "Apologise",
+          "Read the slides"
+        ],
+        "answer": 1,
+        "explanation": "A strong close resolves the talk and makes the takeaway actionable."
+      },
+      {
+        "question": "Why are pauses useful?",
+        "options": [
+          "They fill time",
+          "They give the audience time to process and add emphasis",
+          "They show you forgot the words",
+          "They make the talk longer"
+        ],
+        "answer": 1,
+        "explanation": "Strategic silence helps key points land and gives the speaker time to breathe."
+      },
+      {
+        "question": "What is the best way to handle nerves in the first minute?",
+        "options": [
+          "Memorise every word",
+          "Rehearse the opening until it is automatic",
+          "Avoid preparing",
+          "Speak as fast as possible"
+        ],
+        "answer": 1,
+        "explanation": "A strong, practised opening settles nerves and sets the tone."
+      },
+      {
+        "question": "What belongs on a slide?",
+        "options": [
+          "The full script",
+          "The key point and supporting visual, with detail in your delivery",
+          "Every source",
+          "A paragraph of explanation"
+        ],
+        "answer": 1,
+        "explanation": "Slides support the spoken message; they should not replace the speaker."
+      },
+      {
+        "question": "What is the best response to a question you cannot answer?",
+        "options": [
+          "Invent an answer",
+          "Say you do not know and offer to follow up",
+          "Ignore it",
+          "Blame the audience"
+        ],
+        "answer": 1,
+        "explanation": "Honesty preserves credibility, and a follow-up shows responsibility."
+      },
+      {
+        "question": "What is the best way to improve after a talk?",
+        "options": [
+          "Forget it immediately",
+          "Reflect on what worked and choose one specific improvement",
+          "Avoid speaking again",
+          "Memorise a new script for every room"
+        ],
+        "answer": 1,
+        "explanation": "Focused reflection turns each talk into useful experience."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

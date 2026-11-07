@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your profile · Skillshop</title>
+<meta property="og:title" content="Your profile · Skillshop">
+<meta property="og:description" content="Create or manage your Skillshop learner profile. Save progress, earn badges, and put your name on certificates.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://skillshop.onrender.com/account.html">
+<meta property="og:image" content="https://skillshop.onrender.com/assets/favicon.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your profile · Skillshop">
+<meta name="twitter:description" content="Create or manage your Skillshop learner profile. Save progress, earn badges, and put your name on certificates.">
+<link rel="canonical" href="https://skillshop.onrender.com/account.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Skillshop",
+  "url": "https://skillshop.onrender.com",
+  "logo": "https://skillshop.onrender.com/assets/favicon.svg"
+}
+</script>
+  <meta name="description" content="Create or manage your Skillshop learner profile. Save progress, earn badges, and put your name on certificates.">
+  <meta name="theme-color" content="#f6f2ea">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,650;9..40,700;9..40,750;9..40,800;9..40,850&family=Fraunces:opsz,wght@9..144,500;9..144,550;9..144,620;9..144,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Skillshop home">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-spark"></use></svg></span>
+        <span>Skillshop</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="courses.html">Explore skills</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="index.html#certificates">Certificates</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-btn" href="courses.html" aria-label="Search courses">
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-search"></use></svg>
+        </a>
+        <a class="profile-pill" href="account.html" data-profile-pill>
+          <span class="profile-avatar" data-profile-avatar>?</span>
+          <span data-profile-name>Sign in</span>
+        </a>
+        <button class="icon-btn mobile-toggle" type="button" data-nav-toggle aria-label="Open menu" aria-expanded="false">
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-menu"></use></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="account-page">
+      <div class="container account-layout">
+        <aside class="account-aside">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-user"></use></svg> Your learner profile</p>
+          <h1 data-account-title>Make this learning <em>yours.</em></h1>
+          <p data-account-copy>Create a local learner profile. It takes a few seconds and puts your name on every certificate you earn.</p>
+          <ul class="account-benefits">
+            <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-check-circle"></use></svg> Save lesson progress automatically</li>
+            <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-check-circle"></use></svg> Collect virtual badges as you learn</li>
+            <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-check-circle"></use></svg> Print certificates with your name</li>
+          </ul>
+        </aside>
+
+        <div class="account-panel">
+          <h2>Learner details</h2>
+          <p>This preview keeps your profile in this browser only. No password is created and nothing is sent to a server.</p>
+
+          <form id="profileForm" novalidate>
+            <div class="field" style="margin-bottom:20px">
+              <label id="avatarLabel">Choose an avatar colour</label>
+              <div class="avatar-picker" data-avatar-picker role="radiogroup" aria-labelledby="avatarLabel"></div>
+            </div>
+
+            <div class="field" style="margin-bottom:16px">
+              <label for="profileName">Name on your certificates</label>
+              <input id="profileName" name="name" type="text" maxlength="70" autocomplete="name" placeholder="e.g. Alex Morgan" required>
+              <p class="field-help">This is the name that will print on every certificate.</p>
+            </div>
+
+            <div class="field" style="margin-bottom:16px">
+              <label for="profileEmail">Email <span class="muted" style="font-weight:500">(optional)</span></label>
+              <input id="profileEmail" name="email" type="email" maxlength="160" autocomplete="email" placeholder="you@example.com">
+              <p class="field-help">Not used for sign-in in this preview. It will power cloud accounts later.</p>
+            </div>
+
+            <div class="account-note">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-shield"></use></svg>
+              <span><strong>Local preview:</strong> your name, progress, badges and certificates are stored with <code>localStorage</code> in this browser. Clearing site data removes them. Secure online accounts and cloud sync are the next phase.</span>
+            </div>
+
+            <div data-saved-panel hidden>
+              <div class="account-note" style="border-color:#a8cfb5;background:var(--success-bg);color:var(--success)">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-check-circle"></use></svg>
+                <span><strong>Profile active.</strong> Member since <span data-member-since></span>. Your learning is being remembered on this device.</span>
+              </div>
+            </div>
+
+            <div class="account-actions">
+              <button class="btn" type="submit" data-account-submit>Create my profile</button>
+              <a class="btn btn--ghost" href="dashboard.html">My learning</a>
+            </div>
+          </form>
+
+          <div class="danger-zone" data-danger-zone hidden>
+            <h3>Manage local data</h3>
+            <p>Reset course progress while keeping your profile, or delete everything from this browser.</p>
+            <div class="account-actions" style="margin-top:0">
+              <button class="btn btn--ghost btn--sm" type="button" data-reset-progress>Reset progress</button>
+              <button class="btn btn--ghost btn--sm" type="button" data-delete-profile style="color:var(--danger);border-color:var(--danger)">Delete profile &amp; data</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-spark"></use></svg></span>
+            <span>Skillshop</span>
+          </a>
+          <p class="footer-lede">Learn a skill. Do the work. Keep the proof.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h3>Learn</h3>
+            <a href="courses.html">All courses</a>
+            <a href="courses.html?topic=technology">Technology</a>
+            <a href="courses.html?topic=productivity">Productivity</a>
+            <a href="courses.html?topic=communication">Communication</a>
+          </div>
+          <div>
+            <h3>Your shop</h3>
+            <a href="dashboard.html">My learning</a>
+            <a href="account.html">Profile</a>
+            <a href="index.html#certificates">Certificates</a>
+            <a href="index.html#how-it-works">How it works</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-current-year>2026</span> Skillshop. Built for curious people.</p>
+        <span class="footer-status">Local preview · accounts and cloud sync coming next</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/auth-ui.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/account.js"></script>
+</body>
+</html>

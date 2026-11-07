@@ -1,0 +1,1097 @@
+{
+  "id": "web-design-foundations",
+  "title": "Web Design Foundations",
+  "topic": "Technology",
+  "topicSlug": "technology",
+  "level": "Beginner",
+  "duration": "5h 05m",
+  "description": "Build and publish your first responsive website with semantic HTML and modern CSS. Learn layout, typography, colour, accessibility, and static hosting.",
+  "icon": "layout",
+  "color": "#27958E",
+  "accent": "#DDF7F4",
+  "badge": {
+    "name": "Web Weaver",
+    "icon": "layout",
+    "description": "Awarded for completing Web Design Foundations and its final assessment."
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "Responsive design",
+    "Publishing"
+  ],
+  "outcomes": [
+    "Explain how HTML, CSS, and JavaScript divide responsibility",
+    "Write semantic HTML for content, links, images, and forms",
+    "Use the CSS box model, Flexbox, and Grid for layout",
+    "Build a responsive page that works on phones and desktops",
+    "Apply readable type, colour contrast, and spacing",
+    "Test and publish a static personal website"
+  ],
+  "prerequisites": [
+    "A computer with a browser and a plain text editor or VS Code",
+    "No coding experience required",
+    "Optional: a GitHub account for publishing"
+  ],
+  "tools": [
+    "VS Code or another editor",
+    "Chrome, Edge, or Firefox",
+    "A project folder",
+    "Optional: GitHub Pages or Netlify for publishing"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "How the web is built",
+      "summary": "The three languages, the files, and the tools that make a page.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "HTML, CSS, and JavaScript",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A web page is a document styled by CSS and, optionally, made interactive by JavaScript. Each language has a clear job."
+            },
+            {
+              "type": "p",
+              "text": "HTML describes meaning and structure: this is a heading, this is a paragraph, this is a link. CSS controls presentation: colour, spacing, layout, and responsive behaviour. JavaScript adds behaviour: responding to clicks, loading data, validating a form."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Layer",
+                "Question it answers",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "HTML",
+                  "What is this content?",
+                  "<h1>About me</h1>"
+                ],
+                [
+                  "CSS",
+                  "How should it look and lay out?",
+                  "h1 { font-size: 3rem; }"
+                ],
+                [
+                  "JavaScript",
+                  "What should happen when...?",
+                  "button.addEventListener('click', ...)"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "You can build a beautiful, useful website with only HTML and CSS. JavaScript is not required for every page. Starting with semantic HTML and solid CSS gives you a better foundation than reaching for a framework on day one."
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Structure before style",
+              "text": "If your page makes sense with CSS turned off, your HTML is probably in good shape. That is also better for screen readers and search engines."
+            },
+            {
+              "type": "quiz",
+              "question": "Which language controls the visual layout of a page?",
+              "options": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "SQL"
+              ],
+              "answer": 1,
+              "explanation": "CSS handles presentation, including layout, colour, and typography."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "Your project files",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A website is a folder of files. Browsers load an HTML file first, then follow the links to CSS, images, and scripts."
+            },
+            {
+              "type": "p",
+              "text": "A simple project can be organised as `index.html`, a `styles.css` file, an `assets` folder for images, and later a `script.js`. The name `index.html` is the default page a web server usually returns."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "my-website/\n├── index.html\n├── styles.css\n├── script.js\n├── assets/\n│   ├── profile.jpg\n│   └── icon.svg\n└── README.md"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Use lowercase file names with hyphens, not spaces.",
+                "Keep source files in one project folder.",
+                "Link CSS in the `<head>` with a relative path.",
+                "Use relative paths so the site works when published under a subfolder.",
+                "Do not open an HTML file by double-clicking if it needs to fetch data; use a local server."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Case matters on the web",
+              "text": "Windows may not care whether a file is `Photo.JPG` or `photo.jpg`; a web server often does. Use consistent lowercase names from the start."
+            },
+            {
+              "type": "quiz",
+              "question": "Which file is commonly the default home page of a site?",
+              "options": [
+                "home.txt",
+                "index.html",
+                "default.css",
+                "main.jpg"
+              ],
+              "answer": 1,
+              "explanation": "Web servers are usually configured to serve index.html by default."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Browser developer tools",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Developer tools are not only for professionals. They are the fastest way to see why a page looks the way it does."
+            },
+            {
+              "type": "p",
+              "text": "Right-click a page and choose Inspect, or press F12. The Elements panel shows the HTML, Styles shows the CSS applied to the selected element, and Console shows JavaScript messages. You can edit CSS live in DevTools, but the changes disappear on refresh."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Use the element picker to select a specific block on the page.",
+                "Toggle device toolbar to preview mobile widths.",
+                "Check the Computed tab for the final box model.",
+                "Look for red errors in Console; not every message is a problem.",
+                "Test with the keyboard and zoom to catch accessibility issues."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Change, then copy back",
+              "text": "DevTools is a scratchpad. Once a CSS change looks right, copy it into your stylesheet and refresh the real page."
+            },
+            {
+              "type": "quiz",
+              "question": "Which panel shows the HTML structure of the page?",
+              "options": [
+                "Console",
+                "Elements",
+                "Network",
+                "Sources"
+              ],
+              "answer": 1,
+              "explanation": "The Elements panel displays and allows inspection of the DOM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Semantic HTML",
+      "summary": "Content that makes sense to browsers, search engines, and people.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "The HTML skeleton",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Every page starts with a document skeleton. It tells the browser the language, the character encoding, and the viewport rules."
+            },
+            {
+              "type": "code",
+              "language": "html",
+              "code": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Alex Morgan — Portfolio</title>\n  <meta name=\"description\" content=\"Selected work and contact details.\">\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header>...</header>\n  <main>...</main>\n  <footer>...</footer>\n</body>\n</html>"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Element",
+                "Purpose"
+              ],
+              "rows": [
+                [
+                  "<!doctype html>",
+                  "Standard mode for modern browsers"
+                ],
+                [
+                  "<html lang=\"en\">",
+                  "Document root and language"
+                ],
+                [
+                  "<head>",
+                  "Metadata not directly displayed"
+                ],
+                [
+                  "<title>",
+                  "Browser tab and search result title"
+                ],
+                [
+                  "<meta viewport>",
+                  "Makes layout adapt to mobile screens"
+                ],
+                [
+                  "<body>",
+                  "Visible page content"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "The viewport meta tag is not optional",
+              "text": "Without it, phones may render the page at a desktop width and shrink it. Include the viewport meta tag in every responsive page."
+            },
+            {
+              "type": "quiz",
+              "question": "Which element contains metadata such as the page title and stylesheet link?",
+              "options": [
+                "<body>",
+                "<head>",
+                "<main>",
+                "<footer>"
+              ],
+              "answer": 1,
+              "explanation": "The head contains document metadata and linked resources."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Semantic elements and headings",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Semantic elements describe meaning. A `<nav>` is a navigation area, not just a box. A `<button>` is a button, not a styled link."
+            },
+            {
+              "type": "p",
+              "text": "Use one `<h1>` for the page's main topic, then `<h2>` and `<h3>` in a logical hierarchy. Avoid choosing heading levels by appearance; use CSS to change size. Screen readers and search engines use the hierarchy to understand the page."
+            },
+            {
+              "type": "code",
+              "language": "html",
+              "code": "<header>\n  <a href=\"#main\">Skip to content</a>\n  <nav aria-label=\"Primary\">\n    <a href=\"#work\">Work</a>\n    <a href=\"#contact\">Contact</a>\n  </nav>\n</header>\n\n<main id=\"main\">\n  <section id=\"work\" aria-labelledby=\"work-title\">\n    <h1 id=\"work-title\">Things I have built</h1>\n    <article>\n      <h2>Community garden map</h2>\n      <p>A responsive map for a local volunteer group.</p>\n    </article>\n  </section>\n</main>"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "`<header>`: introductory content for the page or a section.",
+                "`<nav>`: major navigation links.",
+                "`<main>`: the primary content, once per page.",
+                "`<section>`: a thematic grouping, ideally with a heading.",
+                "`<article>`: content that could stand on its own.",
+                "`<footer>`: closing information, often contact or copyright."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use the right element for the job",
+              "text": "A clickable action should be a `<button>`. Navigation to another page should be an `<a>`. Styling a `<div>` to behave like a button breaks keyboard and screen-reader behaviour."
+            },
+            {
+              "type": "quiz",
+              "question": "Which element should wrap the primary content of a page?",
+              "options": [
+                "<main>",
+                "<header>",
+                "<footer>",
+                "<aside>"
+              ],
+              "answer": 0,
+              "explanation": "The main element identifies the primary content of the document."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Links, images, and forms",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Most websites are made of text, links, images, and forms. Getting these elements right is most of the work."
+            },
+            {
+              "type": "p",
+              "text": "Links need descriptive text. Images need alt text when they carry meaning and an empty alt attribute when decorative. Forms need labels associated with inputs, sensible input types, and a submit button."
+            },
+            {
+              "type": "code",
+              "language": "html",
+              "code": "<a href=\"projects.html\">View all projects</a>\n\n<img src=\"assets/garden.jpg\" alt=\"Volunteers planting herbs in a raised garden bed\" width=\"800\" height=\"500\" loading=\"lazy\">\n\n<form action=\"contact.php\" method=\"post\">\n  <label for=\"name\">Name</label>\n  <input id=\"name\" name=\"name\" type=\"text\" autocomplete=\"name\" required>\n\n  <label for=\"email\">Email</label>\n  <input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\" required>\n\n  <label for=\"message\">Message</label>\n  <textarea id=\"message\" name=\"message\" rows=\"5\" required></textarea>\n\n  <button type=\"submit\">Send message</button>\n</form>"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Image situation",
+                "Alt text"
+              ],
+              "rows": [
+                [
+                  "Informative photo",
+                  "Describe the content and purpose"
+                ],
+                [
+                  "Decorative pattern",
+                  "alt=\"\" (empty)"
+                ],
+                [
+                  "Logo linked to home",
+                  "Alt with the organisation name"
+                ],
+                [
+                  "Chart",
+                  "Summarise the key insight in alt or nearby text"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Never use 'image of'",
+              "text": "Screen readers already announce that it is an image. Describe what matters, such as 'A red bicycle leaning against a brick wall'."
+            },
+            {
+              "type": "quiz",
+              "question": "What alt text should a purely decorative background image have?",
+              "options": [
+                "A long description",
+                "alt=\"\"",
+                "The file name",
+                "No alt attribute at all"
+              ],
+              "answer": 1,
+              "explanation": "An empty alt attribute tells assistive technology to ignore the decorative image."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "CSS layout",
+      "summary": "Selectors, the box model, Flexbox, Grid, and responsive rules.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Selectors, cascade, and the box model",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "CSS is a set of rules. A selector chooses elements; declarations set properties. The cascade decides which rule wins when several apply."
+            },
+            {
+              "type": "code",
+              "language": "css",
+              "code": ":root {\n  --ink: #171614;\n  --paper: #f6f2ea;\n  --accent: #ff6b4a;\n}\n\nbody {\n  margin: 0;\n  background: var(--paper);\n  color: var(--ink);\n  font-family: system-ui, sans-serif;\n}\n\n.card {\n  padding: 24px;\n  border: 1px solid #d9d1c4;\n  border-radius: 16px;\n}"
+            },
+            {
+              "type": "p",
+              "text": "Every element is a box made of content, padding, border, and margin. The default box model adds padding and border to the declared width. `box-sizing: border-box` makes the declared width include them, which is usually easier to reason about."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Property",
+                "Effect"
+              ],
+              "rows": [
+                [
+                  "padding",
+                  "Space inside the border"
+                ],
+                [
+                  "border",
+                  "The visible edge of the box"
+                ],
+                [
+                  "margin",
+                  "Space outside the border"
+                ],
+                [
+                  "width / height",
+                  "The size of the content or border box"
+                ],
+                [
+                  "box-sizing: border-box",
+                  "Width includes padding and border"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Start with a reset",
+              "text": "A small reset such as `*, *::before, *::after { box-sizing: border-box; }` prevents many layout surprises and makes sizing more predictable."
+            },
+            {
+              "type": "quiz",
+              "question": "Which part of the box model creates space inside an element's border?",
+              "options": [
+                "Margin",
+                "Padding",
+                "Outline",
+                "Gap"
+              ],
+              "answer": 1,
+              "explanation": "Padding is the space between the content and the border."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Flexbox and Grid",
+          "minutes": 26,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Flexbox arranges items along one axis. Grid arranges them in rows and columns at the same time. Both are built into modern CSS."
+            },
+            {
+              "type": "p",
+              "text": "Use Flexbox for a navigation bar, a row of buttons, or centring an item. Use Grid for a page layout or a card collection where rows and columns matter. You can combine them: a grid of cards where each card uses Flexbox internally."
+            },
+            {
+              "type": "code",
+              "language": "css",
+              "code": ".nav {\n  display: flex;\n  align-items: center;\n  gap: 18px;\n  justify-content: space-between;\n}\n\n.cards {\n  display: grid;\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n  gap: 24px;\n}\n\n@media (max-width: 800px) {\n  .cards {\n    grid-template-columns: 1fr;\n  }\n}"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Need",
+                "Use"
+              ],
+              "rows": [
+                [
+                  "Row of links",
+                  "Flexbox"
+                ],
+                [
+                  "Equal-height card columns",
+                  "Grid"
+                ],
+                [
+                  "Centre a single element",
+                  "Flexbox"
+                ],
+                [
+                  "Page with header, sidebar, content",
+                  "Grid or Flexbox"
+                ],
+                [
+                  "Wrap items onto new lines",
+                  "Flexbox wrap or Grid auto-fit"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "1fr means one fraction of the free space",
+              "text": "`repeat(3, minmax(0, 1fr))` gives three equal columns that can shrink without overflowing. It is a reliable default for card layouts."
+            },
+            {
+              "type": "quiz",
+              "question": "Which layout tool is designed for rows and columns at the same time?",
+              "options": [
+                "Flexbox",
+                "CSS Grid",
+                "Float",
+                "Inline-block"
+              ],
+              "answer": 1,
+              "explanation": "Grid handles two-dimensional layout; Flexbox is primarily one-dimensional."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Responsive design",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Responsive design means the page adapts to the space it has. Start with the small screen and add complexity as space increases."
+            },
+            {
+              "type": "p",
+              "text": "Use relative units, fluid images, and media queries. Avoid fixed widths that force horizontal scrolling. Test at narrow widths and with browser zoom, not just at one phone size."
+            },
+            {
+              "type": "code",
+              "language": "css",
+              "code": "img {\n  max-width: 100%;\n  height: auto;\n}\n\n.wrap {\n  width: min(1120px, calc(100% - 32px));\n  margin-inline: auto;\n}\n\n@media (max-width: 700px) {\n  h1 { font-size: 2.5rem; }\n  .nav { flex-direction: column; align-items: flex-start; }\n}"
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Include the viewport meta tag.",
+                "Use `max-width: 100%` for images.",
+                "Prefer relative units for text and spacing.",
+                "Test at 320px, 768px, and a wide desktop size.",
+                "Make sure tap targets are large enough.",
+                "Do not hide essential content on small screens.",
+                "Check that focus outlines are visible."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Mobile-first is not a religion",
+              "text": "The principle is to design within constraints and progressively add complexity. Whether the media queries are min-width or max-width matters less than testing the real layout."
+            },
+            {
+              "type": "quiz",
+              "question": "What does max-width: 100% do to an image?",
+              "options": [
+                "Makes it always 100 pixels",
+                "Prevents it from overflowing its container",
+                "Removes its height",
+                "Adds a border"
+              ],
+              "answer": 1,
+              "explanation": "The image can shrink with the container instead of forcing a wider layout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Design that communicates",
+      "summary": "Type, colour, and hierarchy that make a page feel intentional.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Typography for screens",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Most of the web is text. Type choices affect how quickly people can read and how trustworthy the page feels."
+            },
+            {
+              "type": "p",
+              "text": "Use a readable body size (often 16-20px), generous line height (about 1.5-1.7), and a line length around 60-75 characters. Limit the number of typefaces. A display face for headings and a clean body face is plenty."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Rule",
+                "Practical value"
+              ],
+              "rows": [
+                [
+                  "Body size",
+                  "16px minimum; 18-20px is comfortable"
+                ],
+                [
+                  "Line height",
+                  "1.5-1.7 for body text"
+                ],
+                [
+                  "Line length",
+                  "About 60-75 characters"
+                ],
+                [
+                  "Heading contrast",
+                  "Clear size and weight difference"
+                ],
+                [
+                  "Typefaces",
+                  "One or two, with a clear role"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use system fonts for speed",
+              "text": "A system font stack loads instantly and looks native. Web fonts can add character, but each one costs a request and can cause layout shifts if not handled carefully."
+            },
+            {
+              "type": "quiz",
+              "question": "Which line height is most comfortable for body text?",
+              "options": [
+                "0.8",
+                "1.0",
+                "1.6",
+                "3.5"
+              ],
+              "answer": 2,
+              "explanation": "A line height around 1.5-1.7 gives text room to breathe without feeling disconnected."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Colour and contrast",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Colour sets tone, but contrast makes content usable. A palette should work for people with colour-vision differences and in bright rooms."
+            },
+            {
+              "type": "p",
+              "text": "Use a neutral base, one primary colour, and one or two accents. Check contrast ratios for text. Normal text should meet at least 4.5:1 against its background; large text can meet 3:1. Do not use colour alone to convey meaning."
+            },
+            {
+              "type": "code",
+              "language": "css",
+              "code": ":root {\n  --paper: #f6f2ea;\n  --ink: #171614;\n  --accent: #c2410c;\n  --focus: #4b45e8;\n}\n\nbody { background: var(--paper); color: var(--ink); }\n:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Test colour combinations with a contrast checker.",
+                "Use darker text on light backgrounds for long reading.",
+                "Do not rely on red/green alone for success and error states.",
+                "Use a visible focus style for keyboard users.",
+                "Limit the palette; too many accents dilute attention."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Brand colour is not always text colour",
+              "text": "A bright brand colour may work as a button fill but fail as small text. Use a darker shade for text and keep the brand colour for larger surfaces."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the minimum recommended contrast for normal body text?",
+              "options": [
+                "1.5:1",
+                "3:1",
+                "4.5:1",
+                "10:1"
+              ],
+              "answer": 2,
+              "explanation": "WCAG AA recommends at least 4.5:1 for normal-sized text."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Spacing and visual hierarchy",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Whitespace is a design material. It groups related things, separates unrelated things, and tells the eye where to start."
+            },
+            {
+              "type": "p",
+              "text": "Use a spacing scale, such as multiples of 4 or 8 pixels, to keep rhythm consistent. A heading should sit closer to the content it introduces than to the section above it. Use one dominant element per screen."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "One clear focal point per section.",
+                "Consistent spacing scale.",
+                "Related items closer together than unrelated items.",
+                "Clear contrast between headings and body text.",
+                "Generous margins around the main content.",
+                "No more than one or two accent colours.",
+                "A layout that still works at narrow widths."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "The squint test",
+              "text": "Step back or blur your eyes. You should still be able to see the intended hierarchy: what is the page about, what is secondary, and where to click."
+            },
+            {
+              "type": "quiz",
+              "question": "Why should a heading be closer to the content below it than to the section above?",
+              "options": [
+                "It looks symmetrical",
+                "It visually groups the heading with the content it introduces",
+                "It increases the page load speed",
+                "It changes the font size"
+              ],
+              "answer": 1,
+              "explanation": "Proximity is a grouping cue. Closer spacing communicates relationship."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Build and publish",
+      "summary": "A responsive personal page, tested and live.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Plan the page",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build a one-page personal site with a header, an introduction, a project section, and a contact link. It is small enough to finish and complete enough to be useful."
+            },
+            {
+              "type": "p",
+              "text": "Write the content before designing. Decide the page's main message in one sentence. Then sketch the order of sections and the main action you want a visitor to take."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Section",
+                "Content",
+                "Action"
+              ],
+              "rows": [
+                [
+                  "Header",
+                  "Name, short role, navigation",
+                  "Jump to sections"
+                ],
+                [
+                  "Hero",
+                  "One-sentence introduction",
+                  "Contact or view work"
+                ],
+                [
+                  "Projects",
+                  "Two or three examples with outcomes",
+                  "Open a project"
+                ],
+                [
+                  "About",
+                  "Short context and skills",
+                  "Build trust"
+                ],
+                [
+                  "Footer",
+                  "Contact and year",
+                  "Get in touch"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Write less, say more",
+              "text": "A clear sentence and two strong examples beat a long list of vague skills. The page is a proof of work, not a CV dump."
+            },
+            {
+              "type": "quiz",
+              "question": "What should be decided before visual design?",
+              "options": [
+                "The exact border radius",
+                "The content, main message, and primary action",
+                "The hosting provider's logo",
+                "The browser version"
+              ],
+              "answer": 1,
+              "explanation": "Content and purpose shape the layout and visual choices."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Build the page",
+          "minutes": 34,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build the HTML first, then style it. Keep the structure semantic and the CSS small enough to understand."
+            },
+            {
+              "type": "code",
+              "language": "html",
+              "code": "<header class=\"site-header\">\n  <a class=\"brand\" href=\"#top\">Alex Morgan</a>\n  <nav aria-label=\"Primary\">\n    <a href=\"#work\">Work</a>\n    <a href=\"#about\">About</a>\n    <a href=\"#contact\">Contact</a>\n  </nav>\n</header>\n\n<main id=\"top\">\n  <section class=\"hero\">\n    <p class=\"eyebrow\">Front-end learner</p>\n    <h1>I build clear, useful web pages.</h1>\n    <p>Currently learning HTML, CSS, and accessible design.</p>\n    <a class=\"button\" href=\"#work\">See my work</a>\n  </section>\n\n  <section id=\"work\" aria-labelledby=\"work-heading\">\n    <h2 id=\"work-heading\">Selected work</h2>\n    <div class=\"project-grid\">\n      <article class=\"project\">\n        <h3>Community garden map</h3>\n        <p>A responsive map that helps volunteers find plots.</p>\n        <a href=\"#\">View project</a>\n      </article>\n    </div>\n  </section>\n</main>"
+            },
+            {
+              "type": "code",
+              "language": "css",
+              "code": ":root {\n  font-family: system-ui, sans-serif;\n  color: #171614;\n  background: #f6f2ea;\n  line-height: 1.6;\n}\n\nbody { margin: 0; }\n\n.site-header, main, footer {\n  width: min(1100px, calc(100% - 32px));\n  margin-inline: auto;\n}\n\n.site-header {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 16px;\n  align-items: center;\n  justify-content: space-between;\n  padding-block: 24px;\n}\n\n.hero { padding-block: 64px; }\n.hero h1 { font-size: clamp(2.5rem, 7vw, 5rem); line-height: 1; max-width: 800px; }\n\n.project-grid {\n  display: grid;\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n  gap: 24px;\n}\n\n@media (max-width: 700px) {\n  .project-grid { grid-template-columns: 1fr; }\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Start with one column",
+              "text": "A single-column page with strong type and spacing will look better than a complicated grid you cannot control. Add complexity only when the content needs it."
+            },
+            {
+              "type": "quiz",
+              "question": "Which CSS property creates equal-width columns that can shrink?",
+              "options": [
+                "display: block",
+                "grid-template-columns: repeat(3, minmax(0, 1fr))",
+                "font-weight: bold",
+                "position: absolute"
+              ],
+              "answer": 1,
+              "explanation": "The 1fr units distribute available space, and minmax(0, 1fr) allows shrinking without overflow."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Test and publish",
+          "minutes": 26,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A page is not finished until it works for real people on real screens. Test, fix, then publish a static copy."
+            },
+            {
+              "type": "p",
+              "text": "Check keyboard navigation, mobile layout, image alt text, link destinations, and colour contrast. Use the browser's accessibility tools and open the page at several widths. Then deploy the folder to a static host such as GitHub Pages or Netlify."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Test locally",
+                  "text": "Open the site with a local server or the editor's live preview. Resize the browser and tab through every interactive element."
+                },
+                {
+                  "title": "Check the console",
+                  "text": "Fix visible errors: missing files, broken paths, or blocked resources."
+                },
+                {
+                  "title": "Run an accessibility pass",
+                  "text": "Use headings, labels, alt text, focus styles, and contrast checks."
+                },
+                {
+                  "title": "Publish to a static host",
+                  "text": "Upload or connect the project folder to GitHub Pages, Netlify, or another static host."
+                },
+                {
+                  "title": "Test the live URL",
+                  "text": "Open the published site on a phone and a desktop. Confirm CSS, images, and links use the correct relative paths."
+                },
+                {
+                  "title": "Document it",
+                  "text": "Add a short README with what the site is, how to run it, and what you learned."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Check",
+                "Pass condition"
+              ],
+              "rows": [
+                [
+                  "Mobile",
+                  "No horizontal scrolling; text readable"
+                ],
+                [
+                  "Keyboard",
+                  "All links reachable; focus visible"
+                ],
+                [
+                  "Images",
+                  "Meaningful images have alt text"
+                ],
+                [
+                  "Links",
+                  "No 404s; relative paths work"
+                ],
+                [
+                  "Contrast",
+                  "Body text meets 4.5:1"
+                ],
+                [
+                  "Hosting",
+                  "Live URL serves the page correctly"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Make the page yours",
+              "text": "Replace the example project with a real one. Add a working contact method, even if it is a mailto link. The page becomes much more persuasive when the content is true."
+            },
+            {
+              "type": "quiz",
+              "question": "What should you check immediately after publishing?",
+              "options": [
+                "Only the desktop version",
+                "The live URL on a phone and desktop, including links and assets",
+                "The colour of the hosting dashboard",
+                "The number of files"
+              ],
+              "answer": 1,
+              "explanation": "Hosting introduces path and configuration issues. Test the deployed site itself."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Web Weaver assessment",
+    "intro": "Answer all eight questions. Score 80% or higher to earn the Web Weaver badge and certificate.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "Which language is responsible for page structure and meaning?",
+        "options": [
+          "CSS",
+          "HTML",
+          "JavaScript",
+          "SQL"
+        ],
+        "answer": 1,
+        "explanation": "HTML describes content and structure."
+      },
+      {
+        "question": "Which element should contain the primary content of a page?",
+        "options": [
+          "<main>",
+          "<footer>",
+          "<aside>",
+          "<nav>"
+        ],
+        "answer": 0,
+        "explanation": "The main element identifies the primary content."
+      },
+      {
+        "question": "What should alt text be for a decorative image?",
+        "options": [
+          "A long description",
+          "An empty string",
+          "The file name",
+          "The colour"
+        ],
+        "answer": 1,
+        "explanation": "An empty alt attribute tells assistive technology to skip decorative imagery."
+      },
+      {
+        "question": "Which CSS layout tool is designed for rows and columns together?",
+        "options": [
+          "Flexbox",
+          "Grid",
+          "Float",
+          "Position"
+        ],
+        "answer": 1,
+        "explanation": "CSS Grid is a two-dimensional layout system."
+      },
+      {
+        "question": "What does box-sizing: border-box do?",
+        "options": [
+          "Adds a border to every element",
+          "Includes padding and border in the declared width",
+          "Removes margins",
+          "Makes text bold"
+        ],
+        "answer": 1,
+        "explanation": "Border-box sizing makes width include padding and border."
+      },
+      {
+        "question": "What is a good minimum contrast ratio for normal body text?",
+        "options": [
+          "1.5:1",
+          "2:1",
+          "4.5:1",
+          "20:1"
+        ],
+        "answer": 2,
+        "explanation": "WCAG AA recommends 4.5:1 for normal-sized text."
+      },
+      {
+        "question": "Why should images use max-width: 100%?",
+        "options": [
+          "To make them load faster",
+          "To prevent them overflowing their container on smaller screens",
+          "To add descriptions",
+          "To change their format"
+        ],
+        "answer": 1,
+        "explanation": "This lets images shrink with the layout instead of forcing horizontal scrolling."
+      },
+      {
+        "question": "What should you test after deploying a static site?",
+        "options": [
+          "Only the local file",
+          "The live URL on phone and desktop, including links and assets",
+          "The host's logo",
+          "The number of HTML tags"
+        ],
+        "answer": 1,
+        "explanation": "Deployment can expose broken relative paths and responsive issues. Test the live site."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

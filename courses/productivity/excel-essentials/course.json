@@ -1,0 +1,1234 @@
+{
+  "id": "excel-essentials",
+  "title": "Excel Essentials",
+  "topic": "Productivity",
+  "topicSlug": "productivity",
+  "level": "Beginner",
+  "duration": "5h 00m",
+  "description": "Go from blank grid to confident spreadsheet. Master formulas, tables, charts, and PivotTables by building a budget tracker you can actually use.",
+  "icon": "grid",
+  "color": "#2E9B62",
+  "accent": "#DDF5E8",
+  "badge": {
+    "name": "Spreadsheet Navigator",
+    "icon": "table",
+    "description": "Awarded for completing Excel Essentials and its final assessment."
+  },
+  "skills": [
+    "Formulas",
+    "Data cleanup",
+    "Charts",
+    "PivotTables"
+  ],
+  "outcomes": [
+    "Build clean spreadsheets that are easy to read and update",
+    "Write formulas with relative and absolute references",
+    "Use core functions including SUM, IF, COUNTIF, and XLOOKUP or VLOOKUP",
+    "Turn ranges into structured tables with validation",
+    "Create charts and PivotTables that answer real questions",
+    "Build and present a working monthly budget dashboard"
+  ],
+  "prerequisites": [
+    "Microsoft Excel 2016 or newer, or Microsoft 365. Excel for the web works for most lessons.",
+    "A spreadsheet file you can save on your computer or OneDrive.",
+    "No previous formula experience required."
+  ],
+  "tools": [
+    "Microsoft Excel",
+    "A sample budget or any practice dataset",
+    "Optional: a second monitor or printed formula reference"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Spreadsheet foundations",
+      "summary": "Get comfortable in the grid before writing a single formula.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Meet the grid",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A spreadsheet is a grid of cells, but it is better understood as a place to store rows of similar things and columns of similar facts."
+            },
+            {
+              "type": "p",
+              "text": "Columns run vertically and use letters. Rows run horizontally and use numbers. A cell address combines both: B4 is the cell in column B, row 4. A range is a rectangle of cells, written with a colon, such as B4:D12."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Term",
+                "Meaning",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "Cell",
+                  "One box in the grid",
+                  "C7"
+                ],
+                [
+                  "Range",
+                  "A rectangular group of cells",
+                  "C7:C20"
+                ],
+                [
+                  "Worksheet",
+                  "One sheet in the workbook",
+                  "January"
+                ],
+                [
+                  "Workbook",
+                  "The whole file",
+                  "Budget.xlsx"
+                ],
+                [
+                  "Formula bar",
+                  "Where the real contents of a cell are shown",
+                  "=SUM(C7:C20)"
+                ]
+              ]
+            },
+            {
+              "type": "h",
+              "text": "The three layers of a cell"
+            },
+            {
+              "type": "p",
+              "text": "Every cell can hold a value, a formula, or formatting. A value may be text, a number, a date, or a logical TRUE/FALSE. A formula calculates something. Formatting changes how the result looks without changing the underlying value."
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "When in doubt, click the cell",
+              "text": "The formula bar shows what Excel really has. A cell that displays 12.50% may contain the number 0.125. That distinction matters when you debug calculations."
+            },
+            {
+              "type": "quiz",
+              "question": "What does the range A1:A10 contain?",
+              "options": [
+                "Cells across row A",
+                "Ten cells in column A",
+                "Only cell A1 and A10",
+                "A chart"
+              ],
+              "answer": 1,
+              "explanation": "A1:A10 is the ten cells from A1 through A10 in the same column."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "Enter, edit, and structure data",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Most spreadsheet pain starts with inconsistent data. A little structure at the beginning saves hours later."
+            },
+            {
+              "type": "p",
+              "text": "Store one kind of information per column. If a column is called Date, every cell in it should be a date. If a column is Amount, every cell should be a number. Do not put totals inside the data rows, and do not merge cells in a list you will filter."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Use the first row for clear, unique column headings.",
+                "Keep one record per row. A row is a transaction, a person, or a product.",
+                "Use dates as real dates, not text such as 'Jan 5th maybe'.",
+                "Leave raw data alone; put summaries on a separate sheet.",
+                "Use `Ctrl + Enter` to fill every selected cell, and `Alt + Enter` for a line break inside a cell."
+              ]
+            },
+            {
+              "type": "h",
+              "text": "Useful keyboard habits"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Shortcut",
+                "Action"
+              ],
+              "rows": [
+                [
+                  "Ctrl + Home",
+                  "Jump to A1"
+                ],
+                [
+                  "Ctrl + End",
+                  "Jump to the last used cell"
+                ],
+                [
+                  "Ctrl + Arrow",
+                  "Jump to the edge of a data block"
+                ],
+                [
+                  "Ctrl + Shift + Arrow",
+                  "Select to the edge of a data block"
+                ],
+                [
+                  "Ctrl + Enter",
+                  "Fill the current entry into all selected cells"
+                ],
+                [
+                  "Alt + Enter",
+                  "New line inside the same cell"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Merged cells break lists",
+              "text": "Merging looks tidy for a title, but it causes trouble with sorting, filtering, and PivotTables. Merge only presentation areas, not data tables."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best practice for a data table?",
+              "options": [
+                "One record per row and one kind of value per column",
+                "Merge every heading",
+                "Put totals between rows",
+                "Use text for every date"
+              ],
+              "answer": 0,
+              "explanation": "Consistent rows and typed columns make formulas, filters, and PivotTables predictable."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Navigate and select like a pro",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Speed in Excel is mostly about navigation. If you can move to the right cell and select the right range without reaching for the mouse, everything else becomes easier."
+            },
+            {
+              "type": "p",
+              "text": "Think of a data block as a table with edges. `Ctrl + Arrow` moves to the next edge in that direction. `Ctrl + Shift + Arrow` selects from the current cell to that edge. This makes it quick to select a full column of data without dragging."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Select the entire data block",
+                  "text": "Click one cell in the block, then press `Ctrl + A`. Excel selects the current region."
+                },
+                {
+                  "title": "Select to the last row",
+                  "text": "Press `Ctrl + Shift + Down Arrow` from the first data cell."
+                },
+                {
+                  "title": "Extend a selection",
+                  "text": "Hold Shift and click another cell, or use `Ctrl + Shift + Arrow`."
+                },
+                {
+                  "title": "Add a non-adjacent range",
+                  "text": "Hold Ctrl while dragging or selecting another range."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Name boxes are underrated",
+              "text": "The Name Box to the left of the formula bar shows the current cell. Type a range such as B2:B200 into it and press Enter to select that range instantly. You can also name important ranges for formulas."
+            },
+            {
+              "type": "quiz",
+              "question": "Which shortcut selects from the active cell to the edge of the data block?",
+              "options": [
+                "Ctrl + Home",
+                "Ctrl + Shift + Arrow",
+                "Alt + Enter",
+                "Ctrl + P"
+              ],
+              "answer": 1,
+              "explanation": "Ctrl + Shift + Arrow extends the selection in the arrow direction until the next data boundary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Formulas that work",
+      "summary": "The grammar of spreadsheets, from =A1+B1 to functions that scale.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Anatomy of a formula",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Every formula starts with an equals sign. After that, Excel evaluates values, operators, and functions in a defined order."
+            },
+            {
+              "type": "p",
+              "text": "A simple formula like `=B2*C2` multiplies two cells. A function like `=SUM(B2:B10)` performs a named calculation on a range. You can combine both: `=SUM(B2:B10)*1.2` adds a 20% markup to the total."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Operator",
+                "Meaning",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "+",
+                  "Addition",
+                  "=A1+B1"
+                ],
+                [
+                  "-",
+                  "Subtraction",
+                  "=A1-B1"
+                ],
+                [
+                  "*",
+                  "Multiplication",
+                  "=A1*B1"
+                ],
+                [
+                  "/",
+                  "Division",
+                  "=A1/B1"
+                ],
+                [
+                  "^",
+                  "Exponent",
+                  "=A1^2"
+                ],
+                [
+                  "%",
+                  "Percent",
+                  "=A1*10%"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Excel follows the usual order of operations: parentheses, exponents, multiplication and division, then addition and subtraction. Use parentheses whenever they make the intention clearer, even if they are not strictly needed."
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "=(B2+C2)*0.9\n=SUM(B2:B10)\n=IF(B2>100,\"Review\",\"OK\")\n=ROUND(Average(B2:B10),2)"
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Errors are information",
+              "text": "#DIV/0! means division by zero. #VALUE! usually means text where a number was expected. #REF! means a referenced cell was deleted. Read the error before changing the formula."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the result of =2+3*4?",
+              "options": [
+                "20",
+                "14",
+                "24",
+                "9"
+              ],
+              "answer": 1,
+              "explanation": "Multiplication happens before addition, so 3*4 is 12, then 2+12 is 14."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Relative, absolute, and mixed references",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "References decide what happens when a formula is copied. This is the single most important Excel concept to get right."
+            },
+            {
+              "type": "p",
+              "text": "A relative reference such as A1 changes when copied. Copy `=A1*2` one column right and it becomes `=B1*2`. An absolute reference such as `$A$1` stays fixed. A mixed reference fixes one part: `$A1` fixes the column; `A$1` fixes the row."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Reference",
+                "Copied right",
+                "Copied down",
+                "Use when"
+              ],
+              "rows": [
+                [
+                  "A1",
+                  "B1",
+                  "A2",
+                  "The reference should move with the formula"
+                ],
+                [
+                  "$A$1",
+                  "$A$1",
+                  "$A$1",
+                  "Always use one fixed cell"
+                ],
+                [
+                  "$A1",
+                  "$A1",
+                  "$A2",
+                  "Column fixed, row can move"
+                ],
+                [
+                  "A$1",
+                  "B$1",
+                  "A$1",
+                  "Row fixed, column can move"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "The F4 key cycles through the four reference styles while the cursor is next to a reference in the formula bar. This is much faster than typing dollar signs by hand."
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "Tax rate in E1\n\nB2 = price\nC2 = =B2*$E$1\n\nCopy C2 down: each price is multiplied by the same tax rate."
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Test a copied formula by looking, not assuming",
+              "text": "Click a copied cell and read the formula bar. If the references are not what you intended, fix the dollars before filling the rest of the column."
+            },
+            {
+              "type": "quiz",
+              "question": "Which reference stays fixed when copied both across and down?",
+              "options": [
+                "A1",
+                "A$1",
+                "$A1",
+                "$A$1"
+              ],
+              "answer": 3,
+              "explanation": "The dollar signs lock both the column and the row."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Core functions: SUM, AVERAGE, IF, COUNT",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A small set of functions covers most everyday spreadsheet work. Learn these five well before chasing exotic formulas."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Function",
+                "What it does",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "SUM",
+                  "Adds numbers",
+                  "=SUM(B2:B20)"
+                ],
+                [
+                  "AVERAGE",
+                  "Calculates the mean",
+                  "=AVERAGE(B2:B20)"
+                ],
+                [
+                  "MIN / MAX",
+                  "Finds the smallest or largest",
+                  "=MAX(B2:B20)"
+                ],
+                [
+                  "COUNT / COUNTA",
+                  "Counts numbers or non-empty cells",
+                  "=COUNTA(A2:A20)"
+                ],
+                [
+                  "IF",
+                  "Chooses between two results",
+                  "=IF(B2>=60,\"Pass\",\"Fail\")"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Functions can be nested. An IF can contain another calculation. Use line breaks and spaces in the formula bar to keep complex formulas readable; they do not change the result."
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "=IF(B2>=80,\"Strong\",IF(B2>=60,\"Pass\",\"Review\"))\n=SUM(B2:B20)\n=COUNTIF(C2:C20,\"Paid\")\n=AVERAGEIF(C2:C20,\"Paid\",B2:B20)"
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Text values need quotes",
+              "text": "In a formula, write text criteria in double quotes, such as `\"Paid\"`. Numbers and cell references do not need quotes. A missing quote is one of the most common syntax errors."
+            },
+            {
+              "type": "quiz",
+              "question": "Which function counts how many cells contain the word Paid?",
+              "options": [
+                "=SUM(C2:C20)",
+                "=COUNTIF(C2:C20,\"Paid\")",
+                "=AVERAGE(C2:C20)",
+                "=IF(C2:C20)"
+              ],
+              "answer": 1,
+              "explanation": "COUNTIF counts cells that meet a criterion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Structure and presentation",
+      "summary": "Make sheets readable, safe to enter, and pleasant to print.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Number formats and dates",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Formatting changes appearance, not value. A date is still a serial number underneath, and a percentage is still a decimal."
+            },
+            {
+              "type": "p",
+              "text": "Use `Ctrl + 1` to open Format Cells. Choose a number format that matches the story: two decimal places for currency, a short date for daily records, or a percentage for rates. Avoid adding currency symbols by typing them into the cell; that turns the value into text."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Format",
+                "Displays",
+                "Underlying value"
+              ],
+              "rows": [
+                [
+                  "Currency, 2 decimals",
+                  "$1,250.00",
+                  "1250"
+                ],
+                [
+                  "Percentage, 1 decimal",
+                  "12.5%",
+                  "0.125"
+                ],
+                [
+                  "Long date",
+                  "05 November 2026",
+                  "A date serial number"
+                ],
+                [
+                  "Custom",
+                  "Nov-26",
+                  "A date serial number"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Text that looks like a date",
+              "text": "If a date is left-aligned and will not sort correctly, it may be stored as text. Use Date > Text to Columns or a conversion formula to turn it into a real date."
+            },
+            {
+              "type": "quiz",
+              "question": "What does the value 0.25 display as when formatted as a percentage?",
+              "options": [
+                "0.25%",
+                "2.5%",
+                "25%",
+                "250%"
+              ],
+              "answer": 2,
+              "explanation": "Percentage formatting multiplies the display by 100 and adds the percent sign. 0.25 becomes 25%."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Tables and data validation",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "An Excel Table is more than decoration. It expands automatically, carries structured names, and keeps formatting and formulas consistent."
+            },
+            {
+              "type": "p",
+              "text": "Select the data and press `Ctrl + T`. Confirm the header row. You now have a table with a name such as Table1. Formulas can refer to columns by name, for example `=SUM(Sales[Amount])`, which is easier to read than a range of cells."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "New rows inherit formulas and formatting.",
+                "The header row stays visible while scrolling.",
+                "Structured references make formulas self-documenting.",
+                "Slicers give you visual filters without building a dashboard from scratch.",
+                "Avoid blank rows inside the table; they break the data region."
+              ]
+            },
+            {
+              "type": "h",
+              "text": "Data validation"
+            },
+            {
+              "type": "p",
+              "text": "Validation limits what can be entered. Select a column, choose Data > Data Validation, and allow a list or a whole-number range. This is how you keep status fields consistent instead of collecting Paid, paid, PAID, and Yes."
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "List source: Draft, Sent, Paid, Overdue\nWhole number: between 0 and 100000\nDate: between 1 Jan 2026 and 31 Dec 2026"
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Validation is a gate, not a lock",
+              "text": "Users can paste over validation in some cases. Use it to guide good entry, then check your data before relying on it."
+            },
+            {
+              "type": "quiz",
+              "question": "What is a key benefit of converting a range to an Excel Table?",
+              "options": [
+                "It automatically expands and carries formulas",
+                "It prevents all typing errors",
+                "It can only be used for charts",
+                "It removes the need for headers"
+              ],
+              "answer": 0,
+              "explanation": "Tables expand with new data and keep formulas and formatting consistent."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Conditional formatting and print setup",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Make important values jump out without changing them, then make the sheet behave when it leaves the screen."
+            },
+            {
+              "type": "p",
+              "text": "Conditional formatting applies a rule to a cell or range. Use it for exceptions, not decoration. A budget should highlight overspending and maybe a few key thresholds, not color every row a different shade."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Select the values",
+                  "text": "Choose the range you want to evaluate, such as the Actual column."
+                },
+                {
+                  "title": "Add a rule",
+                  "text": "Home > Conditional Formatting > New Rule. Choose Cell Value or a formula."
+                },
+                {
+                  "title": "Use a relative formula",
+                  "text": "If formatting an entire row, anchor only the column: `=$C2>Budget`."
+                },
+                {
+                  "title": "Set a clear format",
+                  "text": "Use a light fill and readable text. Red text on pink is easy to scan; a rainbow is not."
+                }
+              ]
+            },
+            {
+              "type": "h",
+              "text": "Printing without pain"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Set the print area to the table, not the entire sheet.",
+                "Use Page Layout > Print Titles to repeat the header row on every page.",
+                "Set orientation and fit-to-width before printing.",
+                "Add page numbers and a footer with the file name or date.",
+                "Preview the printout. On-screen column widths are not a print layout."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Be careful with formula-based rules",
+              "text": "A relative reference in conditional formatting is relative to the active cell when the rule is created. If the rule behaves strangely, reopen it and check which cell is anchored."
+            },
+            {
+              "type": "quiz",
+              "question": "Which feature repeats header rows on every printed page?",
+              "options": [
+                "Page Layout > Print Titles",
+                "Conditional Formatting",
+                "Freeze Panes",
+                "Data Validation"
+              ],
+              "answer": 0,
+              "explanation": "Print Titles lets you repeat specific rows or columns on each printed page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Analyse and visualise",
+      "summary": "Turn rows into answers with filters, charts, and PivotTables.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Sort, filter, and find the story",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Sorting and filtering are not just housekeeping. They are the first step in answering a question: which category is largest, which month is unusual, which records need attention?"
+            },
+            {
+              "type": "p",
+              "text": "Turn on filters with `Ctrl + Shift + L`. The arrows in the header row let you sort or show only matching rows. For a table, slicers provide large clickable buttons for common filters and are excellent for dashboards."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Question",
+                "Useful action"
+              ],
+              "rows": [
+                [
+                  "Which region sold most?",
+                  "Sort by Sales descending"
+                ],
+                [
+                  "Show only overdue invoices",
+                  "Filter Status = Overdue"
+                ],
+                [
+                  "Find rows containing a word",
+                  "Text Filters > Contains"
+                ],
+                [
+                  "Compare two categories",
+                  "Filter both values or use a PivotTable"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Sort the whole table, not one column",
+              "text": "If you select a single column and sort, Excel may warn you about expanding the selection. Choose the whole table. Otherwise, rows can become misaligned."
+            },
+            {
+              "type": "quiz",
+              "question": "What does Ctrl + Shift + L toggle?",
+              "options": [
+                "Bold text",
+                "Worksheet filters",
+                "A new chart",
+                "Page orientation"
+              ],
+              "answer": 1,
+              "explanation": "It adds or removes filter arrows on the header row."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Charts that answer a question",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A chart is an argument. Decide what you want the reader to notice before choosing a chart type."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Question",
+                "Good chart",
+                "Avoid"
+              ],
+              "rows": [
+                [
+                  "Compare categories",
+                  "Bar or column chart",
+                  "Pie chart with many slices"
+                ],
+                [
+                  "Show change over time",
+                  "Line chart",
+                  "3D exploded pie"
+                ],
+                [
+                  "Show parts of a whole",
+                  "Stacked bar or simple pie with few slices",
+                  "Dozens of colors"
+                ],
+                [
+                  "Show relationship",
+                  "Scatter plot",
+                  "Pie chart"
+                ],
+                [
+                  "Show distribution",
+                  "Histogram",
+                  "Line chart"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Select clean summary data, not an entire raw table full of irrelevant columns. Give the chart a title that states the insight, label the axes, and remove clutter that does not help. A chart title of 'Sales by region, Q4' is better than 'Chart 1'."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Truncated axes can mislead",
+              "text": "Starting a bar chart axis at 90 instead of 0 exaggerates small differences. Use a non-zero axis only when the context makes it honest and clearly labelled."
+            },
+            {
+              "type": "quiz",
+              "question": "Which chart best shows sales changing over twelve months?",
+              "options": [
+                "Pie chart",
+                "Line chart",
+                "Scatter plot",
+                "3D column chart"
+              ],
+              "answer": 1,
+              "explanation": "A line chart is designed to show change over a continuous period such as time."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "PivotTables without fear",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A PivotTable summarises a large table in seconds. You choose what goes in rows, columns, values, and filters; Excel does the grouping."
+            },
+            {
+              "type": "p",
+              "text": "Start from a clean data table with unique headers and no blank rows. Select any cell in the table and choose Insert > PivotTable. Put a category such as Region in Rows, a time field such as Month in Columns, and Sales in Values."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Prepare the data",
+                  "text": "Make sure each column has one job, dates are real dates, and there are no total rows inside the dataset."
+                },
+                {
+                  "title": "Insert the PivotTable",
+                  "text": "Place it on a new sheet so the raw data stays untouched."
+                },
+                {
+                  "title": "Choose fields",
+                  "text": "Rows create groups. Columns create comparisons. Values are summed or counted."
+                },
+                {
+                  "title": "Change the calculation",
+                  "text": "Right-click a value and choose Value Field Settings to switch from Sum to Count or Average."
+                },
+                {
+                  "title": "Add a slicer",
+                  "text": "Use Insert Slicer for a visual filter. Rename it so the dashboard reads clearly."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Refresh is your friend",
+              "text": "PivotTables do not always update when the source data changes. Right-click the PivotTable and choose Refresh. If you add rows, use a source that covers the new range or a Table as the source."
+            },
+            {
+              "type": "quiz",
+              "question": "Which PivotTable area groups data into rows?",
+              "options": [
+                "Values",
+                "Rows",
+                "Filters",
+                "Format"
+              ],
+              "answer": 1,
+              "explanation": "Fields placed in Rows create the row categories. Values perform the calculation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Build a real workbook",
+      "summary": "A monthly budget tracker and a small dashboard, built step by step.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "SUMIFS, COUNTIFS, and lookups",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Once data has categories, you need conditional totals. SUMIFS and COUNTIFS sum or count only the rows that meet your rules."
+            },
+            {
+              "type": "p",
+              "text": "The syntax rewards attention to the first argument. In SUMIFS, the sum range comes first, followed by criteria range and criteria pairs. In COUNTIFS, every argument is a criteria range and criteria pair."
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "=SUMIFS(Transactions[Amount], Transactions[Category], \"Groceries\", Transactions[Month], $A2)\n=COUNTIFS(Transactions[Status], \"Overdue\", Transactions[DaysLate], \">30\")\n=SUMIFS(Transactions[Amount], Transactions[Category], $A2)"
+            },
+            {
+              "type": "h",
+              "text": "Lookups: XLOOKUP first, VLOOKUP if needed"
+            },
+            {
+              "type": "p",
+              "text": "XLOOKUP finds a value in one range and returns the matching value from another. It is more flexible than VLOOKUP because the return column can be to the left and you can specify what to show when nothing is found."
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "=XLOOKUP($A2, Categories[Name], Categories[Budget], \"No budget\")\n=VLOOKUP($A2, Categories!$A$2:$D$20, 3, FALSE)"
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Watch absolute ranges in lookups",
+              "text": "When you copy a lookup down a column, the table range must usually be locked with dollar signs or a structured table reference. Otherwise the range shifts and later rows fail."
+            },
+            {
+              "type": "quiz",
+              "question": "In SUMIFS, which argument comes first?",
+              "options": [
+                "The criteria",
+                "The sum range",
+                "The sheet name",
+                "The chart type"
+              ],
+              "answer": 1,
+              "explanation": "SUMIFS starts with the range to add, then the criteria ranges and criteria pairs."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Build the monthly budget tracker",
+          "minutes": 30,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build a workbook with three layers: a transactions table, a category summary, and a dashboard. Keeping raw data separate makes the whole thing maintainable."
+            },
+            {
+              "type": "p",
+              "text": "Your transactions sheet should have Date, Description, Category, Type, and Amount. Type can be Income or Expense. The summary sheet lists categories and uses SUMIFS against the transactions table. The dashboard shows planned versus actual, remaining balance, and the largest spending categories."
+            },
+            {
+              "type": "h",
+              "text": "Build order"
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Create the transactions table",
+                  "text": "Add headers, convert to a Table with Ctrl + T, and add data validation for Category and Type."
+                },
+                {
+                  "title": "Add a category table",
+                  "text": "List categories with a monthly budget for each. Use one table per purpose, not one giant sheet."
+                },
+                {
+                  "title": "Calculate actual spend",
+                  "text": "Use SUMIFS by category and by month. Leave the raw data untouched."
+                },
+                {
+                  "title": "Add a remaining column",
+                  "text": "Remaining = Budget minus Actual. Use conditional formatting to highlight negative values."
+                },
+                {
+                  "title": "Add a monthly selector",
+                  "text": "Create a validation list of months. Reference that selected month in your formulas."
+                },
+                {
+                  "title": "Check the totals",
+                  "text": "Compare total income minus total expenses with the bank statement. If they do not match, find the missing row before adding charts."
+                }
+              ]
+            },
+            {
+              "type": "code",
+              "language": "excel",
+              "code": "Actual spend: =SUMIFS(Transactions[Amount], Transactions[Category], $A5, Transactions[Month], $B$2, Transactions[Type], \"Expense\")\nRemaining: =B5-C5\nPercent used: =IF(B5=0,0,C5/B5)"
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Make it survive real life",
+              "text": "Add an uncategorised row. Add a transfer type that should not count as income or expense. Then enter a transaction with a typo and see how your validation handles it."
+            },
+            {
+              "type": "quiz",
+              "question": "Why keep transactions and the summary on separate sheets?",
+              "options": [
+                "It makes the file bigger",
+                "It protects the raw records and makes summaries easier to audit",
+                "It is required by Excel",
+                "It stops charts from working"
+              ],
+              "answer": 1,
+              "explanation": "Separating raw data from calculations keeps the workbook understandable and reduces accidental edits."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Dashboard, polish, and handover",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A budget tracker becomes useful when someone can read it at a glance. Build a small dashboard with a clear question, a big number, and one chart that supports it."
+            },
+            {
+              "type": "p",
+              "text": "Start with the top-line question: did I spend less than I earned this month? Show income, expenses, and remaining as three large values. Then show spending by category as a bar chart and trend over months as a line chart. Use consistent colours; one accent for the key number is enough."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "The selected month is obvious and easy to change.",
+                "Income, expenses, and remaining are visually dominant.",
+                "Every chart has a title that states the insight, not just the field name.",
+                "Numbers use a consistent currency format.",
+                "The dashboard fits on one screen without horizontal scrolling.",
+                "Raw data is on a separate sheet and clearly labelled.",
+                "There is a short note explaining any assumptions or manual steps."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Design for the next person",
+              "text": "Name sheets clearly, freeze header rows, and avoid mysterious formulas. If you had to explain a calculation twice, add a short note beside it or in a documentation sheet."
+            },
+            {
+              "type": "h3",
+              "text": "Final quality check"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Check",
+                "Why it matters"
+              ],
+              "rows": [
+                [
+                  "Totals reconcile",
+                  "A beautiful dashboard with wrong numbers is worse than none"
+                ],
+                [
+                  "No hard-coded totals inside data",
+                  "Every total should be calculated"
+                ],
+                [
+                  "Formulas copied consistently",
+                  "One broken row creates a false picture"
+                ],
+                [
+                  "Charts use clean ranges",
+                  "Blank or extra rows distort the visual"
+                ],
+                [
+                  "File has a sensible name and location",
+                  "Future-you needs to find it"
+                ]
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best first chart for a monthly budget dashboard?",
+              "options": [
+                "A 3D pie with every category",
+                "A clear comparison of income, expenses, and remaining",
+                "A scatter plot of random numbers",
+                "A screenshot of the raw table"
+              ],
+              "answer": 1,
+              "explanation": "The dashboard should answer its main question first. A clear comparison of the top-line numbers is the strongest starting point."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Spreadsheet Navigator assessment",
+    "intro": "Answer all eight questions. Score 80% or higher to earn the Spreadsheet Navigator badge and certificate. You can retake the assessment.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the cell address for column C, row 12?",
+        "options": [
+          "12C",
+          "C12",
+          "C-12",
+          "Row12ColC"
+        ],
+        "answer": 1,
+        "explanation": "Excel writes the column letter first, followed by the row number."
+      },
+      {
+        "question": "Which reference remains fixed when copied in any direction?",
+        "options": [
+          "A1",
+          "$A1",
+          "A$1",
+          "$A$1"
+        ],
+        "answer": 3,
+        "explanation": "Both the column and row are locked with dollar signs."
+      },
+      {
+        "question": "Which function counts cells that meet a criterion?",
+        "options": [
+          "SUM",
+          "COUNTIF",
+          "AVERAGE",
+          "MIN"
+        ],
+        "answer": 1,
+        "explanation": "COUNTIF counts cells matching a criterion such as a status or category."
+      },
+      {
+        "question": "What does Ctrl + T do with a selected data range?",
+        "options": [
+          "Creates a table",
+          "Inserts a chart",
+          "Prints the sheet",
+          "Deletes duplicates"
+        ],
+        "answer": 0,
+        "explanation": "Ctrl + T converts the selected range into an Excel Table."
+      },
+      {
+        "question": "Which chart type is best for showing change over time?",
+        "options": [
+          "Pie",
+          "Line",
+          "Scatter",
+          "Doughnut"
+        ],
+        "answer": 1,
+        "explanation": "A line chart shows trends across a continuous period such as months."
+      },
+      {
+        "question": "In a PivotTable, where do you put a field to calculate totals?",
+        "options": [
+          "Rows",
+          "Columns",
+          "Values",
+          "Filters"
+        ],
+        "answer": 2,
+        "explanation": "The Values area performs calculations such as sum, count, or average."
+      },
+      {
+        "question": "In SUMIFS, which range comes first?",
+        "options": [
+          "The criteria range",
+          "The sum range",
+          "The header row",
+          "The chart range"
+        ],
+        "answer": 1,
+        "explanation": "SUMIFS starts with the range of numbers to add."
+      },
+      {
+        "question": "Why should raw transaction data stay on a separate sheet from a summary?",
+        "options": [
+          "It makes PivotTables impossible",
+          "It keeps records intact and makes calculations easier to audit",
+          "It prevents saving the file",
+          "It removes the need for formulas"
+        ],
+        "answer": 1,
+        "explanation": "Separating raw data from summaries protects the source and makes the workbook more reliable."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

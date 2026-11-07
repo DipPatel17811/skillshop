@@ -1,0 +1,1070 @@
+{
+  "id": "powerpoint-storytelling",
+  "title": "PowerPoint Storytelling",
+  "topic": "Productivity",
+  "topicSlug": "productivity",
+  "level": "Beginner",
+  "duration": "4h 45m",
+  "description": "Design slides that support your message instead of competing with it. Learn structure, visual hierarchy, charts, motion, and confident delivery.",
+  "icon": "presentation",
+  "color": "#F2A33B",
+  "accent": "#FFF0D4",
+  "badge": {
+    "name": "Slide Storyteller",
+    "icon": "presentation",
+    "description": "Awarded for completing PowerPoint Storytelling and its final assessment."
+  },
+  "skills": [
+    "Story structure",
+    "Slide design",
+    "Data visuals",
+    "Delivery"
+  ],
+  "outcomes": [
+    "Turn a vague topic into a clear, audience-centred message",
+    "Structure a presentation with a strong opening, middle, and close",
+    "Design readable slides with hierarchy, contrast, and whitespace",
+    "Choose and simplify charts and visuals",
+    "Add motion only where it helps comprehension",
+    "Build and deliver a polished six-slide presentation"
+  ],
+  "prerequisites": [
+    "Microsoft PowerPoint 2016 or newer, or Microsoft 365",
+    "A topic you can turn into a short presentation",
+    "Willingness to cut ideas that do not serve the message"
+  ],
+  "tools": [
+    "PowerPoint",
+    "A notes document or piece of paper",
+    "Optional: a phone for recording a rehearsal"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Message first",
+      "summary": "Before a single slide exists, decide what the audience should think and do.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Who is in the room?",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A presentation is not a document. It is a live exchange with people who have their own knowledge, priorities, and limited attention."
+            },
+            {
+              "type": "p",
+              "text": "Before opening PowerPoint, write down who your audience is and what they already know. A room of new employees needs context that a room of senior managers does not. A technical audience wants evidence; an executive audience wants the decision and the consequence."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**What do they already believe?** Start where they are, not where you wish they were.",
+                "**What do they need from this?** A decision, a plan, an understanding, or a feeling.",
+                "**What will they remember tomorrow?** One sentence is enough to aim for.",
+                "**What might make them resist?** Answer the real objection instead of avoiding it."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Write the audience sentence",
+              "text": "Complete this: 'After this presentation, [audience] should [action or belief].' If you cannot finish it, the presentation is not ready to be designed."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best reason to define the audience before designing?",
+              "options": [
+                "To choose a colour theme",
+                "To decide what context, evidence, and action the presentation needs",
+                "To make the deck longer",
+                "To avoid practising"
+              ],
+              "answer": 1,
+              "explanation": "Audience and purpose determine the content. Colour is a later design decision."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "The one-sentence objective",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "If your presentation could be reduced to one sentence, that sentence is the spine. Every slide either supports it or gets cut."
+            },
+            {
+              "type": "p",
+              "text": "A topic is not an objective. 'Our new onboarding process' is a topic. 'New hires should complete three setup tasks in week one so their first project starts faster' is an objective. The second sentence tells you what to show, what to leave out, and how to know if the presentation worked."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Weak framing",
+                "Stronger framing"
+              ],
+              "rows": [
+                [
+                  "About our product",
+                  "Customers should see that setup takes under five minutes"
+                ],
+                [
+                  "Q3 results",
+                  "The team should approve shifting budget to retention"
+                ],
+                [
+                  "Safety training",
+                  "Every new technician should know the three lockout steps"
+                ],
+                [
+                  "My project update",
+                  "The sponsor should unblock the supplier decision this week"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "One deck, one job",
+              "text": "If you have two unrelated objectives, you may have two presentations. Trying to do everything usually means the audience remembers nothing."
+            },
+            {
+              "type": "quiz",
+              "question": "Which sentence is the strongest presentation objective?",
+              "options": [
+                "A tour of our new software",
+                "Our software has many features",
+                "Managers should approve a two-week pilot of the new software",
+                "Software is important"
+              ],
+              "answer": 2,
+              "explanation": "It names the audience, the desired action, and enough scope to guide the content."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "A story arc that fits in five minutes",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Even a short business presentation benefits from a story shape: context, tension, resolution, and next step."
+            },
+            {
+              "type": "p",
+              "text": "The opening gives the audience a reason to care. The middle creates productive tension by presenting the problem, the evidence, or the choice. The end resolves the tension and makes the next action obvious. This is not theatrical; it is how people follow cause and effect."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Hook",
+                  "text": "Start with the situation or surprising number the audience already cares about."
+                },
+                {
+                  "title": "Tension",
+                  "text": "Show what is at stake if nothing changes, or the gap between the current and desired state."
+                },
+                {
+                  "title": "Evidence",
+                  "text": "Give the two or three facts that make your case. Resist the urge to show every fact you collected."
+                },
+                {
+                  "title": "Resolution",
+                  "text": "State the recommendation clearly. What should happen?"
+                },
+                {
+                  "title": "Next step",
+                  "text": "End with a specific action, owner, or decision. 'Thank you' is not a next step."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Open with the point, not the agenda",
+              "text": "An agenda slide is a table of contents, not a hook. You can still preview the journey, but the first ten seconds should make the audience want to take it."
+            },
+            {
+              "type": "quiz",
+              "question": "What should the ending of a presentation make clear?",
+              "options": [
+                "The speaker's biography",
+                "The next action or decision",
+                "Every source used",
+                "The slide count"
+              ],
+              "answer": 1,
+              "explanation": "A strong close resolves the story and tells the audience what should happen next."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Slide craft",
+      "summary": "Layout, hierarchy, and the discipline of leaving things out.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Layouts and visual hierarchy",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "The audience should know where to look first, second, and third. That order is visual hierarchy, and it is created with size, position, contrast, and spacing."
+            },
+            {
+              "type": "p",
+              "text": "Use the built-in layouts instead of dragging every text box by hand. A title and content layout is often enough. If you need a custom layout, keep a consistent title position, margin, and footer across the deck."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Element",
+                "Role",
+                "Typical treatment"
+              ],
+              "rows": [
+                [
+                  "Title",
+                  "The claim or topic of the slide",
+                  "Largest text; one or two lines"
+                ],
+                [
+                  "Subtitle or lead",
+                  "Context that makes the title land",
+                  "Smaller, muted, optional"
+                ],
+                [
+                  "Body",
+                  "Evidence or explanation",
+                  "Short lines; generous spacing"
+                ],
+                [
+                  "Visual",
+                  "The thing the eye lands on",
+                  "Large enough to read from the back"
+                ],
+                [
+                  "Footer",
+                  "Source, date, slide number",
+                  "Small and quiet"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Centred blocks are hard to scan",
+              "text": "Left-aligned text is easier to read for paragraphs and bullets. Centring can work for a single short statement, but not for everything."
+            },
+            {
+              "type": "quiz",
+              "question": "Which change most improves visual hierarchy?",
+              "options": [
+                "Adding more fonts",
+                "Making the main message clearly larger than supporting text",
+                "Centring all text",
+                "Using a different colour on every line"
+              ],
+              "answer": 1,
+              "explanation": "Size contrast directs the eye. The main message should be unmistakably dominant."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Type, colour, and whitespace",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Good slide design is mostly restraint. One strong typeface, one restrained palette, and enough empty space will outperform a slide stuffed with decoration."
+            },
+            {
+              "type": "p",
+              "text": "For screen presentations, body text below 18-20pt becomes hard to read at the back of a room. Titles often work at 32-44pt. Use no more than two typefaces: a display face for headings and a clean sans-serif for body. If your organisation has a brand font, use it consistently."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Use dark text on a light background or light text on a truly dark background; check the contrast.",
+                "Limit the palette to one primary colour, one accent, and neutral text.",
+                "Use bold for emphasis instead of underlining or six different colours.",
+                "Leave margins; slides are not pages and do not need to fill every corner.",
+                "Use sentence case for readability; reserve ALL CAPS for short labels."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Squint test",
+              "text": "Step back and squint at the slide. If the hierarchy disappears into a grey mush, reduce the amount of text and increase contrast."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the safest body-text rule for a live presentation?",
+              "options": [
+                "Use 10pt to fit more",
+                "Keep it large enough to read from the back, usually 18-20pt or more",
+                "Use all caps",
+                "Use a different colour for each line"
+              ],
+              "answer": 1,
+              "explanation": "Readability from the back of the room is the practical limit, not how much fits on screen."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "One idea per slide",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A slide is a single beat in the story. When a slide tries to say three things, the audience usually remembers none of them."
+            },
+            {
+              "type": "p",
+              "text": "Write the slide title as a full sentence that states the point: 'Churn is highest in month one', not 'Churn analysis'. Then include only the evidence required to support that sentence. Move secondary detail into speaker notes or an appendix."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Weak slide title",
+                "Strong slide title"
+              ],
+              "rows": [
+                [
+                  "Overview",
+                  "Three pilots cut onboarding time by 40%"
+                ],
+                [
+                  "Challenges",
+                  "Manual handoffs are creating two-day delays"
+                ],
+                [
+                  "Next steps",
+                  "Approve the supplier decision by Friday"
+                ],
+                [
+                  "Results",
+                  "Retention improved in every region except one"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "The deletion pass",
+              "text": "After designing a slide, remove one element. If the slide still works, leave it removed. Repeat until removing anything else would weaken the point."
+            },
+            {
+              "type": "quiz",
+              "question": "Which is the better slide title?",
+              "options": [
+                "Data",
+                "Q3 Sales",
+                "Sales grew 18% after the pricing change",
+                "Chart 4"
+              ],
+              "answer": 2,
+              "explanation": "A sentence title states the insight and gives the audience the point before they examine the evidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Visuals and data",
+      "summary": "Images, charts, and diagrams that clarify rather than decorate.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Images, icons, and diagrams",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A visual earns its place when it explains something faster than words. If it is only there to fill space, it is noise."
+            },
+            {
+              "type": "p",
+              "text": "Use photographs for real-world context, icons for simple concepts, and diagrams for relationships or sequences. Keep a consistent visual style: mixing glossy stock photos, flat icons, and clip art makes a deck feel assembled rather than designed."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Crop images to create a focal point instead of shrinking them into a corner.",
+                "Use one icon family with a consistent stroke weight.",
+                "Build a diagram only if it shows a relationship, not just three boxes in a row.",
+                "Add alt text to meaningful images for accessibility.",
+                "Respect licences; know where an image came from before publishing."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Avoid decorative stock-photo handshakes",
+              "text": "Audiences recognise generic imagery immediately. A clear diagram or a real product photo usually communicates more than a smiling stranger at a laptop."
+            },
+            {
+              "type": "quiz",
+              "question": "When does a diagram deserve a place on a slide?",
+              "options": [
+                "When it fills empty space",
+                "When it explains a relationship or sequence",
+                "When it uses three colours",
+                "When it replaces the title"
+              ],
+              "answer": 1,
+              "explanation": "Visuals should carry meaning. A diagram is useful when the relationship is easier to see than to read."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Charts people can read",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A chart used in a presentation is not an analyst's working chart. It should make one comparison obvious from across the room."
+            },
+            {
+              "type": "p",
+              "text": "Choose the chart after deciding the sentence. If the sentence is 'sales grew every quarter', a line chart. If it is 'the west region is behind', a simple bar chart. If it is 'most of the total comes from one category', a stacked bar with a clear highlight."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Story",
+                "Chart",
+                "Design move"
+              ],
+              "rows": [
+                [
+                  "Change over time",
+                  "Line",
+                  "Label the final point; remove gridlines"
+                ],
+                [
+                  "Compare categories",
+                  "Bar",
+                  "Sort by value; highlight one bar"
+                ],
+                [
+                  "Composition",
+                  "Stacked bar",
+                  "Group small categories into Other"
+                ],
+                [
+                  "Relationship",
+                  "Scatter",
+                  "Label only the points that matter"
+                ]
+              ]
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Delete the default clutter",
+                  "text": "Remove unnecessary gridlines, borders, legends, and decimal places."
+                },
+                {
+                  "title": "Write the title as the insight",
+                  "text": "'West is 12 points behind the next region', not 'Regional performance'."
+                },
+                {
+                  "title": "Highlight the point",
+                  "text": "Use one accent colour for the data that matters; mute everything else."
+                },
+                {
+                  "title": "Label directly",
+                  "text": "Place values near the bars or line ends so the audience does not have to trace a legend."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not mislead with the axis",
+              "text": "A bar chart should normally start at zero. If you truncate an axis, label it clearly and ask whether the visual exaggeration is honest."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the first design step for a presentation chart?",
+              "options": [
+                "Add a 3D effect",
+                "Decide the sentence the chart should prove",
+                "Use every category",
+                "Add a legend with ten items"
+              ],
+              "answer": 1,
+              "explanation": "The message determines the chart choice and what to remove."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Accessible slides by default",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Accessibility is not an extra version of your deck. It is a quality standard that makes the presentation better for everyone."
+            },
+            {
+              "type": "p",
+              "text": "Strong contrast helps in a bright room. Readable type helps people at a distance. Alt text helps screen-reader users. Consistent reading order helps everyone follow the logic. These are small choices made slide by slide."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Use the built-in slide layouts so the reading order is sensible.",
+                "Add alt text to informative images; mark decorative images as decorative.",
+                "Do not use colour alone to convey meaning.",
+                "Check contrast between text and background.",
+                "Use real text instead of screenshots of text where possible.",
+                "Keep animation optional and avoid rapid flashing.",
+                "Provide the deck or speaker notes in advance when appropriate."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "PowerPoint has an accessibility checker",
+              "text": "Review > Check Accessibility lists issues such as missing alt text, low contrast, and unclear hyperlink names. Run it before you present or share."
+            },
+            {
+              "type": "quiz",
+              "question": "Why avoid using colour alone to show meaning?",
+              "options": [
+                "Colour always prints badly",
+                "Some viewers cannot distinguish the colours, so the meaning is lost",
+                "PowerPoint does not support colour",
+                "It makes slides too long"
+              ],
+              "answer": 1,
+              "explanation": "Use labels, patterns, or text alongside colour so the information remains available to everyone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Motion and delivery",
+      "summary": "Use movement with purpose, then rehearse the human part.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Transitions with a job",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A transition can signal a change in chapter, reveal a comparison, or preserve continuity. It can also distract. The test is whether the movement helps the audience understand."
+            },
+            {
+              "type": "p",
+              "text": "For most business presentations, a simple fade or a clean cut is enough. Use a stronger transition only when the story calls for it. Morph can be powerful for showing a relationship between two layouts, but it should not be sprinkled on every slide."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Transition",
+                "Good use",
+                "Avoid"
+              ],
+              "rows": [
+                [
+                  "Fade",
+                  "General slide changes",
+                  "Using it on every slide with different speeds"
+                ],
+                [
+                  "Push",
+                  "Moving between sections",
+                  "Making the audience seasick"
+                ],
+                [
+                  "Morph",
+                  "Showing the same object in a new position or scale",
+                  "Unmatched objects flying randomly"
+                ],
+                [
+                  "None",
+                  "Fast, clear sequences",
+                  "Nothing; cuts are often best"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Choose one transition for the deck",
+              "text": "Consistency makes a presentation feel calm. If you use a special transition, make it mean something."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best reason to use a transition?",
+              "options": [
+                "To show that you know the effect exists",
+                "To support a change in the story or help the audience follow a relationship",
+                "To make the deck longer",
+                "To hide a blank slide"
+              ],
+              "answer": 1,
+              "explanation": "Movement should serve comprehension and narrative structure."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Animation without noise",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Animation should direct attention at the moment you need it. If everything moves, nothing stands out."
+            },
+            {
+              "type": "p",
+              "text": "A useful pattern is Appear or Fade for a single element, one at a time, while you explain it. Build a chart series, reveal a definition, or show a before-and-after. Avoid spinning, bouncing, and sounds unless the context genuinely calls for them."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Start with the finished slide",
+                  "text": "Make the slide readable on its own before adding any motion."
+                },
+                {
+                  "title": "Choose what to reveal",
+                  "text": "Animate only the element the audience should look at next."
+                },
+                {
+                  "title": "Use one simple effect",
+                  "text": "Fade or Appear is usually enough. Keep timing short."
+                },
+                {
+                  "title": "Set the order",
+                  "text": "Open the Animation Pane and check that the sequence matches your spoken explanation."
+                },
+                {
+                  "title": "Rehearse with the clicker",
+                  "text": "Animations change the rhythm. Practise the timing, not just the words."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Animation cannot rescue an unclear slide",
+              "text": "If the audience cannot understand the slide when it is fully visible, adding motion will only delay the confusion."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best rule for animation?",
+              "options": [
+                "Use as many effects as possible",
+                "Animate only what helps the audience follow the explanation",
+                "Always use sound",
+                "Animate every object separately"
+              ],
+              "answer": 1,
+              "explanation": "Purposeful motion directs attention; decorative motion competes with the message."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Notes, rehearsal, and delivery",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Slides are not your script. They are prompts for the audience and anchors for you. The real presentation happens in the room."
+            },
+            {
+              "type": "p",
+              "text": "Put full sentences in speaker notes, not on the slide. Rehearse aloud with a timer. Record yourself once, then watch with the sound off to check your posture and with the sound on to check pace and filler words."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Open with the point, not with housekeeping.",
+                "Pause after important numbers; silence gives the audience time to process.",
+                "Look at people, not at the screen.",
+                "Use the slide as a reference, not a teleprompter.",
+                "Keep one hand free for gestures and the clicker.",
+                "Prepare a short version and a detailed version of the same story."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Practise the transitions, not just the slides",
+              "text": "The moment between slides is where many presentations fall apart. Rehearse the sentence that connects one idea to the next."
+            },
+            {
+              "type": "quiz",
+              "question": "Where should the full explanation of a slide live?",
+              "options": [
+                "On the slide in 12pt text",
+                "In speaker notes and what you say aloud",
+                "In the file name",
+                "In the animation pane"
+              ],
+              "answer": 1,
+              "explanation": "Slides support the talk. Detailed explanation belongs in speaker notes and delivery, not dense slide text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "The six-slide capstone",
+      "summary": "Build a short presentation from blank page to rehearsal.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Storyboard before slides",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A storyboard is a cheap place to discover that your argument does not work. Sketch six slides on paper before touching PowerPoint."
+            },
+            {
+              "type": "p",
+              "text": "Use six boxes. In each box, write the slide's sentence and sketch the visual in ten seconds. If you cannot draw the idea simply, the idea may still be too complicated."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Slide 1: Hook",
+                  "text": "The situation, tension, or number that earns attention."
+                },
+                {
+                  "title": "Slide 2: Problem",
+                  "text": "What is at stake and why the current approach is not enough."
+                },
+                {
+                  "title": "Slide 3: Evidence",
+                  "text": "The strongest proof, ideally one chart or one concrete example."
+                },
+                {
+                  "title": "Slide 4: Recommendation",
+                  "text": "The specific proposal, not a list of possibilities."
+                },
+                {
+                  "title": "Slide 5: Plan",
+                  "text": "What happens next, who owns it, and when."
+                },
+                {
+                  "title": "Slide 6: Ask",
+                  "text": "The decision or commitment you need from the audience."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Six slides means six beats",
+              "text": "You can split a beat into two slides if the visual needs space, but do not add new ideas. The constraint is there to protect the story."
+            },
+            {
+              "type": "quiz",
+              "question": "Why storyboard before opening PowerPoint?",
+              "options": [
+                "It makes the file smaller",
+                "It reveals whether the argument works before design effort is spent",
+                "It automatically adds animations",
+                "It is required for exporting PDFs"
+              ],
+              "answer": 1,
+              "explanation": "Low-cost sketching exposes gaps in the story while changes are still easy."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Build the deck",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build the presentation from a consistent template, not from a collection of one-off slides. Consistency is what makes a deck feel calm and professional."
+            },
+            {
+              "type": "p",
+              "text": "Start with the Slide Master. Set the title and body positions, fonts, colours, and footer once. Then create slides using those layouts. Name slides and objects so you can find them later in the Selection Pane."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "The title of every slide states the point.",
+                "There is one primary visual per slide.",
+                "Body text is short enough to read from the back.",
+                "Charts use one accent colour and direct labels.",
+                "Images have alt text and are not stretched.",
+                "Speaker notes contain the explanation you will say.",
+                "The deck works without animation.",
+                "The last slide asks for a specific decision or next step."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use the Selection Pane as a layers panel",
+              "text": "Home > Select > Selection Pane shows every object on the slide. Rename important objects. It makes complex slides much easier to edit and is essential for advanced Morph work."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main benefit of using Slide Master layouts?",
+              "options": [
+                "Every slide becomes animated",
+                "Consistent design changes can be made in one place",
+                "It adds more text",
+                "It prevents saving as PDF"
+              ],
+              "answer": 1,
+              "explanation": "Master layouts centralise fonts, positions, colours, and other repeated design decisions."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Rehearse, get feedback, and deliver",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A polished deck is only half the job. Rehearsal turns the slides into a presentation instead of a reading exercise."
+            },
+            {
+              "type": "p",
+              "text": "Rehearse with a timer and a real clicker. Ask one person for feedback on two questions: what was the main point, and what was confusing? If they cannot answer the first, the story needs work. If they name the second, fix that part first."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Rehearsal pass",
+                "Focus",
+                "Question"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Story",
+                  "Can I explain the arc without looking at slides?"
+                ],
+                [
+                  "2",
+                  "Timing",
+                  "Am I within the time limit with space for questions?"
+                ],
+                [
+                  "3",
+                  "Delivery",
+                  "Is my pace steady, and do I look at the audience?"
+                ],
+                [
+                  "4",
+                  "Tech check",
+                  "Do the slides, fonts, videos, and clicker work on the presentation machine?"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not read the slides",
+              "text": "If the audience can read the slide faster than you can speak it, they will. Give them the point and use your voice to add meaning, context, or a story."
+            },
+            {
+              "type": "h3",
+              "text": "A simple opening and close"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Open:** 'In the next five minutes I want to show you why our onboarding is costing us good people, and what I propose we change.'",
+                "**Close:** 'The decision I need today is approval for a two-week pilot. I will bring the results back on the 21st.'"
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "What is the most useful feedback question after a rehearsal?",
+              "options": [
+                "Did you like my template?",
+                "What was the main point, and what was confusing?",
+                "How many slides were there?",
+                "Was the font expensive?"
+              ],
+              "answer": 1,
+              "explanation": "This checks whether the message landed and identifies the part that needs work."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Slide Storyteller assessment",
+    "intro": "Answer all eight questions. You need 80% to pass and unlock the Slide Storyteller badge and certificate.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What should you define before designing slides?",
+        "options": [
+          "The animation order",
+          "The audience and the one-sentence objective",
+          "The slide background image",
+          "The number of fonts"
+        ],
+        "answer": 1,
+        "explanation": "Audience and purpose determine the content and structure."
+      },
+      {
+        "question": "Which is the strongest slide title?",
+        "options": [
+          "Results",
+          "Chart 2",
+          "Retention improved in every region except one",
+          "Data analysis"
+        ],
+        "answer": 2,
+        "explanation": "A sentence title states the insight the audience should take away."
+      },
+      {
+        "question": "What is the best use of whitespace?",
+        "options": [
+          "To make the slide look empty",
+          "To separate elements and improve focus",
+          "To hide the title",
+          "To avoid using images"
+        ],
+        "answer": 1,
+        "explanation": "Whitespace gives content room to breathe and makes hierarchy clearer."
+      },
+      {
+        "question": "Which chart is best for change over time?",
+        "options": [
+          "Pie",
+          "Line",
+          "Scatter",
+          "Doughnut"
+        ],
+        "answer": 1,
+        "explanation": "A line chart shows trends over a continuous period."
+      },
+      {
+        "question": "Why should colour not be the only way to convey meaning?",
+        "options": [
+          "Colour is always unprofessional",
+          "Some viewers cannot distinguish the colours and would lose the information",
+          "PowerPoint restricts colour use",
+          "Colour increases file size"
+        ],
+        "answer": 1,
+        "explanation": "Add labels, patterns, or text so meaning survives for everyone."
+      },
+      {
+        "question": "What is the best reason to add an animation?",
+        "options": [
+          "To fill time",
+          "To direct attention at the moment it helps the explanation",
+          "To make every slide different",
+          "To replace speaker notes"
+        ],
+        "answer": 1,
+        "explanation": "Purposeful motion supports comprehension. Decorative motion distracts."
+      },
+      {
+        "question": "Where should the full explanation of a slide live?",
+        "options": [
+          "On the slide in small text",
+          "In speaker notes and your spoken delivery",
+          "In the slide title only",
+          "In the file name"
+        ],
+        "answer": 1,
+        "explanation": "Slides are visual anchors; detailed explanation belongs in notes and delivery."
+      },
+      {
+        "question": "What should the final slide of a persuasive presentation ask for?",
+        "options": [
+          "A round of applause",
+          "A specific decision or next step",
+          "A list of every source",
+          "A new topic"
+        ],
+        "answer": 1,
+        "explanation": "A clear ask turns the presentation into action."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

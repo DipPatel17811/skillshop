@@ -1,0 +1,1157 @@
+{
+  "id": "powerpoint-morph",
+  "title": "Morph Magic in PowerPoint",
+  "topic": "Productivity",
+  "topicSlug": "productivity",
+  "level": "Intermediate",
+  "duration": "4h 50m",
+  "description": "Turn ordinary slides into smooth visual stories with the Morph transition. Learn the matching rules, advanced moves, and the timing that makes it feel effortless.",
+  "icon": "wand",
+  "color": "#8B5CF6",
+  "accent": "#EEE7FF",
+  "badge": {
+    "name": "Morph Master",
+    "icon": "spark",
+    "description": "Awarded for completing Morph Magic in PowerPoint and its final assessment."
+  },
+  "skills": [
+    "Morph rules",
+    "Object matching",
+    "Motion design",
+    "Story pacing"
+  ],
+  "outcomes": [
+    "Explain how Morph differs from a normal slide transition",
+    "Build reliable morph sequences by duplicating slides",
+    "Match objects intentionally using the Selection Pane",
+    "Create scale, position, crop, and continuous-zoom effects",
+    "Control duration and pacing so motion supports the story",
+    "Design and present a polished product-reveal sequence"
+  ],
+  "prerequisites": [
+    "Microsoft PowerPoint with the Morph transition (Microsoft 365 recommended).",
+    "Comfort with basic shapes, text boxes, and the Selection Pane.",
+    "A short story or product you want to reveal in 4-6 slides."
+  ],
+  "tools": [
+    "PowerPoint",
+    "A few images or shapes for a product reveal",
+    "A notebook for sketching scene changes"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "How Morph thinks",
+      "summary": "Understand the rules before you make anything move.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Transition, animation, Morph",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "An animation moves objects on one slide. A transition controls how you enter the next slide. Morph is a transition that compares two slides and animates matching objects between them."
+            },
+            {
+              "type": "p",
+              "text": "That distinction matters. If you add a Move animation to a shape, you are animating within a slide. If you duplicate a slide, move the shape, and apply Morph to the duplicate, PowerPoint compares the two slides and calculates the in-between positions, sizes, rotations, and sometimes colours."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Tool",
+                "Scope",
+                "Typical use"
+              ],
+              "rows": [
+                [
+                  "Animation",
+                  "Objects on one slide",
+                  "Reveal a bullet, build a chart, move a callout"
+                ],
+                [
+                  "Transition",
+                  "Entry into a slide",
+                  "Fade, Push, Morph"
+                ],
+                [
+                  "Morph",
+                  "A transition that matches objects across consecutive slides",
+                  "Continuous movement, zooms, shape changes"
+                ],
+                [
+                  "Motion path",
+                  "An animation on a single slide",
+                  "An object travelling along a route"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Morph is applied to the destination slide",
+              "text": "To morph from slide 2 to slide 3, select slide 3 and apply the Morph transition. The transition settings describe how the audience enters that slide."
+            },
+            {
+              "type": "quiz",
+              "question": "Which object does PowerPoint compare when a Morph transition runs?",
+              "options": [
+                "Any two slides in the deck",
+                "The destination slide and the slide immediately before it",
+                "Only slides in the same section",
+                "The slide master and the layout"
+              ],
+              "answer": 1,
+              "explanation": "Morph compares consecutive slides: the slide you are leaving and the slide you are entering."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "The matching rules",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Morph only looks smooth when PowerPoint can recognise that an object on one slide is the same object on the next. Duplicating a slide is the most reliable way to preserve that identity."
+            },
+            {
+              "type": "p",
+              "text": "When you duplicate a slide with `Ctrl + D`, the copy contains the same shapes and names as the original. Move, resize, or recolour those objects on the duplicate. PowerPoint can then animate the difference instead of fading one unrelated object into another."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Best:** duplicate the slide, then transform the existing objects.",
+                "**Risky:** delete an object and draw a new one; Morph may treat it as a different object.",
+                "**Risky:** copy and paste a shape; it can create a new internal name.",
+                "**Good:** rename corresponding objects with the same name in the Selection Pane.",
+                "**Good:** keep objects of the same type where possible (shape to shape, image to image)."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not rebuild the slide from scratch",
+              "text": "If you create a new slide and place a similar-looking shape, Morph may crossfade instead of moving. Duplicate first, then edit. That one habit prevents most disappointing morphs."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the safest way to create the destination slide for a Morph sequence?",
+              "options": [
+                "Start a blank slide and redraw everything",
+                "Duplicate the previous slide and modify its objects",
+                "Insert a screenshot of the previous slide",
+                "Use a completely different theme"
+              ],
+              "answer": 1,
+              "explanation": "Duplication preserves object identity, which gives Morph the best chance of matching objects."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Set up a reliable testing slide",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Before building a complex sequence, make a two-slide test. It will teach you more about Morph than any amount of guessing."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Create slide 1",
+                  "text": "Add a large circle, a title, and a coloured background."
+                },
+                {
+                  "title": "Duplicate the slide",
+                  "text": "With slide 1 selected, press Ctrl + D. Slide 2 is the destination."
+                },
+                {
+                  "title": "Transform the duplicate",
+                  "text": "Make the circle smaller, move it to a corner, and change its fill colour."
+                },
+                {
+                  "title": "Apply Morph",
+                  "text": "With slide 2 selected, go to Transitions > Morph. Set the duration to about 1.5 seconds."
+                },
+                {
+                  "title": "Preview the sequence",
+                  "text": "Start the slideshow from slide 1 and advance. If it does not morph, check that the object names match."
+                },
+                {
+                  "title": "Test duration",
+                  "text": "Try 0.75, 1.5, and 2.5 seconds. The story will tell you which pace feels right."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Open the Selection Pane immediately",
+              "text": "Home > Select > Selection Pane shows the exact objects on each slide. Rename them to matching names such as `hero-image` or `title` on both slides. This is the single biggest reliability upgrade."
+            },
+            {
+              "type": "quiz",
+              "question": "Where do you apply the Morph transition?",
+              "options": [
+                "The first slide of the pair",
+                "The destination slide",
+                "The slide master",
+                "The notes page"
+              ],
+              "answer": 1,
+              "explanation": "Transitions control how the presentation enters a slide, so Morph is applied to the slide being entered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Core Morph moves",
+      "summary": "Move, scale, rotate, and transform with continuity.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "The duplicate-and-move recipe",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Most Morph effects are built from the same small recipe: duplicate, change one or two properties, apply Morph. Repeating that recipe builds a scene."
+            },
+            {
+              "type": "p",
+              "text": "Start with a strong composition, not a cluttered one. If the first slide has five objects, decide which two or three are moving. The rest should stay still or fade deliberately."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Duplicate the current slide",
+                  "text": "Select the slide thumbnail and press Ctrl + D."
+                },
+                {
+                  "title": "Move one anchor object",
+                  "text": "Drag the main image or shape to its new position on the duplicate."
+                },
+                {
+                  "title": "Adjust the supporting layout",
+                  "text": "Move the title or resize the image. Keep the same objects rather than deleting and recreating."
+                },
+                {
+                  "title": "Apply Morph to the duplicate",
+                  "text": "Transitions > Morph. Preview from the previous slide."
+                },
+                {
+                  "title": "Reduce the movement",
+                  "text": "If the animation crosses too far, move the starting and ending points closer. A small, intentional move often feels more polished than a giant sweep."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use alignment guides",
+              "text": "Hold Ctrl while dragging to nudge, or use Arrange > Align to centre objects precisely. Morph exaggerates sloppy alignment because the eye follows the path."
+            },
+            {
+              "type": "quiz",
+              "question": "What should you change on the duplicated slide?",
+              "options": [
+                "Delete every object and rebuild",
+                "Transform the existing objects' position, size, or style",
+                "Change the slide dimensions",
+                "Turn off the transition"
+              ],
+              "answer": 1,
+              "explanation": "Morph needs the same objects to persist so it can animate their transformation."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Scale and rotation",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Scaling is the signature Morph move: a small object becomes the whole screen, or a large hero image settles into a corner. Rotation adds energy, but it should be used sparingly."
+            },
+            {
+              "type": "p",
+              "text": "To zoom into an image, duplicate the slide and enlarge the image until the important detail fills the frame. Keep the same image and use Crop > Fill to handle the edges. Apply Morph. The audience experiences a camera move, not a cut."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Effect",
+                "What changes",
+                "Watch out for"
+              ],
+              "rows": [
+                [
+                  "Zoom in",
+                  "Size and position",
+                  "Image resolution and crop edges"
+                ],
+                [
+                  "Zoom out",
+                  "Size and position",
+                  "Empty space and tiny text"
+                ],
+                [
+                  "Rotate",
+                  "Rotation",
+                  "Text becomes unreadable"
+                ],
+                [
+                  "Slide into place",
+                  "Position",
+                  "Objects crossing important content"
+                ],
+                [
+                  "Reveal",
+                  "Crop or masking shape",
+                  "Fake layers hiding the subject"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Watch the resolution",
+              "text": "A small image can look fine on a thumbnail and blur when scaled full-screen. Use an image large enough for the final size, and test in slideshow mode."
+            },
+            {
+              "type": "quiz",
+              "question": "Which change is most likely to create a continuous zoom effect?",
+              "options": [
+                "Changing the slide background only",
+                "Enlarging the same image on a duplicated slide so a detail fills the frame",
+                "Adding a new unrelated image",
+                "Using a Fade transition"
+              ],
+              "answer": 1,
+              "explanation": "Scaling the same image creates the illusion of a camera moving closer."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Shape, text, and colour transformation",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Morph can animate more than position. It can interpolate size, colour, rotation, and some shape and text changes, provided the objects stay recognisable."
+            },
+            {
+              "type": "p",
+              "text": "A shape can change from a pill to a card, or a small label can grow into a section header. Text can move and resize, but changing the typeface or rebuilding the text box may cause a crossfade. Keep the same text box where possible."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Colour:** change the fill on the duplicate shape. Morph interpolates between the colours.",
+                "**Shape:** keep a consistent silhouette when reliability matters; test unusual shape changes.",
+                "**Text:** use the same text box and adjust size/position; avoid changing fonts mid-morph.",
+                "**Text content:** changing words can cause a crossfade depending on the version's text options.",
+                "**Icon:** use the same icon in both slides, even if it scales or rotates."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "The object is the actor",
+              "text": "Think of each shape as an actor that must appear in both scenes. If you replace the actor with a different one, the audience sees a cut, not a transformation."
+            },
+            {
+              "type": "quiz",
+              "question": "What change is most likely to break a smooth text morph?",
+              "options": [
+                "Moving the same text box",
+                "Resizing the same text box",
+                "Replacing the text box with a newly created one in a new font",
+                "Changing the text colour"
+              ],
+              "answer": 2,
+              "explanation": "Recreating the text box and changing fonts makes Morph treat it as a different object."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Advanced control",
+      "summary": "Names, layers, crops, and the tricks behind polished sequences.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Object names are the secret",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "The Selection Pane is a layers panel and a control panel. When two objects share a name across consecutive slides, Morph has a strong signal that they are the same object."
+            },
+            {
+              "type": "p",
+              "text": "Open Home > Select > Selection Pane. Rename the main image `hero`. On the duplicate slide, make sure the same object is still called `hero`. If you have two images and want one to transform into the other, give them the same name on the destination slide in the version of PowerPoint that supports object matching by name. Always preview; not every version behaves identically."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Show the Selection Pane",
+                  "text": "Home > Select > Selection Pane."
+                },
+                {
+                  "title": "Name the hero object",
+                  "text": "Double-click its name and type a clear, unique name."
+                },
+                {
+                  "title": "Name the matching object on the next slide",
+                  "text": "Use exactly the same name if you are intentionally matching two objects."
+                },
+                {
+                  "title": "Check z-order",
+                  "text": "In the Selection Pane, drag names up or down to change layering."
+                },
+                {
+                  "title": "Hide and test",
+                  "text": "Use the eye icon to hide objects and isolate the ones involved in the morph."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Name objects like a developer",
+              "text": "Use names like `product-hero`, `headline`, `card-shadow`, and `accent-circle`. Future-you will thank you when the sequence has twenty layers."
+            },
+            {
+              "type": "quiz",
+              "question": "What does the Selection Pane help you control?",
+              "options": [
+                "Email delivery",
+                "Object names, visibility, and layer order",
+                "Slide size",
+                "Speaker notes"
+              ],
+              "answer": 1,
+              "explanation": "It lists each object and lets you rename, hide, and reorder them."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Crop, mask, and continuous zoom",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A continuous zoom keeps the same image or object while the frame changes. It feels like a camera move, which is why it is so effective for product details and maps."
+            },
+            {
+              "type": "p",
+              "text": "Duplicate the slide, enlarge the image, and use Crop to show the region you want. Keep the image's aspect ratio consistent if you want the object to stay stable. If the crop changes dramatically, consider using a shape mask or a second image with the same subject."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Technique",
+                "How it works",
+                "Best use"
+              ],
+              "rows": [
+                [
+                  "Crop zoom",
+                  "Same image, bigger crop region",
+                  "Product details, maps, documents"
+                ],
+                [
+                  "Shape mask",
+                  "Object moves inside a shape or frame",
+                  "Photo reveals, UI mockups"
+                ],
+                [
+                  "Continuous background",
+                  "Background image moves under static content",
+                  "Immersive storytelling"
+                ],
+                [
+                  "Match cut",
+                  "Two objects share a silhouette",
+                  "Transitions between scenes"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not fake it with a black rectangle",
+              "text": "Layering a rectangle over most of the image works in a screenshot, but it often breaks when content shifts or when the slide is exported. Use actual crop or a clean mask instead."
+            },
+            {
+              "type": "quiz",
+              "question": "What creates the camera-move feeling in a Morph zoom?",
+              "options": [
+                "A completely new image on every slide",
+                "The same image scaled and cropped across consecutive slides",
+                "A spinning transition",
+                "Changing the presentation theme"
+              ],
+              "answer": 1,
+              "explanation": "Continuity of the image plus a change in scale/crop reads as a camera move."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Groups, layers, and background continuity",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Morph is not only about one hero object. Groups and backgrounds can create depth, but each layer adds something that can go wrong."
+            },
+            {
+              "type": "p",
+              "text": "Group related objects when they should move together. Keep the group's name consistent across slides. If a background colour changes, Morph may crossfade it; if the background is an image, keep the image object and move it rather than replacing it."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Group only objects that share a motion path or timing.",
+                "Name groups clearly in the Selection Pane.",
+                "Avoid changing the slide size mid-sequence.",
+                "Keep master and layout backgrounds consistent unless the change is intentional.",
+                "Test with hidden objects made visible; they still participate in layout.",
+                "Check that nothing important is off the slide edge.",
+                "Use one clear focal point per scene."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "The Background vs. a background shape",
+              "text": "A slide background and a full-slide rectangle are different objects. If you switch between them, Morph may not treat the background as continuous. Pick one approach for the sequence."
+            },
+            {
+              "type": "quiz",
+              "question": "What should you do to keep a grouped object's motion reliable?",
+              "options": [
+                "Ungroup and regroup it on every slide",
+                "Keep the group and its name consistent across duplicates",
+                "Convert it to a picture",
+                "Put it on the slide master"
+              ],
+              "answer": 1,
+              "explanation": "Consistent groups and names help Morph recognise the same object across slides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Motion with meaning",
+      "summary": "Pacing, storyboards, and fixing the effects that fight you.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Duration and pacing",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Morph duration is part of the writing. A fast move feels urgent; a slow move feels cinematic. Neither is better until you know what the scene is saying."
+            },
+            {
+              "type": "p",
+              "text": "For most business decks, 0.75-1.5 seconds is enough. A reveal or a large scene change may deserve 2-3 seconds. A sequence of five long transitions will feel sluggish even if each one is beautiful on its own."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Scene",
+                "Suggested duration",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "Small UI state change",
+                  "0.5-0.75s",
+                  "Quick and functional"
+                ],
+                [
+                  "Move a card into place",
+                  "0.75-1.25s",
+                  "Noticeable but not slow"
+                ],
+                [
+                  "Product reveal",
+                  "1.5-2.5s",
+                  "Gives the eye time to settle"
+                ],
+                [
+                  "Scene change",
+                  "1.5-3s",
+                  "Signals a new chapter"
+                ],
+                [
+                  "Comic timing / pause",
+                  "Use a hold slide",
+                  "Let the audience react"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Watch the sequence without sound",
+              "text": "If the motion still tells the story when the room is silent, the timing is doing its job. If it feels like a slideshow of effects, remove something."
+            },
+            {
+              "type": "quiz",
+              "question": "What is a sensible default duration for a business Morph transition?",
+              "options": [
+                "0.1 seconds always",
+                "Around 0.75-1.5 seconds",
+                "Five seconds every time",
+                "Duration does not matter"
+              ],
+              "answer": 1,
+              "explanation": "Short enough to feel responsive, long enough to be perceived."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Storyboard a morph sequence",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A morph sequence is a tiny film. Storyboard the shots before building slides: what is on screen, where the eye goes, and what changes between scenes."
+            },
+            {
+              "type": "p",
+              "text": "Use three to five key frames. For a product reveal, start with a close-up, pull back to the whole product, move the product beside the headline, then end on a call to action. Each transition should have one job."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Write the sentence for each frame",
+                  "text": "For example: 'The problem', 'The object', 'The detail', 'The promise', 'The next step'."
+                },
+                {
+                  "title": "Sketch the focal point",
+                  "text": "Circle what the audience should look at in each frame."
+                },
+                {
+                  "title": "Mark the continuity",
+                  "text": "Draw arrows for objects that persist from one frame to the next."
+                },
+                {
+                  "title": "Choose the motion",
+                  "text": "A zoom, a slide, a turn, or a cut. Not every frame needs Morph."
+                },
+                {
+                  "title": "Build only the key frames",
+                  "text": "Duplicate, transform, and apply Morph. Do not build every in-between frame."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "One idea per move",
+              "text": "If a transition tries to zoom, rotate, recolour, and reveal text at the same time, the audience does not know what to follow. Give each scene one clear change."
+            },
+            {
+              "type": "quiz",
+              "question": "What should each Morph transition in a sequence do?",
+              "options": [
+                "Show every possible effect",
+                "Serve one clear story beat or visual change",
+                "Last as long as possible",
+                "Replace the need for a script"
+              ],
+              "answer": 1,
+              "explanation": "A clear, singular purpose keeps the audience oriented."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Troubleshooting Morph",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "When Morph crossfades instead of moving, the cause is usually object identity, compatibility, or an unintended difference between slides. Work through the likely causes in order."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Symptom",
+                "Likely cause",
+                "Fix"
+              ],
+              "rows": [
+                [
+                  "Objects crossfade",
+                  "Objects are not recognised as the same",
+                  "Duplicate the slide and keep/rename objects"
+                ],
+                [
+                  "Text jumps",
+                  "Text box recreated or font changed",
+                  "Use the same text box and typeface"
+                ],
+                [
+                  "Blurred image",
+                  "Image scaled beyond its resolution",
+                  "Use a larger source image"
+                ],
+                [
+                  "Entire slide crossfades",
+                  "Morph not applied or unsupported",
+                  "Check Transitions > Morph on the destination slide"
+                ],
+                [
+                  "Motion feels chaotic",
+                  "Too many objects changing at once",
+                  "Change one focal object per scene"
+                ],
+                [
+                  "Background flickers",
+                  "Background object differs between slides",
+                  "Use a consistent background approach"
+                ],
+                [
+                  "Effect missing on another computer",
+                  "Older PowerPoint version or font missing",
+                  "Test on the presentation machine; embed fonts where possible"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Test on the real presentation machine",
+              "text": "Morph and font rendering can vary by version. A slide that is perfect on your laptop can lose its timing or typeface on a venue computer. Always rehearse on the final setup if possible."
+            },
+            {
+              "type": "h3",
+              "text": "A quick diagnostic"
+            },
+            {
+              "type": "list",
+              "style": "number",
+              "items": [
+                "Is Morph applied to the slide you are entering?",
+                "Are the slides consecutive, with no hidden slide between them?",
+                "Did you duplicate the slide or rebuild it?",
+                "Do the important objects have consistent names?",
+                "Is the text box the same object, in the same font?",
+                "Does it work in slideshow mode, not only in edit preview?"
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "What is the first check when a Morph shows a crossfade?",
+              "options": [
+                "Change the computer wallpaper",
+                "Confirm the objects were duplicated and consistently named",
+                "Delete the slide master",
+                "Add more animations"
+              ],
+              "answer": 1,
+              "explanation": "Object identity is the most common reason Morph fails to animate a transformation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Capstone: product reveal",
+      "summary": "Build a short, polished sequence from storyboard to slideshow.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Design the reveal",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Your capstone is a five-slide product or idea reveal. It should be understandable without narration and feel calm, not like a demo reel of effects."
+            },
+            {
+              "type": "p",
+              "text": "Choose something visual: a product photo, a book cover, an app screen, or a simple shape object. Write the five beats: context, detail, whole, benefit, ask. Sketch each frame and mark the object that continues through the sequence."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "A hero object that persists across at least three slides.",
+                "One zoom or scale move that reveals a detail.",
+                "One move that repositions the hero beside a message.",
+                "A clear final call to action.",
+                "No more than one major motion idea per transition.",
+                "A total sequence under 15 seconds of motion."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use real content early",
+              "text": "Placeholder shapes can hide problems. Put the actual image, title, and CTA in the first draft. If the story works with real content, the motion will have something meaningful to support."
+            },
+            {
+              "type": "quiz",
+              "question": "What should the hero object do in a Morph sequence?",
+              "options": [
+                "Change into a different object every slide",
+                "Persist across slides so the audience can follow it",
+                "Stay hidden until the end",
+                "Be replaced by text"
+              ],
+              "answer": 1,
+              "explanation": "Continuity gives the eye an anchor and makes the transformation meaningful."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Build the sequence",
+          "minutes": 30,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build the capstone with a disciplined order: static layout first, object names second, motion third, polish last."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Create slide 1",
+                  "text": "Set the background and place the hero, title, and any supporting elements."
+                },
+                {
+                  "title": "Name the objects",
+                  "text": "Use the Selection Pane for hero, title, background, and accents."
+                },
+                {
+                  "title": "Duplicate and transform",
+                  "text": "For each beat, duplicate the previous slide, then move, scale, crop, or recolour the existing objects."
+                },
+                {
+                  "title": "Apply Morph",
+                  "text": "On each destination slide, Transitions > Morph. Set duration individually."
+                },
+                {
+                  "title": "Add one non-morph moment",
+                  "text": "Use a fade or a hold to give the sequence breathing room."
+                },
+                {
+                  "title": "Preview in slideshow",
+                  "text": "Watch from the first slide. Note any moment where your eye does not know where to look."
+                },
+                {
+                  "title": "Clean up",
+                  "text": "Remove unused off-slide objects, hide guides, and check that text remains readable at every step."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Slide",
+                "Beat",
+                "Motion idea"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Context",
+                  "Static close-up or opening frame"
+                ],
+                [
+                  "2",
+                  "Detail",
+                  "Zoom into the same hero image"
+                ],
+                [
+                  "3",
+                  "Whole",
+                  "Pull back to reveal the full object"
+                ],
+                [
+                  "4",
+                  "Benefit",
+                  "Move hero aside; bring in the message"
+                ],
+                [
+                  "5",
+                  "Ask",
+                  "Settle into a clean final composition"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not stack effects",
+              "text": "A Morph transition plus entrance animations on the same slide can fight for control. Choose whether the scene is a morph or an animation, then commit."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best build order for a Morph sequence?",
+              "options": [
+                "Add effects first, then content",
+                "Static layout, object names, motion, then polish",
+                "Animate every object, then delete half",
+                "Start with transitions and ignore layout"
+              ],
+              "answer": 1,
+              "explanation": "A clear static composition and stable object names make the motion predictable."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Polish, present, and troubleshoot",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A polished morph sequence is one where the audience notices the idea, not the machinery. The final pass is about removing friction."
+            },
+            {
+              "type": "p",
+              "text": "Watch the sequence three times: once for the story, once for timing, and once with a critical eye on details such as text alignment, image resolution, and how the transition ends. Then present it to one person and watch their eyes."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Every frame has one clear focal point.",
+                "The hero object remains recognisable throughout.",
+                "No text is too small or crosses the edge of the slide.",
+                "Images are sharp at their largest displayed size.",
+                "Durations feel consistent but not mechanical.",
+                "The final slide has a clear ask or next step.",
+                "The sequence works without speaker notes as a visual story.",
+                "You have tested on the presentation computer."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "When in doubt, cut a transition",
+              "text": "A clean cut is not a failure. If a morph does not add meaning or clarity, replacing it with a cut will often make the presentation stronger."
+            },
+            {
+              "type": "h3",
+              "text": "Final presentation checklist"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Check",
+                "Pass condition"
+              ],
+              "rows": [
+                [
+                  "Story",
+                  "A viewer can explain the sequence without narration"
+                ],
+                [
+                  "Object continuity",
+                  "The eye can follow the hero from first to last"
+                ],
+                [
+                  "Timing",
+                  "No transition feels rushed or sticky"
+                ],
+                [
+                  "Readability",
+                  "All text is legible in slideshow mode"
+                ],
+                [
+                  "Robustness",
+                  "The deck runs on the venue machine"
+                ]
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best response when a morph effect does not help the story?",
+              "options": [
+                "Make it longer",
+                "Replace it with a clean cut or a simpler transition",
+                "Add more objects",
+                "Use a different font"
+              ],
+              "answer": 1,
+              "explanation": "Motion is a tool, not a requirement. Clarity wins."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Morph Master assessment",
+    "intro": "Answer all eight questions. Score 80% or higher to earn the Morph Master badge and certificate.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is Morph in PowerPoint?",
+        "options": [
+          "An animation applied to one shape",
+          "A transition that animates matching objects between consecutive slides",
+          "A slide layout",
+          "A chart type"
+        ],
+        "answer": 1,
+        "explanation": "Morph is a transition that compares consecutive slides and animates matching objects."
+      },
+      {
+        "question": "Which slide should receive the Morph transition?",
+        "options": [
+          "The first slide of the sequence",
+          "The destination slide",
+          "Only the slide master",
+          "Every slide regardless of content"
+        ],
+        "answer": 1,
+        "explanation": "A transition controls entry into a slide, so it is applied to the destination slide."
+      },
+      {
+        "question": "What is the most reliable way to prepare a Morph destination?",
+        "options": [
+          "Rebuild the slide from scratch",
+          "Duplicate the previous slide and modify its objects",
+          "Paste a screenshot",
+          "Use a new theme"
+        ],
+        "answer": 1,
+        "explanation": "Duplication preserves object identity, making matching much more reliable."
+      },
+      {
+        "question": "What does the Selection Pane help you do?",
+        "options": [
+          "Email the deck",
+          "Rename objects, reorder layers, and hide elements",
+          "Change the slide size",
+          "Edit speaker notes"
+        ],
+        "answer": 1,
+        "explanation": "It is a layers panel for objects, including naming and visibility."
+      },
+      {
+        "question": "Which change is most likely to break a smooth text morph?",
+        "options": [
+          "Moving the same text box",
+          "Changing the colour of the same text",
+          "Recreating the text box in a different font",
+          "Resizing the same text box"
+        ],
+        "answer": 2,
+        "explanation": "A new text box or font can make PowerPoint treat the text as a different object."
+      },
+      {
+        "question": "What creates a continuous camera-zoom effect?",
+        "options": [
+          "A new image on each slide",
+          "Scaling and cropping the same image across consecutive slides",
+          "A spin transition",
+          "A background colour change"
+        ],
+        "answer": 1,
+        "explanation": "Continuity of the object plus a change in scale/crop reads as a camera move."
+      },
+      {
+        "question": "What is a sensible Morph duration for a business slide change?",
+        "options": [
+          "0.1 seconds always",
+          "Roughly 0.75-1.5 seconds",
+          "Five seconds every time",
+          "Duration is irrelevant"
+        ],
+        "answer": 1,
+        "explanation": "This range is noticeable but not sluggish for most business content."
+      },
+      {
+        "question": "What is the first thing to check if a Morph crossfades instead of moving?",
+        "options": [
+          "The file name",
+          "Whether the objects were duplicated and consistently named",
+          "The slide count",
+          "The font licence"
+        ],
+        "answer": 1,
+        "explanation": "Morph needs to recognise the objects as the same across slides."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

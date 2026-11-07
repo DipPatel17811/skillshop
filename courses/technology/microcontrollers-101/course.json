@@ -1,0 +1,1272 @@
+{
+  "id": "microcontrollers-101",
+  "title": "Microcontrollers 101",
+  "topic": "Technology",
+  "topicSlug": "technology",
+  "level": "Beginner",
+  "duration": "5h 10m",
+  "description": "Make tiny computers sense the world, make decisions, and control real hardware. Build with an Arduino-compatible board from your first blink to a working sensor project.",
+  "icon": "chip",
+  "color": "#FF7A59",
+  "accent": "#FFE7DE",
+  "badge": {
+    "name": "Circuit Starter",
+    "icon": "bolt",
+    "description": "Awarded for completing the Microcontrollers 101 course and its final assessment."
+  },
+  "skills": [
+    "Electronics basics",
+    "Arduino code",
+    "Sensors",
+    "Debugging"
+  ],
+  "outcomes": [
+    "Explain what a microcontroller is and how it differs from a computer",
+    "Build safe, simple circuits on a breadboard",
+    "Read buttons and sensors, then control LEDs and other outputs",
+    "Use serial communication to debug and receive commands",
+    "Read a pin map and datasheet with confidence",
+    "Design and debug a small sensor project on your own"
+  ],
+  "prerequisites": [
+    "No coding or electronics experience is required.",
+    "A computer that can install the Arduino IDE or use the Arduino Web Editor.",
+    "A place to work where a low-voltage circuit can sit safely."
+  ],
+  "tools": [
+    "Arduino Uno or compatible board",
+    "USB cable",
+    "Breadboard and jumper wires",
+    "LEDs, 220 ohm resistors, push button",
+    "Optional: multimeter and a sensor such as an LDR"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Meet the microcontroller",
+      "summary": "The tiny computer behind alarms, toys, cars, and plant monitors.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "What is a microcontroller?",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A microcontroller is a complete little computer on a single chip. It has a processor, memory, and input/output pins, yet it is designed to do one job reliably, often for years."
+            },
+            {
+              "type": "p",
+              "text": "Your laptop runs an operating system, manages windows, and waits for you to decide what happens next. A microcontroller usually runs one program forever. It reads a sensor, makes a decision, and switches something on or off. A washing machine, microwave, bike light, thermostat, and toy robot all contain some version of this pattern."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Sense:** read a button, temperature sensor, light sensor, or voltage.",
+                "**Decide:** compare values and follow the rules in your program.",
+                "**Act:** switch an LED, motor, relay, buzzer, or display.",
+                "**Repeat:** do it again, often thousands of times per second."
+              ]
+            },
+            {
+              "type": "h",
+              "text": "Microcontroller vs. computer"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Question",
+                "Microcontroller",
+                "Everyday computer"
+              ],
+              "rows": [
+                [
+                  "Typical job",
+                  "One dedicated task",
+                  "Many general-purpose tasks"
+                ],
+                [
+                  "Operating system",
+                  "Usually none",
+                  "Windows, macOS, Linux"
+                ],
+                [
+                  "Startup time",
+                  "Milliseconds",
+                  "Seconds to minutes"
+                ],
+                [
+                  "Power use",
+                  "Very low",
+                  "Much higher"
+                ],
+                [
+                  "Example",
+                  "Plant moisture alarm",
+                  "Laptop running a spreadsheet"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "The board you are likely using, such as an Arduino Uno, is a development board. It wraps the microcontroller in useful extras: a USB connection for programming, a power regulator, header pins for wires, and a reset button. The chip does the thinking; the board makes it easy to experiment."
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "You do not need to memorise the electronics",
+              "text": "Start with the working model: a pin can be an input or an output, and a program decides what to do with it. The details become familiar through building."
+            },
+            {
+              "type": "quiz",
+              "question": "Which task best fits a microcontroller?",
+              "options": [
+                "Editing a video",
+                "Watching a plant's soil moisture and sounding an alarm when it is dry",
+                "Running three browser tabs",
+                "Storing a family photo album"
+              ],
+              "answer": 1,
+              "explanation": "A microcontroller is ideal for a small, repeated, dedicated job such as monitoring a sensor and controlling an output."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "Anatomy of a board",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Before you plug anything in, learn the landmarks. Most beginner boards share the same basic set of parts."
+            },
+            {
+              "type": "p",
+              "text": "An Arduino-compatible board is a small neighbourhood. Each area has a job, and knowing its name makes wiring diagrams and error messages much easier to read."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Microcontroller chip:** the brain. On an Uno-style board it is usually a large rectangular chip in the centre.",
+                "**Digital pins:** numbered pins that understand HIGH or LOW. Some support PWM, marked with a tilde (~).",
+                "**Analog input pins:** read a changing voltage, usually labelled A0 to A5.",
+                "**Power pins:** 5V, 3.3V, GND. GND is the common reference, like the negative terminal of a battery.",
+                "**USB port:** programming and, on many boards, power.",
+                "**Barrel jack or VIN:** an alternative power input for a suitable adapter.",
+                "**Reset button:** restarts the program from the beginning.",
+                "**Built-in LED:** usually on pin 13. It is perfect for a first test because no extra parts are needed."
+              ]
+            },
+            {
+              "type": "h",
+              "text": "Pins are addresses"
+            },
+            {
+              "type": "p",
+              "text": "A pin number is how your program addresses a physical connection. `pinMode(7, OUTPUT)` means 'get pin 7 ready to send a signal'. `digitalWrite(7, HIGH)` means 'switch pin 7 on'. The Arduino IDE uses pin numbers that match the labels printed on the board."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Label",
+                "What it means",
+                "Beginner use"
+              ],
+              "rows": [
+                [
+                  "5V",
+                  "A regulated 5-volt supply",
+                  "Powering simple sensors"
+                ],
+                [
+                  "3.3V",
+                  "A lower regulated supply",
+                  "Powering 3.3V modules"
+                ],
+                [
+                  "GND",
+                  "0V reference",
+                  "Every circuit needs a shared ground"
+                ],
+                [
+                  "A0-A5",
+                  "Analog inputs",
+                  "Light, temperature, knob position"
+                ],
+                [
+                  "~3, ~5, ~6",
+                  "PWM-capable digital pins",
+                  "Dimming an LED or controlling a motor"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Never guess a power connection",
+              "text": "Check the board's pin labels and the sensor's voltage rating before wiring. Connecting a 3.3V sensor to 5V, or reversing power and ground, can damage parts."
+            },
+            {
+              "type": "quiz",
+              "question": "What does a GND pin provide?",
+              "options": [
+                "The main 5V supply",
+                "A shared 0V reference for the circuit",
+                "A signal that turns motors on",
+                "A connection to the internet"
+              ],
+              "answer": 1,
+              "explanation": "GND is the common reference point. Signals are measured relative to it, and all parts of a simple circuit must share it."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Your first safe circuit",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "The classic first circuit is an LED, a resistor, a breadboard, and two jumper wires. It teaches current, polarity, and the habit of checking before powering up."
+            },
+            {
+              "type": "p",
+              "text": "An LED is a diode: current flows through it in one direction only. The longer leg is normally the positive side, called the anode. The shorter leg is the cathode. If the LED does not light, switch it around before assuming anything is broken."
+            },
+            {
+              "type": "h",
+              "text": "Why the resistor matters"
+            },
+            {
+              "type": "p",
+              "text": "A resistor limits current. Without one, an LED can draw too much current from a pin and be damaged. A 220 ohm to 330 ohm resistor is a sensible starting point for a standard 5V LED circuit. The resistor does not care which way around it is placed."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Disconnect power",
+                  "text": "Build with the USB cable unplugged. This is the simplest safety rule and prevents accidental shorts."
+                },
+                {
+                  "title": "Place the LED",
+                  "text": "Put the LED across the centre gap of the breadboard so its two legs are in different rows."
+                },
+                {
+                  "title": "Add the resistor",
+                  "text": "Connect the resistor from the LED's anode row to a free row."
+                },
+                {
+                  "title": "Wire the signal",
+                  "text": "Connect that free row to a digital pin such as 8. Connect the LED's cathode row to GND."
+                },
+                {
+                  "title": "Check, plug in, upload",
+                  "text": "Look for stray wires touching each other, then connect USB and upload the blink test in the next lesson."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Part",
+                "Purpose",
+                "Polarity"
+              ],
+              "rows": [
+                [
+                  "LED",
+                  "Converts current into light",
+                  "Anode positive, cathode negative"
+                ],
+                [
+                  "Resistor",
+                  "Limits current",
+                  "No polarity"
+                ],
+                [
+                  "Breadboard",
+                  "Reusable solderless connections",
+                  "Rows are connected internally"
+                ],
+                [
+                  "Jumper wire",
+                  "Carries the signal",
+                  "No polarity"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Build a habit: power off, wire, check, power on",
+              "text": "Do this every time. It is faster than replacing a part and it makes debugging much calmer."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the resistor's main job in an LED circuit?",
+              "options": [
+                "Make the LED brighter",
+                "Limit current so the LED and pin are not damaged",
+                "Store the program",
+                "Change the LED colour"
+              ],
+              "answer": 1,
+              "explanation": "The resistor controls the current. It protects both the LED and the microcontroller pin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Digital input and output",
+      "summary": "Buttons, LEDs, and the logic that turns an input into an action.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Blink: your first program",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Every microcontroller journey starts with a blinking light. It proves the toolchain works and gives you a visible result in under a minute."
+            },
+            {
+              "type": "p",
+              "text": "Arduino programs are called sketches. They have two required functions. `setup()` runs once at startup. `loop()` runs again and again until the board loses power or resets."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int LED_PIN = 8;\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(LED_PIN, HIGH);  // LED on\n  delay(500);                   // wait 500 ms\n  digitalWrite(LED_PIN, LOW);   // LED off\n  delay(500);                   // wait 500 ms\n}"
+            },
+            {
+              "type": "list",
+              "style": "number",
+              "items": [
+                "Install the Arduino IDE or open the Arduino Web Editor.",
+                "Select your board type and the correct USB port.",
+                "Paste or open the sketch, then press Upload.",
+                "Watch the LED blink once per second. The board is now running your code."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "What delay() does",
+              "text": "`delay(500)` pauses the program for 500 milliseconds. It is perfect for a first blink, but it also stops the board from doing anything else during that pause. Later you will learn timing without blocking the whole program."
+            },
+            {
+              "type": "h3",
+              "text": "If nothing happens"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Is the correct board and port selected?",
+                "Is the LED's long leg connected toward the resistor and signal pin?",
+                "Is the resistor in the same row as the LED leg, with no gap?",
+                "Try the built-in LED on pin 13 to separate code problems from wiring problems."
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "How many times does setup() run in a normal Arduino sketch?",
+              "options": [
+                "Once at startup",
+                "Every second",
+                "Only when a button is pressed",
+                "Continuously, like loop()"
+              ],
+              "answer": 0,
+              "explanation": "setup() runs once. loop() runs repeatedly after it."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Buttons, pull-ups, and debounce",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A button seems simple, but a floating input can behave unpredictably. A pull-up or pull-down resistor gives the pin a known state when the button is not pressed."
+            },
+            {
+              "type": "p",
+              "text": "If an input pin is connected to nothing, it can pick up electrical noise. That is called a floating input. A pull-up resistor connects the pin gently to 5V, so it reads HIGH by default. Pressing the button connects it to GND, so it reads LOW."
+            },
+            {
+              "type": "h",
+              "text": "The convenient built-in pull-up"
+            },
+            {
+              "type": "p",
+              "text": "Arduino boards have internal pull-up resistors. That means you can wire a button between a pin and GND, then enable `INPUT_PULLUP` in code. This is the simplest reliable button circuit."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int BUTTON_PIN = 2;\nconst int LED_PIN = 8;\n\nvoid setup() {\n  pinMode(BUTTON_PIN, INPUT_PULLUP);\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  int buttonState = digitalRead(BUTTON_PIN);\n  if (buttonState == LOW) {\n    digitalWrite(LED_PIN, HIGH);\n  } else {\n    digitalWrite(LED_PIN, LOW);\n  }\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Mechanical switches bounce",
+              "text": "When a physical button closes, the metal contacts can chatter for a few milliseconds. Your program may see several presses. Debouncing means ignoring new changes for a short time, usually 20-50ms."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "bool lastReading = HIGH;\nunsigned long lastChange = 0;\n\nvoid loop() {\n  bool reading = digitalRead(BUTTON_PIN);\n  if (reading != lastReading && millis() - lastChange > 40) {\n    lastChange = millis();\n    lastReading = reading;\n    if (reading == LOW) {\n      // One clean press\n    }\n  }\n}"
+            },
+            {
+              "type": "p",
+              "text": "Notice the use of `millis()` instead of `delay()`. `millis()` returns the number of milliseconds since the board started. Comparing times lets the board keep responding while it waits."
+            },
+            {
+              "type": "quiz",
+              "question": "With INPUT_PULLUP, what does an unpressed button normally read?",
+              "options": [
+                "HIGH",
+                "LOW",
+                "Randomly changing",
+                "It cannot be read"
+              ],
+              "answer": 0,
+              "explanation": "The pull-up holds the pin HIGH. Pressing the button connects it to GND and pulls it LOW."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Project: traffic light",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Combine three LEDs, timing, and a little structure to build a traffic light. The project teaches state sequencing without needing a button yet."
+            },
+            {
+              "type": "p",
+              "text": "A traffic light is a state machine: it is always in one state (red, red-and-amber, green, amber) and moves to the next after a set time. Writing the states out first makes the code easier to change."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "State",
+                "Red",
+                "Amber",
+                "Green",
+                "Duration"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "ON",
+                  "OFF",
+                  "OFF",
+                  "3 seconds"
+                ],
+                [
+                  "2",
+                  "ON",
+                  "ON",
+                  "OFF",
+                  "1 second"
+                ],
+                [
+                  "3",
+                  "OFF",
+                  "OFF",
+                  "ON",
+                  "4 seconds"
+                ],
+                [
+                  "4",
+                  "OFF",
+                  "ON",
+                  "OFF",
+                  "1 second"
+                ]
+              ]
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int RED = 8;\nconst int AMBER = 9;\nconst int GREEN = 10;\n\nvoid setup() {\n  pinMode(RED, OUTPUT);\n  pinMode(AMBER, OUTPUT);\n  pinMode(GREEN, OUTPUT);\n}\n\nvoid showState(int r, int a, int g) {\n  digitalWrite(RED, r);\n  digitalWrite(AMBER, a);\n  digitalWrite(GREEN, g);\n}\n\nvoid loop() {\n  showState(HIGH, LOW, LOW);\n  delay(3000);\n  showState(HIGH, HIGH, LOW);\n  delay(1000);\n  showState(LOW, LOW, HIGH);\n  delay(4000);\n  showState(LOW, HIGH, LOW);\n  delay(1000);\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Make it yours",
+              "text": "Add a pedestrian button. When pressed, finish the current green phase safely, then switch to red after a short delay. This is a small change in appearance but a big step in thinking about real systems."
+            },
+            {
+              "type": "quiz",
+              "question": "Why put the three output settings inside a function such as showState()?",
+              "options": [
+                "Functions make the board run faster",
+                "It avoids repeating the same three lines and makes the states easier to read",
+                "Functions are required before using delay()",
+                "It changes the pin voltage"
+              ],
+              "answer": 1,
+              "explanation": "The function gives a name to a repeated action. The code becomes easier to read, test, and change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "The analog world",
+      "summary": "Sensors, brightness, and values that are not simply on or off.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Reading changing voltages",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Digital pins see HIGH or LOW. Analog inputs see a range. That range is what lets a microcontroller measure light, temperature, position, and sound."
+            },
+            {
+              "type": "p",
+              "text": "On a typical Arduino Uno, `analogRead()` returns a number from 0 to 1023. It represents a voltage between 0V and 5V. The exact mapping depends on the board, so always check its reference voltage. A value of 512 is roughly halfway."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int SENSOR_PIN = A0;\n\nvoid setup() {\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int raw = analogRead(SENSOR_PIN);\n  float voltage = raw * (5.0 / 1023.0);\n  Serial.print(raw);\n  Serial.print(\" raw, \");\n  Serial.print(voltage, 2);\n  Serial.println(\" V\");\n  delay(250);\n}"
+            },
+            {
+              "type": "h",
+              "text": "Voltage dividers"
+            },
+            {
+              "type": "p",
+              "text": "Some sensors change their resistance instead of producing a voltage. A fixed resistor and the sensor form a voltage divider. As the sensor's resistance changes, the voltage at the middle point changes, and the analog pin reads it."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "5V ── [ sensor ] ──┬── A0\n                   │\n              [ fixed R ]\n                   │\n                  GND"
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Calibrate before you decide",
+              "text": "Record your sensor's raw values in its real environment. A 'dark' reading in a bright room may never occur in a dark cupboard. Thresholds based on real data are far more reliable than guesses."
+            },
+            {
+              "type": "quiz",
+              "question": "On a 5V, 10-bit analog input, what does a reading of 1023 represent?",
+              "options": [
+                "0V",
+                "About 2.5V",
+                "Close to 5V",
+                "A disconnected pin"
+              ],
+              "answer": 2,
+              "explanation": "The maximum raw value corresponds to the reference voltage, approximately 5V on this type of board."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "PWM and dimming",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A digital pin can only be fully on or fully off, yet an LED can appear dim. PWM switches the pin on and off very quickly, and your eye averages the result."
+            },
+            {
+              "type": "p",
+              "text": "PWM stands for pulse-width modulation. The percentage of time the signal is HIGH is called the duty cycle. At 10% duty cycle, the LED is on briefly and appears dim. At 90%, it appears bright. The switching is too fast to see."
+            },
+            {
+              "type": "p",
+              "text": "On Arduino, PWM pins are marked with a tilde (~). `analogWrite(pin, value)` accepts 0 to 255: 0 is always off, 255 is always on, and 127 is about half power."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int LED_PIN = 9;  // PWM-capable\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  for (int brightness = 0; brightness <= 255; brightness += 5) {\n    analogWrite(LED_PIN, brightness);\n    delay(20);\n  }\n  for (int brightness = 255; brightness >= 0; brightness -= 5) {\n    analogWrite(LED_PIN, brightness);\n    delay(20);\n  }\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "analogWrite is not true analog",
+              "text": "The pin still switches digitally. PWM only makes the average power adjustable. For audio or precise voltage generation, you may need a dedicated DAC or filter."
+            },
+            {
+              "type": "quiz",
+              "question": "What does analogWrite(pin, 127) do on a typical Arduino PWM pin?",
+              "options": [
+                "Sets exactly 1.27V",
+                "Turns the pin off",
+                "Produces roughly half duty cycle",
+                "Switches the pin to an input"
+              ],
+              "answer": 2,
+              "explanation": "127 is about half of the 0-255 range, so the pin is HIGH for roughly half of each PWM cycle."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Project: automatic night light",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build a light that turns on when the room gets dark. This project combines an analog sensor, a threshold, and a small amount of hysteresis to stop flickering."
+            },
+            {
+              "type": "p",
+              "text": "An LDR (light-dependent resistor) changes resistance with light. In a voltage divider with a fixed resistor, its changing resistance becomes a changing voltage at A0. You will decide a threshold from observed values, not from a random number."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Condition",
+                "Example raw reading",
+                "Action"
+              ],
+              "rows": [
+                [
+                  "Bright room",
+                  "200-450",
+                  "LED off"
+                ],
+                [
+                  "Dim room",
+                  "450-650",
+                  "No change yet"
+                ],
+                [
+                  "Dark room",
+                  "Above 700",
+                  "LED on"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "The gap between the on threshold and the off threshold is hysteresis. Without it, a reading hovering around 650 can switch the light on and off repeatedly."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int LDR_PIN = A0;\nconst int LED_PIN = 9;\nconst int ON_THRESHOLD = 700;\nconst int OFF_THRESHOLD = 620;\nbool lightOn = false;\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int light = analogRead(LDR_PIN);\n  if (!lightOn && light > ON_THRESHOLD) lightOn = true;\n  if (lightOn && light < OFF_THRESHOLD) lightOn = false;\n  digitalWrite(LED_PIN, lightOn ? HIGH : LOW);\n  Serial.println(light);\n  delay(100);\n}"
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Wire the divider",
+                  "text": "Connect the LDR between 5V and A0, and a 10k resistor between A0 and GND."
+                },
+                {
+                  "title": "Observe",
+                  "text": "Open the serial monitor and record values in bright light, shade, and darkness."
+                },
+                {
+                  "title": "Choose thresholds",
+                  "text": "Set ON_THRESHOLD clearly above OFF_THRESHOLD based on your recorded values."
+                },
+                {
+                  "title": "Test the edges",
+                  "text": "Move your hand slowly over the sensor. The LED should change once, not chatter."
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "Why use two thresholds instead of one?",
+              "options": [
+                "To make the sensor more expensive",
+                "To prevent rapid on/off switching around a single threshold",
+                "To increase the board's memory",
+                "Because analog pins require two values"
+              ],
+              "answer": 1,
+              "explanation": "Hysteresis adds a small dead band so small fluctuations do not cause the output to flicker."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Talking to devices",
+      "summary": "Serial debugging, sensor buses, and simple remote control.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Serial monitor: your first debugger",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "The serial monitor is a conversation between your board and your computer. It is the quickest way to see what the program is actually doing."
+            },
+            {
+              "type": "p",
+              "text": "Start serial communication in `setup()` with `Serial.begin(9600)`. The number is the baud rate, or speed. The serial monitor must use the same speed. Then print values with `Serial.print()` or `Serial.println()`."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "int counter = 0;\n\nvoid setup() {\n  Serial.begin(9600);\n  Serial.println(\"Board started\");\n}\n\nvoid loop() {\n  Serial.print(\"Loop \");\n  Serial.println(counter);\n  counter++;\n  delay(1000);\n}"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Serial.print()** writes text without a newline.",
+                "**Serial.println()** writes text and starts a new line.",
+                "**Serial.print(value, 2)** controls decimal places for a floating-point number.",
+                "**Serial.available()** tells you whether incoming text is waiting.",
+                "**Serial.read()** reads one incoming byte at a time."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "If the monitor shows nonsense",
+              "text": "The baud rates probably do not match. Set the monitor to the same number used in Serial.begin(), or change the code to match the monitor."
+            },
+            {
+              "type": "quiz",
+              "question": "What must match between Serial.begin() and the serial monitor?",
+              "options": [
+                "The USB cable colour",
+                "The baud rate",
+                "The board colour",
+                "The number of LEDs"
+              ],
+              "answer": 1,
+              "explanation": "Both sides must use the same communication speed, such as 9600 baud."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "I2C and SPI in plain language",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Sensors and displays often speak over shared buses. I2C and SPI are two common ways to connect several devices using only a few pins."
+            },
+            {
+              "type": "p",
+              "text": "A bus is a shared road. Devices take turns or use a select line so they do not all talk at once. You do not need to implement the protocol from scratch for most beginner projects; libraries handle the timing. You do need to know which pins to connect and how devices are addressed."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bus",
+                "Typical wires",
+                "Good for",
+                "Watch out for"
+              ],
+              "rows": [
+                [
+                  "I2C",
+                  "SDA, SCL, power, ground",
+                  "Many sensors, displays",
+                  "Each device needs a unique address"
+                ],
+                [
+                  "SPI",
+                  "MOSI, MISO, SCK, CS, power, ground",
+                  "Fast displays, SD cards",
+                  "More pins; each device needs a CS line"
+                ],
+                [
+                  "UART",
+                  "TX, RX, power, ground",
+                  "One-to-one communication",
+                  "TX and RX must cross"
+                ],
+                [
+                  "Analog",
+                  "Signal, power, ground",
+                  "Simple variable sensors",
+                  "Voltage range must match"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "I2C devices are usually addressed in hexadecimal, such as `0x76` for a common pressure sensor. If two devices share the same address, they cannot both work on the same bus without an address changer or a second bus. The scanner example that comes with many Arduino setups can help you discover addresses."
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Power first, logic second",
+              "text": "Check whether a module is 5V-tolerant or 3.3V-only. Many sensors use 3.3V logic even if they accept 5V power. A level shifter may be needed."
+            },
+            {
+              "type": "quiz",
+              "question": "Which bus uses a separate chip-select line for each device?",
+              "options": [
+                "I2C",
+                "SPI",
+                "Analog input",
+                "USB"
+              ],
+              "answer": 1,
+              "explanation": "SPI uses a chip-select (CS) line to choose which device should listen to the shared clock and data lines."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Remote control over serial",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Your serial connection can do more than print. You can type commands and let the board respond. That is the foundation of many configuration menus and remote controls."
+            },
+            {
+              "type": "p",
+              "text": "Incoming characters arrive one at a time. You can build a line until you see a newline, then act on the whole command. This is much easier than trying to interpret every character immediately."
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "String command = \"\";\n\nvoid setup() {\n  Serial.begin(9600);\n  Serial.println(\"Type: on, off, or status\");\n}\n\nvoid loop() {\n  while (Serial.available()) {\n    char c = Serial.read();\n    if (c == '\\n' || c == '\\r') {\n      command.trim();\n      if (command == \"on\") {\n        digitalWrite(LED_BUILTIN, HIGH);\n      } else if (command == \"off\") {\n        digitalWrite(LED_BUILTIN, LOW);\n      } else if (command == \"status\") {\n        Serial.println(digitalRead(LED_BUILTIN) ? \"on\" : \"off\");\n      }\n      command = \"\";\n    } else {\n      command += c;\n    }\n  }\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "String has limits",
+              "text": "The String class is convenient for small projects. On memory-constrained boards, repeated String concatenation can fragment memory. For larger projects, use a fixed-size character array or a line-buffer library."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Define a command language",
+                  "text": "Keep commands short and predictable: on, off, status."
+                },
+                {
+                  "title": "Build complete lines",
+                  "text": "Wait for a newline before acting. This avoids acting halfway through a word."
+                },
+                {
+                  "title": "Reply clearly",
+                  "text": "Print a short confirmation or the current state. Good replies make debugging much easier."
+                },
+                {
+                  "title": "Handle the unknown",
+                  "text": "Print a helpful message for unrecognised commands instead of silently ignoring them."
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "Why wait for a newline before handling a serial command?",
+              "options": [
+                "It makes the LED brighter",
+                "It ensures the whole command has arrived before the program acts",
+                "It reduces the board voltage",
+                "It changes the baud rate"
+              ],
+              "answer": 1,
+              "explanation": "Characters arrive individually. Waiting for a line ending lets you process a complete command."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Build, debug, and ship",
+      "summary": "The habits that turn a circuit that barely works into a project you trust.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Reading pin maps and datasheets",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A datasheet is not a novel. It is a reference manual. Learn to find the five or six facts you need and ignore the rest until they matter."
+            },
+            {
+              "type": "p",
+              "text": "Start with the absolute maximum ratings, recommended operating conditions, pin descriptions, and a typical application circuit. Those sections answer most beginner questions about power, polarity, and wiring."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Supply voltage range:** can the part run from 3.3V, 5V, or both?",
+                "**Logic level:** will its signal pins tolerate your board's output voltage?",
+                "**Pinout:** which pin is power, ground, and which are signal?",
+                "**Current draw:** is the sensor within the board's regulator limits?",
+                "**Communication interface:** analog, I2C, SPI, UART, or something else?",
+                "**Address or mode pins:** do any need to be tied high or low?"
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Document part",
+                "Question it answers"
+              ],
+              "rows": [
+                [
+                  "Absolute maximum ratings",
+                  "What will damage the part?"
+                ],
+                [
+                  "Recommended operating conditions",
+                  "What range should I actually use?"
+                ],
+                [
+                  "Pin configuration",
+                  "Where does each wire go?"
+                ],
+                [
+                  "Typical application",
+                  "What does a known-good circuit look like?"
+                ],
+                [
+                  "Electrical characteristics",
+                  "How much current, and at what voltage?"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "The board's 5V pin is not unlimited",
+              "text": "The regulator and USB port have current limits. Motors, servos, and LED strips should usually have their own power supply, with grounds connected together."
+            },
+            {
+              "type": "quiz",
+              "question": "Which datasheet section tells you whether a sensor's signal pin is safe with a 5V board?",
+              "options": [
+                "The marketing title",
+                "The absolute maximum ratings and logic-level specifications",
+                "The page count",
+                "The barcode"
+              ],
+              "answer": 1,
+              "explanation": "These sections define the voltages the part can tolerate and the levels it considers high or low."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "A repeatable debugging method",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Debugging is not guessing. It is narrowing the space between 'what I expected' and 'what is actually happening'."
+            },
+            {
+              "type": "p",
+              "text": "When a circuit fails, divide the problem into layers: power, wiring, input, code, output. Test one layer at a time with the simplest possible evidence. A multimeter and a few serial prints can answer most beginner questions."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Describe the actual behaviour",
+                  "text": "Not 'it is broken'. Say 'the LED stays off when I press the button and the serial monitor prints 1'."
+                },
+                {
+                  "title": "Check power and ground",
+                  "text": "Measure the voltage at the board's 5V and GND pins. Confirm the ground is shared with the sensor."
+                },
+                {
+                  "title": "Reduce the circuit",
+                  "text": "Disconnect everything except the minimum needed to test the failing part. Add pieces back one at a time."
+                },
+                {
+                  "title": "Test the input",
+                  "text": "Print the raw sensor or button value. If the input is wrong, the output logic cannot be right."
+                },
+                {
+                  "title": "Test the output",
+                  "text": "Use the built-in LED or a known-good pin to prove your code can switch an output."
+                },
+                {
+                  "title": "Change one thing",
+                  "text": "After each change, test again. Several simultaneous changes make the result impossible to interpret."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Symptom",
+                "Likely checks"
+              ],
+              "rows": [
+                [
+                  "Board not recognised",
+                  "USB cable, port selection, driver, board type"
+                ],
+                [
+                  "Upload fails",
+                  "Port in use by another app, wrong board, loose cable"
+                ],
+                [
+                  "LED never lights",
+                  "Polarity, resistor placement, pin number, code"
+                ],
+                [
+                  "Button unpredictable",
+                  "Floating input, missing ground, bouncing"
+                ],
+                [
+                  "Sensor values stuck",
+                  "Power, shared ground, wrong analog pin, wiring"
+                ],
+                [
+                  "Board resets when motor starts",
+                  "Power draw, missing separate supply, voltage sag"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Keep a tiny test sketch",
+              "text": "A sketch that prints a pin state every half-second is often more useful than an entire project. Make the smallest test that can prove or disprove your hypothesis."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Capstone: plant monitor",
+          "minutes": 40,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build a small plant monitor that reads soil moisture, shows a status light, and reports values over serial. This is your chance to combine sensing, decisions, outputs, and debugging."
+            },
+            {
+              "type": "p",
+              "text": "A resistive soil-moisture sensor changes its output as the soil dries. The exact numbers vary with the sensor, soil, and power supply, so calibrate in your own pot. Do not treat online thresholds as universal."
+            },
+            {
+              "type": "h",
+              "text": "Project brief"
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Read the moisture sensor on an analog pin once every two seconds.",
+                "Print a timestamp, raw value, and status over serial.",
+                "Light a green LED when the soil is comfortably moist.",
+                "Light an amber LED when it is getting dry, and a red LED when it is dry.",
+                "Add a small buzzer or a message for the dry state.",
+                "Add calibration constants at the top of the sketch and explain them in comments."
+              ]
+            },
+            {
+              "type": "code",
+              "language": "cpp",
+              "code": "const int SOIL_PIN = A0;\nconst int GREEN = 8;\nconst int AMBER = 9;\nconst int RED = 10;\nconst int DRY_THRESHOLD = 700;\nconst int WET_THRESHOLD = 420;\n\nvoid setup() {\n  Serial.begin(9600);\n  pinMode(GREEN, OUTPUT);\n  pinMode(AMBER, OUTPUT);\n  pinMode(RED, OUTPUT);\n}\n\nvoid loop() {\n  int soil = analogRead(SOIL_PIN);\n  digitalWrite(GREEN, soil < WET_THRESHOLD);\n  digitalWrite(AMBER, soil >= WET_THRESHOLD && soil < DRY_THRESHOLD);\n  digitalWrite(RED, soil >= DRY_THRESHOLD);\n\n  Serial.print(millis() / 1000);\n  Serial.print(\"s, soil=\");\n  Serial.print(soil);\n  Serial.print(\", status=\");\n  Serial.println(soil < WET_THRESHOLD ? \"moist\" : soil < DRY_THRESHOLD ? \"watch\" : \"dry\");\n  delay(2000);\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Extension ideas",
+              "text": "Add a push button to trigger a manual reading, log values to an SD card, or send a notification through a Wi-Fi module. Each extension should be built and tested separately."
+            },
+            {
+              "type": "h3",
+              "text": "What to submit in your own notes"
+            },
+            {
+              "type": "list",
+              "style": "number",
+              "items": [
+                "A labelled wiring diagram or clear photo of the circuit.",
+                "Your calibration readings and the thresholds you chose.",
+                "The working sketch with comments explaining each block.",
+                "Three things that went wrong and how you narrowed them down."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Finished does not mean perfect",
+              "text": "A good project is understandable, testable, and easy for you to change next week. That matters more than hiding every wire."
+            },
+            {
+              "type": "quiz",
+              "question": "Why calibrate a soil sensor in your own pot?",
+              "options": [
+                "Because the sensor changes colour",
+                "Because raw readings depend on the sensor, soil, and power conditions",
+                "Because calibration increases the board's voltage",
+                "Because serial output requires it"
+              ],
+              "answer": 1,
+              "explanation": "Sensor output varies between setups. Calibration turns a generic device into a measurement you can trust in your environment."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Circuit Starter assessment",
+    "intro": "Answer all eight questions. You need 80% to pass and unlock the Circuit Starter badge and certificate. You can retake the assessment if you need to.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the main role of a microcontroller?",
+        "options": [
+          "Run a full desktop operating system",
+          "Perform a dedicated sensing-and-control job",
+          "Store a family photo library",
+          "Replace a computer monitor"
+        ],
+        "answer": 1,
+        "explanation": "Microcontrollers are designed for focused, repeated tasks such as reading sensors and controlling outputs."
+      },
+      {
+        "question": "What does a 220 ohm resistor do in a simple LED circuit?",
+        "options": [
+          "Limits current",
+          "Stores program code",
+          "Increases the supply voltage",
+          "Changes the LED colour"
+        ],
+        "answer": 0,
+        "explanation": "The resistor protects the LED and microcontroller pin by limiting current."
+      },
+      {
+        "question": "Which section of setup() runs once at startup?",
+        "options": [
+          "setup()",
+          "loop()",
+          "digitalRead()",
+          "delay()"
+        ],
+        "answer": 0,
+        "explanation": "setup() runs once; loop() runs repeatedly."
+      },
+      {
+        "question": "With INPUT_PULLUP, what does an unpressed button usually read?",
+        "options": [
+          "LOW",
+          "HIGH",
+          "0V always",
+          "Undefined"
+        ],
+        "answer": 1,
+        "explanation": "The internal pull-up holds the input HIGH until the button pulls it to GND."
+      },
+      {
+        "question": "Which Arduino function reads a changing analog voltage?",
+        "options": [
+          "digitalWrite()",
+          "analogRead()",
+          "pinMode()",
+          "Serial.println()"
+        ],
+        "answer": 1,
+        "explanation": "analogRead() returns a number representing the voltage on an analog input."
+      },
+      {
+        "question": "What is hysteresis used for in the night-light project?",
+        "options": [
+          "Making the LED brighter",
+          "Preventing flicker around a threshold",
+          "Increasing baud rate",
+          "Changing the board's clock speed"
+        ],
+        "answer": 1,
+        "explanation": "Hysteresis uses separate on and off thresholds to avoid rapid switching."
+      },
+      {
+        "question": "Why should a motor often have its own power supply?",
+        "options": [
+          "Motors only work with USB",
+          "Motors can draw more current than the board can safely supply",
+          "Motors require analog pins",
+          "Motors cannot share a ground"
+        ],
+        "answer": 1,
+        "explanation": "Motor current can exceed the board's regulator capacity and cause resets or damage."
+      },
+      {
+        "question": "What is the best first step when a circuit does not work?",
+        "options": [
+          "Replace every part",
+          "Change all the code at once",
+          "Describe the actual behaviour and isolate the failing layer",
+          "Buy a new computer"
+        ],
+        "answer": 2,
+        "explanation": "Careful observation narrows the problem. Test power, wiring, input, code, and output one layer at a time."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

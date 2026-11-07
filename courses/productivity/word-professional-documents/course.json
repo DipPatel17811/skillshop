@@ -1,0 +1,1153 @@
+{
+  "id": "word-professional-documents",
+  "title": "Word Professional Documents",
+  "topic": "Productivity",
+  "topicSlug": "productivity",
+  "level": "Beginner",
+  "duration": "4h 45m",
+  "description": "Create reports, proposals, and templates that look intentional. Use styles, sections, tables, references, and review tools like a professional.",
+  "icon": "document",
+  "color": "#3F72C8",
+  "accent": "#E2EDFF",
+  "badge": {
+    "name": "Document Architect",
+    "icon": "document",
+    "description": "Awarded for completing Word Professional Documents and its final assessment."
+  },
+  "skills": [
+    "Styles",
+    "Page layout",
+    "Tables",
+    "Track changes"
+  ],
+  "outcomes": [
+    "Structure long documents with headings and styles",
+    "Control page size, margins, sections, headers, and footers",
+    "Build clean tables and captions that stay together",
+    "Create a navigation pane and automatic table of contents",
+    "Collaborate with comments and tracked changes",
+    "Produce a polished proposal from a reusable template"
+  ],
+  "prerequisites": [
+    "Microsoft Word 2016 or newer, or Microsoft 365",
+    "A document you can edit or a blank file",
+    "No prior Word formatting experience required"
+  ],
+  "tools": [
+    "Microsoft Word",
+    "A sample report or proposal",
+    "Optional: a PDF reader for checking the exported document"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Foundations",
+      "summary": "The workspace, the views, and the habits that keep files safe.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "The Word workspace",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Word looks simple because the page is in the middle. The power lives in the tools around it: the ribbon, the navigation pane, the status bar, and the styles gallery."
+            },
+            {
+              "type": "p",
+              "text": "The ribbon groups commands by task: Home, Insert, Design, Layout, References, Review, and View. The Home tab is where you format text, the Insert tab adds objects, and References creates tables of contents and citations. Do not hunt through every tab; learn where the common groups live."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Area",
+                "What it does",
+                "Use it for"
+              ],
+              "rows": [
+                [
+                  "Ribbon",
+                  "Commands grouped by task",
+                  "Formatting, inserting, reviewing"
+                ],
+                [
+                  "Style gallery",
+                  "Reusable text formatting",
+                  "Headings, body text, captions"
+                ],
+                [
+                  "Navigation pane",
+                  "Outline and search",
+                  "Moving around long documents"
+                ],
+                [
+                  "Status bar",
+                  "Page count, word count, zoom",
+                  "Orientation and quick checks"
+                ],
+                [
+                  "Ruler",
+                  "Margins and indents",
+                  "Precise paragraph layout"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Turn on the Navigation pane early",
+              "text": "View > Navigation Pane shows headings when you use built-in heading styles. It is the fastest way to move around a long document and to spot missing structure."
+            },
+            {
+              "type": "quiz",
+              "question": "Which feature helps you move between headings in a long document?",
+              "options": [
+                "The Navigation pane",
+                "The status bar zoom slider",
+                "The spell-check dialog",
+                "The font colour menu"
+              ],
+              "answer": 0,
+              "explanation": "The Navigation pane lists heading styles and lets you jump between sections."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "Text, paragraphs, and the invisible layer",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Most formatting problems in Word begin with invisible characters. Turning on formatting marks shows where paragraphs, spaces, tabs, and section breaks actually are."
+            },
+            {
+              "type": "p",
+              "text": "Press `Ctrl + *` or click the paragraph mark on the Home tab to show formatting marks. A pilcrow (¶) ends a paragraph. A small arrow is a tab, a dot is a space, and a dotted line may mark a page or section break."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Press Enter to start a new paragraph; do not use empty paragraphs to create page breaks.",
+                "Use `Ctrl + Enter` for a deliberate page break.",
+                "Use paragraph spacing rather than multiple blank lines between paragraphs.",
+                "Use tabs or table columns, not a string of spaces, to align text.",
+                "Use `Ctrl + Shift + 8` to toggle formatting marks when troubleshooting."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Empty paragraphs are a trap",
+              "text": "They look harmless until content moves. A heading then pushes the next page, and your carefully spaced document falls apart. Use paragraph spacing and section breaks instead."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the cleanest way to create space between paragraphs?",
+              "options": [
+                "Press Enter several times",
+                "Use paragraph spacing before or after",
+                "Add spaces at the end of the line",
+                "Insert a text box"
+              ],
+              "answer": 1,
+              "explanation": "Paragraph spacing is part of the paragraph style and survives edits and reflowing."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Save, versions, and export",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A professional document is not just well formatted. It is saved in the right format, named clearly, and recoverable if something goes wrong."
+            },
+            {
+              "type": "p",
+              "text": "Save editable work as `.docx`. Export a finished copy as PDF when the layout must be fixed for sharing or printing. Keep the source file so the document can still be edited later."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Name the file for humans",
+                  "text": "Use a name that includes the document type, client or project, and date: `Proposal_Northwind_2026-11.docx`."
+                },
+                {
+                  "title": "Save to a known location",
+                  "text": "Use OneDrive, SharePoint, or a clear folder structure. Do not rely on Downloads."
+                },
+                {
+                  "title": "Turn on AutoSave when available",
+                  "text": "Microsoft 365 can save continuously to OneDrive. If it is unavailable, use Ctrl + S often."
+                },
+                {
+                  "title": "Export a PDF for sharing",
+                  "text": "File > Export > Create PDF/XPS. Check the exported file, especially page breaks and embedded fonts."
+                },
+                {
+                  "title": "Keep the editable source",
+                  "text": "The PDF is a snapshot. The `.docx` is the working document."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Version before big changes",
+              "text": "Save a copy with 'v2' or a date before a major rewrite. It is faster than trying to undo a chain of edits later."
+            },
+            {
+              "type": "quiz",
+              "question": "Which format is best for sharing a finished document whose layout must not change?",
+              "options": [
+                ".docx",
+                ".pdf",
+                ".txt",
+                ".csv"
+              ],
+              "answer": 1,
+              "explanation": "PDF preserves the intended layout across devices, while .docx remains the editable source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Styles and structure",
+      "summary": "Let Word do the formatting work, consistently.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Styles are your formatting system",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A style is a named bundle of formatting. Apply Heading 1 to a chapter title once and every chapter title can look the same."
+            },
+            {
+              "type": "p",
+              "text": "Do not format each heading manually with a bigger font and bold. Use the built-in Heading 1, Heading 2, and Normal styles. The Navigation pane, automatic table of contents, and accessibility tools all understand those styles."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Style",
+                "Use",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "Normal",
+                  "Body paragraphs",
+                  "Keeps line spacing and font consistent"
+                ],
+                [
+                  "Heading 1",
+                  "Chapter or major section",
+                  "Navigation, TOC, outline"
+                ],
+                [
+                  "Heading 2",
+                  "Subsection",
+                  "Nested structure"
+                ],
+                [
+                  "Caption",
+                  "Figure and table labels",
+                  "Consistent numbering and cross-references"
+                ],
+                [
+                  "Quote",
+                  "Long quotations",
+                  "Distinct but readable"
+                ]
+              ]
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Apply the built-in style",
+                  "text": "Place the cursor in the heading and click Heading 1, or use Ctrl + Alt + 1."
+                },
+                {
+                  "title": "Modify once",
+                  "text": "Right-click the style in the gallery and choose Modify to change its font, colour, and spacing."
+                },
+                {
+                  "title": "Update to match",
+                  "text": "After changing a style, all text using that style updates."
+                },
+                {
+                  "title": "Keep styles clean",
+                  "text": "Avoid manual bold and size changes on top of a heading. They hide the structure."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Direct formatting wins over styles",
+              "text": "If you use the Bold button on a heading, that direct formatting stays even if you change the heading style. Use the style itself to make the change everywhere."
+            },
+            {
+              "type": "quiz",
+              "question": "Why use Heading 1 instead of manually making text large and bold?",
+              "options": [
+                "It looks more colourful",
+                "It creates real document structure used by navigation and the TOC",
+                "It makes the file smaller",
+                "It disables editing"
+              ],
+              "answer": 1,
+              "explanation": "Built-in headings carry semantic structure, not just appearance."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Headings, navigation, and the outline",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A long document is a map. Headings are the landmarks; the Navigation pane is the map viewer."
+            },
+            {
+              "type": "p",
+              "text": "Use Heading 1 for major sections, Heading 2 for subsections, and Heading 3 only when the content genuinely needs another level. A clear outline is easier to write, easier to review, and easier for readers to scan."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Aim for a logical outline before perfecting formatting.",
+                "Do not skip levels just because a heading looks the right size; change the style if needed.",
+                "Use the Navigation pane to drag sections into a better order.",
+                "Keep heading text short and descriptive.",
+                "Use the outline view for structural work without visual distractions."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Write the outline first",
+              "text": "Create the headings and a sentence under each one before writing paragraphs. It reveals gaps in the argument while changes are still cheap."
+            },
+            {
+              "type": "quiz",
+              "question": "What does the Navigation pane use to show a document outline?",
+              "options": [
+                "Manual text boxes",
+                "Heading styles",
+                "Page numbers",
+                "Comments"
+              ],
+              "answer": 1,
+              "explanation": "Headings applied with built-in styles appear in the Navigation pane."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Automatic table of contents",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "An automatic table of contents is a field, not a list typed by hand. It updates as headings move, which is exactly when a manual TOC becomes wrong."
+            },
+            {
+              "type": "p",
+              "text": "Place the cursor where the contents should go, then choose References > Table of Contents and pick a style. Word builds the entries from heading styles. If a heading is missing, check that it uses Heading 1-3."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Apply heading styles",
+                  "text": "Every section and subsection should use a heading style."
+                },
+                {
+                  "title": "Insert the TOC",
+                  "text": "References > Table of Contents > Automatic Table."
+                },
+                {
+                  "title": "Update after edits",
+                  "text": "Click the TOC and choose Update Table, or press F9."
+                },
+                {
+                  "title": "Update page numbers only or the whole table",
+                  "text": "Choose the whole table when headings changed; page numbers only when just pagination moved."
+                },
+                {
+                  "title": "Check the entries",
+                  "text": "Ensure no stray heading appears and the page numbers match the printed document."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "The TOC is only as good as the headings",
+              "text": "If you styled headings manually, the TOC cannot see them. Fix the structure first, then regenerate the field."
+            },
+            {
+              "type": "quiz",
+              "question": "What should you do after adding or renaming a section?",
+              "options": [
+                "Retype the TOC manually",
+                "Update the TOC field",
+                "Delete the TOC",
+                "Print the document twice"
+              ],
+              "answer": 1,
+              "explanation": "An automatic TOC must be updated to reflect current headings and page numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Layout, sections, and tables",
+      "summary": "Control pages, headers, and the objects that carry information.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Page setup, sections, and headers",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A section break is a dividing line in document behaviour. It lets one part of a document have different margins, orientation, headers, or page numbering from another."
+            },
+            {
+              "type": "p",
+              "text": "A page break simply moves content to the next page. A section break starts a new section, which can have its own layout. Use section breaks for a landscape appendix, a cover page with no header, or a new chapter that restarts page numbering."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Break",
+                "Effect",
+                "Use for"
+              ],
+              "rows": [
+                [
+                  "Page break",
+                  "New page, same section",
+                  "Starting a new page in a report"
+                ],
+                [
+                  "Next Page section break",
+                  "New page, new section",
+                  "New chapter or landscape appendix"
+                ],
+                [
+                  "Continuous section break",
+                  "New section on same page",
+                  "Changing columns mid-page"
+                ],
+                [
+                  "Column break",
+                  "New column in same section",
+                  "Balancing newsletter columns"
+                ]
+              ]
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Open the header",
+                  "text": "Insert > Header or double-click the top margin."
+                },
+                {
+                  "title": "Unlink from previous",
+                  "text": "For a section with a different header, turn off Link to Previous before editing."
+                },
+                {
+                  "title": "Add fields",
+                  "text": "Insert page number, document title, or date through the Header & Footer tools."
+                },
+                {
+                  "title": "Check each section",
+                  "text": "Scroll through the document and confirm the header, footer, and numbering behave as intended."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Headers can change without warning",
+              "text": "If a header unexpectedly disappears, check whether the section is linked to the previous one. Unlink it before making changes."
+            },
+            {
+              "type": "quiz",
+              "question": "Which break allows a single document to have a landscape page in the middle?",
+              "options": [
+                "Page break",
+                "Section break",
+                "Line break",
+                "Column break"
+              ],
+              "answer": 1,
+              "explanation": "A new section can have its own orientation, margins, and page setup."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Tables that behave",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A Word table is a layout tool, not a spreadsheet. It is excellent for aligned information, but formulas and large datasets belong in Excel."
+            },
+            {
+              "type": "p",
+              "text": "Insert a table with a defined number of columns, not with spaces or tabs. Use table styles for consistent shading and borders, then adjust only what you need. Set the header row to repeat across pages, and prevent rows from splitting awkwardly across a page break."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Use a header row and repeat it on every page.",
+                "Keep columns wide enough for the longest realistic value.",
+                "Avoid merging cells inside a data table.",
+                "Use Table Properties > Row > Allow row to break across pages only when needed.",
+                "Add a caption above or below the table and reference it in the text.",
+                "Do not use a table as a page layout hack; use columns and margins."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Repeat header rows",
+              "text": "Select the header row, open Table Properties > Row, and tick Repeat as header row at the top of each page. This is essential for long tables."
+            },
+            {
+              "type": "quiz",
+              "question": "Where should large numerical datasets normally live?",
+              "options": [
+                "In a Word table",
+                "In Excel, with a summary in Word",
+                "In a header",
+                "In a comment"
+              ],
+              "answer": 1,
+              "explanation": "Excel is designed for calculations and large data. Word is better for presenting the result."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Images, captions, and alignment",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Images should support the argument and stay attached to their captions. The difference between a polished report and a frustrating one is often object placement."
+            },
+            {
+              "type": "p",
+              "text": "Use In Line with Text for images that should flow with the document. Use a fixed position only when a floating layout is essential, and check it on every page. Add a caption with References > Insert Caption so figures can be numbered and cross-referenced."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Placement",
+                "Behaviour",
+                "Best for"
+              ],
+              "rows": [
+                [
+                  "In line with text",
+                  "Moves with the paragraph",
+                  "Reports, proposals, documents that will be edited"
+                ],
+                [
+                  "Square / tight wrap",
+                  "Text flows around image",
+                  "Newsletters and marketing pages"
+                ],
+                [
+                  "Fixed position",
+                  "Stays at a page location",
+                  "Specific layout requirements"
+                ],
+                [
+                  "Behind text",
+                  "Acts as a background",
+                  "Cover pages, with caution"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Floating images can wander",
+              "text": "If a floating image jumps to another page after edits, right-click it, check the layout options, and consider anchoring it to a paragraph or converting it to in-line."
+            },
+            {
+              "type": "quiz",
+              "question": "Which image placement is usually safest in a document that will be edited?",
+              "options": [
+                "Behind text",
+                "In line with text",
+                "Fixed on page",
+                "Floating with no anchor"
+              ],
+              "answer": 1,
+              "explanation": "In-line images move predictably with the surrounding text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Review, refine, collaborate",
+      "summary": "Make documents accurate, accessible, and easy to review together.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Track changes and comments",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Track Changes turns editing into a visible conversation. It is essential when someone else needs to see what changed and why."
+            },
+            {
+              "type": "p",
+              "text": "Turn it on in Review > Track Changes. Insertions and deletions are attributed to you. Comments can discuss a choice without changing the text. Use both tools for their intended purpose: tracked changes for edits, comments for questions and context."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Turn on Track Changes",
+                  "text": "Review > Track Changes. Confirm the status indicator is active."
+                },
+                {
+                  "title": "Edit normally",
+                  "text": "Every insertion and deletion appears as a revision."
+                },
+                {
+                  "title": "Comment on decisions",
+                  "text": "Select the relevant text and choose New Comment. Ask a clear question."
+                },
+                {
+                  "title": "Review with context",
+                  "text": "Use Reviewing Pane or the markup view to see all changes."
+                },
+                {
+                  "title": "Accept or reject deliberately",
+                  "text": "Accept All is not a review. Read each change that matters."
+                },
+                {
+                  "title": "Turn it off before final formatting",
+                  "text": "Otherwise your final clean-up edits become new tracked changes."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Tracked changes can hide in a PDF",
+              "text": "Before sharing, decide whether to show markup or accept it. Review > Display for Review controls what the reader sees, and File > Inspect Document can find leftover metadata."
+            },
+            {
+              "type": "quiz",
+              "question": "When should Track Changes typically be turned off?",
+              "options": [
+                "Before writing the first draft",
+                "Before final formatting and clean-up",
+                "Only when printing",
+                "Never"
+              ],
+              "answer": 1,
+              "explanation": "Turning it off for final clean-up prevents every formatting adjustment from becoming a tracked revision."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Find, replace, and proofing",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Find and Replace is a precision tool. Used carefully, it can fix repeated errors in seconds. Used carelessly, it can change every 'form' to 'from' in a legal document."
+            },
+            {
+              "type": "p",
+              "text": "Use `Ctrl + H`, search for a distinctive phrase, and choose Replace or Find Next. For repeated formatting changes, use Replace Format. For pattern-based work, explore wildcards, but preview the matches first."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Search for whole words to avoid changing substrings.",
+                "Use Find All to see how many matches exist before replacing.",
+                "Use Replace Format to update a font or paragraph setting consistently.",
+                "Check headers, footers, text boxes, and footnotes separately.",
+                "Run Editor or the spell checker after structural changes."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "The two-pass proof",
+              "text": "First pass for structure and meaning; second pass for spelling, spacing, and consistency. Reading backwards can help you notice typos that your brain auto-corrects."
+            },
+            {
+              "type": "quiz",
+              "question": "What is the safest first step before Replace All?",
+              "options": [
+                "Click Replace All immediately",
+                "Use Find All to preview the matches",
+                "Delete the document",
+                "Turn off spell check"
+              ],
+              "answer": 1,
+              "explanation": "Previewing matches prevents unintended global changes."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Accessibility and a clean handover",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A document that nobody can navigate is not finished. Accessibility checks catch structural problems before they reach the reader."
+            },
+            {
+              "type": "p",
+              "text": "Use real headings, alt text for meaningful images, readable table headers, and descriptive link text. A link called 'Click here' tells a screen-reader user nothing; 'Download the 2026 safety policy' does."
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Use built-in heading styles rather than visual imitation.",
+                "Add alt text to images that carry meaning; mark decorative images as decorative.",
+                "Use table header rows and avoid merged cells in data tables.",
+                "Do not rely on colour alone to convey meaning.",
+                "Use descriptive hyperlink text.",
+                "Check the document with Word's accessibility checker.",
+                "Remove leftover comments and tracked changes before final delivery.",
+                "Run Inspect Document if the file will be shared externally."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "The accessibility checker is a starting point",
+              "text": "It can catch missing alt text and heading issues, not whether the writing is clear. Read the document as a first-time reader would."
+            },
+            {
+              "type": "quiz",
+              "question": "Which hyperlink text is most accessible?",
+              "options": [
+                "Click here",
+                "Read more",
+                "Download the 2026 safety policy (PDF)",
+                "Link"
+              ],
+              "answer": 2,
+              "explanation": "Descriptive link text explains the destination out of context."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Capstone: a polished proposal",
+      "summary": "Plan, build, review, and hand over a professional document.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Plan the proposal",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A proposal is an argument with a practical outcome. Before formatting, decide who reads it, what they need to decide, and what evidence they need."
+            },
+            {
+              "type": "p",
+              "text": "Use a simple structure: context, problem, proposed approach, scope, timeline, cost, risks, and next step. Not every proposal needs every section, but the reader should never have to search for the ask."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Section",
+                "Reader question",
+                "Keep it"
+              ],
+              "rows": [
+                [
+                  "Summary",
+                  "What is this and why now?",
+                  "Short; decision-focused"
+                ],
+                [
+                  "Context",
+                  "What is the situation?",
+                  "Only relevant background"
+                ],
+                [
+                  "Approach",
+                  "What will you do?",
+                  "Specific enough to assess"
+                ],
+                [
+                  "Timeline",
+                  "When will it happen?",
+                  "Milestones, not a daily plan"
+                ],
+                [
+                  "Cost",
+                  "What does it take?",
+                  "Transparent assumptions"
+                ],
+                [
+                  "Risks",
+                  "What could go wrong?",
+                  "Mitigations, not disclaimers"
+                ],
+                [
+                  "Next step",
+                  "What do I need to do?",
+                  "One clear action"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Write the summary last, place it first",
+              "text": "The executive summary is easier to write after the argument is complete, even though the reader sees it first."
+            },
+            {
+              "type": "quiz",
+              "question": "What should an executive summary focus on?",
+              "options": [
+                "Every detail in the proposal",
+                "The decision, rationale, and next step",
+                "The author's biography",
+                "A list of fonts"
+              ],
+              "answer": 1,
+              "explanation": "A summary should let a busy reader understand the proposal and what happens next."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Build the document",
+          "minutes": 30,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build the proposal with styles and sections from the start. Retrofitting structure onto a manually formatted document is unnecessary work."
+            },
+            {
+              "type": "p",
+              "text": "Create a cover page in its own section, a table of contents, body headings, a table for the timeline, and a short appendix. Use page numbers and a footer. Check that the header does not appear on the cover if you do not want it there."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Set page size and margins",
+                  "text": "Use the intended paper size and a margin that leaves room for binding if needed."
+                },
+                {
+                  "title": "Create the cover section",
+                  "text": "Insert a Next Page section break after the cover."
+                },
+                {
+                  "title": "Apply heading styles",
+                  "text": "Heading 1 for major sections, Heading 2 for subsections."
+                },
+                {
+                  "title": "Insert the TOC",
+                  "text": "Place it after the cover and before the body."
+                },
+                {
+                  "title": "Add tables and captions",
+                  "text": "Use repeat header rows for long tables and a consistent caption style."
+                },
+                {
+                  "title": "Add page numbers and footer",
+                  "text": "Decide whether numbering restarts after the cover."
+                },
+                {
+                  "title": "Run the checks",
+                  "text": "Update the TOC, check page breaks, proof, accessibility, and exported PDF."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Make it reusable",
+              "text": "Once the structure is polished, save a copy as a template (.dotx). Replace the content but keep the styles and page setup. That is how a team gets consistent documents without rebuilding them."
+            },
+            {
+              "type": "quiz",
+              "question": "Why build a reusable template from a good document?",
+              "options": [
+                "To make every document identical in content",
+                "To preserve styles and layout while replacing content",
+                "To stop others editing",
+                "To reduce page count"
+              ],
+              "answer": 1,
+              "explanation": "A template standardises structure and design while keeping the content flexible."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Review and hand over",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "The last ten percent is where a document becomes trustworthy. Check the logic, the numbers, the structure, and the reader experience."
+            },
+            {
+              "type": "p",
+              "text": "Review in passes. First for argument and completeness. Then for structure and formatting. Then for language and consistency. Then for accessibility and export. Trying to do all four at once slows you down and misses things."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pass",
+                "Look for",
+                "Tool"
+              ],
+              "rows": [
+                [
+                  "Content",
+                  "Missing evidence, unclear ask, contradictions",
+                  "Read aloud or ask a reviewer"
+                ],
+                [
+                  "Structure",
+                  "Wrong heading levels, broken TOC, awkward page breaks",
+                  "Navigation pane, print preview"
+                ],
+                [
+                  "Language",
+                  "Typos, inconsistent terms, long sentences",
+                  "Editor, find and replace"
+                ],
+                [
+                  "Accessibility",
+                  "Missing alt text, vague links, table headers",
+                  "Accessibility checker"
+                ],
+                [
+                  "Delivery",
+                  "Stale comments, hidden metadata, PDF layout",
+                  "Inspect Document, export"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Print preview catches what the screen hides",
+              "text": "Widows, orphaned headings, split tables, and blank pages are easiest to spot in the print layout."
+            },
+            {
+              "type": "h3",
+              "text": "Handover checklist"
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "The title, client, and date are correct.",
+                "The table of contents is updated.",
+                "Page numbers are present and logical.",
+                "Headers and footers are correct in every section.",
+                "All comments and tracked changes are resolved or intentionally kept.",
+                "Images have meaningful alt text.",
+                "The exported PDF opens and looks correct.",
+                "The editable source is stored in the agreed location."
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "What is the best final check before sending a PDF?",
+              "options": [
+                "Assume the export is perfect",
+                "Open the exported PDF and check page breaks, links, and layout",
+                "Delete the .docx",
+                "Change all fonts again"
+              ],
+              "answer": 1,
+              "explanation": "Exporting can reveal pagination and layout issues not visible in the editable view."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Document Architect assessment",
+    "intro": "Answer all eight questions. Score 80% or higher to earn the Document Architect badge and certificate.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "Why use built-in heading styles?",
+        "options": [
+          "They make the text colourful",
+          "They create structure used by navigation, the TOC, and accessibility tools",
+          "They prevent saving",
+          "They replace page numbers"
+        ],
+        "answer": 1,
+        "explanation": "Heading styles carry real document structure beyond appearance."
+      },
+      {
+        "question": "Which break allows different page orientation within one document?",
+        "options": [
+          "Page break",
+          "Section break",
+          "Line break",
+          "Column break"
+        ],
+        "answer": 1,
+        "explanation": "Each section can have its own page setup, including orientation."
+      },
+      {
+        "question": "What does Track Changes do?",
+        "options": [
+          "Automatically corrects grammar",
+          "Shows insertions and deletions as revisions",
+          "Changes the page size",
+          "Creates a PDF"
+        ],
+        "answer": 1,
+        "explanation": "Track Changes records edits so reviewers can accept or reject them."
+      },
+      {
+        "question": "How do you make a table header repeat across pages?",
+        "options": [
+          "Copy and paste it",
+          "Use Table Properties > Row > Repeat as header row",
+          "Make it bold",
+          "Add a page break"
+        ],
+        "answer": 1,
+        "explanation": "The Repeat as header row option keeps the header visible on each page."
+      },
+      {
+        "question": "Which image placement is usually safest in an editable report?",
+        "options": [
+          "Behind text",
+          "In line with text",
+          "Fixed on page",
+          "Floating freely"
+        ],
+        "answer": 1,
+        "explanation": "In-line images flow predictably with surrounding content."
+      },
+      {
+        "question": "Where does the detailed explanation belong in a presentation-style Word document or report?",
+        "options": [
+          "In the footer",
+          "In the body text and structure, not hidden in headers",
+          "In the file name",
+          "Only in comments"
+        ],
+        "answer": 1,
+        "explanation": "The body should carry the argument; headers and footers are for navigation and metadata."
+      },
+      {
+        "question": "Why add alt text to an informative image?",
+        "options": [
+          "To make the file larger",
+          "To describe the image for people using screen readers",
+          "To change the image colour",
+          "To create a caption automatically"
+        ],
+        "answer": 1,
+        "explanation": "Alt text makes the image's meaning available to non-visual users."
+      },
+      {
+        "question": "What should you check in the exported PDF before sending it?",
+        "options": [
+          "Only the file size",
+          "Page breaks, links, layout, and that the PDF opens correctly",
+          "The author's font collection",
+          "The .docx version history"
+        ],
+        "answer": 1,
+        "explanation": "The PDF is the reader's experience. Verify it directly rather than assuming the export preserved everything."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1122 @@
+{
+  "id": "python-foundations",
+  "title": "Python Foundations",
+  "topic": "Technology",
+  "topicSlug": "technology",
+  "level": "Beginner",
+  "duration": "5h 10m",
+  "description": "Learn programming by writing small, useful programs. Covers variables, logic, loops, functions, files, error handling, and a complete command-line project.",
+  "icon": "code",
+  "color": "#4E56D8",
+  "accent": "#E5E7FF",
+  "badge": {
+    "name": "Python Pioneer",
+    "icon": "code",
+    "description": "Awarded for completing Python Foundations and its final assessment."
+  },
+  "skills": [
+    "Python syntax",
+    "Logic",
+    "Functions",
+    "Files"
+  ],
+  "outcomes": [
+    "Write and run Python scripts from the command line",
+    "Store and transform data with variables, lists, and dictionaries",
+    "Use conditions, loops, and functions to structure programs",
+    "Read and write text files safely",
+    "Handle common errors and debug a failing program",
+    "Build a working command-line expense tracker"
+  ],
+  "prerequisites": [
+    "A computer with Python 3 installed (the course shows how to check).",
+    "A text editor or code editor such as VS Code.",
+    "No previous programming experience required."
+  ],
+  "tools": [
+    "Python 3",
+    "VS Code, Thonny, or another editor",
+    "A terminal or command prompt",
+    "A project folder"
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "First steps",
+      "summary": "What Python is, how to run it, and the first few lines of real code.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "What programming actually is",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Programming is the practice of writing precise instructions for a computer. Python is a popular language because its syntax is close to readable English."
+            },
+            {
+              "type": "p",
+              "text": "A program takes input, does something with it, and produces output. A calculator takes numbers and an operation. A to-do list takes tasks and remembers them. Even a large application is built from small steps like these."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "**Input:** data from a user, a file, a sensor, or another program.",
+                "**Processing:** calculations, comparisons, sorting, converting.",
+                "**Output:** text on screen, a saved file, a message, or a request.",
+                "**Control flow:** deciding which instructions run and how often."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "You are learning a way of thinking",
+              "text": "Syntax is the easy part. The durable skill is breaking a problem into steps small enough to test."
+            },
+            {
+              "type": "quiz",
+              "question": "Which sequence describes a basic program?",
+              "options": [
+                "Output, bed, breakfast",
+                "Input, processing, output",
+                "Download, delete, repeat",
+                "Only typing code"
+              ],
+              "answer": 1,
+              "explanation": "Most programs can be understood as taking input, processing it, and producing output."
+            }
+          ]
+        },
+        {
+          "id": "m1l2",
+          "title": "Install and run your first script",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "You do not need a complicated setup. A Python interpreter, a text file, and a terminal are enough to start."
+            },
+            {
+              "type": "p",
+              "text": "Install Python 3 from python.org and make sure 'Add Python to PATH' is selected on Windows if you want the `python` command available in your terminal. On macOS and Linux, `python3` is usually the command."
+            },
+            {
+              "type": "code",
+              "language": "bash",
+              "code": "python --version\n# or\npython3 --version\n\nmkdir python-practice\ncd python-practice\ncode hello.py"
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "print(\"Hello, Skillshop!\")\nname = input(\"What is your name? \")\nprint(f\"Welcome, {name}.\")"
+            },
+            {
+              "type": "p",
+              "text": "Save the file as `hello.py`, then run it with `python hello.py` or `python3 hello.py`. If the terminal prints a greeting and asks for your name, your setup works."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "If the command is not found",
+              "text": "Python may be installed but not on your PATH. Re-run the installer and select the PATH option, or use the full path to the Python executable. You can also run scripts from within your editor."
+            },
+            {
+              "type": "quiz",
+              "question": "Which command usually runs a Python file on Windows after Python is added to PATH?",
+              "options": [
+                "run hello.py",
+                "python hello.py",
+                "open python",
+                "hello.exe"
+              ],
+              "answer": 1,
+              "explanation": "The Python interpreter is invoked with the script path."
+            }
+          ]
+        },
+        {
+          "id": "m1l3",
+          "title": "Variables and input",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A variable is a name for a value. Good names make the program understandable; bad names turn it into a puzzle."
+            },
+            {
+              "type": "p",
+              "text": "Python creates a variable when you assign to it. The value can be a string, an integer, a decimal, a boolean, or a more complex object. Use `input()` to read text and convert it when you need a number."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "name = \"Sam\"\nage = 28\nhourly_rate = 18.50\nis_active = True\n\nuser_name = input(\"Your name: \")\nhours = float(input(\"Hours worked: \"))\npay = hours * hourly_rate\n\nprint(f\"{user_name} earned {pay:.2f} this week.\")"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Type",
+                "Example",
+                "Use for"
+              ],
+              "rows": [
+                [
+                  "str",
+                  "\"hello\"",
+                  "Text"
+                ],
+                [
+                  "int",
+                  "42",
+                  "Whole numbers"
+                ],
+                [
+                  "float",
+                  "3.14",
+                  "Decimal numbers"
+                ],
+                [
+                  "bool",
+                  "True / False",
+                  "Yes/no conditions"
+                ],
+                [
+                  "None",
+                  "None",
+                  "A missing value"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Input always starts as text",
+              "text": "`input()` returns a string. Convert with `int()` or `float()` before doing maths. If the user types letters, the conversion raises a ValueError, which you will handle later."
+            },
+            {
+              "type": "quiz",
+              "question": "What type does input() return?",
+              "options": [
+                "int",
+                "float",
+                "str",
+                "bool"
+              ],
+              "answer": 2,
+              "explanation": "All user input is read as a string. Convert it explicitly when needed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Logic and control",
+      "summary": "Make decisions, repeat work, and package behaviour into functions.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Conditionals: if, elif, else",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Conditions let a program choose a path. Python evaluates a boolean expression and runs the matching block."
+            },
+            {
+              "type": "p",
+              "text": "Comparison operators return True or False. Combine them with `and`, `or`, and `not`. Indentation is part of Python's syntax: the indented block belongs to the line above it."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "score = int(input(\"Score: \"))\n\nif score >= 90:\n    message = \"Excellent\"\nelif score >= 70:\n    message = \"Pass\"\nelse:\n    message = \"Needs practice\"\n\nprint(message)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Operator",
+                "Meaning"
+              ],
+              "rows": [
+                [
+                  "==",
+                  "Equal to"
+                ],
+                [
+                  "!=",
+                  "Not equal to"
+                ],
+                [
+                  "> / <",
+                  "Greater / less than"
+                ],
+                [
+                  ">= / <=",
+                  "Greater or equal / less or equal"
+                ],
+                [
+                  "and",
+                  "Both conditions must be true"
+                ],
+                [
+                  "or",
+                  "At least one condition must be true"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "= is assignment, == is comparison",
+              "text": "`x = 5` stores 5. `x == 5` asks whether x is 5. Mixing them up is one of the first bugs everyone writes."
+            },
+            {
+              "type": "quiz",
+              "question": "Which expression checks whether age is at least 18?",
+              "options": [
+                "age = 18",
+                "age >= 18",
+                "age => 18",
+                "age is 18"
+              ],
+              "answer": 1,
+              "explanation": ">= means greater than or equal to."
+            }
+          ]
+        },
+        {
+          "id": "m2l2",
+          "title": "Loops: for and while",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Loops repeat work. Use `for` when you know what you are iterating over, and `while` when you repeat until a condition changes."
+            },
+            {
+              "type": "p",
+              "text": "A `for` loop walks through a sequence such as a list or a range of numbers. A `while` loop keeps going as long as a condition is true. Every `while` loop needs a route to becoming false, or it will run forever."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "for number in range(1, 6):\n    print(number, \"squared is\", number ** 2)\n\nattempts = 0\nwhile attempts < 3:\n    guess = input(\"Guess the word: \")\n    if guess == \"python\":\n        print(\"Correct!\")\n        break\n    attempts += 1\nelse:\n    print(\"Out of attempts.\")"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "`range(5)` gives 0, 1, 2, 3, 4.",
+                "`range(1, 6)` gives 1 through 5. The end value is excluded.",
+                "`break` exits the nearest loop immediately.",
+                "`continue` skips to the next iteration.",
+                "`for...else` runs the `else` block only if the loop completed without `break`."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Beware the infinite loop",
+              "text": "If a `while` condition never becomes false and there is no `break`, the program keeps running. Press Ctrl + C in the terminal to stop it."
+            },
+            {
+              "type": "quiz",
+              "question": "How many numbers does range(1, 6) produce?",
+              "options": [
+                "6",
+                "5",
+                "7",
+                "4"
+              ],
+              "answer": 1,
+              "explanation": "The stop value is excluded, so it yields 1, 2, 3, 4, 5."
+            }
+          ]
+        },
+        {
+          "id": "m2l3",
+          "title": "Functions and return values",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A function gives a name to a reusable piece of logic. It takes inputs, does work, and optionally returns a result."
+            },
+            {
+              "type": "p",
+              "text": "Define a function with `def`, give it parameters, and use `return` to send a value back. A function that only prints is doing output; a function that returns a value can be tested and reused more easily."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "def calculate_pay(hours, rate, overtime_after=40, overtime_rate=1.5):\n    regular_hours = min(hours, overtime_after)\n    overtime_hours = max(hours - overtime_after, 0)\n    return regular_hours * rate + overtime_hours * rate * overtime_rate\n\nweekly_pay = calculate_pay(45, 20)\nprint(f\"Pay: {weekly_pay:.2f}\")"
+            },
+            {
+              "type": "h",
+              "text": "Why return instead of print?"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "A returned value can be stored, compared, formatted, or passed to another function.",
+                "A function that prints is harder to reuse and test.",
+                "Default arguments make a function flexible without forcing every caller to supply every value.",
+                "Keep functions small enough to explain in one sentence."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Name functions with verbs",
+              "text": "`calculate_pay`, `load_tasks`, and `format_name` describe actions. `pay` or `stuff` makes the caller guess."
+            },
+            {
+              "type": "quiz",
+              "question": "What does return do in a function?",
+              "options": [
+                "Prints a value to the screen",
+                "Sends a value back to the caller",
+                "Restarts the program",
+                "Creates a new file"
+              ],
+              "answer": 1,
+              "explanation": "Return ends the function and passes a value back to the code that called it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Collections and files",
+      "summary": "Store many values and keep them after the program closes.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Lists and tuples",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A list is an ordered, changeable collection. Use it whenever you have many of the same kind of thing: tasks, scores, names, file paths."
+            },
+            {
+              "type": "p",
+              "text": "Python lists are zero-indexed. `items[0]` is the first element. Negative indexes count from the end. Lists have methods for adding, removing, sorting, and counting."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "tasks = [\"read\", \"write\", \"review\"]\ntasks.append(\"ship\")\ntasks.remove(\"read\")\n\nfor index, task in enumerate(tasks, start=1):\n    print(index, task)\n\nprint(tasks[0])      # first item\nprint(tasks[-1])     # last item\nprint(len(tasks))    # count"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Operation",
+                "Example",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "Append",
+                  "tasks.append(\"test\")",
+                  "Adds to the end"
+                ],
+                [
+                  "Remove by value",
+                  "tasks.remove(\"write\")",
+                  "Removes first match"
+                ],
+                [
+                  "Sort",
+                  "tasks.sort()",
+                  "Changes order in place"
+                ],
+                [
+                  "Slice",
+                  "tasks[1:3]",
+                  "A new sub-list"
+                ],
+                [
+                  "Length",
+                  "len(tasks)",
+                  "Number of items"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Tuples are for fixed groups",
+              "text": "A tuple such as `(latitude, longitude)` is ordered and cannot be changed. Use a tuple when the values belong together and should not be individually replaced."
+            },
+            {
+              "type": "quiz",
+              "question": "What is tasks[-1]?",
+              "options": [
+                "The first item",
+                "The last item",
+                "An error",
+                "The length of the list"
+              ],
+              "answer": 1,
+              "explanation": "Negative indexes count backwards from the end."
+            }
+          ]
+        },
+        {
+          "id": "m3l2",
+          "title": "Dictionaries: key-value data",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A dictionary stores named values. It is the natural structure for a record such as a product, a task, or a person."
+            },
+            {
+              "type": "p",
+              "text": "Keys must be unique and hashable, often strings. Values can be anything. Access a key with square brackets, but use `.get()` when a missing key should not crash the program."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "expense = {\n    \"date\": \"2026-11-07\",\n    \"category\": \"transport\",\n    \"amount\": 12.50\n}\n\nexpense[\"note\"] = \"Bus to client site\"\nprint(expense.get(\"amount\"))\nprint(expense.get(\"receipt\", \"No receipt\"))\n\nfor key, value in expense.items():\n    print(f\"{key}: {value}\")"
+            },
+            {
+              "type": "h",
+              "text": "A list of dictionaries"
+            },
+            {
+              "type": "p",
+              "text": "Most real datasets are a list of dictionaries: each dictionary is a row, each key is a column. This is also the structure JSON uses, which makes it ideal for saving data to a file."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "expenses = [\n    {\"category\": \"food\", \"amount\": 24.00},\n    {\"category\": \"transport\", \"amount\": 12.50},\n    {\"category\": \"food\", \"amount\": 9.75}\n]\n\ntotal = sum(item[\"amount\"] for item in expenses)\nprint(f\"Total: {total:.2f}\")"
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Use .get() for optional fields",
+              "text": "`expense[\"receipt\"]` raises a KeyError if the key is missing. `expense.get(\"receipt\", \"none\")` returns a safe default."
+            },
+            {
+              "type": "quiz",
+              "question": "Which structure best represents a list of records with named fields?",
+              "options": [
+                "A single string",
+                "A list of dictionaries",
+                "A number",
+                "A boolean"
+              ],
+              "answer": 1,
+              "explanation": "Each dictionary can hold named fields, and the list holds the rows."
+            }
+          ]
+        },
+        {
+          "id": "m3l3",
+          "title": "Reading and writing files",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Files let data survive after the program ends. Use the `with open(...)` pattern so Python closes the file even if something fails."
+            },
+            {
+              "type": "p",
+              "text": "Text files are simple and portable. JSON is excellent for structured lists and dictionaries. Use `json.dump()` to write and `json.load()` to read. Always handle the case where the file does not exist yet."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "import json\nfrom pathlib import Path\n\npath = Path(\"expenses.json\")\n\ndef load_expenses(path):\n    if not path.exists():\n        return []\n    with path.open(\"r\", encoding=\"utf-8\") as file:\n        return json.load(file)\n\ndef save_expenses(path, expenses):\n    with path.open(\"w\", encoding=\"utf-8\") as file:\n        json.dump(expenses, file, indent=2)\n\nexpenses = load_expenses(path)\nexpenses.append({\"category\": \"food\", \"amount\": 15.50})\nsave_expenses(path, expenses)\nprint(\"Saved\", len(expenses), \"expenses.\")"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Use `\"r\"` to read, `\"w\"` to overwrite, and `\"a\"` to append.",
+                "Specify `encoding=\"utf-8\"` for predictable text.",
+                "Validate loaded data before assuming it has the expected keys.",
+                "Write to a temporary file first if a crash mid-save would be costly.",
+                "Never trust a path supplied by a user without checking it."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Opening in write mode erases the file",
+              "text": "`open(path, \"w\")` truncates an existing file as soon as it opens. Load first if you intend to keep old data."
+            },
+            {
+              "type": "quiz",
+              "question": "Which pattern ensures a file is closed even if an exception occurs?",
+              "options": [
+                "file = open(...) without closing",
+                "with open(...) as file:",
+                "Using print instead",
+                "Saving to the desktop"
+              ],
+              "answer": 1,
+              "explanation": "The with statement manages closing automatically."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Working like a programmer",
+      "summary": "Modules, errors, environments, and the habits that make code maintainable.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Modules and the standard library",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Python ships with a large standard library. Before writing a utility from scratch, check whether it already exists."
+            },
+            {
+              "type": "p",
+              "text": "Import a module with `import` and use its names with a dot. You can import specific functions with `from module import function`. Give imports meaningful names only when it improves clarity."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "from datetime import date, timedelta\nfrom pathlib import Path\nimport random\n\nprint(date.today())\nprint(date.today() + timedelta(days=7))\nprint(Path.cwd())\nprint(random.choice([\"rock\", \"paper\", \"scissors\"]))"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Module",
+                "Use"
+              ],
+              "rows": [
+                [
+                  "datetime",
+                  "Dates, times, durations"
+                ],
+                [
+                  "pathlib",
+                  "File and folder paths"
+                ],
+                [
+                  "json",
+                  "Read and write structured text"
+                ],
+                [
+                  "random",
+                  "Random choices and shuffling"
+                ],
+                [
+                  "statistics",
+                  "Mean, median, and other summaries"
+                ],
+                [
+                  "re",
+                  "Regular expressions and pattern matching"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "Standard library first",
+              "text": "A package on the internet may be excellent, but every dependency is something to install, update, and trust. Use the standard library when it solves the problem cleanly."
+            },
+            {
+              "type": "quiz",
+              "question": "Which module helps you work with filesystem paths?",
+              "options": [
+                "random",
+                "pathlib",
+                "datetime",
+                "json"
+              ],
+              "answer": 1,
+              "explanation": "pathlib provides an object-oriented way to handle paths and files."
+            }
+          ]
+        },
+        {
+          "id": "m4l2",
+          "title": "Errors, exceptions, and debugging",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "An exception is not a moral failure. It is information about where the program's assumptions broke."
+            },
+            {
+              "type": "p",
+              "text": "Read the traceback from the bottom up: the final line tells you the error type and message, and the lines above tell you the call path. Catch only the errors you can actually handle, and print or log enough context to understand what happened."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "def get_amount():\n    while True:\n        raw = input(\"Amount: \")\n        try:\n            return float(raw)\n        except ValueError:\n            print(\"Please enter a number, for example 12.50.\")\n\ntry:\n    amount = get_amount()\nexcept KeyboardInterrupt:\n    print(\"Cancelled.\")"
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                "Read the last line of the traceback first.",
+                "Reproduce the bug with the smallest possible input.",
+                "Print or inspect variable values just before the failure.",
+                "Use `python -m pdb script.py` or your editor's debugger to step through code.",
+                "Write a tiny test that fails, then fix it.",
+                "Avoid bare `except:` blocks; they hide unexpected errors."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Do not silence every error",
+              "text": "A broad `except Exception: pass` can hide real problems. Catch the specific error you expect and handle it deliberately."
+            },
+            {
+              "type": "quiz",
+              "question": "Where is the actual error type usually shown in a traceback?",
+              "options": [
+                "At the very top",
+                "On the last line of the traceback",
+                "In the file name only",
+                "In the comments"
+              ],
+              "answer": 1,
+              "explanation": "The final line names the exception and gives its message."
+            }
+          ]
+        },
+        {
+          "id": "m4l3",
+          "title": "Virtual environments and packages",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "A virtual environment keeps a project's packages separate from the rest of your computer. It prevents version conflicts and makes a project reproducible."
+            },
+            {
+              "type": "p",
+              "text": "Create one environment per project. Activate it before installing packages. Record dependencies in a requirements file so another machine can recreate the setup."
+            },
+            {
+              "type": "code",
+              "language": "bash",
+              "code": "# macOS / Linux\npython3 -m venv .venv\nsource .venv/bin/activate\npython -m pip install requests\npip freeze > requirements.txt\n\n# Windows PowerShell\npy -m venv .venv\n.venv\\Scripts\\Activate.ps1\npython -m pip install requests"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Term",
+                "Meaning"
+              ],
+              "rows": [
+                [
+                  "venv",
+                  "A folder containing a project-specific Python environment"
+                ],
+                [
+                  "pip",
+                  "Python's package installer"
+                ],
+                [
+                  "requirements.txt",
+                  "A list of dependencies and versions"
+                ],
+                [
+                  "Activate",
+                  "Tell the terminal to use the environment"
+                ],
+                [
+                  "Deactivate",
+                  "Return to the system Python"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Do not commit .venv",
+              "text": "The environment can be large and machine-specific. Add `.venv/` to `.gitignore` and commit the requirements file instead."
+            },
+            {
+              "type": "quiz",
+              "question": "Why use a virtual environment?",
+              "options": [
+                "To make Python run faster",
+                "To keep dependencies isolated per project",
+                "To avoid writing code",
+                "To create a website automatically"
+              ],
+              "answer": 1,
+              "explanation": "Isolated environments prevent package version conflicts between projects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Build an expense tracker",
+      "summary": "A complete command-line project, from design to test.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Design the program",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Before writing code, decide what the program does, what data it stores, and how the user interacts with it."
+            },
+            {
+              "type": "p",
+              "text": "Your expense tracker will add expenses, list them, show a total, filter by category, and save data to JSON. Keep the first version small; a clean core is easier to extend than a half-finished feature collection."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Feature",
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                [
+                  "Add expense",
+                  "Amount, category, note",
+                  "A new saved record"
+                ],
+                [
+                  "List expenses",
+                  "None",
+                  "Formatted list"
+                ],
+                [
+                  "Show total",
+                  "None or category",
+                  "A calculated sum"
+                ],
+                [
+                  "Filter",
+                  "Category",
+                  "Matching expenses"
+                ],
+                [
+                  "Save and load",
+                  "File path",
+                  "Persistent JSON data"
+                ]
+              ]
+            },
+            {
+              "type": "list",
+              "style": "number",
+              "items": [
+                "Define the data shape: a list of dictionaries with `amount`, `category`, `note`, and `date`.",
+                "Write the menu and the input loops.",
+                "Implement one feature at a time and test after each.",
+                "Separate data logic (load, save, add, total) from display logic.",
+                "Add error handling for bad numbers and missing files.",
+                "Only then add polish such as colours or summaries."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Write the smallest version that works",
+              "text": "A tracker that can add and list one expense is already a program. Add features only after the current version runs and saves correctly."
+            },
+            {
+              "type": "quiz",
+              "question": "Why separate data logic from display logic?",
+              "options": [
+                "It makes the code longer",
+                "It makes the logic easier to test, reuse, and debug",
+                "It is required by Python",
+                "It avoids using files"
+              ],
+              "answer": 1,
+              "explanation": "Separating concerns lets you test calculations without depending on printed output."
+            }
+          ]
+        },
+        {
+          "id": "m5l2",
+          "title": "Build the tracker",
+          "minutes": 34,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Build a working command-line tracker in one file. The goal is clear behaviour and readable functions, not clever tricks."
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "import json\nfrom datetime import date\nfrom pathlib import Path\n\nDATA = Path(\"expenses.json\")\n\ndef load():\n    if not DATA.exists():\n        return []\n    with DATA.open(encoding=\"utf-8\") as file:\n        return json.load(file)\n\ndef save(expenses):\n    with DATA.open(\"w\", encoding=\"utf-8\") as file:\n        json.dump(expenses, file, indent=2)\n\ndef add_expense(expenses):\n    category = input(\"Category: \").strip() or \"uncategorised\"\n    while True:\n        try:\n            amount = float(input(\"Amount: \"))\n            break\n        except ValueError:\n            print(\"Enter a number such as 12.50\")\n    note = input(\"Note: \").strip()\n    expenses.append({\n        \"date\": date.today().isoformat(),\n        \"category\": category,\n        \"amount\": amount,\n        \"note\": note\n    })\n    save(expenses)\n    print(\"Expense saved.\")\n\ndef list_expenses(expenses):\n    if not expenses:\n        print(\"No expenses yet.\")\n        return\n    for item in expenses:\n        print(f\"{item['date']}  {item['category']:<12}  {item['amount']:>8.2f}  {item['note']}\")\n    print(f\"Total: {sum(item['amount'] for item in expenses):.2f}\")\n\ndef main():\n    expenses = load()\n    while True:\n        print(\"\\n1) Add  2) List  3) Quit\")\n        choice = input(\"Choose: \").strip()\n        if choice == \"1\":\n            add_expense(expenses)\n        elif choice == \"2\":\n            listing = expenses\n            category = input(\"Filter category (blank for all): \").strip().lower()\n            if category:\n                listing = [item for item in expenses if item[\"category\"].lower() == category]\n            list_expenses(listing)\n        elif choice == \"3\":\n            break\n        else:\n            print(\"Choose 1, 2, or 3.\")\n\nif __name__ == \"__main__\":\n    main()"
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "What makes this a real program?",
+              "text": "It persists data, validates input, handles an empty state, separates concerns, and has a clear entry point. Those habits matter more than the number of features."
+            },
+            {
+              "type": "quiz",
+              "question": "Why use if __name__ == \"__main__\": in a script?",
+              "options": [
+                "It makes the program run faster",
+                "It runs main() only when the file is executed directly, not when imported",
+                "It creates a file",
+                "It installs packages"
+              ],
+              "answer": 1,
+              "explanation": "This guard keeps the script reusable as a module without automatically launching the menu."
+            }
+          ]
+        },
+        {
+          "id": "m5l3",
+          "title": "Test, refine, and extend",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Testing is not a final ceremony. It is how you discover whether the program matches the story you told yourself."
+            },
+            {
+              "type": "p",
+              "text": "Start with manual test cases: empty file, one expense, invalid amount, category filter with no matches, and a second run that loads existing data. Then move the pure logic into testable functions and use Python's `unittest` or `pytest` for repeatable checks."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Test",
+                "Input",
+                "Expected"
+              ],
+              "rows": [
+                [
+                  "Empty load",
+                  "No file",
+                  "Empty list"
+                ],
+                [
+                  "Valid add",
+                  "12.50 food",
+                  "One saved record"
+                ],
+                [
+                  "Invalid amount",
+                  "abc",
+                  "Error message, re-prompt"
+                ],
+                [
+                  "No matches",
+                  "travel filter",
+                  "Empty filtered list"
+                ],
+                [
+                  "Second run",
+                  "Existing file",
+                  "Same records loaded"
+                ],
+                [
+                  "Missing note",
+                  "blank note",
+                  "Record still saved"
+                ]
+              ]
+            },
+            {
+              "type": "code",
+              "language": "python",
+              "code": "def total_expenses(expenses, category=None):\n    if category is None:\n        return sum(item[\"amount\"] for item in expenses)\n    return sum(item[\"amount\"] for item in expenses if item[\"category\"] == category)\n\nassert total_expenses([{\"amount\": 2.0}, {\"amount\": 3.5}]) == 5.5\nassert total_expenses([{\"amount\": 2.0, \"category\": \"food\"}], \"food\") == 2.0\nprint(\"Tests passed\")"
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Extension menu",
+              "text": "Add monthly totals, a delete command, CSV export, a budget warning, or a simple chart with matplotlib. Choose one, write a test, implement it, and test again."
+            },
+            {
+              "type": "h3",
+              "text": "What to keep in your project folder"
+            },
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "The Python source file.",
+                "A sample `expenses.json` or a note explaining how it is created.",
+                "A README with run instructions and example usage.",
+                "A `.gitignore` that excludes `.venv/` and personal data files.",
+                "Tests or a short manual test checklist.",
+                "A note about what you would build next."
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "What is a good first test for a file-backed program?",
+              "options": [
+                "The largest possible dataset",
+                "The empty state when no file exists",
+                "A random website",
+                "A screenshot of the menu"
+              ],
+              "answer": 1,
+              "explanation": "The empty state is a common failure point and a simple place to start."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Python Pioneer assessment",
+    "intro": "Answer all eight questions. Score 80% or higher to earn the Python Pioneer badge and certificate.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What does input() return?",
+        "options": [
+          "An integer",
+          "A string",
+          "A boolean",
+          "A file"
+        ],
+        "answer": 1,
+        "explanation": "User input is read as text and must be converted for numeric work."
+      },
+      {
+        "question": "Which operator checks equality?",
+        "options": [
+          "=",
+          "==",
+          "=>",
+          "!="
+        ],
+        "answer": 1,
+        "explanation": "== compares values; = assigns them."
+      },
+      {
+        "question": "How many values does range(1, 5) produce?",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "It produces 1, 2, 3, 4. The stop value is excluded."
+      },
+      {
+        "question": "What does return do?",
+        "options": [
+          "Prints to the screen",
+          "Sends a value back to the caller",
+          "Stops the terminal",
+          "Creates a dictionary"
+        ],
+        "answer": 1,
+        "explanation": "Return ends the function and passes a value back."
+      },
+      {
+        "question": "What is tasks[-1]?",
+        "options": [
+          "The first item",
+          "The last item",
+          "The length",
+          "An error"
+        ],
+        "answer": 1,
+        "explanation": "Negative indexes count backwards from the end of the list."
+      },
+      {
+        "question": "Which file mode erases existing contents when opened?",
+        "options": [
+          "r",
+          "w",
+          "a",
+          "x"
+        ],
+        "answer": 1,
+        "explanation": "Write mode truncates the file when opened."
+      },
+      {
+        "question": "What is the safest pattern for closing a file?",
+        "options": [
+          "Open and never close it",
+          "Use with open(...) as file:",
+          "Use print without a file",
+          "Rename the file"
+        ],
+        "answer": 1,
+        "explanation": "The with statement closes the file automatically, even if an error occurs."
+      },
+      {
+        "question": "Why use if __name__ == \"__main__\":?",
+        "options": [
+          "To make code run faster",
+          "To run main() only when the file is executed directly",
+          "To install packages",
+          "To create a virtual environment"
+        ],
+        "answer": 1,
+        "explanation": "It prevents the main program from running when the file is imported as a module."
+      },
+      {
+        "question": "Which of the following is a best practice covered in this course?",
+        "options": [
+          "Practice regularly",
+          "Skip the exercises",
+          "Memorize without doing",
+          "Guess the answers"
+        ],
+        "answer": 0,
+        "explanation": "Regular practice reinforces learning."
+      },
+      {
+        "question": "How should you approach a new skill?",
+        "options": [
+          "Start with the fundamentals",
+          "Skip to advanced topics",
+          "Avoid practice",
+          "Only read theory"
+        ],
+        "answer": 0,
+        "explanation": "Start with fundamentals and build up."
+      },
+      {
+        "question": "What helps you retain what you learn?",
+        "options": [
+          "Hands-on practice",
+          "Passive reading only",
+          "Ignoring mistakes",
+          "Cramming once"
+        ],
+        "answer": 0,
+        "explanation": "Hands-on practice improves retention."
+      },
+      {
+        "question": "If you get stuck on a lesson, what should you do?",
+        "options": [
+          "Review earlier material and try again",
+          "Give up",
+          "Skip the course",
+          "Guess"
+        ],
+        "answer": 0,
+        "explanation": "Reviewing and retrying is part of learning."
+      }
+    ]
+  }
+}

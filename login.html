@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in · Skillshop</title>
+<meta property="og:title" content="Sign in · Skillshop">
+<meta property="og:description" content="Sign in to Skillshop with email or Google to save your progress and earn certificates.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://skillshop.onrender.com/login.html">
+<meta property="og:image" content="https://skillshop.onrender.com/assets/favicon.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sign in · Skillshop">
+<meta name="twitter:description" content="Sign in to Skillshop with email or Google to save your progress and earn certificates.">
+<link rel="canonical" href="https://skillshop.onrender.com/login.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Skillshop",
+  "url": "https://skillshop.onrender.com",
+  "logo": "https://skillshop.onrender.com/assets/favicon.svg"
+}
+</script>
+  <meta name="description" content="Sign in to Skillshop with email or Google to save your progress and earn certificates.">
+  <meta name="theme-color" content="#f6f2ea">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,650;9..40,700;9..40,750;9..40,800;9..40,850&family=Fraunces:opsz,wght@9..144,500;9..144,550;9..144,620;9..144,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Skillshop home">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-spark"></use></svg></span>
+        <span>Skillshop</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="courses.html">Explore skills</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="index.html#certificates">Certificates</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-btn" href="courses.html" aria-label="Search courses">
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-search"></use></svg>
+        </a>
+        <a class="icon-btn" href="account.html" aria-label="My account">
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-user"></use></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="account-page">
+      <div class="container account-layout" style="grid-template-columns:1fr">
+        <aside class="account-aside">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-user"></use></svg> Sign in to Skillshop</p>
+          <h1>Keep your <em>progress.</em></h1>
+          <p>Sign in to save lesson progress, collect badges, and print certificates with your name. New users can register with email or sign in with Google.</p>
+        </aside>
+
+        <div class="account-panel" style="max-width:440px;margin:0 auto">
+          <div id="authError" style="display:none;margin-bottom:12px;padding:10px;border:1px solid var(--danger);border-radius:8px;background:var(--danger-bg);color:var(--danger);font-size:0.85rem"></div>
+
+          <div class="field" style="margin-bottom:14px">
+            <label for="loginEmail">Email address</label>
+            <input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field" style="margin-bottom:16px">
+            <label for="loginPassword">Password</label>
+            <input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required>
+          </div>
+          <button class="btn btn--wide" type="button" id="btnSignIn">Sign in</button>
+          <p style="text-align:center;margin-top:14px;color:var(--muted);font-size:0.8rem">— or sign in with —</p>
+          <a href="/auth/google" class="btn btn--light btn--wide" style="margin-top:8px">
+            <svg class="icon" aria-hidden="true" style="width:18px;height:18px;margin-right:8px"><circle cx="12" cy="12" r="10" fill="#4285F4"/><path d="M12 15.3A7.1 7.1 0 0 1 5.1 15h4.2c.3-1 .7-2 1.3-2.7h2.7c-.9.6-2 1-3.2 1z" fill="#34A853"/><path d="M12 6.3h2.7c.5-.9 1.4-1.6 2.4-2.1H9.7c-.2.5-.3 1.1-.3 1.7z" fill="#FBBC05"/><path d="M12 19.3h2.7c1.5-.1 2.8-.9 3.5-2.2h-2.7c-.3.9-.9 1.6-1.6 2z" fill="#EA4335"/></svg>
+            Continue with Google
+          </a>
+          <p style="text-align:center;margin-top:16px;color:var(--muted);font-size:0.8rem">Don't have an account? <a href="account.html">Register</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© <span data-current-year>2026</span> Skillshop.</p>
+        <span class="footer-status">Sign in to save your learning.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+  <script>
+    (function(){
+      const form = document.querySelector('form') || document.body;
+      const email = document.getElementById('loginEmail');
+      const password = document.getElementById('loginPassword');
+      const btn = document.getElementById('btnSignIn');
+      const err = document.getElementById('authError');
+
+      async function signIn() {
+        err.style.display = 'none';
+        try {
+          const res = await fetch('/auth/login', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            body: 'email=' + encodeURIComponent(email.value) + '&password=' + encodeURIComponent(password.value)
+          });
+          if (res.ok) {
+            window.location.href = '/dashboard.html';
+          } else {
+            err.textContent = 'Invalid email or password.';
+            err.style.display = 'block';
+          }
+        } catch (e) {
+          err.textContent = 'Could not reach the server. Try again later.';
+          err.style.display = 'block';
+        }
+      }
+
+      btn.addEventListener('click', (e) => { e.preventDefault(); signIn(); });
+      [email, password].forEach(el => el.addEventListener('keypress', e => { if (e.key === 'Enter') signIn(); }));
+    })();
+  </script>
+</body>
+</html>
