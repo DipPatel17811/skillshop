@@ -1,12 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const passport = require('../auth/passport');
+const passport = require('passport');
 const bcrypt = require('bcryptjs');
+const path = require('path');
+
+// Setup strategies (imported as function that takes pool)
+const setupStrategies = require('../auth/passport');
 
 module.exports = function (pool) {
+  setupStrategies(pool);
+
   router.get('/login', (req, res) => {
     if (req.user) return res.redirect('/dashboard.html');
-    res.sendFile(require('path').join(__dirname, '..', 'login.html'));
+    res.sendFile(path.join(__dirname, '..', 'login.html'));
   });
 
   router.post('/login', passport.authenticate('local', {

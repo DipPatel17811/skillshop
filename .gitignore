@@ -6,3 +6,7 @@ node_modules/
 npm-debug.log*
 .pnpm-store/
 .coverage/
+
+# Google OAuth credentials - never commit these
+client_secret_*.json
+client-id_*.json
