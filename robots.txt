@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skillshop.onrender.com/sitemap.xml

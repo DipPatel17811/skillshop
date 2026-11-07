@@ -54,8 +54,6 @@ app.use('/auth', require('./routes/auth')(pool));
 
 // Static site (HTML, CSS, JS, assets, courses JSON)
 app.use(express.static(path.join(__dirname)));
-
-// SEO: sitemap.xml
 app.get('/sitemap.xml', (req, res) => {
   const base = process.env.BASE_URL || 'https://skillshop.example.com';
   const pages = [
