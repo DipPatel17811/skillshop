@@ -624,14 +624,41 @@
     root().innerHTML = `<div class="container section"><div class="loading-panel"><div class="line skeleton"></div><div class="line skeleton"></div><div class="line skeleton"></div></div></div>`;
 
     try {
-      const catalog = await S.loadCatalog();
-      summary = (catalog.courses || []).find((item) => item.id === id);
+      // Try embedded catalog data first (works when opening HTML files directly)
+      let catalog = null;
+      const embeddedEl = document.getElementById("embedded-catalog");
+      if (embeddedEl) {
+        try {
+          catalog = JSON.parse(embeddedEl.textContent);
+        } catch (e) {
+          console.warn("Failed to parse embedded catalog", e);
+        }
+      }
+
+      let summary = null;
+      if (catalog) {
+        summary = (catalog.courses || []).find((item) => item.id === id);
+      }
+
+      if (!summary) {
+        catalog = await S.loadCatalog();
+        summary = (catalog.courses || []).find((item) => item.id === id);
+      }
+
       if (!summary) {
         pageError("Course not found", "That course may have moved. Browse the catalog to find another one.");
         return;
       }
-      course = await S.loadCourse(summary);
-      if (!course.modules || !course.modules.length) throw new Error("Course has no modules.");
+
+      let courseData = null;
+      if (catalog) {
+        // Try to find full course data embedded per-course (not available in summary catalog)
+      }
+      if (!courseData) {
+        courseData = await S.loadCourse(summary);
+      }
+      if (!courseData.modules || !courseData.modules.length) throw new Error("Course has no modules.");
+      course = courseData;
       course.id = course.id || summary.id;
       course.title = course.title || summary.title;
       course.badge = course.badge || summary.badge;
@@ -645,7 +672,7 @@
       renderRoute();
     } catch (error) {
       console.error(error);
-      pageError("Course could not load", "Check your connection, or start a local web server if you are viewing the files directly. The README has the command.");
+      pageError("Course could not load", "Start the local server to view course content: <code>node server-local.js</code><br>Then open: <code>http://localhost:3000/course.html?course=" + id + "</code>");
     }
   }
 
