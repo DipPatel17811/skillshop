@@ -462,73 +462,7 @@
     setCurrentYear();
   }
 
-  /* ---- API layer (online) with localStorage fallback ---- */
-  async function apiRequest(path, opts = {}) {
-    try {
-      const res = await fetch(path, {
-        credentials: 'include',
-        headers: { 'Content-Type': 'application/json', ...(opts.headers || {}) },
-        ...opts
-      });
-      if (res.status === 401) return { ok: false, status: 401 };
-      if (!res.ok) return { ok: false, status: res.status };
-      const data = await res.json().catch(() => null);
-      return { ok: true, status: res.status, data };
-    } catch (e) {
-      return { ok: false, offline: true };
-    }
-  }
-
-  async function apiGetProfile() {
-    const r = await apiRequest('/api/me');
-    return r.ok && r.data ? r.data : null;
-  }
-
-  async function apiSaveProfile(data) {
-    const r = await apiRequest('/auth/register', {
-      method: 'POST',
-      body: JSON.stringify({ name: data.name, email: data.email, password: 'skip-oauth-link', avatarColor: data.avatarColor })
-    });
-    if (r.ok && r.data) return r.data;
-    return null;
-  }
-
-  async function apiGetProgress(courseId) {
-    const r = await apiRequest('/api/progress');
-    if (!r.ok || !r.data) return {};
-    return r.data[courseId] || {};
-  }
-
-  async function apiSetProgress(courseId, value) {
-    await apiRequest(`/api/progress/${courseId}`, { method: 'POST', body: JSON.stringify(value) });
-    return value;
-  }
-
-  async function apiGetCertificates() {
-    const r = await apiRequest('/api/certificates');
-    return r.ok && r.data ? r.data : [];
-  }
-
-  async function apiIssueCertificate(course, progress) {
-    const profile = await apiGetProfile();
-    if (!profile || !isCourseComplete(course, progress)) return null;
-    const r = await apiRequest('/api/certificates', {
-      method: 'POST',
-      body: JSON.stringify({
-        courseId: course.id,
-        learnerName: profile.name,
-        badgeName: course.badge ? course.badge.name : 'Course badge',
-        skills: course.skills || [],
-        score: progress.finalScore,
-        duration: course.duration,
-        topic: course.topic,
-        level: course.level
-      })
-    });
-    return r.ok && r.data ? r.data : null;
-  }
-
-  /* wrap storage functions: API first, localStorage fallback */
+  /* ---- storage functions: localStorage only (static hosting) ---- */
   const _getProfile = getProfile;
   const _saveProfile = saveProfile;
   const _getCourseProgress = getCourseProgress;
@@ -537,36 +471,26 @@
   const _issueCertificate = issueCertificate;
 
   async function getProfile() {
-    const apiProfile = await apiGetProfile();
-    if (apiProfile) return { id: apiProfile.id, name: apiProfile.name, email: apiProfile.email || '', avatarColor: apiProfile.avatar_color, createdAt: apiProfile.created_at, updatedAt: apiProfile.created_at };
     return _getProfile();
   }
 
   function saveProfile(data) {
-    apiSaveProfile(data).catch(() => {});
     return _saveProfile(data);
   }
 
   async function getCourseProgress(courseId) {
-    const apiProg = await apiGetProgress(courseId);
-    if (apiProg && Object.keys(apiProg).length) return apiProg;
     return _getCourseProgress(courseId);
   }
 
   function setCourseProgress(courseId, value) {
-    apiSetProgress(courseId, value).catch(() => {});
     return _setCourseProgress(courseId, value);
   }
 
   async function getCertificates() {
-    const apiCerts = await apiGetCertificates();
-    if (apiCerts && apiCerts.length) return apiCerts;
     return _getCertificates();
   }
 
   async function issueCertificate(course, progress) {
-    const apiCert = await apiIssueCertificate(course, progress);
-    if (apiCert) return apiCert;
     return _issueCertificate(course, progress);
   }
 

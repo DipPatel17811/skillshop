@@ -1,30 +1,11 @@
 /* ==========================================================================
-   Skillshop — auth UI
-   Works with the Node backend (server.js/server-local.js) and falls back to
-   localStorage preview mode when no backend is available.
+   Skillshop — auth UI (static / localStorage only)
+   Works on GitHub Pages without a backend.
    ========================================================================== */
 
 (function () {
   const S = window.Skillshop;
   if (!S) return;
-
-  const API = window.location.origin;
-
-  async function fetchJSON(path, opts = {}) {
-    try {
-      const res = await fetch(path, {
-        credentials: 'include',
-        headers: { 'Content-Type': 'application/json', ...(opts.headers || {}) },
-        ...opts
-      });
-      if (res.status === 401) return { ok: false, status: 401 };
-      if (!res.ok) return { ok: false, status: res.status };
-      const data = await res.json().catch(() => null);
-      return { ok: true, status: res.status, data };
-    } catch (e) {
-      return { ok: false, offline: true };
-    }
-  }
 
   function pillUser(user) {
     const pills = document.querySelectorAll('[data-profile-pill]');
@@ -47,17 +28,24 @@
         }
         if (!parent.querySelector(logoutSelector)) {
           const logout = document.createElement('a');
-          logout.href = '/auth/logout';
+          logout.href = '#';
           logout.className = 'btn btn--sm btn--ghost';
           logout.style.marginLeft = '8px';
           logout.innerHTML = S.icon('logout');
           logout.setAttribute('data-logout', '1');
           logout.title = 'Sign out';
+          logout.addEventListener('click', (e) => {
+            e.preventDefault();
+            S.clearProfile();
+            pillUser(null);
+            S.toast('Signed out.');
+            setTimeout(() => { location.href = 'index.html'; }, 600);
+          });
           parent.insertBefore(logout, pill.nextSibling);
         }
       } else {
-        pill.setAttribute('href', 'login.html');
-        pill.setAttribute('title', 'Sign in to save your progress');
+        pill.setAttribute('href', 'account.html');
+        pill.setAttribute('title', 'Create a learner profile');
         if (nameEl) nameEl.textContent = 'Sign in';
         if (avatarEl) {
           avatarEl.innerHTML = S.icon('user');
@@ -70,29 +58,11 @@
     });
   }
 
-  async function updateHeader() {
-    const r = await fetchJSON('/api/me');
-
-    if (r.ok && r.data && r.data.id) {
-      pillUser(r.data);
-      return;
-    }
-
-    // Fallback: localStorage profile from local preview mode
-    const localProfile = S.getProfile();
-    if (localProfile) {
-      pillUser({
-        id: localProfile.id,
-        name: localProfile.name,
-        email: localProfile.email,
-        avatar_color: localProfile.avatarColor,
-        provider: 'local'
-      });
-    } else {
-      pillUser(null);
-    }
+  function updateHeader() {
+    const profile = S.getProfile();
+    pillUser(profile);
   }
 
-  window.SkillshopAuth = { updateHeader, fetchJSON };
+  window.SkillshopAuth = { updateHeader };
   document.addEventListener('DOMContentLoaded', updateHeader);
 })();

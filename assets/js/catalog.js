@@ -171,7 +171,7 @@
     query = (params.get("q") || "").trim().toLowerCase();
     activeTopic = initialTopic || "all";
 
-    // Try embedded catalog data first (works when opening HTML files directly)
+    // Try embedded catalog data first (works on static hosting)
     const embeddedEl = document.getElementById("embedded-catalog");
     if (embeddedEl) {
       try {
@@ -181,24 +181,15 @@
       }
     }
 
-    // Fallback: try fetching from server
     if (!catalog) {
-      try {
-        catalog = await S.loadCatalog();
-      } catch (error) {
-        grids.forEach((grid) => {
-          grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
-            ${S.icon("shield")}
-            <h3>Course catalog could not load</h3>
-            <p>If you opened this page directly from a file, your browser may block data loading.<br><br>
-            <strong>To run locally:</strong><br>
-            1. Open a terminal in this folder<br>
-            2. Run: <code>node server-local.js</code><br>
-            3. Open: <code>http://localhost:3000</code></p>
-          </div>`;
-        });
-        return;
-      }
+      grids.forEach((grid) => {
+        grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
+          ${S.icon("shield")}
+          <h3>Course catalog could not load</h3>
+          <p>Please refresh the page or open courses.html directly.</p>
+        </div>`;
+      });
+      return;
     }
 
     if (params.get("topic")) {

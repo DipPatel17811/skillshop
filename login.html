@@ -43,33 +43,26 @@
         <aside class="account-aside">
           <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-user"></use></svg> Sign in to Skillshop</p>
           <h1>Keep your <em>progress.</em></h1>
-          <p>Sign in to save lesson progress, collect badges, and print certificates with your name. New users can register with email or sign in with Google.</p>
+          <p>Create a learner profile to save lesson progress, collect badges, and print certificates with your name.</p>
         </aside>
 
         <div class="account-panel" style="max-width:440px;margin:0 auto">
-          <div id="authError" style="display:none;margin-bottom:12px;padding:10px;border:1px solid var(--danger);border-radius:8px;background:var(--danger-bg);color:var(--danger);font-size:0.85rem"></div>
-          <div id="localNote" style="margin-bottom:14px;padding:10px;border:1px solid #a8cfb5;border-radius:8px;background:var(--success-bg);color:var(--success);font-size:0.8rem;display:none">
-            <strong>Local preview:</strong> creating an account here saves to this browser only. Cloud sync and secure sign-in are enabled when deployed to Render.
+          <div id="localNote" style="margin-bottom:14px;padding:10px;border:1px solid #a8cfb5;border-radius:8px;background:var(--success-bg);color:var(--success);font-size:0.8rem">
+            <strong>Local preview:</strong> your profile is saved only in this browser. Cloud sync and secure sign-in are planned for the next phase.
           </div>
 
           <form id="signInForm" novalidate>
             <div class="field" style="margin-bottom:14px">
-              <label for="loginEmail">Email address</label>
-              <input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+              <label for="loginName">Your name</label>
+              <input id="loginName" name="name" type="text" autocomplete="name" placeholder="e.g. Alex Morgan" required>
             </div>
             <div class="field" style="margin-bottom:16px">
-              <label for="loginPassword">Password</label>
-              <input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required>
+              <label for="loginEmail">Email <span class="muted" style="font-weight:500">(optional)</span></label>
+              <input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com">
             </div>
-            <button class="btn btn--wide" type="submit">Sign in</button>
+            <button class="btn btn--wide" type="submit">Create profile</button>
+            <p style="text-align:center;margin-top:12px;color:var(--muted);font-size:0.8rem">No password needed for this preview.</p>
           </form>
-
-          <p style="text-align:center;margin-top:14px;color:var(--muted);font-size:0.8rem">— or sign in with —</p>
-          <a href="/auth/google" class="btn btn--light btn--wide" style="margin-top:8px">
-            <svg class="icon" aria-hidden="true" style="width:18px;height:18px;margin-right:8px"><circle cx="12" cy="12" r="10" fill="#4285F4"/><path d="M12 15.3A7.1 7.1 0 0 1 5.1 15h4.2c.3-1 .7-2 1.3-2.7h2.7c-.9.6-2 1-3.2 1z" fill="#34A853"/><path d="M12 6.3h2.7c.5-.9 1.4-1.6 2.4-2.1H9.7c-.2.5-.3 1.1-.3 1.7z" fill="#FBBC05"/><path d="M12 19.3h2.7c1.5-.1 2.8-.9 3.5-2.2h-2.7c-.3.9-.9 1.6-1.6 2z" fill="#EA4335"/></svg>
-            Continue with Google
-          </a>
-          <p style="text-align:center;margin-top:16px;color:var(--muted);font-size:0.8rem">Don't have an account? <a href="account.html">Register</a></p>
         </div>
       </div>
     </section>
@@ -79,7 +72,7 @@
     <div class="container">
       <div class="footer-bottom">
         <p>© <span data-current-year>2026</span> Skillshop.</p>
-        <span class="footer-status">Local preview · cloud accounts on Render</span>
+        <span class="footer-status">Local preview · cloud accounts coming next</span>
       </div>
     </div>
   </footer>
@@ -90,56 +83,23 @@
     (function () {
       const S = window.Skillshop;
       const form = document.getElementById('signInForm');
+      const name = document.getElementById('loginName');
       const email = document.getElementById('loginEmail');
-      const password = document.getElementById('loginPassword');
-      const err = document.getElementById('authError');
-      const localNote = document.getElementById('localNote');
 
-      // Show local preview note when backend is not reachable
-      fetch('/api/me', { credentials: 'include', method: 'HEAD' }).then(() => {}).catch(() => {
-        if (localNote) localNote.style.display = 'block';
-      });
-
-      async function tryApiSignIn() {
-        err.style.display = 'none';
-        const res = await fetch('/auth/login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: 'email=' + encodeURIComponent(email.value) + '&password=' + encodeURIComponent(password.value),
-          credentials: 'include'
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const result = S.saveProfile({
+          name: name.value.trim(),
+          email: email.value.trim(),
+          avatarColor: '#D8F26B'
         });
-        if (res.ok) {
-          window.location.href = '/dashboard.html';
-        } else {
-          err.textContent = 'Invalid email or password.';
-          err.style.display = 'block';
-        }
-      }
-
-      function demoSignIn() {
-        err.style.display = 'none';
-        const name = email.value.trim() || 'Learner';
-        const result = S.saveProfile({ name, email: email.value.trim(), avatarColor: '#D8F26B' });
         if (!result.ok) {
-          err.textContent = result.message || 'Could not create local profile.';
-          err.style.display = 'block';
+          alert(result.message);
           return;
         }
-        S.toast('Signed in to local preview. Progress is saved in this browser.');
-        window.setTimeout(() => { window.location.href = '/dashboard.html'; }, 600);
-      }
-
-      form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        // Try the backend first; if unreachable, fall back to local demo
-        try {
-          await tryApiSignIn();
-        } catch (err_) {
-          demoSignIn();
-        }
+        S.toast('Profile created. Your progress is saved in this browser.');
+        setTimeout(() => { location.href = 'dashboard.html'; }, 600);
       });
-
-      [email, password].forEach(el => el.addEventListener('keypress', (e) => { if (e.key === 'Enter') form.requestSubmit(); }));
     })();
   </script>
 </body>
