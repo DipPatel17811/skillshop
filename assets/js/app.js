@@ -4,6 +4,7 @@
    ========================================================================== */
 
 (function () {
+  // v2-fix: removed duplicate wrapper functions causing stack overflow
   "use strict";
 
   const KEYS = {
