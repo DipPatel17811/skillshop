@@ -1218,7 +1218,7 @@ p {
   gap: 24px;
 }
 
-.course-card {
+.course-grid > .course-card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1229,6 +1229,20 @@ p {
   background: var(--card);
   box-shadow: 0 2px 0 rgba(23, 22, 20, 0.1);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ensure course cards render even if JS has issues */
+.course-grid > .course-card {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Hide loading skeleton once JS renders content */
+.course-grid.loaded > .loading-panel {
+  display: none !important;
 }
 
 .course-card:hover {
