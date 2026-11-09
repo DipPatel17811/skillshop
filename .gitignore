@@ -10,3 +10,5 @@ npm-debug.log*
 # Google OAuth credentials - never commit these
 client_secret_*.json
 client-id_*.json
+
+.vercel

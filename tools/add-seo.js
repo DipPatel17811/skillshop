@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = 'C:/Users/Admin/skillshop';
-const BASE = 'https://skillshop.onrender.com';
+const BASE = 'https://skillshop-eight.vercel.app';
 
 const pages = [
   { file: 'index.html', title: 'Skillshop — Learn a skill. Prove it.', desc: 'Practical online courses in technology, productivity, design, business, data, and creative arts. Learn at your own pace, earn virtual badges, and print a certificate when you finish.', type: 'website' },
