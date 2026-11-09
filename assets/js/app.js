@@ -462,38 +462,6 @@
     setCurrentYear();
   }
 
-  /* ---- storage functions: localStorage only (static hosting) ---- */
-  const _getProfile = getProfile;
-  const _saveProfile = saveProfile;
-  const _getCourseProgress = getCourseProgress;
-  const _setCourseProgress = setCourseProgress;
-  const _getCertificates = getCertificates;
-  const _issueCertificate = issueCertificate;
-
-  async function getProfile() {
-    return _getProfile();
-  }
-
-  function saveProfile(data) {
-    return _saveProfile(data);
-  }
-
-  async function getCourseProgress(courseId) {
-    return _getCourseProgress(courseId);
-  }
-
-  function setCourseProgress(courseId, value) {
-    return _setCourseProgress(courseId, value);
-  }
-
-  async function getCertificates() {
-    return _getCertificates();
-  }
-
-  async function issueCertificate(course, progress) {
-    return _issueCertificate(course, progress);
-  }
-
   window.Skillshop = {
     KEYS,
     AVATAR_COLORS,
