@@ -162,49 +162,74 @@
   }
 
   async function init() {
-    const grids = S.qsa("[data-course-grid]");
-    if (!grids.length) return;
+    try {
+      const grids = S.qsa("[data-course-grid]");
+      if (!grids.length) return;
 
-    renderTargets = grids;
-    const params = new URLSearchParams(window.location.search);
-    const initialTopic = params.get("topic");
-    query = (params.get("q") || "").trim().toLowerCase();
-    activeTopic = initialTopic || "all";
+      renderTargets = grids;
+      const params = new URLSearchParams(window.location.search);
+      const initialTopic = params.get("topic");
+      query = (params.get("q") || "").trim().toLowerCase();
+      activeTopic = initialTopic || "all";
 
-    // Try embedded catalog data first (works on static hosting)
-    const embeddedEl = document.getElementById("embedded-catalog");
-    if (embeddedEl) {
-      try {
-        catalog = JSON.parse(embeddedEl.textContent);
-      } catch (e) {
-        console.warn("Failed to parse embedded catalog", e);
+      // Try embedded catalog data first (works on static hosting)
+      let catalogData = null;
+      const embeddedEl = document.getElementById("embedded-catalog");
+      if (embeddedEl) {
+        try {
+          catalogData = JSON.parse(embeddedEl.textContent);
+        } catch (e) {
+          console.warn("Failed to parse embedded catalog", e);
+        }
       }
-    }
 
-    if (!catalog) {
+      // Fallback: fetch from server
+      if (!catalogData) {
+        try {
+          catalogData = await S.loadCatalog();
+        } catch (e) {
+          console.warn("Failed to fetch catalog from server", e);
+        }
+      }
+
+      if (!catalogData || !catalogData.courses || !catalogData.courses.length) {
+        grids.forEach((grid) => {
+          grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
+            ${S.icon("shield")}
+            <h3>Course catalog could not load</h3>
+            <p>Please refresh the page. If the problem persists, try opening in a different browser.</p>
+          </div>`;
+        });
+        return;
+      }
+
+      catalog = catalogData;
+
+      if (params.get("topic")) {
+        const exists = catalog.courses.some((course) => course.topicSlug === initialTopic);
+        if (!exists) activeTopic = "all";
+      }
+
+      S.qsa("[data-filter-bar]").forEach(renderFilters);
+      S.qsa("[data-topic]").forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.topic === activeTopic);
+      });
+      setupSearch();
+      renderAll();
+
+      document.documentElement.classList.add("catalog-ready");
+    } catch (e) {
+      console.error("Catalog init error:", e);
+      const grids = S.qsa("[data-course-grid]");
       grids.forEach((grid) => {
         grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
           ${S.icon("shield")}
-          <h3>Course catalog could not load</h3>
-          <p>Please refresh the page or open courses.html directly.</p>
+          <h3>Course catalog error</h3>
+          <p>${S.escapeHTML(e.message || "Unknown error")}</p>
+          <button class="btn btn--sm" type="button" onclick="location.reload()">Refresh page</button>
         </div>`;
       });
-      return;
     }
-
-    if (params.get("topic")) {
-      const exists = catalog.courses.some((course) => course.topicSlug === initialTopic);
-      if (!exists) activeTopic = "all";
-    }
-
-    S.qsa("[data-filter-bar]").forEach(renderFilters);
-    S.qsa("[data-topic]").forEach((button) => {
-      button.classList.toggle("is-active", button.dataset.topic === activeTopic);
-    });
-    setupSearch();
-    renderAll();
-
-    document.documentElement.classList.add("catalog-ready");
   }
 
   document.addEventListener("DOMContentLoaded", init);

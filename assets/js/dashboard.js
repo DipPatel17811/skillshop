@@ -131,14 +131,15 @@
   }
 
   async function init() {
-    if (!app) return;
-    let catalog;
     try {
-      catalog = await S.loadCatalog();
-    } catch (error) {
-      app.innerHTML = `<div class="container section"><div class="empty-state">${S.icon("shield")}<h3>Dashboard could not load</h3><p>Start a local web server or check your connection. See the README for instructions.</p></div></div>`;
-      return;
-    }
+      if (!app) return;
+      let catalog;
+      try {
+        catalog = await S.loadCatalog();
+      } catch (error) {
+        app.innerHTML = `<div class="container section"><div class="empty-state">${S.icon("shield")}<h3>Dashboard could not load</h3><p>${S.escapeHTML(error.message || "Check your connection")}</p><button class="btn btn--sm" type="button" onclick="location.reload()">Refresh page</button></div></div>`;
+        return;
+      }
     const profile = S.getProfile();
     if (!profile) {
       renderNoProfile(catalog);

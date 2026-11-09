@@ -535,4 +535,35 @@
   };
 
   document.addEventListener("DOMContentLoaded", bindGlobalUI);
+
+  // Global error handler - show errors visibly on the page
+  window.addEventListener("error", (event) => {
+    console.error("Global error:", event.error || event.message);
+    const grids = document.querySelectorAll("[data-course-grid], #dashboardApp, #courseRoot, #certificateApp");
+    grids.forEach((el) => {
+      if (el.innerHTML.includes("skeleton") || el.innerHTML.includes("loading-panel")) {
+        el.innerHTML = `<div class="empty-state" style="grid-column:1/-1; text-align:center; padding:60px 20px;">
+          ${S.icon("shield")}
+          <h3>JavaScript Error</h3>
+          <p>${S.escapeHTML((event.error && event.error.message) || event.message || "Unknown error")}</p>
+          <button class="btn btn--sm" type="button" onclick="location.reload()">Refresh page</button>
+        </div>`;
+      }
+    });
+  });
+
+  window.addEventListener("unhandledrejection", (event) => {
+    console.error("Unhandled promise rejection:", event.reason);
+    const grids = document.querySelectorAll("[data-course-grid], #dashboardApp, #courseRoot, #certificateApp");
+    grids.forEach((el) => {
+      if (el.innerHTML.includes("skeleton") || el.innerHTML.includes("loading-panel")) {
+        el.innerHTML = `<div class="empty-state" style="grid-column:1/-1; text-align:center; padding:60px 20px;">
+          ${S.icon("shield")}
+          <h3>Loading Error</h3>
+          <p>${S.escapeHTML((event.reason && event.reason.message) || String(event.reason) || "Unknown error")}</p>
+          <button class="btn btn--sm" type="button" onclick="location.reload()">Refresh page</button>
+        </div>`;
+      }
+    });
+  });
 })();
