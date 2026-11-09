@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated": "2026-11-07",
+  "version": 3,
+  "updated": "2026-11-09",
   "tagline": "Practical skills. Shareable proof.",
   "courses": [
     {
@@ -205,77 +205,77 @@
     },
     {
       "id": "course-001",
-      "title": "Data Visualization",
-      "topic": "Data & Analytics",
-      "topicSlug": "data",
-      "level": "Advanced",
-      "duration": "2h 0m",
-      "description": "A practical, advanced course on Data Visualization. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "compass",
-      "color": "#27958E",
+      "title": "Microcontrollers 101",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Beginner",
+      "duration": "5h 10m",
+      "description": "Build real hardware projects with Arduino-compatible boards. Learn to read sensors, control LEDs, and debug electronic circuits from the ground up.",
+      "icon": "chip",
+      "color": "#FF7A59",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Achiever",
+        "name": "Circuit Starter",
         "icon": "award",
-        "description": "Awarded for completing Data Visualization."
+        "description": "Awarded for completing Microcontrollers 101."
       },
       "skills": [
-        "Data & Analytics",
-        "Data",
-        "Practice",
-        "Application"
+        "Arduino programming",
+        "Circuit design",
+        "Sensor integration",
+        "Debugging hardware"
       ],
-      "path": "courses/data/course-001/course.json",
+      "path": "courses/technology/course-001/course.json",
       "featured": false
     },
     {
       "id": "course-002",
-      "title": "PowerPoint Design Systems",
+      "title": "PowerPoint Storytelling",
       "topic": "Productivity",
       "topicSlug": "productivity",
-      "level": "Intermediate",
-      "duration": "4h 0m",
-      "description": "A practical, intermediate course on PowerPoint Design Systems. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "wand",
-      "color": "#2E9B62",
+      "level": "Beginner",
+      "duration": "4h 45m",
+      "description": "Design slides that support your message instead of competing with it. Learn structure, visual hierarchy, charts, motion, and confident delivery.",
+      "icon": "presentation",
+      "color": "#F2A33B",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Skill Builder",
-        "icon": "medal",
-        "description": "Awarded for completing PowerPoint Design Systems."
+        "name": "Slide Storyteller",
+        "icon": "spark",
+        "description": "Awarded for completing PowerPoint Storytelling."
       },
       "skills": [
-        "Productivity",
-        "PowerPoint",
-        "Practice",
-        "Application"
+        "Story structure",
+        "Visual hierarchy",
+        "Data visuals",
+        "Delivery"
       ],
       "path": "courses/productivity/course-002/course.json",
       "featured": false
     },
     {
       "id": "course-003",
-      "title": "Typography Basics",
-      "topic": "Design",
-      "topicSlug": "design",
-      "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Typography Basics. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "document",
-      "color": "#8B5CF6",
+      "title": "Conflict Resolution",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
+      "icon": "brain",
+      "color": "#D94F7A",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Topic Master",
         "icon": "medal",
-        "description": "Awarded for completing Typography Basics."
+        "description": "Awarded for completing Conflict Resolution."
       },
       "skills": [
-        "Design",
-        "Typography",
-        "Practice",
-        "Application"
+        "Conflict styles",
+        "De-escalation",
+        "Negotiation",
+        "Mediation"
       ],
-      "path": "courses/design/course-003/course.json",
+      "path": "courses/communication/course-003/course.json",
       "featured": false
     },
     {
@@ -283,409 +283,259 @@
       "title": "User Experience Intro",
       "topic": "Design",
       "topicSlug": "design",
-      "level": "Beginner",
-      "duration": "3h 0m",
-      "description": "A practical, beginner course on User Experience Intro. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "table",
+      "level": "Intermediate",
+      "duration": "5h 00m",
+      "description": "Intermediate UX design with user personas, journey mapping, usability testing, and accessibility considerations.",
+      "icon": "brain",
       "color": "#8B5CF6",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Practitioner",
+        "name": "Badge Earner",
         "icon": "target",
         "description": "Awarded for completing User Experience Intro."
       },
       "skills": [
-        "Design",
-        "User",
-        "Practice",
-        "Application"
+        "User personas",
+        "Journey mapping",
+        "Usability testing",
+        "Accessibility"
       ],
       "path": "courses/design/course-004/course.json",
       "featured": false
     },
     {
       "id": "course-005",
+      "title": "Financial Literacy",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Advanced",
+      "duration": "4h 00m",
+      "description": "Master personal and business financial literacy including budgeting, investing, taxes, and retirement planning.",
+      "icon": "book",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Financial Literacy."
+      },
+      "skills": [
+        "Budgeting",
+        "Investing",
+        "Taxes",
+        "Retirement planning"
+      ],
+      "path": "courses/business/course-005/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-006",
       "title": "Data Cleaning",
       "topic": "Data & Analytics",
       "topicSlug": "data",
-      "level": "Advanced",
-      "duration": "4h 0m",
-      "description": "A practical, advanced course on Data Cleaning. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
       "icon": "chip",
       "color": "#27958E",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Topic Master",
-        "icon": "target",
+        "icon": "spark",
         "description": "Awarded for completing Data Cleaning."
       },
       "skills": [
-        "Data & Analytics",
-        "Data",
-        "Practice",
-        "Application"
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
       ],
-      "path": "courses/data/course-005/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-006",
-      "title": "Project Planning",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Project Planning. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "mic",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "award",
-        "description": "Awarded for completing Project Planning."
-      },
-      "skills": [
-        "Productivity",
-        "Project",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-006/course.json",
+      "path": "courses/data/course-006/course.json",
       "featured": false
     },
     {
       "id": "course-007",
-      "title": "Operations Management",
-      "topic": "Business",
-      "topicSlug": "business",
+      "title": "Creative Writing",
+      "topic": "Creative Arts",
+      "topicSlug": "creative",
       "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Operations Management. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "palette",
-      "color": "#F2A33B",
+      "duration": "2h 00m",
+      "description": "Learn creative writing fundamentals including story structure, character development, dialogue writing, and editing.",
+      "icon": "brain",
+      "color": "#FF7A59",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Badge Earner",
-        "icon": "target",
-        "description": "Awarded for completing Operations Management."
+        "name": "Achiever",
+        "icon": "medal",
+        "description": "Awarded for completing Creative Writing."
       },
       "skills": [
-        "Business",
-        "Operations",
-        "Practice",
-        "Application"
+        "Story structure",
+        "Character development",
+        "Dialogue",
+        "Editing"
       ],
-      "path": "courses/business/course-007/course.json",
+      "path": "courses/creative/course-007/course.json",
       "featured": false
     },
     {
       "id": "course-008",
-      "title": "Layout Design",
-      "topic": "Design",
-      "topicSlug": "design",
-      "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Layout Design. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "palette",
-      "color": "#8B5CF6",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Skill Builder",
-        "icon": "spark",
-        "description": "Awarded for completing Layout Design."
-      },
-      "skills": [
-        "Design",
-        "Layout",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/design/course-008/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-009",
-      "title": "Document Templates",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
+      "title": "Mobile App Development",
+      "topic": "Technology",
+      "topicSlug": "technology",
       "level": "Advanced",
-      "duration": "2h 0m",
-      "description": "A practical, advanced course on Document Templates. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "3h 00m",
+      "description": "Build mobile applications from design to deployment, covering UI patterns, data handling, and publishing.",
       "icon": "bolt",
-      "color": "#2E9B62",
+      "color": "#4E56D8",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Achiever",
         "icon": "target",
-        "description": "Awarded for completing Document Templates."
+        "description": "Awarded for completing Mobile App Development."
       },
       "skills": [
-        "Productivity",
-        "Document",
-        "Practice",
-        "Application"
+        "Mobile UI",
+        "App lifecycle",
+        "API integration",
+        "App store deployment"
+      ],
+      "path": "courses/technology/course-008/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-009",
+      "title": "Time Management",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Master time management with prioritization frameworks, time blocking, and productivity systems that work.",
+      "icon": "brain",
+      "color": "#2E9B62",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Practitioner",
+        "icon": "award",
+        "description": "Awarded for completing Time Management."
+      },
+      "skills": [
+        "Prioritization",
+        "Time blocking",
+        "Task batching",
+        "Productivity systems"
       ],
       "path": "courses/productivity/course-009/course.json",
       "featured": false
     },
     {
       "id": "course-010",
-      "title": "Blockchain Intro",
-      "topic": "Technology",
-      "topicSlug": "technology",
-      "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Blockchain Intro. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "layout",
-      "color": "#4E56D8",
+      "title": "Conflict Resolution",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
+      "icon": "brain",
+      "color": "#D94F7A",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Topic Master",
         "icon": "spark",
-        "description": "Awarded for completing Blockchain Intro."
+        "description": "Awarded for completing Conflict Resolution."
       },
       "skills": [
-        "Technology",
-        "Blockchain",
-        "Practice",
-        "Application"
+        "Conflict styles",
+        "De-escalation",
+        "Negotiation",
+        "Mediation"
       ],
-      "path": "courses/technology/course-010/course.json",
+      "path": "courses/communication/course-010/course.json",
       "featured": false
     },
     {
       "id": "course-011",
-      "title": "Entrepreneurship 101",
-      "topic": "Business",
-      "topicSlug": "business",
-      "level": "Intermediate",
-      "duration": "5h 0m",
-      "description": "A practical, intermediate course on Entrepreneurship 101. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "layout",
-      "color": "#F2A33B",
+      "title": "Layout Design",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn layout design principles including grid systems, whitespace, alignment, and visual balance for effective layouts.",
+      "icon": "palette",
+      "color": "#8B5CF6",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Achiever",
+        "name": "Skill Builder",
         "icon": "medal",
-        "description": "Awarded for completing Entrepreneurship 101."
+        "description": "Awarded for completing Layout Design."
       },
       "skills": [
-        "Business",
-        "Entrepreneurship",
-        "Practice",
-        "Application"
+        "Grid systems",
+        "Whitespace",
+        "Alignment",
+        "Balance"
       ],
-      "path": "courses/business/course-011/course.json",
+      "path": "courses/design/course-011/course.json",
       "featured": false
     },
     {
       "id": "course-012",
-      "title": "PowerPoint Design Systems",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
+      "title": "Marketing Fundamentals",
+      "topic": "Business",
+      "topicSlug": "business",
       "level": "Advanced",
-      "duration": "2h 0m",
-      "description": "A practical, advanced course on PowerPoint Design Systems. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "layers",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Practitioner",
-        "icon": "medal",
-        "description": "Awarded for completing PowerPoint Design Systems."
-      },
-      "skills": [
-        "Productivity",
-        "PowerPoint",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-012/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-013",
-      "title": "Word Automation",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Intermediate",
-      "duration": "4h 0m",
-      "description": "A practical, intermediate course on Word Automation. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "medal",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "target",
-        "description": "Awarded for completing Word Automation."
-      },
-      "skills": [
-        "Productivity",
-        "Word",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-013/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-014",
-      "title": "User Experience Intro",
-      "topic": "Design",
-      "topicSlug": "design",
-      "level": "Intermediate",
-      "duration": "5h 0m",
-      "description": "A practical, intermediate course on User Experience Intro. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "brain",
-      "color": "#8B5CF6",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Badge Earner",
-        "icon": "award",
-        "description": "Awarded for completing User Experience Intro."
-      },
-      "skills": [
-        "Design",
-        "User",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/design/course-014/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-015",
-      "title": "Creative Writing",
-      "topic": "Creative Arts",
-      "topicSlug": "creative",
-      "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Creative Writing. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "brain",
-      "color": "#FF7A59",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "target",
-        "description": "Awarded for completing Creative Writing."
-      },
-      "skills": [
-        "Creative Arts",
-        "Creative",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/creative/course-015/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-016",
-      "title": "A/B Testing",
-      "topic": "Data & Analytics",
-      "topicSlug": "data",
-      "level": "Advanced",
-      "duration": "4h 0m",
-      "description": "A practical, advanced course on A/B Testing. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "wand",
-      "color": "#27958E",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "award",
-        "description": "Awarded for completing A/B Testing."
-      },
-      "skills": [
-        "Data & Analytics",
-        "A/B",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/data/course-016/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-017",
-      "title": "Time Management",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Time Management. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "brain",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Practitioner",
-        "icon": "spark",
-        "description": "Awarded for completing Time Management."
-      },
-      "skills": [
-        "Productivity",
-        "Time",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-017/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-018",
-      "title": "Active Listening",
-      "topic": "Communication",
-      "topicSlug": "communication",
-      "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Active Listening. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "target",
-      "color": "#D94F7A",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Skill Builder",
-        "icon": "award",
-        "description": "Awarded for completing Active Listening."
-      },
-      "skills": [
-        "Communication",
-        "Active",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/communication/course-018/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-019",
-      "title": "Icon Design",
-      "topic": "Design",
-      "topicSlug": "design",
-      "level": "Intermediate",
-      "duration": "2h 0m",
-      "description": "A practical, intermediate course on Icon Design. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "code",
-      "color": "#8B5CF6",
+      "duration": "4h 00m",
+      "description": "Learn marketing fundamentals including the marketing mix, customer segmentation, positioning, and campaign management.",
+      "icon": "chip",
+      "color": "#F2A33B",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Topic Master",
         "icon": "target",
-        "description": "Awarded for completing Icon Design."
+        "description": "Awarded for completing Marketing Fundamentals."
       },
       "skills": [
-        "Design",
-        "Icon",
-        "Practice",
-        "Application"
+        "Marketing mix",
+        "Customer segmentation",
+        "Positioning",
+        "Campaigns"
       ],
-      "path": "courses/design/course-019/course.json",
+      "path": "courses/business/course-012/course.json",
       "featured": false
     },
     {
-      "id": "course-020",
+      "id": "course-013",
+      "title": "Data Cleaning",
+      "topic": "Data & Analytics",
+      "topicSlug": "data",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
+      "icon": "chip",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Data Cleaning."
+      },
+      "skills": [
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
+      ],
+      "path": "courses/data/course-013/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-014",
       "title": "Creative Portfolio",
       "topic": "Creative Arts",
       "topicSlug": "creative",
       "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Creative Portfolio. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "2h 00m",
+      "description": "Build a creative portfolio with project selection, presentation design, and online presence for showcasing your work.",
       "icon": "target",
       "color": "#FF7A59",
       "accent": "#F6F2EA",
@@ -695,372 +545,147 @@
         "description": "Awarded for completing Creative Portfolio."
       },
       "skills": [
-        "Creative Arts",
-        "Creative",
-        "Practice",
-        "Application"
+        "Portfolio design",
+        "Project selection",
+        "Presentation",
+        "Online presence"
       ],
-      "path": "courses/creative/course-020/course.json",
+      "path": "courses/creative/course-014/course.json",
       "featured": false
     },
     {
-      "id": "course-021",
-      "title": "Advanced Excel Modeling",
+      "id": "course-015",
+      "title": "Cloud Computing 101",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Advanced",
+      "duration": "4h 00m",
+      "description": "Learn cloud computing fundamentals, service models (IaaS, PaaS, SaaS), and major cloud providers.",
+      "icon": "layers",
+      "color": "#4E56D8",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Skill Builder",
+        "icon": "medal",
+        "description": "Awarded for completing Cloud Computing 101."
+      },
+      "skills": [
+        "Cloud models",
+        "AWS basics",
+        "Azure basics",
+        "Google Cloud"
+      ],
+      "path": "courses/technology/course-015/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-016",
+      "title": "Excel Essentials",
       "topic": "Productivity",
       "topicSlug": "productivity",
-      "level": "Advanced",
-      "duration": "5h 0m",
-      "description": "A practical, advanced course on Advanced Excel Modeling. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "shield",
+      "level": "Beginner",
+      "duration": "5h 00m",
+      "description": "Go from blank grid to confident spreadsheet. Master formulas, tables, charts, and PivotTables by building a budget tracker you can actually use.",
+      "icon": "grid",
       "color": "#2E9B62",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Achiever",
+        "name": "Spreadsheet Navigator",
         "icon": "target",
-        "description": "Awarded for completing Advanced Excel Modeling."
+        "description": "Awarded for completing Excel Essentials."
       },
       "skills": [
-        "Productivity",
-        "Advanced",
-        "Practice",
-        "Application"
+        "Formulas",
+        "PivotTables",
+        "Data validation",
+        "Charts"
       ],
-      "path": "courses/productivity/course-021/course.json",
+      "path": "courses/productivity/course-016/course.json",
       "featured": false
     },
     {
-      "id": "course-022",
-      "title": "Statistics Intro",
-      "topic": "Data & Analytics",
-      "topicSlug": "data",
-      "level": "Intermediate",
-      "duration": "4h 0m",
-      "description": "A practical, intermediate course on Statistics Intro. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "target",
-      "color": "#27958E",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Topic Master",
-        "icon": "spark",
-        "description": "Awarded for completing Statistics Intro."
-      },
-      "skills": [
-        "Data & Analytics",
-        "Statistics",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/data/course-022/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-023",
-      "title": "Marketing Fundamentals",
-      "topic": "Business",
-      "topicSlug": "business",
-      "level": "Advanced",
-      "duration": "4h 0m",
-      "description": "A practical, advanced course on Marketing Fundamentals. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "chip",
-      "color": "#F2A33B",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Topic Master",
-        "icon": "spark",
-        "description": "Awarded for completing Marketing Fundamentals."
-      },
-      "skills": [
-        "Business",
-        "Marketing",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/business/course-023/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-024",
+      "id": "course-017",
       "title": "Conflict Resolution",
       "topic": "Communication",
       "topicSlug": "communication",
       "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Conflict Resolution. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
       "icon": "brain",
       "color": "#D94F7A",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Topic Master",
-        "icon": "spark",
+        "icon": "award",
         "description": "Awarded for completing Conflict Resolution."
       },
       "skills": [
-        "Communication",
-        "Conflict",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/communication/course-024/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-025",
-      "title": "Notion for Productivity",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Intermediate",
-      "duration": "5h 0m",
-      "description": "A practical, intermediate course on Notion for Productivity. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "shield",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Skill Builder",
-        "icon": "target",
-        "description": "Awarded for completing Notion for Productivity."
-      },
-      "skills": [
-        "Productivity",
-        "Notion",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-025/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-026",
-      "title": "Podcasting 101",
-      "topic": "Creative Arts",
-      "topicSlug": "creative",
-      "level": "Beginner",
-      "duration": "4h 0m",
-      "description": "A practical, beginner course on Podcasting 101. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "bolt",
-      "color": "#FF7A59",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "medal",
-        "description": "Awarded for completing Podcasting 101."
-      },
-      "skills": [
-        "Creative Arts",
-        "Podcasting",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/creative/course-026/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-027",
-      "title": "Time Management",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Time Management. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "shield",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Practitioner",
-        "icon": "medal",
-        "description": "Awarded for completing Time Management."
-      },
-      "skills": [
-        "Productivity",
-        "Time",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-027/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-028",
-      "title": "Meeting Facilitation",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Beginner",
-      "duration": "4h 0m",
-      "description": "A practical, beginner course on Meeting Facilitation. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "layers",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Topic Master",
-        "icon": "award",
-        "description": "Awarded for completing Meeting Facilitation."
-      },
-      "skills": [
-        "Productivity",
-        "Meeting",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-028/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-029",
-      "title": "Network Basics",
-      "topic": "Technology",
-      "topicSlug": "technology",
-      "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Network Basics. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "shield",
-      "color": "#4E56D8",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Topic Master",
-        "icon": "spark",
-        "description": "Awarded for completing Network Basics."
-      },
-      "skills": [
-        "Technology",
-        "Network",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/technology/course-029/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-030",
-      "title": "Business Law Basics",
-      "topic": "Business",
-      "topicSlug": "business",
-      "level": "Intermediate",
-      "duration": "2h 0m",
-      "description": "A practical, intermediate course on Business Law Basics. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "layout",
-      "color": "#F2A33B",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Practitioner",
-        "icon": "spark",
-        "description": "Awarded for completing Business Law Basics."
-      },
-      "skills": [
-        "Business",
-        "Business",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/business/course-030/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-031",
-      "title": "Data Visualization",
-      "topic": "Data & Analytics",
-      "topicSlug": "data",
-      "level": "Beginner",
-      "duration": "3h 0m",
-      "description": "A practical, beginner course on Data Visualization. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "table",
-      "color": "#27958E",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Skill Builder",
-        "icon": "target",
-        "description": "Awarded for completing Data Visualization."
-      },
-      "skills": [
-        "Data & Analytics",
-        "Data",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/data/course-031/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-032",
-      "title": "Financial Literacy",
-      "topic": "Business",
-      "topicSlug": "business",
-      "level": "Advanced",
-      "duration": "4h 0m",
-      "description": "A practical, advanced course on Financial Literacy. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "book",
-      "color": "#F2A33B",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Topic Master",
-        "icon": "medal",
-        "description": "Awarded for completing Financial Literacy."
-      },
-      "skills": [
-        "Business",
-        "Financial",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/business/course-032/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-033",
-      "title": "Negotiation Skills",
-      "topic": "Communication",
-      "topicSlug": "communication",
-      "level": "Beginner",
-      "duration": "5h 0m",
-      "description": "A practical, beginner course on Negotiation Skills. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "wand",
-      "color": "#D94F7A",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Practitioner",
-        "icon": "spark",
-        "description": "Awarded for completing Negotiation Skills."
-      },
-      "skills": [
-        "Communication",
+        "Conflict styles",
+        "De-escalation",
         "Negotiation",
-        "Practice",
-        "Application"
+        "Mediation"
       ],
-      "path": "courses/communication/course-033/course.json",
+      "path": "courses/communication/course-017/course.json",
       "featured": false
     },
     {
-      "id": "course-034",
-      "title": "Conflict Resolution",
-      "topic": "Communication",
-      "topicSlug": "communication",
-      "level": "Advanced",
-      "duration": "4h 0m",
-      "description": "A practical, advanced course on Conflict Resolution. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "id": "course-018",
+      "title": "User Experience Intro",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Beginner",
+      "duration": "3h 00m",
+      "description": "Introduction to user experience design including user research, wireframing, user testing, and information architecture.",
       "icon": "table",
-      "color": "#D94F7A",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Practitioner",
+        "icon": "spark",
+        "description": "Awarded for completing User Experience Intro."
+      },
+      "skills": [
+        "User research",
+        "Wireframing",
+        "User testing",
+        "Information architecture"
+      ],
+      "path": "courses/design/course-018/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-019",
+      "title": "Operations Management",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn operations management fundamentals including process design, quality control, and supply chain basics.",
+      "icon": "palette",
+      "color": "#F2A33B",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Badge Earner",
-        "icon": "target",
-        "description": "Awarded for completing Conflict Resolution."
+        "icon": "medal",
+        "description": "Awarded for completing Operations Management."
       },
       "skills": [
-        "Communication",
-        "Conflict",
-        "Practice",
-        "Application"
+        "Process design",
+        "Quality control",
+        "Supply chain",
+        "Operations strategy"
       ],
-      "path": "courses/communication/course-034/course.json",
+      "path": "courses/business/course-019/course.json",
       "featured": false
     },
     {
-      "id": "course-035",
+      "id": "course-020",
       "title": "Data Cleaning",
       "topic": "Data & Analytics",
       "topicSlug": "data",
       "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Data Cleaning. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
       "icon": "chip",
       "color": "#27958E",
       "accent": "#F6F2EA",
@@ -1070,85 +695,460 @@
         "description": "Awarded for completing Data Cleaning."
       },
       "skills": [
-        "Data & Analytics",
-        "Data",
-        "Practice",
-        "Application"
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
       ],
-      "path": "courses/data/course-035/course.json",
+      "path": "courses/data/course-020/course.json",
       "featured": false
     },
     {
-      "id": "course-036",
-      "title": "Logo Design",
-      "topic": "Design",
-      "topicSlug": "design",
-      "level": "Advanced",
-      "duration": "3h 0m",
-      "description": "A practical, advanced course on Logo Design. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "medal",
-      "color": "#8B5CF6",
+      "id": "course-021",
+      "title": "Podcasting 101",
+      "topic": "Creative Arts",
+      "topicSlug": "creative",
+      "level": "Beginner",
+      "duration": "4h 00m",
+      "description": "Learn podcasting fundamentals including audio recording, editing, publishing, and distribution to podcast platforms.",
+      "icon": "bolt",
+      "color": "#FF7A59",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Topic Master",
-        "icon": "spark",
-        "description": "Awarded for completing Logo Design."
+        "name": "Achiever",
+        "icon": "award",
+        "description": "Awarded for completing Podcasting 101."
       },
       "skills": [
-        "Design",
-        "Logo",
-        "Practice",
-        "Application"
+        "Audio recording",
+        "Editing",
+        "Publishing",
+        "Distribution"
       ],
-      "path": "courses/design/course-036/course.json",
+      "path": "courses/creative/course-021/course.json",
       "featured": false
     },
     {
-      "id": "course-037",
+      "id": "course-022",
       "title": "DevOps Fundamentals",
       "topic": "Technology",
       "topicSlug": "technology",
       "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on DevOps Fundamentals. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "3h 00m",
+      "description": "Understand DevOps culture and practices including CI/CD pipelines, containerization, and infrastructure automation.",
       "icon": "code",
       "color": "#4E56D8",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Practitioner",
-        "icon": "target",
+        "icon": "spark",
         "description": "Awarded for completing DevOps Fundamentals."
       },
       "skills": [
-        "Technology",
-        "DevOps",
-        "Practice",
-        "Application"
+        "CI/CD",
+        "Containerization",
+        "Infrastructure as code",
+        "Monitoring"
       ],
-      "path": "courses/technology/course-037/course.json",
+      "path": "courses/technology/course-022/course.json",
       "featured": false
     },
     {
-      "id": "course-038",
-      "title": "Active Listening",
+      "id": "course-023",
+      "title": "Word Automation",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Intermediate",
+      "duration": "4h 00m",
+      "description": "Automate Word document creation with mail merge, macros, field codes, and document assembly techniques.",
+      "icon": "medal",
+      "color": "#2E9B62",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Achiever",
+        "icon": "medal",
+        "description": "Awarded for completing Word Automation."
+      },
+      "skills": [
+        "Mail merge",
+        "Macros",
+        "Field codes",
+        "Document assembly"
+      ],
+      "path": "courses/productivity/course-023/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-024",
+      "title": "Conflict Resolution",
       "topic": "Communication",
       "topicSlug": "communication",
-      "level": "Intermediate",
-      "duration": "2h 0m",
-      "description": "A practical, intermediate course on Active Listening. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "book",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
+      "icon": "brain",
       "color": "#D94F7A",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "target",
+        "description": "Awarded for completing Conflict Resolution."
+      },
+      "skills": [
+        "Conflict styles",
+        "De-escalation",
+        "Negotiation",
+        "Mediation"
+      ],
+      "path": "courses/communication/course-024/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-025",
+      "title": "Typography Basics",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Learn typography fundamentals including type classification, font pairing, visual hierarchy, and readability principles.",
+      "icon": "document",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Typography Basics."
+      },
+      "skills": [
+        "Type classification",
+        "Font pairing",
+        "Hierarchy",
+        "Readability"
+      ],
+      "path": "courses/design/course-025/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-026",
+      "title": "Financial Literacy",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Advanced",
+      "duration": "2h 00m",
+      "description": "Advanced financial literacy with personal finance, investment strategies, risk management, and wealth building techniques.",
+      "icon": "award",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Practitioner",
+        "icon": "spark",
+        "description": "Awarded for completing Financial Literacy."
+      },
+      "skills": [
+        "Personal finance",
+        "Investment strategies",
+        "Risk management",
+        "Wealth building"
+      ],
+      "path": "courses/business/course-026/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-027",
+      "title": "Data Cleaning",
+      "topic": "Data & Analytics",
+      "topicSlug": "data",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
+      "icon": "chip",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "medal",
+        "description": "Awarded for completing Data Cleaning."
+      },
+      "skills": [
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
+      ],
+      "path": "courses/data/course-027/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-028",
+      "title": "Creative Writing",
+      "topic": "Creative Arts",
+      "topicSlug": "creative",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn creative writing fundamentals including story structure, character development, dialogue writing, and editing.",
+      "icon": "brain",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Achiever",
+        "icon": "target",
+        "description": "Awarded for completing Creative Writing."
+      },
+      "skills": [
+        "Story structure",
+        "Character development",
+        "Dialogue",
+        "Editing"
+      ],
+      "path": "courses/creative/course-028/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-029",
+      "title": "Network Basics",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Learn how computer networks operate, from IP addressing to DNS, HTTP, and basic network security.",
+      "icon": "shield",
+      "color": "#4E56D8",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Network Basics."
+      },
+      "skills": [
+        "TCP/IP",
+        "DNS",
+        "HTTP",
+        "Network security"
+      ],
+      "path": "courses/technology/course-029/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-030",
+      "title": "Google Workspace Mastery",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Advanced",
+      "duration": "3h 00m",
+      "description": "Master Google Workspace collaboration tools including Docs, Sheets, Slides, and Forms for team productivity.",
+      "icon": "compass",
+      "color": "#2E9B62",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Achiever",
         "icon": "spark",
-        "description": "Awarded for completing Active Listening."
+        "description": "Awarded for completing Google Workspace Mastery."
       },
       "skills": [
-        "Communication",
-        "Active",
-        "Practice",
-        "Application"
+        "Google Docs",
+        "Google Sheets",
+        "Google Slides",
+        "Google Forms"
+      ],
+      "path": "courses/productivity/course-030/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-031",
+      "title": "Conflict Resolution",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
+      "icon": "brain",
+      "color": "#D94F7A",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "medal",
+        "description": "Awarded for completing Conflict Resolution."
+      },
+      "skills": [
+        "Conflict styles",
+        "De-escalation",
+        "Negotiation",
+        "Mediation"
+      ],
+      "path": "courses/communication/course-031/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-032",
+      "title": "Icon Design",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Design accessible icon sets for design systems with SVG optimization and accessibility considerations.",
+      "icon": "medal",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Badge Earner",
+        "icon": "target",
+        "description": "Awarded for completing Icon Design."
+      },
+      "skills": [
+        "Icon sets",
+        "Design systems",
+        "SVG optimization",
+        "Accessibility"
+      ],
+      "path": "courses/design/course-032/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-033",
+      "title": "Business Law Basics",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Intermediate",
+      "duration": "2h 00m",
+      "description": "Intermediate business law covering contract law, corporate law, compliance, and risk management.",
+      "icon": "medal",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Business Law Basics."
+      },
+      "skills": [
+        "Contract law",
+        "Corporate law",
+        "Compliance",
+        "Risk management"
+      ],
+      "path": "courses/business/course-033/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-034",
+      "title": "Data Cleaning",
+      "topic": "Data & Analytics",
+      "topicSlug": "data",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
+      "icon": "chip",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "spark",
+        "description": "Awarded for completing Data Cleaning."
+      },
+      "skills": [
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
+      ],
+      "path": "courses/data/course-034/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-035",
+      "title": "Creative Portfolio",
+      "topic": "Creative Arts",
+      "topicSlug": "creative",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Build a creative portfolio with project selection, presentation design, and online presence for showcasing your work.",
+      "icon": "target",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Badge Earner",
+        "icon": "medal",
+        "description": "Awarded for completing Creative Portfolio."
+      },
+      "skills": [
+        "Portfolio design",
+        "Project selection",
+        "Presentation",
+        "Online presence"
+      ],
+      "path": "courses/creative/course-035/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-036",
+      "title": "Blockchain Intro",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Understand blockchain technology, how distributed ledgers work, and what smart contracts enable.",
+      "icon": "layout",
+      "color": "#4E56D8",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "target",
+        "description": "Awarded for completing Blockchain Intro."
+      },
+      "skills": [
+        "Blockchain basics",
+        "Smart contracts",
+        "Cryptocurrency",
+        "Distributed ledger"
+      ],
+      "path": "courses/technology/course-036/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-037",
+      "title": "PowerPoint Design Systems",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Advanced",
+      "duration": "2h 00m",
+      "description": "Advanced PowerPoint design systems with master slides, custom themes, and enterprise-grade template libraries.",
+      "icon": "layers",
+      "color": "#2E9B62",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Practitioner",
+        "icon": "award",
+        "description": "Awarded for completing PowerPoint Design Systems."
+      },
+      "skills": [
+        "Master slides",
+        "Theme customization",
+        "Brand kits",
+        "Template libraries"
+      ],
+      "path": "courses/productivity/course-037/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-038",
+      "title": "Conflict Resolution",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
+      "icon": "brain",
+      "color": "#D94F7A",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "spark",
+        "description": "Awarded for completing Conflict Resolution."
+      },
+      "skills": [
+        "Conflict styles",
+        "De-escalation",
+        "Negotiation",
+        "Mediation"
       ],
       "path": "courses/communication/course-038/course.json",
       "featured": false
@@ -1159,8 +1159,8 @@
       "topic": "Design",
       "topicSlug": "design",
       "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Icon Design. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "2h 00m",
+      "description": "Design icon families with scalable vector design, consistent visual language, and proper export formats.",
       "icon": "award",
       "color": "#8B5CF6",
       "accent": "#F6F2EA",
@@ -1170,10 +1170,10 @@
         "description": "Awarded for completing Icon Design."
       },
       "skills": [
-        "Design",
-        "Icon",
-        "Practice",
-        "Application"
+        "Icon families",
+        "Scalable design",
+        "Visual language",
+        "Export formats"
       ],
       "path": "courses/design/course-039/course.json",
       "featured": false
@@ -1184,273 +1184,273 @@
       "topic": "Business",
       "topicSlug": "business",
       "level": "Intermediate",
-      "duration": "2h 0m",
-      "description": "A practical, intermediate course on Business Law Basics. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "medal",
+      "duration": "2h 00m",
+      "description": "Understand business law fundamentals including contracts, employment law, intellectual property, and business formation.",
+      "icon": "layout",
       "color": "#F2A33B",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Topic Master",
-        "icon": "award",
+        "name": "Practitioner",
+        "icon": "target",
         "description": "Awarded for completing Business Law Basics."
       },
       "skills": [
-        "Business",
-        "Business",
-        "Practice",
-        "Application"
+        "Contracts",
+        "Employment law",
+        "Intellectual property",
+        "Business formation"
       ],
       "path": "courses/business/course-040/course.json",
       "featured": false
     },
     {
       "id": "course-041",
-      "title": "Entrepreneurship 101",
-      "topic": "Business",
-      "topicSlug": "business",
+      "title": "Data Cleaning",
+      "topic": "Data & Analytics",
+      "topicSlug": "data",
       "level": "Beginner",
-      "duration": "2h 0m",
-      "description": "A practical, beginner course on Entrepreneurship 101. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "document",
-      "color": "#F2A33B",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
+      "icon": "chip",
+      "color": "#27958E",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Skill Builder",
-        "icon": "medal",
-        "description": "Awarded for completing Entrepreneurship 101."
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Data Cleaning."
       },
       "skills": [
-        "Business",
-        "Entrepreneurship",
-        "Practice",
-        "Application"
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
       ],
-      "path": "courses/business/course-041/course.json",
+      "path": "courses/data/course-041/course.json",
       "featured": false
     },
     {
       "id": "course-042",
-      "title": "Financial Literacy",
-      "topic": "Business",
-      "topicSlug": "business",
-      "level": "Advanced",
-      "duration": "2h 0m",
-      "description": "A practical, advanced course on Financial Literacy. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "award",
-      "color": "#F2A33B",
+      "title": "Podcasting 101",
+      "topic": "Creative Arts",
+      "topicSlug": "creative",
+      "level": "Beginner",
+      "duration": "4h 00m",
+      "description": "Learn podcasting fundamentals including audio recording, editing, publishing, and distribution to podcast platforms.",
+      "icon": "bolt",
+      "color": "#FF7A59",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Practitioner",
-        "icon": "award",
-        "description": "Awarded for completing Financial Literacy."
+        "name": "Achiever",
+        "icon": "spark",
+        "description": "Awarded for completing Podcasting 101."
       },
       "skills": [
-        "Business",
-        "Financial",
-        "Practice",
-        "Application"
+        "Audio recording",
+        "Editing",
+        "Publishing",
+        "Distribution"
       ],
-      "path": "courses/business/course-042/course.json",
+      "path": "courses/creative/course-042/course.json",
       "featured": false
     },
     {
       "id": "course-043",
+      "title": "Web Design Foundations",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Beginner",
+      "duration": "5h 05m",
+      "description": "Build and publish your first responsive website with semantic HTML and modern CSS. Learn layout, typography, color, accessibility, and static hosting.",
+      "icon": "layout",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Web Weaver",
+        "icon": "medal",
+        "description": "Awarded for completing Web Design Foundations."
+      },
+      "skills": [
+        "HTML semantics",
+        "CSS layout",
+        "Responsive design",
+        "Accessibility"
+      ],
+      "path": "courses/technology/course-043/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-044",
       "title": "Word Automation",
       "topic": "Productivity",
       "topicSlug": "productivity",
       "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Word Automation. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "duration": "3h 00m",
+      "description": "Automate Word document creation with mail merge, templates, AutoText, and field codes for document efficiency.",
       "icon": "wand",
       "color": "#2E9B62",
       "accent": "#F6F2EA",
       "badge": {
         "name": "Practitioner",
-        "icon": "medal",
+        "icon": "target",
         "description": "Awarded for completing Word Automation."
       },
       "skills": [
-        "Productivity",
-        "Word",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/productivity/course-043/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-044",
-      "title": "Google Workspace Mastery",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Advanced",
-      "duration": "3h 0m",
-      "description": "A practical, advanced course on Google Workspace Mastery. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "compass",
-      "color": "#2E9B62",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "award",
-        "description": "Awarded for completing Google Workspace Mastery."
-      },
-      "skills": [
-        "Productivity",
-        "Google",
-        "Practice",
-        "Application"
+        "Mail merge",
+        "Templates",
+        "AutoText",
+        "Field codes"
       ],
       "path": "courses/productivity/course-044/course.json",
       "featured": false
     },
     {
       "id": "course-045",
-      "title": "Cloud Computing 101",
-      "topic": "Technology",
-      "topicSlug": "technology",
-      "level": "Advanced",
-      "duration": "4h 0m",
-      "description": "A practical, advanced course on Cloud Computing 101. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "layers",
-      "color": "#4E56D8",
+      "title": "Conflict Resolution",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn to resolve conflicts constructively with de-escalation techniques, negotiation skills, and mediation basics.",
+      "icon": "brain",
+      "color": "#D94F7A",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Skill Builder",
-        "icon": "medal",
-        "description": "Awarded for completing Cloud Computing 101."
+        "name": "Topic Master",
+        "icon": "award",
+        "description": "Awarded for completing Conflict Resolution."
       },
       "skills": [
-        "Technology",
-        "Cloud",
-        "Practice",
-        "Application"
+        "Conflict styles",
+        "De-escalation",
+        "Negotiation",
+        "Mediation"
       ],
-      "path": "courses/technology/course-045/course.json",
+      "path": "courses/communication/course-045/course.json",
       "featured": false
     },
     {
       "id": "course-046",
-      "title": "Mobile App Development",
-      "topic": "Technology",
-      "topicSlug": "technology",
-      "level": "Advanced",
-      "duration": "3h 0m",
-      "description": "A practical, advanced course on Mobile App Development. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "bolt",
-      "color": "#4E56D8",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Achiever",
-        "icon": "target",
-        "description": "Awarded for completing Mobile App Development."
-      },
-      "skills": [
-        "Technology",
-        "Mobile",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/technology/course-046/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-047",
-      "title": "KPI Tracking",
-      "topic": "Data & Analytics",
-      "topicSlug": "data",
-      "level": "Advanced",
-      "duration": "2h 0m",
-      "description": "A practical, advanced course on KPI Tracking. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "chip",
-      "color": "#27958E",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Badge Earner",
-        "icon": "target",
-        "description": "Awarded for completing KPI Tracking."
-      },
-      "skills": [
-        "Data & Analytics",
-        "KPI",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/data/course-047/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-048",
-      "title": "Active Listening",
-      "topic": "Communication",
-      "topicSlug": "communication",
-      "level": "Advanced",
-      "duration": "5h 0m",
-      "description": "A practical, advanced course on Active Listening. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "document",
-      "color": "#D94F7A",
-      "accent": "#F6F2EA",
-      "badge": {
-        "name": "Practitioner",
-        "icon": "award",
-        "description": "Awarded for completing Active Listening."
-      },
-      "skills": [
-        "Communication",
-        "Active",
-        "Practice",
-        "Application"
-      ],
-      "path": "courses/communication/course-048/course.json",
-      "featured": false
-    },
-    {
-      "id": "course-049",
-      "title": "Icon Design",
+      "title": "Logo Design",
       "topic": "Design",
       "topicSlug": "design",
-      "level": "Intermediate",
-      "duration": "3h 0m",
-      "description": "A practical, intermediate course on Icon Design. Learn by doing with guided lessons, exercises, and a final assessment.",
+      "level": "Advanced",
+      "duration": "3h 00m",
+      "description": "Learn logo design principles including brand identity, vector graphics, and typography for memorable logos.",
       "icon": "medal",
       "color": "#8B5CF6",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Badge Earner",
+        "name": "Topic Master",
         "icon": "spark",
-        "description": "Awarded for completing Icon Design."
+        "description": "Awarded for completing Logo Design."
       },
       "skills": [
-        "Design",
-        "Icon",
-        "Practice",
-        "Application"
+        "Logo design",
+        "Brand identity",
+        "Vector graphics",
+        "Typography"
       ],
-      "path": "courses/design/course-049/course.json",
+      "path": "courses/design/course-046/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-047",
+      "title": "Entrepreneurship 101",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Intermediate",
+      "duration": "5h 00m",
+      "description": "Learn entrepreneurship fundamentals including business planning, market validation, pitching, and fundraising basics.",
+      "icon": "layout",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Achiever",
+        "icon": "medal",
+        "description": "Awarded for completing Entrepreneurship 101."
+      },
+      "skills": [
+        "Business planning",
+        "Market validation",
+        "Pitching",
+        "Fundraising"
+      ],
+      "path": "courses/business/course-047/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-048",
+      "title": "Data Cleaning",
+      "topic": "Data & Analytics",
+      "topicSlug": "data",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn data cleaning fundamentals including handling missing data, removing duplicates, and ensuring data quality.",
+      "icon": "chip",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Topic Master",
+        "icon": "target",
+        "description": "Awarded for completing Data Cleaning."
+      },
+      "skills": [
+        "Data cleaning",
+        "Missing data",
+        "Duplicates",
+        "Data quality"
+      ],
+      "path": "courses/data/course-048/course.json",
+      "featured": false
+    },
+    {
+      "id": "course-049",
+      "title": "Creative Writing",
+      "topic": "Creative Arts",
+      "topicSlug": "creative",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn creative writing fundamentals including story structure, character development, dialogue writing, and editing.",
+      "icon": "brain",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Achiever",
+        "icon": "award",
+        "description": "Awarded for completing Creative Writing."
+      },
+      "skills": [
+        "Story structure",
+        "Character development",
+        "Dialogue",
+        "Editing"
+      ],
+      "path": "courses/creative/course-049/course.json",
       "featured": false
     },
     {
       "id": "course-050",
-      "title": "Business Law Basics",
-      "topic": "Business",
-      "topicSlug": "business",
-      "level": "Advanced",
-      "duration": "2h 0m",
-      "description": "A practical, advanced course on Business Law Basics. Learn by doing with guided lessons, exercises, and a final assessment.",
-      "icon": "medal",
-      "color": "#F2A33B",
+      "title": "Python Foundations",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Beginner",
+      "duration": "5h 10m",
+      "description": "Learn programming by writing small, useful programs. Covers variables, logic, loops, functions, files, error handling, and a complete command-line project.",
+      "icon": "code",
+      "color": "#4E56D8",
       "accent": "#F6F2EA",
       "badge": {
-        "name": "Topic Master",
-        "icon": "medal",
-        "description": "Awarded for completing Business Law Basics."
+        "name": "Python Pioneer",
+        "icon": "spark",
+        "description": "Awarded for completing Python Foundations."
       },
       "skills": [
-        "Business",
-        "Business",
-        "Practice",
-        "Application"
+        "Python syntax",
+        "Data structures",
+        "File handling",
+        "Error handling"
       ],
-      "path": "courses/business/course-050/course.json",
+      "path": "courses/technology/course-050/course.json",
       "featured": false
     }
   ]
