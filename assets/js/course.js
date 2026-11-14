@@ -654,8 +654,19 @@
       if (catalog) {
         // Try to find full course data embedded per-course (not available in summary catalog)
       }
+      // Try multiple URL paths for course file
+      let courseLoadError = null;
+      for (const coursePath of [`courses/${id}/course.json`, summary.path]) {
+        try {
+          courseData = await S.loadCourse(coursePath);
+          break;
+        } catch (e) {
+          courseLoadError = e;
+          console.warn(`Failed to load course from ${coursePath}:`, e.message);
+        }
+      }
       if (!courseData) {
-        courseData = await S.loadCourse(summary);
+        throw courseLoadError || new Error("Course could not load");
       }
       if (!courseData.modules || !courseData.modules.length) throw new Error("Course has no modules.");
       course = courseData;
