@@ -1,0 +1,1462 @@
+{
+  "id": "course-043",
+  "title": "Word Automation",
+  "topic": "Productivity",
+  "topicSlug": "productivity",
+  "level": "Intermediate",
+  "duration": "3h 00m",
+  "description": "Automate Word document creation with mail merge, templates, AutoText, and field codes for document efficiency.",
+  "icon": "wand",
+  "color": "#2E9B62",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Practitioner",
+    "icon": "medal",
+    "description": "Awarded for completing Word Automation."
+  },
+  "skills": [
+    "Mail merge",
+    "Templates",
+    "AutoText",
+    "Field codes"
+  ],
+  "path": "courses/productivity/course-043/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Word Automation.",
+      "lessons": [
+        {
+          "id": "course-043-m1l1",
+          "title": "Getting Started: Word Automation - Lesson 1",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 1 of Word Automation. In this lesson, you'll learn about Getting Started—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Getting Started"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Getting Started. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Getting Started before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Getting Started without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Getting Started\n// Replace this with your own practice\nconsole.log(\"Learning Getting Started...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Getting Started in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Getting Started is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Getting Started to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m1l2",
+          "title": "Core Principles: Word Automation - Lesson 2",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 2 of Word Automation. In this lesson, you'll learn about Core Principles—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Core Principles"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Core Principles. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Core Principles before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Core Principles without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Core Principles\n// Replace this with your own practice\nconsole.log(\"Learning Core Principles...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Core Principles in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Core Principles is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Core Principles to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m1l3",
+          "title": "Daily Practice: Word Automation - Lesson 3",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 3 of Word Automation. In this lesson, you'll learn about Daily Practice—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Daily Practice"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Daily Practice. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Daily Practice before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Daily Practice without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Daily Practice\n// Replace this with your own practice\nconsole.log(\"Learning Daily Practice...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Daily Practice in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Daily Practice is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Daily Practice to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Word Automation.",
+      "lessons": [
+        {
+          "id": "course-043-m2l1",
+          "title": "Advanced Workflows: Word Automation - Lesson 4",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 4 of Word Automation. In this lesson, you'll learn about Advanced Workflows—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Advanced Workflows"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Advanced Workflows. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Advanced Workflows before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Advanced Workflows without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Advanced Workflows\n// Replace this with your own practice\nconsole.log(\"Learning Advanced Workflows...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Advanced Workflows in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Advanced Workflows is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Advanced Workflows to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m2l2",
+          "title": "Efficiency Tips: Word Automation - Lesson 5",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 5 of Word Automation. In this lesson, you'll learn about Efficiency Tips—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Efficiency Tips"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Efficiency Tips. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Efficiency Tips before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Efficiency Tips without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Efficiency Tips\n// Replace this with your own practice\nconsole.log(\"Learning Efficiency Tips...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Efficiency Tips in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Efficiency Tips is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Efficiency Tips to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m2l3",
+          "title": "Common Pitfalls: Word Automation - Lesson 6",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 6 of Word Automation. In this lesson, you'll learn about Common Pitfalls—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Common Pitfalls"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Common Pitfalls. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Common Pitfalls before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Common Pitfalls without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Common Pitfalls\n// Replace this with your own practice\nconsole.log(\"Learning Common Pitfalls...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Common Pitfalls in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Common Pitfalls is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Common Pitfalls to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Word Automation.",
+      "lessons": [
+        {
+          "id": "course-043-m3l1",
+          "title": "Real Projects: Word Automation - Lesson 7",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 7 of Word Automation. In this lesson, you'll learn about Real Projects—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Real Projects"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Real Projects. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Real Projects before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Real Projects without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Real Projects\n// Replace this with your own practice\nconsole.log(\"Learning Real Projects...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Real Projects in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Real Projects is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Real Projects to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m3l2",
+          "title": "Case Studies: Word Automation - Lesson 8",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 8 of Word Automation. In this lesson, you'll learn about Case Studies—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Case Studies"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Case Studies. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Case Studies before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Case Studies without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Case Studies\n// Replace this with your own practice\nconsole.log(\"Learning Case Studies...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Case Studies in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Case Studies is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Case Studies to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m3l3",
+          "title": "Collaboration: Word Automation - Lesson 9",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 9 of Word Automation. In this lesson, you'll learn about Collaboration—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Collaboration"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Collaboration. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Collaboration before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Collaboration without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Collaboration\n// Replace this with your own practice\nconsole.log(\"Learning Collaboration...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Collaboration in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Collaboration is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Collaboration to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Word Automation.",
+      "lessons": [
+        {
+          "id": "course-043-m4l1",
+          "title": "Automation: Word Automation - Lesson 10",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 10 of Word Automation. In this lesson, you'll learn about Automation—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Automation"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Automation. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Automation before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Automation without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Automation\n// Replace this with your own practice\nconsole.log(\"Learning Automation...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Automation in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Automation is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Automation to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m4l2",
+          "title": "Integration: Word Automation - Lesson 11",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 11 of Word Automation. In this lesson, you'll learn about Integration—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Integration"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Integration. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Integration before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Integration without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Integration\n// Replace this with your own practice\nconsole.log(\"Learning Integration...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Integration in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Integration is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Integration to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m4l3",
+          "title": "Scaling: Word Automation - Lesson 12",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 12 of Word Automation. In this lesson, you'll learn about Scaling—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Scaling"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Scaling. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Scaling before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Scaling without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Scaling\n// Replace this with your own practice\nconsole.log(\"Learning Scaling...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Scaling in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Scaling is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Scaling to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Word Automation.",
+      "lessons": [
+        {
+          "id": "course-043-m5l1",
+          "title": "Capstone Project: Word Automation - Lesson 13",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 13 of Word Automation. In this lesson, you'll learn about Capstone Project—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Capstone Project"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Capstone Project. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Capstone Project before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Capstone Project without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Capstone Project\n// Replace this with your own practice\nconsole.log(\"Learning Capstone Project...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Capstone Project in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Capstone Project is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Capstone Project to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m5l2",
+          "title": "Review: Word Automation - Lesson 14",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 14 of Word Automation. In this lesson, you'll learn about Review—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Review. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Review before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Review in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Review is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-043-m5l3",
+          "title": "Next Steps: Word Automation - Lesson 15",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 15 of Word Automation. In this lesson, you'll learn about Next Steps—a fundamental concept in Productivity."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Next Steps"
+            },
+            {
+              "type": "p",
+              "text": "Every great word automation practitioner starts with understanding Next Steps. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Define your goals",
+                  "Choose the right tools",
+                  "Set up your workflow"
+                ],
+                [
+                  "Automate repetitive tasks",
+                  "Optimize your process",
+                  "Collaborate with others"
+                ],
+                [
+                  "Apply to real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Scale your workflow",
+                  "Troubleshoot issues",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Productivity always practice Next Steps before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Next Steps without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Next Steps\n// Replace this with your own practice\nconsole.log(\"Learning Next Steps...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Next Steps in Word Automation?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Next Steps is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Next Steps to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "undefined Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the undefined badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Word Automation?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Word Automation focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for intermediate learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

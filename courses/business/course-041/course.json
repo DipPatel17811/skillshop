@@ -1,0 +1,1462 @@
+{
+  "id": "course-041",
+  "title": "Entrepreneurship 101",
+  "topic": "Business",
+  "topicSlug": "business",
+  "level": "Beginner",
+  "duration": "2h 00m",
+  "description": "Introduction to entrepreneurship with idea validation, lean startup methodology, MVP development, and customer discovery.",
+  "icon": "document",
+  "color": "#F2A33B",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Skill Builder",
+    "icon": "medal",
+    "description": "Awarded for completing Entrepreneurship 101."
+  },
+  "skills": [
+    "Idea validation",
+    "Lean startup",
+    "MVP",
+    "Customer discovery"
+  ],
+  "path": "courses/business/course-041/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Entrepreneurship 101.",
+      "lessons": [
+        {
+          "id": "course-041-m1l1",
+          "title": "Business Fundamentals: Entrepreneurship 101 - Lesson 1",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 1 of Entrepreneurship 101. In this lesson, you'll learn about Business Fundamentals—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Business Fundamentals"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Business Fundamentals. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Business Fundamentals before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Business Fundamentals without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Business Fundamentals\n// Replace this with your own practice\nconsole.log(\"Learning Business Fundamentals...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Business Fundamentals in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Business Fundamentals is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Business Fundamentals to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m1l2",
+          "title": "Market Research: Entrepreneurship 101 - Lesson 2",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 2 of Entrepreneurship 101. In this lesson, you'll learn about Market Research—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Market Research"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Market Research. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Market Research before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Market Research without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Market Research\n// Replace this with your own practice\nconsole.log(\"Learning Market Research...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Market Research in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Market Research is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Market Research to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m1l3",
+          "title": "Business Planning: Entrepreneurship 101 - Lesson 3",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 3 of Entrepreneurship 101. In this lesson, you'll learn about Business Planning—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Business Planning"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Business Planning. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Business Planning before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Business Planning without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Business Planning\n// Replace this with your own practice\nconsole.log(\"Learning Business Planning...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Business Planning in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Business Planning is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Business Planning to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Entrepreneurship 101.",
+      "lessons": [
+        {
+          "id": "course-041-m2l1",
+          "title": "Financial Basics: Entrepreneurship 101 - Lesson 4",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 4 of Entrepreneurship 101. In this lesson, you'll learn about Financial Basics—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Financial Basics"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Financial Basics. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Financial Basics before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Financial Basics without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Financial Basics\n// Replace this with your own practice\nconsole.log(\"Learning Financial Basics...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Financial Basics in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Financial Basics is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Financial Basics to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m2l2",
+          "title": "Marketing Strategy: Entrepreneurship 101 - Lesson 5",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 5 of Entrepreneurship 101. In this lesson, you'll learn about Marketing Strategy—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Marketing Strategy"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Marketing Strategy. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Marketing Strategy before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Marketing Strategy without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Marketing Strategy\n// Replace this with your own practice\nconsole.log(\"Learning Marketing Strategy...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Marketing Strategy in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Marketing Strategy is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Marketing Strategy to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m2l3",
+          "title": "Operations: Entrepreneurship 101 - Lesson 6",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 6 of Entrepreneurship 101. In this lesson, you'll learn about Operations—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Operations"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Operations. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Operations before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Operations without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Operations\n// Replace this with your own practice\nconsole.log(\"Learning Operations...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Operations in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Operations is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Operations to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Entrepreneurship 101.",
+      "lessons": [
+        {
+          "id": "course-041-m3l1",
+          "title": "Sales Techniques: Entrepreneurship 101 - Lesson 7",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 7 of Entrepreneurship 101. In this lesson, you'll learn about Sales Techniques—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Sales Techniques"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Sales Techniques. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Sales Techniques before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Sales Techniques without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Sales Techniques\n// Replace this with your own practice\nconsole.log(\"Learning Sales Techniques...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Sales Techniques in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Sales Techniques is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Sales Techniques to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m3l2",
+          "title": "Customer Relations: Entrepreneurship 101 - Lesson 8",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 8 of Entrepreneurship 101. In this lesson, you'll learn about Customer Relations—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Customer Relations"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Customer Relations. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Customer Relations before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Customer Relations without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Customer Relations\n// Replace this with your own practice\nconsole.log(\"Learning Customer Relations...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Customer Relations in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Customer Relations is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Customer Relations to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m3l3",
+          "title": "Team Management: Entrepreneurship 101 - Lesson 9",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 9 of Entrepreneurship 101. In this lesson, you'll learn about Team Management—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Team Management"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Team Management. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Team Management before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Team Management without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Team Management\n// Replace this with your own practice\nconsole.log(\"Learning Team Management...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Team Management in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Team Management is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Team Management to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Entrepreneurship 101.",
+      "lessons": [
+        {
+          "id": "course-041-m4l1",
+          "title": "Growth Strategies: Entrepreneurship 101 - Lesson 10",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 10 of Entrepreneurship 101. In this lesson, you'll learn about Growth Strategies—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Growth Strategies"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Growth Strategies. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Growth Strategies before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Growth Strategies without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Growth Strategies\n// Replace this with your own practice\nconsole.log(\"Learning Growth Strategies...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Growth Strategies in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Growth Strategies is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Growth Strategies to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m4l2",
+          "title": "Risk Management: Entrepreneurship 101 - Lesson 11",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 11 of Entrepreneurship 101. In this lesson, you'll learn about Risk Management—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Risk Management"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Risk Management. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Risk Management before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Risk Management without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Risk Management\n// Replace this with your own practice\nconsole.log(\"Learning Risk Management...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Risk Management in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Risk Management is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Risk Management to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m4l3",
+          "title": "Scaling: Entrepreneurship 101 - Lesson 12",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 12 of Entrepreneurship 101. In this lesson, you'll learn about Scaling—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Scaling"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Scaling. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Scaling before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Scaling without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Scaling\n// Replace this with your own practice\nconsole.log(\"Learning Scaling...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Scaling in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Scaling is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Scaling to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Entrepreneurship 101.",
+      "lessons": [
+        {
+          "id": "course-041-m5l1",
+          "title": "Business Plan: Entrepreneurship 101 - Lesson 13",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 13 of Entrepreneurship 101. In this lesson, you'll learn about Business Plan—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Business Plan"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Business Plan. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Business Plan before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Business Plan without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Business Plan\n// Replace this with your own practice\nconsole.log(\"Learning Business Plan...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Business Plan in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Business Plan is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Business Plan to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m5l2",
+          "title": "Review: Entrepreneurship 101 - Lesson 14",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 14 of Entrepreneurship 101. In this lesson, you'll learn about Review—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Review. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Review before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Review in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Review is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-041-m5l3",
+          "title": "Execution Plan: Entrepreneurship 101 - Lesson 15",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 15 of Entrepreneurship 101. In this lesson, you'll learn about Execution Plan—a fundamental concept in Business."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Execution Plan"
+            },
+            {
+              "type": "p",
+              "text": "Every great entrepreneurship 101 practitioner starts with understanding Execution Plan. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Business always practice Execution Plan before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Execution Plan without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Execution Plan\n// Replace this with your own practice\nconsole.log(\"Learning Execution Plan...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Execution Plan in Entrepreneurship 101?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Execution Plan is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Execution Plan to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "undefined Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the undefined badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Entrepreneurship 101?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Entrepreneurship 101 focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for beginner learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

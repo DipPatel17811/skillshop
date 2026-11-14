@@ -1,0 +1,1462 @@
+{
+  "id": "color-theory",
+  "title": "Color Theory",
+  "topic": "Design",
+  "topicSlug": "design",
+  "level": "Beginner",
+  "duration": "2h 30m",
+  "description": "Learn color theory fundamentals including color psychology, harmonies, contrast, and accessibility.",
+  "icon": "palette",
+  "color": "#8B5CF6",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Color Expert",
+    "icon": "palette",
+    "description": "Awarded for completing Color Theory."
+  },
+  "skills": [
+    "Color theory",
+    "Color psychology",
+    "Color harmonies",
+    "Color contrast"
+  ],
+  "path": "courses/design/color-theory/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Color Theory.",
+      "lessons": [
+        {
+          "id": "color-theory-m1l1",
+          "title": "Design Principles: Color Theory - Lesson 1",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Design Principles and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Design Principles"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Design Principles. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Design Principles with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Design Principles without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Design Principles\n// Replace this with your own practice\nconsole.log(\"Learning Design Principles...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Design Principles in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Design Principles that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Design Principles to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m1l2",
+          "title": "Color Theory: Color Theory - Lesson 2",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Color Theory and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Color Theory"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Color Theory. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Color Theory with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Color Theory without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Color Theory\n// Replace this with your own practice\nconsole.log(\"Learning Color Theory...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Color Theory in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Color Theory that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Color Theory to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m1l3",
+          "title": "Typography: Color Theory - Lesson 3",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Typography and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Typography"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Typography. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Typography with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Typography without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Typography\n// Replace this with your own practice\nconsole.log(\"Learning Typography...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Typography in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Typography that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Typography to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Color Theory.",
+      "lessons": [
+        {
+          "id": "color-theory-m2l1",
+          "title": "Layout Systems: Color Theory - Lesson 4",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Layout Systems and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Layout Systems"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Layout Systems. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Layout Systems with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Layout Systems without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Layout Systems\n// Replace this with your own practice\nconsole.log(\"Learning Layout Systems...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Layout Systems in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Layout Systems that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Layout Systems to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m2l2",
+          "title": "Visual Hierarchy: Color Theory - Lesson 5",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Visual Hierarchy and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Visual Hierarchy"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Visual Hierarchy. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Visual Hierarchy with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Visual Hierarchy without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Visual Hierarchy\n// Replace this with your own practice\nconsole.log(\"Learning Visual Hierarchy...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Visual Hierarchy in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Visual Hierarchy that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Visual Hierarchy to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m2l3",
+          "title": "Grid Systems: Color Theory - Lesson 6",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Grid Systems and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Grid Systems"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Grid Systems. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Grid Systems with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Grid Systems without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Grid Systems\n// Replace this with your own practice\nconsole.log(\"Learning Grid Systems...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Grid Systems in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Grid Systems that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Grid Systems to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Color Theory.",
+      "lessons": [
+        {
+          "id": "color-theory-m3l1",
+          "title": "User Research: Color Theory - Lesson 7",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about User Research and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: User Research"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of User Research. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice User Research with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through User Research without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: User Research\n// Replace this with your own practice\nconsole.log(\"Learning User Research...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning User Research in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in User Research that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying User Research to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m3l2",
+          "title": "Wireframing: Color Theory - Lesson 8",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Wireframing and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Wireframing"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Wireframing. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Wireframing with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Wireframing without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Wireframing\n// Replace this with your own practice\nconsole.log(\"Learning Wireframing...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Wireframing in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Wireframing that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Wireframing to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m3l3",
+          "title": "Prototyping: Color Theory - Lesson 9",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Prototyping and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Prototyping"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Prototyping. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Prototyping with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Prototyping without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Prototyping\n// Replace this with your own practice\nconsole.log(\"Learning Prototyping...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Prototyping in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Prototyping that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Prototyping to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Color Theory.",
+      "lessons": [
+        {
+          "id": "color-theory-m4l1",
+          "title": "Accessibility: Color Theory - Lesson 10",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Accessibility and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Accessibility"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Accessibility. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Accessibility with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Accessibility without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Accessibility\n// Replace this with your own practice\nconsole.log(\"Learning Accessibility...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Accessibility in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Accessibility that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Accessibility to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m4l2",
+          "title": "Responsive Design: Color Theory - Lesson 11",
+          "minutes": 26,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Responsive Design and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Responsive Design"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Responsive Design. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Responsive Design with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Responsive Design without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Responsive Design\n// Replace this with your own practice\nconsole.log(\"Learning Responsive Design...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Responsive Design in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Responsive Design that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Responsive Design to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m4l3",
+          "title": "Testing: Color Theory - Lesson 12",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Testing and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Testing"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Testing. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Testing with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Testing without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Testing\n// Replace this with your own practice\nconsole.log(\"Learning Testing...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Testing in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Testing that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Testing to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Color Theory.",
+      "lessons": [
+        {
+          "id": "color-theory-m5l1",
+          "title": "Portfolio Project: Color Theory - Lesson 13",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Portfolio Project and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Portfolio Project"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Portfolio Project. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Portfolio Project with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Portfolio Project without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Portfolio Project\n// Replace this with your own practice\nconsole.log(\"Learning Portfolio Project...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Portfolio Project in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Portfolio Project that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Portfolio Project to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m5l2",
+          "title": "Review: Color Theory - Lesson 14",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Review and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Review. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Review with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Review in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Review that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "color-theory-m5l3",
+          "title": "Next Steps: Color Theory - Lesson 15",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Next Steps and how to apply it in real-world scenarios within the context of Color Theory."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Next Steps"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Next Steps. You'll learn practical techniques you can apply immediately in your color theory projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Next Steps with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Next Steps without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Next Steps\n// Replace this with your own practice\nconsole.log(\"Learning Next Steps...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Next Steps in Color Theory?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Next Steps that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Next Steps to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Color Expert Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the Color Expert badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Color Theory?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Color Theory focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for beginner learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

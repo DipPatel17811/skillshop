@@ -1,0 +1,1462 @@
+{
+  "id": "logo-design",
+  "title": "Logo Design",
+  "topic": "Design",
+  "topicSlug": "design",
+  "level": "Advanced",
+  "duration": "3h 00m",
+  "description": "Learn logo design principles including brand identity, vector graphics, and typography for memorable logos.",
+  "icon": "medal",
+  "color": "#8B5CF6",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Logo Master",
+    "icon": "award",
+    "description": "Awarded for completing Logo Design."
+  },
+  "skills": [
+    "Logo design",
+    "Brand identity",
+    "Vector graphics",
+    "Typography"
+  ],
+  "path": "courses/design/logo-design/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Logo Design.",
+      "lessons": [
+        {
+          "id": "logo-design-m1l1",
+          "title": "Design Principles: Logo Design - Lesson 1",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Design Principles and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Design Principles"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Design Principles. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Design Principles with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Design Principles without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Design Principles\n// Replace this with your own practice\nconsole.log(\"Learning Design Principles...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Design Principles in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Design Principles that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Design Principles to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m1l2",
+          "title": "Color Theory: Logo Design - Lesson 2",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Color Theory and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Color Theory"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Color Theory. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Color Theory with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Color Theory without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Color Theory\n// Replace this with your own practice\nconsole.log(\"Learning Color Theory...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Color Theory in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Color Theory that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Color Theory to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m1l3",
+          "title": "Typography: Logo Design - Lesson 3",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Typography and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Typography"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Typography. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Typography with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Typography without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Typography\n// Replace this with your own practice\nconsole.log(\"Learning Typography...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Typography in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Typography that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Typography to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Logo Design.",
+      "lessons": [
+        {
+          "id": "logo-design-m2l1",
+          "title": "Layout Systems: Logo Design - Lesson 4",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Layout Systems and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Layout Systems"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Layout Systems. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Layout Systems with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Layout Systems without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Layout Systems\n// Replace this with your own practice\nconsole.log(\"Learning Layout Systems...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Layout Systems in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Layout Systems that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Layout Systems to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m2l2",
+          "title": "Visual Hierarchy: Logo Design - Lesson 5",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Visual Hierarchy and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Visual Hierarchy"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Visual Hierarchy. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Visual Hierarchy with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Visual Hierarchy without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Visual Hierarchy\n// Replace this with your own practice\nconsole.log(\"Learning Visual Hierarchy...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Visual Hierarchy in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Visual Hierarchy that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Visual Hierarchy to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m2l3",
+          "title": "Grid Systems: Logo Design - Lesson 6",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Grid Systems and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Grid Systems"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Grid Systems. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Grid Systems with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Grid Systems without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Grid Systems\n// Replace this with your own practice\nconsole.log(\"Learning Grid Systems...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Grid Systems in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Grid Systems that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Grid Systems to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Logo Design.",
+      "lessons": [
+        {
+          "id": "logo-design-m3l1",
+          "title": "User Research: Logo Design - Lesson 7",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about User Research and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: User Research"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of User Research. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice User Research with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through User Research without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: User Research\n// Replace this with your own practice\nconsole.log(\"Learning User Research...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning User Research in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in User Research that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying User Research to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m3l2",
+          "title": "Wireframing: Logo Design - Lesson 8",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Wireframing and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Wireframing"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Wireframing. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Wireframing with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Wireframing without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Wireframing\n// Replace this with your own practice\nconsole.log(\"Learning Wireframing...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Wireframing in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Wireframing that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Wireframing to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m3l3",
+          "title": "Prototyping: Logo Design - Lesson 9",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Prototyping and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Prototyping"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Prototyping. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Prototyping with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Prototyping without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Prototyping\n// Replace this with your own practice\nconsole.log(\"Learning Prototyping...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Prototyping in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Prototyping that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Prototyping to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Logo Design.",
+      "lessons": [
+        {
+          "id": "logo-design-m4l1",
+          "title": "Accessibility: Logo Design - Lesson 10",
+          "minutes": 26,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Accessibility and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Accessibility"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Accessibility. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Accessibility with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Accessibility without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Accessibility\n// Replace this with your own practice\nconsole.log(\"Learning Accessibility...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Accessibility in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Accessibility that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Accessibility to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m4l2",
+          "title": "Responsive Design: Logo Design - Lesson 11",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Responsive Design and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Responsive Design"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Responsive Design. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Responsive Design with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Responsive Design without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Responsive Design\n// Replace this with your own practice\nconsole.log(\"Learning Responsive Design...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Responsive Design in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Responsive Design that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Responsive Design to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m4l3",
+          "title": "Testing: Logo Design - Lesson 12",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Testing and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Testing"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Testing. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Testing with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Testing without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Testing\n// Replace this with your own practice\nconsole.log(\"Learning Testing...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Testing in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Testing that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Testing to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Logo Design.",
+      "lessons": [
+        {
+          "id": "logo-design-m5l1",
+          "title": "Portfolio Project: Logo Design - Lesson 13",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Portfolio Project and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Portfolio Project"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Portfolio Project. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Portfolio Project with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Portfolio Project without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Portfolio Project\n// Replace this with your own practice\nconsole.log(\"Learning Portfolio Project...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Portfolio Project in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Portfolio Project that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Portfolio Project to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m5l2",
+          "title": "Review: Logo Design - Lesson 14",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Review and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Review. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Review with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Review in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Review that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "logo-design-m5l3",
+          "title": "Next Steps: Logo Design - Lesson 15",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Next Steps and how to apply it in real-world scenarios within the context of Logo Design."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Next Steps"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Next Steps. You'll learn practical techniques you can apply immediately in your logo design projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand design principles",
+                  "Learn color theory",
+                  "Choose typography"
+                ],
+                [
+                  "Create layouts",
+                  "Establish hierarchy",
+                  "Use grids"
+                ],
+                [
+                  "Research user needs",
+                  "Create wireframes",
+                  "Build prototypes"
+                ],
+                [
+                  "Ensure accessibility",
+                  "Design for all screens",
+                  "Test with users"
+                ],
+                [
+                  "Build portfolio",
+                  "Review work",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Next Steps with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Next Steps without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Next Steps\n// Replace this with your own practice\nconsole.log(\"Learning Next Steps...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Next Steps in Logo Design?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Next Steps that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Next Steps to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Logo Master Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the Logo Master badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Logo Design?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Logo Design focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for advanced learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

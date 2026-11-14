@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "tagline": "Practical skills. Shareable proof.",
   "courses": [
     {
@@ -10,123 +10,23 @@
       "topicSlug": "technology",
       "level": "Beginner",
       "duration": "5h 10m",
-      "lessonCount": 15,
-      "description": "Make tiny computers sense the world, make decisions, and control real hardware. Build with an Arduino-compatible board from your first blink to a working sensor project.",
+      "description": "Build real hardware projects with Arduino-compatible boards. Learn to read sensors, control LEDs, and debug electronic circuits from the ground up.",
       "icon": "chip",
       "color": "#FF7A59",
-      "accent": "#FFE7DE",
+      "accent": "#F6F2EA",
       "badge": {
         "name": "Circuit Starter",
-        "icon": "bolt"
+        "icon": "bolt",
+        "description": "Awarded for completing Microcontrollers 101."
       },
       "skills": [
-        "Electronics basics",
-        "Arduino code",
-        "Sensors",
-        "Debugging"
+        "Arduino programming",
+        "Circuit design",
+        "Sensor integration",
+        "Debugging hardware"
       ],
       "path": "courses/technology/microcontrollers-101/course.json",
-      "featured": true
-    },
-    {
-      "id": "excel-essentials",
-      "title": "Excel Essentials",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Beginner",
-      "duration": "5h 00m",
-      "lessonCount": 15,
-      "description": "Go from blank grid to confident spreadsheet. Master formulas, tables, charts, and PivotTables by building a budget tracker you can actually use.",
-      "icon": "grid",
-      "color": "#2E9B62",
-      "accent": "#DDF5E8",
-      "badge": {
-        "name": "Spreadsheet Navigator",
-        "icon": "table"
-      },
-      "skills": [
-        "Formulas",
-        "Data cleanup",
-        "Charts",
-        "PivotTables"
-      ],
-      "path": "courses/productivity/excel-essentials/course.json",
-      "featured": true
-    },
-    {
-      "id": "powerpoint-storytelling",
-      "title": "PowerPoint Storytelling",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Beginner",
-      "duration": "4h 45m",
-      "lessonCount": 15,
-      "description": "Design slides that support your message instead of competing with it. Learn structure, visual hierarchy, charts, motion, and confident delivery.",
-      "icon": "presentation",
-      "color": "#F2A33B",
-      "accent": "#FFF0D4",
-      "badge": {
-        "name": "Slide Storyteller",
-        "icon": "presentation"
-      },
-      "skills": [
-        "Story structure",
-        "Slide design",
-        "Data visuals",
-        "Delivery"
-      ],
-      "path": "courses/productivity/powerpoint-storytelling/course.json",
-      "featured": true
-    },
-    {
-      "id": "word-professional-documents",
-      "title": "Word Professional Documents",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Beginner",
-      "duration": "4h 45m",
-      "lessonCount": 15,
-      "description": "Create reports, proposals, and templates that look intentional. Use styles, sections, tables, references, and review tools like a professional.",
-      "icon": "document",
-      "color": "#3F72C8",
-      "accent": "#E2EDFF",
-      "badge": {
-        "name": "Document Architect",
-        "icon": "document"
-      },
-      "skills": [
-        "Styles",
-        "Page layout",
-        "Tables",
-        "Track changes"
-      ],
-      "path": "courses/productivity/word-professional-documents/course.json",
-      "featured": true
-    },
-    {
-      "id": "powerpoint-morph",
-      "title": "Morph Magic in PowerPoint",
-      "topic": "Productivity",
-      "topicSlug": "productivity",
-      "level": "Intermediate",
-      "duration": "4h 50m",
-      "lessonCount": 15,
-      "description": "Turn ordinary slides into smooth visual stories with the Morph transition. Learn the matching rules, advanced moves, and the timing that makes it feel effortless.",
-      "icon": "wand",
-      "color": "#8B5CF6",
-      "accent": "#EEE7FF",
-      "badge": {
-        "name": "Morph Master",
-        "icon": "spark"
-      },
-      "skills": [
-        "Morph rules",
-        "Object matching",
-        "Motion design",
-        "Story pacing"
-      ],
-      "path": "courses/productivity/powerpoint-morph/course.json",
-      "featured": true
+      "featured": false
     },
     {
       "id": "python-foundations",
@@ -135,22 +35,622 @@
       "topicSlug": "technology",
       "level": "Beginner",
       "duration": "5h 10m",
-      "lessonCount": 15,
       "description": "Learn programming by writing small, useful programs. Covers variables, logic, loops, functions, files, error handling, and a complete command-line project.",
       "icon": "code",
       "color": "#4E56D8",
-      "accent": "#E5E7FF",
+      "accent": "#F6F2EA",
       "badge": {
         "name": "Python Pioneer",
-        "icon": "code"
+        "icon": "code",
+        "description": "Awarded for completing Python Foundations."
       },
       "skills": [
         "Python syntax",
-        "Logic",
-        "Functions",
-        "Files"
+        "Data structures",
+        "File handling",
+        "Error handling"
       ],
       "path": "courses/technology/python-foundations/course.json",
+      "featured": false
+    },
+    {
+      "id": "web-design-foundations",
+      "title": "Web Design Foundations",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Beginner",
+      "duration": "5h 05m",
+      "description": "Build and publish your first responsive website with semantic HTML and modern CSS. Learn layout, typography, color, accessibility, and static hosting.",
+      "icon": "layout",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Web Weaver",
+        "icon": "layout",
+        "description": "Awarded for completing Web Design Foundations."
+      },
+      "skills": [
+        "HTML semantics",
+        "CSS layout",
+        "Responsive design",
+        "Accessibility"
+      ],
+      "path": "courses/technology/web-design-foundations/course.json",
+      "featured": false
+    },
+    {
+      "id": "cybersecurity-essentials",
+      "title": "Cybersecurity Essentials",
+      "topic": "Technology",
+      "topicSlug": "technology",
+      "level": "Intermediate",
+      "duration": "4h 30m",
+      "description": "Learn cybersecurity fundamentals including network security, encryption, threat detection, and incident response.",
+      "icon": "shield",
+      "color": "#4E56D8",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Cyber Guardian",
+        "icon": "shield",
+        "description": "Awarded for completing Cybersecurity Essentials."
+      },
+      "skills": [
+        "Network security",
+        "Encryption",
+        "Threat detection",
+        "Incident response"
+      ],
+      "path": "courses/technology/cybersecurity-essentials/course.json",
+      "featured": false
+    },
+    {
+      "id": "excel-essentials",
+      "title": "Excel Essentials",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Beginner",
+      "duration": "5h 00m",
+      "description": "Go from blank grid to confident spreadsheet. Master formulas, tables, charts, and PivotTables by building a budget tracker you can actually use.",
+      "icon": "grid",
+      "color": "#2E9B62",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Spreadsheet Navigator",
+        "icon": "table",
+        "description": "Awarded for completing Excel Essentials."
+      },
+      "skills": [
+        "Formulas",
+        "PivotTables",
+        "Data validation",
+        "Charts"
+      ],
+      "path": "courses/productivity/excel-essentials/course.json",
+      "featured": false
+    },
+    {
+      "id": "powerpoint-storytelling",
+      "title": "PowerPoint Storytelling",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Beginner",
+      "duration": "4h 45m",
+      "description": "Design slides that support your message instead of competing with it. Learn structure, visual hierarchy, charts, motion, and confident delivery.",
+      "icon": "presentation",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Slide Storyteller",
+        "icon": "presentation",
+        "description": "Awarded for completing PowerPoint Storytelling."
+      },
+      "skills": [
+        "Story structure",
+        "Visual hierarchy",
+        "Data visuals",
+        "Delivery"
+      ],
+      "path": "courses/productivity/powerpoint-storytelling/course.json",
+      "featured": false
+    },
+    {
+      "id": "word-professional-documents",
+      "title": "Word Professional Documents",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Beginner",
+      "duration": "4h 45m",
+      "description": "Create reports, proposals, and templates that look intentional. Use styles, sections, tables, references, and review tools like a professional.",
+      "icon": "document",
+      "color": "#3F72C8",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Document Architect",
+        "icon": "document",
+        "description": "Awarded for completing Word Professional Documents."
+      },
+      "skills": [
+        "Styles",
+        "Page layout",
+        "Tables",
+        "Track changes"
+      ],
+      "path": "courses/productivity/word-professional-documents/course.json",
+      "featured": false
+    },
+    {
+      "id": "project-planning",
+      "title": "Project Planning",
+      "topic": "Productivity",
+      "topicSlug": "productivity",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Learn to plan projects effectively with work breakdown structures, realistic timelines, and resource management.",
+      "icon": "mic",
+      "color": "#2E9B62",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Achiever",
+        "icon": "award",
+        "description": "Awarded for completing Project Planning."
+      },
+      "skills": [
+        "Work breakdown",
+        "Timeline estimation",
+        "Resource allocation",
+        "Risk management"
+      ],
+      "path": "courses/productivity/project-planning/course.json",
+      "featured": false
+    },
+    {
+      "id": "public-speaking",
+      "title": "Public Speaking with Confidence",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Beginner",
+      "duration": "2h 40m",
+      "description": "Prepare and deliver a talk that people remember. Practice structure, voice, body language, nerves, Q&A, and a complete five-minute capstone presentation.",
+      "icon": "mic",
+      "color": "#D94F7A",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Confident Voice",
+        "icon": "mic",
+        "description": "Awarded for completing Public Speaking with Confidence."
+      },
+      "skills": [
+        "Talk structure",
+        "Voice",
+        "Body language",
+        "Q&A"
+      ],
+      "path": "courses/communication/public-speaking/course.json",
+      "featured": false
+    },
+    {
+      "id": "business-writing",
+      "title": "Business Writing",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Learn to write clear, professional business documents including emails, memos, reports, and proposals.",
+      "icon": "document",
+      "color": "#D94F7A",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Business Writer",
+        "icon": "document",
+        "description": "Awarded for completing Business Writing."
+      },
+      "skills": [
+        "Business writing",
+        "Email etiquette",
+        "Report writing",
+        "Proposal writing"
+      ],
+      "path": "courses/communication/business-writing/course.json",
+      "featured": false
+    },
+    {
+      "id": "negotiation-skills",
+      "title": "Negotiation Skills",
+      "topic": "Communication",
+      "topicSlug": "communication",
+      "level": "Intermediate",
+      "duration": "3h 30m",
+      "description": "Learn negotiation fundamentals including BATNA, value creation, tactical communication, and closing techniques.",
+      "icon": "wand",
+      "color": "#D94F7A",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Negotiator",
+        "icon": "wand",
+        "description": "Awarded for completing Negotiation Skills."
+      },
+      "skills": [
+        "Negotiation tactics",
+        "BATNA",
+        "Value creation",
+        "Closing deals"
+      ],
+      "path": "courses/communication/negotiation-skills/course.json",
+      "featured": false
+    },
+    {
+      "id": "typography-basics",
+      "title": "Typography Basics",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Intermediate",
+      "duration": "3h 00m",
+      "description": "Learn typography fundamentals including type classification, font pairing, visual hierarchy, and readability principles.",
+      "icon": "document",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Typography Master",
+        "icon": "document",
+        "description": "Awarded for completing Typography Basics."
+      },
+      "skills": [
+        "Type classification",
+        "Font pairing",
+        "Hierarchy",
+        "Readability"
+      ],
+      "path": "courses/design/typography-basics/course.json",
+      "featured": false
+    },
+    {
+      "id": "user-experience-intro",
+      "title": "User Experience Intro",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Beginner",
+      "duration": "3h 00m",
+      "description": "Introduction to user experience design including user research, wireframing, user testing, and information architecture.",
+      "icon": "table",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "UX Pioneer",
+        "icon": "table",
+        "description": "Awarded for completing User Experience Intro."
+      },
+      "skills": [
+        "User research",
+        "Wireframing",
+        "User testing",
+        "Information architecture"
+      ],
+      "path": "courses/design/user-experience-intro/course.json",
+      "featured": false
+    },
+    {
+      "id": "logo-design",
+      "title": "Logo Design",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Advanced",
+      "duration": "3h 00m",
+      "description": "Learn logo design principles including brand identity, vector graphics, and typography for memorable logos.",
+      "icon": "medal",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Logo Master",
+        "icon": "award",
+        "description": "Awarded for completing Logo Design."
+      },
+      "skills": [
+        "Logo design",
+        "Brand identity",
+        "Vector graphics",
+        "Typography"
+      ],
+      "path": "courses/design/logo-design/course.json",
+      "featured": false
+    },
+    {
+      "id": "color-theory",
+      "title": "Color Theory",
+      "topic": "Design",
+      "topicSlug": "design",
+      "level": "Beginner",
+      "duration": "2h 30m",
+      "description": "Learn color theory fundamentals including color psychology, harmonies, contrast, and accessibility.",
+      "icon": "palette",
+      "color": "#8B5CF6",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Color Expert",
+        "icon": "palette",
+        "description": "Awarded for completing Color Theory."
+      },
+      "skills": [
+        "Color theory",
+        "Color psychology",
+        "Color harmonies",
+        "Color contrast"
+      ],
+      "path": "courses/design/color-theory/course.json",
+      "featured": false
+    },
+    {
+      "id": "entrepreneurship-101",
+      "title": "Entrepreneurship 101",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Introduction to entrepreneurship with idea validation, lean startup methodology, MVP development, and customer discovery.",
+      "icon": "document",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Entrepreneur",
+        "icon": "document",
+        "description": "Awarded for completing Entrepreneurship 101."
+      },
+      "skills": [
+        "Idea validation",
+        "Lean startup",
+        "MVP",
+        "Customer discovery"
+      ],
+      "path": "courses/business/entrepreneurship-101/course.json",
+      "featured": false
+    },
+    {
+      "id": "marketing-fundamentals",
+      "title": "Marketing Fundamentals",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Beginner",
+      "duration": "4h 00m",
+      "description": "Learn marketing fundamentals including the marketing mix, customer segmentation, positioning, and campaign management.",
+      "icon": "chip",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Marketer",
+        "icon": "chip",
+        "description": "Awarded for completing Marketing Fundamentals."
+      },
+      "skills": [
+        "Marketing mix",
+        "Customer segmentation",
+        "Positioning",
+        "Campaigns"
+      ],
+      "path": "courses/business/marketing-fundamentals/course.json",
+      "featured": false
+    },
+    {
+      "id": "financial-literacy",
+      "title": "Financial Literacy",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Advanced",
+      "duration": "2h 00m",
+      "description": "Advanced financial literacy with personal finance, investment strategies, risk management, and wealth building techniques.",
+      "icon": "award",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Financial Literate",
+        "icon": "award",
+        "description": "Awarded for completing Financial Literacy."
+      },
+      "skills": [
+        "Personal finance",
+        "Investment strategies",
+        "Risk management",
+        "Wealth building"
+      ],
+      "path": "courses/business/financial-literacy/course.json",
+      "featured": false
+    },
+    {
+      "id": "business-law-basics",
+      "title": "Business Law Basics",
+      "topic": "Business",
+      "topicSlug": "business",
+      "level": "Intermediate",
+      "duration": "2h 00m",
+      "description": "Understand business law fundamentals including contracts, employment law, intellectual property, and business formation.",
+      "icon": "layout",
+      "color": "#F2A33B",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Legal Aware",
+        "icon": "layout",
+        "description": "Awarded for completing Business Law Basics."
+      },
+      "skills": [
+        "Contracts",
+        "Employment law",
+        "Intellectual property",
+        "Business formation"
+      ],
+      "path": "courses/business/business-law-basics/course.json",
+      "featured": false
+    },
+    {
+      "id": "data-visualization",
+      "title": "Data Visualization",
+      "topic": "Data & Analytics",
+      "topicSlug": "data-analytics",
+      "level": "Beginner",
+      "duration": "3h 00m",
+      "description": "Beginner data visualization with bar charts, line charts, scatter plots, and telling stories with data.",
+      "icon": "table",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Data Storyteller",
+        "icon": "target",
+        "description": "Awarded for completing Data Visualization."
+      },
+      "skills": [
+        "Bar charts",
+        "Line charts",
+        "Scatter plots",
+        "Data stories"
+      ],
+      "path": "courses/data-analytics/data-visualization/course.json",
+      "featured": false
+    },
+    {
+      "id": "statistics-intro",
+      "title": "Statistics Intro",
+      "topic": "Data & Analytics",
+      "topicSlug": "data-analytics",
+      "level": "Intermediate",
+      "duration": "4h 00m",
+      "description": "Introduction to statistics including descriptive statistics, probability, distributions, and statistical inference.",
+      "icon": "target",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Statistician",
+        "icon": "spark",
+        "description": "Awarded for completing Statistics Intro."
+      },
+      "skills": [
+        "Descriptive statistics",
+        "Probability",
+        "Distributions",
+        "Inference"
+      ],
+      "path": "courses/data-analytics/statistics-intro/course.json",
+      "featured": false
+    },
+    {
+      "id": "sql-foundations",
+      "title": "SQL Foundations",
+      "topic": "Data & Analytics",
+      "topicSlug": "data-analytics",
+      "level": "Beginner",
+      "duration": "3h 00m",
+      "description": "Learn to query databases with SQL including SELECT statements, joins, aggregations, and subqueries.",
+      "icon": "grid",
+      "color": "#27958E",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "SQL Query Builder",
+        "icon": "grid",
+        "description": "Awarded for completing SQL Foundations."
+      },
+      "skills": [
+        "SQL queries",
+        "Joins",
+        "Aggregations",
+        "Subqueries"
+      ],
+      "path": "courses/data-analytics/sql-foundations/course.json",
+      "featured": false
+    },
+    {
+      "id": "creative-writing",
+      "title": "Creative Writing",
+      "topic": "Creative Arts",
+      "topicSlug": "creative-arts",
+      "level": "Beginner",
+      "duration": "2h 00m",
+      "description": "Learn creative writing fundamentals including story structure, character development, dialogue writing, and editing.",
+      "icon": "brain",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Creative Writer",
+        "icon": "target",
+        "description": "Awarded for completing Creative Writing."
+      },
+      "skills": [
+        "Story structure",
+        "Character development",
+        "Dialogue",
+        "Editing"
+      ],
+      "path": "courses/creative-arts/creative-writing/course.json",
+      "featured": false
+    },
+    {
+      "id": "digital-photography",
+      "title": "Digital Photography",
+      "topic": "Creative Arts",
+      "topicSlug": "creative-arts",
+      "level": "Intermediate",
+      "duration": "4h 00m",
+      "description": "Learn photography fundamentals including camera settings, composition, lighting, and photo editing.",
+      "icon": "bolt",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Photographer",
+        "icon": "award",
+        "description": "Awarded for completing Digital Photography."
+      },
+      "skills": [
+        "Camera settings",
+        "Composition",
+        "Lighting",
+        "Photo editing"
+      ],
+      "path": "courses/creative-arts/digital-photography/course.json",
+      "featured": false
+    },
+    {
+      "id": "video-editing-basics",
+      "title": "Video Editing Basics",
+      "topic": "Creative Arts",
+      "topicSlug": "creative-arts",
+      "level": "Beginner",
+      "duration": "4h 00m",
+      "description": "Learn video editing fundamentals including cutting, transitions, color grading, audio mixing, and export.",
+      "icon": "book",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Video Editor",
+        "icon": "book",
+        "description": "Awarded for completing Video Editing Basics."
+      },
+      "skills": [
+        "Video editing",
+        "Transitions",
+        "Color grading",
+        "Audio mixing"
+      ],
+      "path": "courses/creative-arts/video-editing-basics/course.json",
+      "featured": false
+    },
+    {
+      "id": "graphic-design-principles",
+      "title": "Graphic Design Principles",
+      "topic": "Creative Arts",
+      "topicSlug": "creative-arts",
+      "level": "Beginner",
+      "duration": "3h 00m",
+      "description": "Learn graphic design fundamentals including layout, typography, color theory, and visual hierarchy.",
+      "icon": "brain",
+      "color": "#FF7A59",
+      "accent": "#F6F2EA",
+      "badge": {
+        "name": "Graphic Designer",
+        "icon": "spark",
+        "description": "Awarded for completing Graphic Design Principles."
+      },
+      "skills": [
+        "Layout design",
+        "Typography",
+        "Color theory",
+        "Visual hierarchy"
+      ],
+      "path": "courses/creative-arts/graphic-design-principles/course.json",
       "featured": false
     }
   ]

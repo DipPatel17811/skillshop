@@ -1,0 +1,1462 @@
+{
+  "id": "course-037",
+  "title": "DevOps Fundamentals",
+  "topic": "Technology",
+  "topicSlug": "technology",
+  "level": "Intermediate",
+  "duration": "3h 00m",
+  "description": "Understand DevOps culture and practices including CI/CD pipelines, containerization, and infrastructure automation.",
+  "icon": "code",
+  "color": "#4E56D8",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Practitioner",
+    "icon": "target",
+    "description": "Awarded for completing DevOps Fundamentals."
+  },
+  "skills": [
+    "CI/CD",
+    "Containerization",
+    "Infrastructure as code",
+    "Monitoring"
+  ],
+  "path": "courses/technology/course-037/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for DevOps Fundamentals.",
+      "lessons": [
+        {
+          "id": "course-037-m1l1",
+          "title": "Introduction: DevOps Fundamentals - Lesson 1",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 1 of DevOps Fundamentals. In this lesson, you'll learn about Introduction—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Introduction"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Introduction. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Introduction before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Introduction without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Introduction\n// Replace this with your own practice\nconsole.log(\"Learning Introduction...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Introduction in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Introduction is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Introduction to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m1l2",
+          "title": "Core Concepts: DevOps Fundamentals - Lesson 2",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 2 of DevOps Fundamentals. In this lesson, you'll learn about Core Concepts—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Core Concepts"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Core Concepts. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Core Concepts before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Core Concepts without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Core Concepts\n// Replace this with your own practice\nconsole.log(\"Learning Core Concepts...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Core Concepts in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Core Concepts is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Core Concepts to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m1l3",
+          "title": "Hands-on Practice: DevOps Fundamentals - Lesson 3",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 3 of DevOps Fundamentals. In this lesson, you'll learn about Hands-on Practice—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Hands-on Practice"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Hands-on Practice. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Hands-on Practice before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Hands-on Practice without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Hands-on Practice\n// Replace this with your own practice\nconsole.log(\"Learning Hands-on Practice...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Hands-on Practice in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Hands-on Practice is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Hands-on Practice to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for DevOps Fundamentals.",
+      "lessons": [
+        {
+          "id": "course-037-m2l1",
+          "title": "Advanced Techniques: DevOps Fundamentals - Lesson 4",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 4 of DevOps Fundamentals. In this lesson, you'll learn about Advanced Techniques—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Advanced Techniques"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Advanced Techniques. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Advanced Techniques before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Advanced Techniques without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Advanced Techniques\n// Replace this with your own practice\nconsole.log(\"Learning Advanced Techniques...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Advanced Techniques in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Advanced Techniques is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Advanced Techniques to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m2l2",
+          "title": "Best Practices: DevOps Fundamentals - Lesson 5",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 5 of DevOps Fundamentals. In this lesson, you'll learn about Best Practices—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Best Practices"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Best Practices. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Best Practices before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Best Practices without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Best Practices\n// Replace this with your own practice\nconsole.log(\"Learning Best Practices...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Best Practices in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Best Practices is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Best Practices to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m2l3",
+          "title": "Common Mistakes: DevOps Fundamentals - Lesson 6",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 6 of DevOps Fundamentals. In this lesson, you'll learn about Common Mistakes—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Common Mistakes"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Common Mistakes. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Common Mistakes before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Common Mistakes without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Common Mistakes\n// Replace this with your own practice\nconsole.log(\"Learning Common Mistakes...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Common Mistakes in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Common Mistakes is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Common Mistakes to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for DevOps Fundamentals.",
+      "lessons": [
+        {
+          "id": "course-037-m3l1",
+          "title": "Real-world Application: DevOps Fundamentals - Lesson 7",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 7 of DevOps Fundamentals. In this lesson, you'll learn about Real-world Application—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Real-world Application"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Real-world Application. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Real-world Application before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Real-world Application without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Real-world Application\n// Replace this with your own practice\nconsole.log(\"Learning Real-world Application...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Real-world Application in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Real-world Application is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Real-world Application to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m3l2",
+          "title": "Case Studies: DevOps Fundamentals - Lesson 8",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 8 of DevOps Fundamentals. In this lesson, you'll learn about Case Studies—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Case Studies"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Case Studies. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Case Studies before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Case Studies without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Case Studies\n// Replace this with your own practice\nconsole.log(\"Learning Case Studies...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Case Studies in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Case Studies is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Case Studies to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m3l3",
+          "title": "Project Work: DevOps Fundamentals - Lesson 9",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 9 of DevOps Fundamentals. In this lesson, you'll learn about Project Work—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Project Work"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Project Work. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Project Work before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Project Work without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Project Work\n// Replace this with your own practice\nconsole.log(\"Learning Project Work...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Project Work in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Project Work is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Project Work to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for DevOps Fundamentals.",
+      "lessons": [
+        {
+          "id": "course-037-m4l1",
+          "title": "Optimization: DevOps Fundamentals - Lesson 10",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 10 of DevOps Fundamentals. In this lesson, you'll learn about Optimization—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Optimization"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Optimization. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Optimization before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Optimization without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Optimization\n// Replace this with your own practice\nconsole.log(\"Learning Optimization...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Optimization in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Optimization is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Optimization to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m4l2",
+          "title": "Troubleshooting: DevOps Fundamentals - Lesson 11",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 11 of DevOps Fundamentals. In this lesson, you'll learn about Troubleshooting—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Troubleshooting"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Troubleshooting. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Troubleshooting before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Troubleshooting without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Troubleshooting\n// Replace this with your own practice\nconsole.log(\"Learning Troubleshooting...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Troubleshooting in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Troubleshooting is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Troubleshooting to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m4l3",
+          "title": "Advanced Patterns: DevOps Fundamentals - Lesson 12",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 12 of DevOps Fundamentals. In this lesson, you'll learn about Advanced Patterns—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Advanced Patterns"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Advanced Patterns. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Advanced Patterns before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Advanced Patterns without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Advanced Patterns\n// Replace this with your own practice\nconsole.log(\"Learning Advanced Patterns...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Advanced Patterns in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Advanced Patterns is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Advanced Patterns to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for DevOps Fundamentals.",
+      "lessons": [
+        {
+          "id": "course-037-m5l1",
+          "title": "Capstone Project: DevOps Fundamentals - Lesson 13",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 13 of DevOps Fundamentals. In this lesson, you'll learn about Capstone Project—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Capstone Project"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Capstone Project. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Capstone Project before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Capstone Project without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Capstone Project\n// Replace this with your own practice\nconsole.log(\"Learning Capstone Project...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Capstone Project in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Capstone Project is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Capstone Project to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m5l2",
+          "title": "Review: DevOps Fundamentals - Lesson 14",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 14 of DevOps Fundamentals. In this lesson, you'll learn about Review—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Review. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Review before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Review in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Review is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-037-m5l3",
+          "title": "Next Steps: DevOps Fundamentals - Lesson 15",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 15 of DevOps Fundamentals. In this lesson, you'll learn about Next Steps—a fundamental concept in Technology."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Next Steps"
+            },
+            {
+              "type": "p",
+              "text": "Every great devops fundamentals practitioner starts with understanding Next Steps. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand the fundamentals",
+                  "Identify key components",
+                  "Apply basic techniques"
+                ],
+                [
+                  "Implement advanced features",
+                  "Follow best practices",
+                  "Avoid common pitfalls"
+                ],
+                [
+                  "Build real projects",
+                  "Analyze case studies",
+                  "Complete hands-on exercises"
+                ],
+                [
+                  "Optimize performance",
+                  "Debug effectively",
+                  "Apply advanced patterns"
+                ],
+                [
+                  "Complete capstone",
+                  "Review learning",
+                  "Plan next steps"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Technology always practice Next Steps before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Next Steps without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Next Steps\n// Replace this with your own practice\nconsole.log(\"Learning Next Steps...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Next Steps in DevOps Fundamentals?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Next Steps is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Next Steps to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "undefined Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the undefined badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of DevOps Fundamentals?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "DevOps Fundamentals focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for intermediate learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

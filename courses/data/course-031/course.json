@@ -1,0 +1,1462 @@
+{
+  "id": "course-031",
+  "title": "Data Visualization",
+  "topic": "Data & Analytics",
+  "topicSlug": "data",
+  "level": "Beginner",
+  "duration": "3h 00m",
+  "description": "Beginner data visualization with bar charts, line charts, scatter plots, and telling stories with data.",
+  "icon": "table",
+  "color": "#27958E",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Skill Builder",
+    "icon": "target",
+    "description": "Awarded for completing Data Visualization."
+  },
+  "skills": [
+    "Bar charts",
+    "Line charts",
+    "Scatter plots",
+    "Data stories"
+  ],
+  "path": "courses/data/course-031/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Data Visualization.",
+      "lessons": [
+        {
+          "id": "course-031-m1l1",
+          "title": "Data Fundamentals: Data Visualization - Lesson 1",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 1 of Data Visualization. In this lesson, you'll learn about Data Fundamentals—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Data Fundamentals"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Data Fundamentals. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Data Fundamentals before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Data Fundamentals without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Data Fundamentals\n// Replace this with your own practice\nconsole.log(\"Learning Data Fundamentals...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Data Fundamentals in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Data Fundamentals is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Data Fundamentals to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m1l2",
+          "title": "Data Collection: Data Visualization - Lesson 2",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 2 of Data Visualization. In this lesson, you'll learn about Data Collection—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Data Collection"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Data Collection. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Data Collection before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Data Collection without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Data Collection\n// Replace this with your own practice\nconsole.log(\"Learning Data Collection...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Data Collection in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Data Collection is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Data Collection to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m1l3",
+          "title": "Data Cleaning: Data Visualization - Lesson 3",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 3 of Data Visualization. In this lesson, you'll learn about Data Cleaning—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Data Cleaning"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Data Cleaning. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Data Cleaning before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Data Cleaning without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Data Cleaning\n// Replace this with your own practice\nconsole.log(\"Learning Data Cleaning...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Data Cleaning in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Data Cleaning is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Data Cleaning to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Data Visualization.",
+      "lessons": [
+        {
+          "id": "course-031-m2l1",
+          "title": "Exploratory Analysis: Data Visualization - Lesson 4",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 4 of Data Visualization. In this lesson, you'll learn about Exploratory Analysis—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Exploratory Analysis"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Exploratory Analysis. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Exploratory Analysis before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Exploratory Analysis without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Exploratory Analysis\n// Replace this with your own practice\nconsole.log(\"Learning Exploratory Analysis...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Exploratory Analysis in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Exploratory Analysis is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Exploratory Analysis to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m2l2",
+          "title": "Statistical Thinking: Data Visualization - Lesson 5",
+          "minutes": 28,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 5 of Data Visualization. In this lesson, you'll learn about Statistical Thinking—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Statistical Thinking"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Statistical Thinking. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Statistical Thinking before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Statistical Thinking without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Statistical Thinking\n// Replace this with your own practice\nconsole.log(\"Learning Statistical Thinking...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Statistical Thinking in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Statistical Thinking is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Statistical Thinking to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m2l3",
+          "title": "Data Visualization: Data Visualization - Lesson 6",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 6 of Data Visualization. In this lesson, you'll learn about Data Visualization—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Data Visualization"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Data Visualization. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Data Visualization before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Data Visualization without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Data Visualization\n// Replace this with your own practice\nconsole.log(\"Learning Data Visualization...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Data Visualization in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Data Visualization is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Data Visualization to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Data Visualization.",
+      "lessons": [
+        {
+          "id": "course-031-m3l1",
+          "title": "Hypothesis Testing: Data Visualization - Lesson 7",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 7 of Data Visualization. In this lesson, you'll learn about Hypothesis Testing—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Hypothesis Testing"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Hypothesis Testing. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Hypothesis Testing before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Hypothesis Testing without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Hypothesis Testing\n// Replace this with your own practice\nconsole.log(\"Learning Hypothesis Testing...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Hypothesis Testing in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Hypothesis Testing is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Hypothesis Testing to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m3l2",
+          "title": "Regression Analysis: Data Visualization - Lesson 8",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 8 of Data Visualization. In this lesson, you'll learn about Regression Analysis—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Regression Analysis"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Regression Analysis. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Regression Analysis before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Regression Analysis without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Regression Analysis\n// Replace this with your own practice\nconsole.log(\"Learning Regression Analysis...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Regression Analysis in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Regression Analysis is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Regression Analysis to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m3l3",
+          "title": "Time Series: Data Visualization - Lesson 9",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 9 of Data Visualization. In this lesson, you'll learn about Time Series—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Time Series"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Time Series. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Time Series before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Time Series without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Time Series\n// Replace this with your own practice\nconsole.log(\"Learning Time Series...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Time Series in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Time Series is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Time Series to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Data Visualization.",
+      "lessons": [
+        {
+          "id": "course-031-m4l1",
+          "title": "Machine Learning Basics: Data Visualization - Lesson 10",
+          "minutes": 26,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 10 of Data Visualization. In this lesson, you'll learn about Machine Learning Basics—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Machine Learning Basics"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Machine Learning Basics. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Machine Learning Basics before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Machine Learning Basics without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Machine Learning Basics\n// Replace this with your own practice\nconsole.log(\"Learning Machine Learning Basics...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Machine Learning Basics in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Machine Learning Basics is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Machine Learning Basics to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m4l2",
+          "title": "Model Evaluation: Data Visualization - Lesson 11",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 11 of Data Visualization. In this lesson, you'll learn about Model Evaluation—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Model Evaluation"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Model Evaluation. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Model Evaluation before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Model Evaluation without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Model Evaluation\n// Replace this with your own practice\nconsole.log(\"Learning Model Evaluation...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Model Evaluation in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Model Evaluation is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Model Evaluation to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m4l3",
+          "title": "Ethics: Data Visualization - Lesson 12",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 12 of Data Visualization. In this lesson, you'll learn about Ethics—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Ethics"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Ethics. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Ethics before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Ethics without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Ethics\n// Replace this with your own practice\nconsole.log(\"Learning Ethics...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Ethics in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Ethics is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Ethics to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Data Visualization.",
+      "lessons": [
+        {
+          "id": "course-031-m5l1",
+          "title": "Capstone Project: Data Visualization - Lesson 13",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 13 of Data Visualization. In this lesson, you'll learn about Capstone Project—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Capstone Project"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Capstone Project. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Capstone Project before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Capstone Project without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Capstone Project\n// Replace this with your own practice\nconsole.log(\"Learning Capstone Project...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Capstone Project in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Capstone Project is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Capstone Project to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m5l2",
+          "title": "Review: Data Visualization - Lesson 14",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 14 of Data Visualization. In this lesson, you'll learn about Review—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Review. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Review before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Review in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Review is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-031-m5l3",
+          "title": "Career Path: Data Visualization - Lesson 15",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 15 of Data Visualization. In this lesson, you'll learn about Career Path—a fundamental concept in Data & Analytics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Career Path"
+            },
+            {
+              "type": "p",
+              "text": "Every great data visualization practitioner starts with understanding Career Path. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Collect data",
+                  "Clean data",
+                  "Explore patterns"
+                ],
+                [
+                  "Analyze statistically",
+                  "Visualize findings",
+                  "Tell data stories"
+                ],
+                [
+                  "Test hypotheses",
+                  "Build regression models",
+                  "Analyze time series"
+                ],
+                [
+                  "Learn ML basics",
+                  "Evaluate models",
+                  "Consider ethics"
+                ],
+                [
+                  "Complete project",
+                  "Review skills",
+                  "Plan career"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Data & Analytics always practice Career Path before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Career Path without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Career Path\n// Replace this with your own practice\nconsole.log(\"Learning Career Path...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Career Path in Data Visualization?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Career Path is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Career Path to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "undefined Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the undefined badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Data Visualization?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Data Visualization focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for beginner learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

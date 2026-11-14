@@ -1,0 +1,1462 @@
+{
+  "id": "business-law-basics",
+  "title": "Business Law Basics",
+  "topic": "Business",
+  "topicSlug": "business",
+  "level": "Intermediate",
+  "duration": "2h 00m",
+  "description": "Understand business law fundamentals including contracts, employment law, intellectual property, and business formation.",
+  "icon": "layout",
+  "color": "#F2A33B",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Legal Aware",
+    "icon": "layout",
+    "description": "Awarded for completing Business Law Basics."
+  },
+  "skills": [
+    "Contracts",
+    "Employment law",
+    "Intellectual property",
+    "Business formation"
+  ],
+  "path": "courses/business/business-law-basics/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Business Law Basics.",
+      "lessons": [
+        {
+          "id": "business-law-basics-m1l1",
+          "title": "Business Fundamentals: Business Law Basics - Lesson 1",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Business Fundamentals and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Business Fundamentals"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Business Fundamentals. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Business Fundamentals with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Business Fundamentals without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Business Fundamentals\n// Replace this with your own practice\nconsole.log(\"Learning Business Fundamentals...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Business Fundamentals in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Business Fundamentals that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Business Fundamentals to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m1l2",
+          "title": "Market Research: Business Law Basics - Lesson 2",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Market Research and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Market Research"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Market Research. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Market Research with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Market Research without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Market Research\n// Replace this with your own practice\nconsole.log(\"Learning Market Research...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Market Research in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Market Research that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Market Research to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m1l3",
+          "title": "Business Planning: Business Law Basics - Lesson 3",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Business Planning and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Business Planning"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Business Planning. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Business Planning with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Business Planning without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Business Planning\n// Replace this with your own practice\nconsole.log(\"Learning Business Planning...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Business Planning in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Business Planning that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Business Planning to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Business Law Basics.",
+      "lessons": [
+        {
+          "id": "business-law-basics-m2l1",
+          "title": "Financial Basics: Business Law Basics - Lesson 4",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Financial Basics and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Financial Basics"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Financial Basics. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Financial Basics with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Financial Basics without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Financial Basics\n// Replace this with your own practice\nconsole.log(\"Learning Financial Basics...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Financial Basics in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Financial Basics that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Financial Basics to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m2l2",
+          "title": "Marketing Strategy: Business Law Basics - Lesson 5",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Marketing Strategy and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Marketing Strategy"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Marketing Strategy. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Marketing Strategy with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Marketing Strategy without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Marketing Strategy\n// Replace this with your own practice\nconsole.log(\"Learning Marketing Strategy...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Marketing Strategy in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Marketing Strategy that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Marketing Strategy to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m2l3",
+          "title": "Operations: Business Law Basics - Lesson 6",
+          "minutes": 26,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Operations and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Operations"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Operations. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Operations with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Operations without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Operations\n// Replace this with your own practice\nconsole.log(\"Learning Operations...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Operations in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Operations that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Operations to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Business Law Basics.",
+      "lessons": [
+        {
+          "id": "business-law-basics-m3l1",
+          "title": "Sales Techniques: Business Law Basics - Lesson 7",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Sales Techniques and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Sales Techniques"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Sales Techniques. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Sales Techniques with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Sales Techniques without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Sales Techniques\n// Replace this with your own practice\nconsole.log(\"Learning Sales Techniques...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Sales Techniques in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Sales Techniques that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Sales Techniques to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m3l2",
+          "title": "Customer Relations: Business Law Basics - Lesson 8",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Customer Relations and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Customer Relations"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Customer Relations. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Customer Relations with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Customer Relations without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Customer Relations\n// Replace this with your own practice\nconsole.log(\"Learning Customer Relations...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Customer Relations in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Customer Relations that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Customer Relations to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m3l3",
+          "title": "Team Management: Business Law Basics - Lesson 9",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Team Management and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Team Management"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Team Management. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Team Management with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Team Management without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Team Management\n// Replace this with your own practice\nconsole.log(\"Learning Team Management...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Team Management in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Team Management that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Team Management to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Business Law Basics.",
+      "lessons": [
+        {
+          "id": "business-law-basics-m4l1",
+          "title": "Growth Strategies: Business Law Basics - Lesson 10",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Growth Strategies and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Growth Strategies"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Growth Strategies. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Growth Strategies with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Growth Strategies without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Growth Strategies\n// Replace this with your own practice\nconsole.log(\"Learning Growth Strategies...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Growth Strategies in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Growth Strategies that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Growth Strategies to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m4l2",
+          "title": "Risk Management: Business Law Basics - Lesson 11",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Risk Management and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Risk Management"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Risk Management. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Risk Management with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Risk Management without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Risk Management\n// Replace this with your own practice\nconsole.log(\"Learning Risk Management...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Risk Management in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Risk Management that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Risk Management to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m4l3",
+          "title": "Scaling: Business Law Basics - Lesson 12",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Scaling and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Scaling"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Scaling. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Scaling with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Scaling without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Scaling\n// Replace this with your own practice\nconsole.log(\"Learning Scaling...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Scaling in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Scaling that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Scaling to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Business Law Basics.",
+      "lessons": [
+        {
+          "id": "business-law-basics-m5l1",
+          "title": "Business Plan: Business Law Basics - Lesson 13",
+          "minutes": 24,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Business Plan and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Business Plan"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Business Plan. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Business Plan with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Business Plan without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Business Plan\n// Replace this with your own practice\nconsole.log(\"Learning Business Plan...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Business Plan in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Business Plan that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Business Plan to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m5l2",
+          "title": "Review: Business Law Basics - Lesson 14",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Review and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Review. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Review with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Review in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Review that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "business-law-basics-m5l3",
+          "title": "Execution Plan: Business Law Basics - Lesson 15",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Execution Plan and how to apply it in real-world scenarios within the context of Business Law Basics."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Execution Plan"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Execution Plan. You'll learn practical techniques you can apply immediately in your business law basics projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Understand business basics",
+                  "Research the market",
+                  "Create a plan"
+                ],
+                [
+                  "Manage finances",
+                  "Develop marketing",
+                  "Run operations"
+                ],
+                [
+                  "Sell effectively",
+                  "Serve customers",
+                  "Lead teams"
+                ],
+                [
+                  "Grow strategically",
+                  "Manage risk",
+                  "Scale operations"
+                ],
+                [
+                  "Write business plan",
+                  "Review progress",
+                  "Execute plan"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Execution Plan with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Execution Plan without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Execution Plan\n// Replace this with your own practice\nconsole.log(\"Learning Execution Plan...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Execution Plan in Business Law Basics?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Execution Plan that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Execution Plan to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Legal Aware Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the Legal Aware badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Business Law Basics?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Business Law Basics focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for intermediate learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

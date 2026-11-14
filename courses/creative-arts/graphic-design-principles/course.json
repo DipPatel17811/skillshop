@@ -1,0 +1,1462 @@
+{
+  "id": "graphic-design-principles",
+  "title": "Graphic Design Principles",
+  "topic": "Creative Arts",
+  "topicSlug": "creative-arts",
+  "level": "Beginner",
+  "duration": "3h 00m",
+  "description": "Learn graphic design fundamentals including layout, typography, color theory, and visual hierarchy.",
+  "icon": "brain",
+  "color": "#FF7A59",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Graphic Designer",
+    "icon": "spark",
+    "description": "Awarded for completing Graphic Design Principles."
+  },
+  "skills": [
+    "Layout design",
+    "Typography",
+    "Color theory",
+    "Visual hierarchy"
+  ],
+  "path": "courses/creative-arts/graphic-design-principles/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Graphic Design Principles.",
+      "lessons": [
+        {
+          "id": "graphic-design-principles-m1l1",
+          "title": "Creative Process: Graphic Design Principles - Lesson 1",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Creative Process and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Creative Process"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Creative Process. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Creative Process with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Creative Process without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Creative Process\n// Replace this with your own practice\nconsole.log(\"Learning Creative Process...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Creative Process in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Creative Process that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Creative Process to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m1l2",
+          "title": "Inspiration: Graphic Design Principles - Lesson 2",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Inspiration and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Inspiration"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Inspiration. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Inspiration with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Inspiration without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Inspiration\n// Replace this with your own practice\nconsole.log(\"Learning Inspiration...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Inspiration in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Inspiration that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Inspiration to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m1l3",
+          "title": "Sketching: Graphic Design Principles - Lesson 3",
+          "minutes": 12,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Sketching and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Sketching"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Sketching. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Sketching with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Sketching without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Sketching\n// Replace this with your own practice\nconsole.log(\"Learning Sketching...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Sketching in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Sketching that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Sketching to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Graphic Design Principles.",
+      "lessons": [
+        {
+          "id": "graphic-design-principles-m2l1",
+          "title": "Composition: Graphic Design Principles - Lesson 4",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Composition and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Composition"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Composition. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Composition with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Composition without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Composition\n// Replace this with your own practice\nconsole.log(\"Learning Composition...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Composition in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Composition that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Composition to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m2l2",
+          "title": "Color Theory: Graphic Design Principles - Lesson 5",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Color Theory and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Color Theory"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Color Theory. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Color Theory with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Color Theory without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Color Theory\n// Replace this with your own practice\nconsole.log(\"Learning Color Theory...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Color Theory in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Color Theory that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Color Theory to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m2l3",
+          "title": "Typography: Graphic Design Principles - Lesson 6",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Typography and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Typography"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Typography. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Typography with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Typography without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Typography\n// Replace this with your own practice\nconsole.log(\"Learning Typography...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Typography in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Typography that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Typography to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Graphic Design Principles.",
+      "lessons": [
+        {
+          "id": "graphic-design-principles-m3l1",
+          "title": "Digital Tools: Graphic Design Principles - Lesson 7",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Digital Tools and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Digital Tools"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Digital Tools. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Digital Tools with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Digital Tools without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Digital Tools\n// Replace this with your own practice\nconsole.log(\"Learning Digital Tools...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Digital Tools in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Digital Tools that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Digital Tools to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m3l2",
+          "title": "Traditional Media: Graphic Design Principles - Lesson 8",
+          "minutes": 21,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Traditional Media and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Traditional Media"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Traditional Media. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Traditional Media with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Traditional Media without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Traditional Media\n// Replace this with your own practice\nconsole.log(\"Learning Traditional Media...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Traditional Media in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Traditional Media that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Traditional Media to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m3l3",
+          "title": "Mixed Media: Graphic Design Principles - Lesson 9",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Mixed Media and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Mixed Media"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Mixed Media. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Mixed Media with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Mixed Media without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Mixed Media\n// Replace this with your own practice\nconsole.log(\"Learning Mixed Media...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Mixed Media in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Mixed Media that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Mixed Media to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Graphic Design Principles.",
+      "lessons": [
+        {
+          "id": "graphic-design-principles-m4l1",
+          "title": "Style Development: Graphic Design Principles - Lesson 10",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Style Development and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Style Development"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Style Development. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Style Development with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Style Development without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Style Development\n// Replace this with your own practice\nconsole.log(\"Learning Style Development...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Style Development in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Style Development that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Style Development to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m4l2",
+          "title": "Client Work: Graphic Design Principles - Lesson 11",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Client Work and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Client Work"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Client Work. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Client Work with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Client Work without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Client Work\n// Replace this with your own practice\nconsole.log(\"Learning Client Work...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Client Work in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Client Work that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Client Work to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m4l3",
+          "title": "Presentation: Graphic Design Principles - Lesson 12",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Presentation and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Presentation"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Presentation. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Presentation with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Presentation without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Presentation\n// Replace this with your own practice\nconsole.log(\"Learning Presentation...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Presentation in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Presentation that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Presentation to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Graphic Design Principles.",
+      "lessons": [
+        {
+          "id": "graphic-design-principles-m5l1",
+          "title": "Portfolio: Graphic Design Principles - Lesson 13",
+          "minutes": 27,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Portfolio and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Portfolio"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Portfolio. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Portfolio with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Portfolio without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Portfolio\n// Replace this with your own practice\nconsole.log(\"Learning Portfolio...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Portfolio in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Portfolio that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Portfolio to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m5l2",
+          "title": "Review: Graphic Design Principles - Lesson 14",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Review and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Review. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Review with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Review in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Review that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "graphic-design-principles-m5l3",
+          "title": "Career Path: Graphic Design Principles - Lesson 15",
+          "minutes": 13,
+          "content": [
+            {
+              "type": "lead",
+              "text": "In this lesson you'll learn about Career Path and how to apply it in real-world scenarios within the context of Graphic Design Principles."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Career Path"
+            },
+            {
+              "type": "p",
+              "text": "This lesson covers the fundamentals of Career Path. You'll learn practical techniques you can apply immediately in your graphic design principles projects."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Creative process",
+                  "Inspiration",
+                  "Sketching"
+                ],
+                [
+                  "Composition",
+                  "Color theory",
+                  "Typography"
+                ],
+                [
+                  "Digital tools",
+                  "Traditional media",
+                  "Mixed media"
+                ],
+                [
+                  "Style development",
+                  "Client work",
+                  "Presentation"
+                ],
+                [
+                  "Portfolio",
+                  "Review",
+                  "Career path"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "Practice Career Path with real examples before moving to the next lesson."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Career Path without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Career Path\n// Replace this with your own practice\nconsole.log(\"Learning Career Path...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main goal of learning Career Path in Graphic Design Principles?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal is to build a solid foundation in Career Path that you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Career Path to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "Graphic Designer Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the Graphic Designer badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Graphic Design Principles?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Graphic Design Principles focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for beginner learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}

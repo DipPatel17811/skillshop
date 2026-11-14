@@ -1,0 +1,1462 @@
+{
+  "id": "course-018",
+  "title": "Active Listening",
+  "topic": "Communication",
+  "topicSlug": "communication",
+  "level": "Beginner",
+  "duration": "2h 00m",
+  "description": "Master active listening techniques including empathetic responses, questioning skills, and constructive feedback.",
+  "icon": "target",
+  "color": "#D94F7A",
+  "accent": "#F6F2EA",
+  "badge": {
+    "name": "Skill Builder",
+    "icon": "award",
+    "description": "Awarded for completing Active Listening."
+  },
+  "skills": [
+    "Active listening",
+    "Empathy",
+    "Questioning",
+    "Feedback"
+  ],
+  "path": "courses/communication/course-018/course.json",
+  "featured": false,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Foundations",
+      "summary": "Learn the essentials of module 1 for Active Listening.",
+      "lessons": [
+        {
+          "id": "course-018-m1l1",
+          "title": "Fundamentals: Active Listening - Lesson 1",
+          "minutes": 18,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 1 of Active Listening. In this lesson, you'll learn about Fundamentals—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Fundamentals"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Fundamentals. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Fundamentals before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Fundamentals without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Fundamentals\n// Replace this with your own practice\nconsole.log(\"Learning Fundamentals...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Fundamentals in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Fundamentals is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Fundamentals to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m1l2",
+          "title": "Active Listening: Active Listening - Lesson 2",
+          "minutes": 20,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 2 of Active Listening. In this lesson, you'll learn about Active Listening—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Active Listening"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Active Listening. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Active Listening before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Active Listening without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Active Listening\n// Replace this with your own practice\nconsole.log(\"Learning Active Listening...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Active Listening in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Active Listening is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Active Listening to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m1l3",
+          "title": "Clear Expression: Active Listening - Lesson 3",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 3 of Active Listening. In this lesson, you'll learn about Clear Expression—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Clear Expression"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Clear Expression. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Clear Expression before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Clear Expression without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Clear Expression\n// Replace this with your own practice\nconsole.log(\"Learning Clear Expression...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Clear Expression in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Clear Expression is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Clear Expression to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Core Skills",
+      "summary": "Learn the essentials of module 2 for Active Listening.",
+      "lessons": [
+        {
+          "id": "course-018-m2l1",
+          "title": "Difficult Conversations: Active Listening - Lesson 4",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 4 of Active Listening. In this lesson, you'll learn about Difficult Conversations—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Difficult Conversations"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Difficult Conversations. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Difficult Conversations before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Difficult Conversations without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Difficult Conversations\n// Replace this with your own practice\nconsole.log(\"Learning Difficult Conversations...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Difficult Conversations in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Difficult Conversations is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Difficult Conversations to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m2l2",
+          "title": "Body Language: Active Listening - Lesson 5",
+          "minutes": 16,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 5 of Active Listening. In this lesson, you'll learn about Body Language—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Body Language"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Body Language. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Body Language before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Body Language without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Body Language\n// Replace this with your own practice\nconsole.log(\"Learning Body Language...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Body Language in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Body Language is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Body Language to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m2l3",
+          "title": "Voice Modulation: Active Listening - Lesson 6",
+          "minutes": 14,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 6 of Active Listening. In this lesson, you'll learn about Voice Modulation—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Voice Modulation"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Voice Modulation. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Voice Modulation before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Voice Modulation without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Voice Modulation\n// Replace this with your own practice\nconsole.log(\"Learning Voice Modulation...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Voice Modulation in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Voice Modulation is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Voice Modulation to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Practice",
+      "summary": "Learn the essentials of module 3 for Active Listening.",
+      "lessons": [
+        {
+          "id": "course-018-m3l1",
+          "title": "Public Speaking: Active Listening - Lesson 7",
+          "minutes": 23,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 7 of Active Listening. In this lesson, you'll learn about Public Speaking—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Public Speaking"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Public Speaking. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Public Speaking before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Public Speaking without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Public Speaking\n// Replace this with your own practice\nconsole.log(\"Learning Public Speaking...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Public Speaking in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Public Speaking is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Public Speaking to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m3l2",
+          "title": "Group Discussions: Active Listening - Lesson 8",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 8 of Active Listening. In this lesson, you'll learn about Group Discussions—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Group Discussions"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Group Discussions. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Group Discussions before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Group Discussions without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Group Discussions\n// Replace this with your own practice\nconsole.log(\"Learning Group Discussions...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Group Discussions in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Group Discussions is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Group Discussions to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m3l3",
+          "title": "Written Communication: Active Listening - Lesson 9",
+          "minutes": 15,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 9 of Active Listening. In this lesson, you'll learn about Written Communication—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Written Communication"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Written Communication. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Written Communication before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Written Communication without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Written Communication\n// Replace this with your own practice\nconsole.log(\"Learning Written Communication...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Written Communication in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Written Communication is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Written Communication to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Advanced Techniques",
+      "summary": "Learn the essentials of module 4 for Active Listening.",
+      "lessons": [
+        {
+          "id": "course-018-m4l1",
+          "title": "Conflict Resolution: Active Listening - Lesson 10",
+          "minutes": 17,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 10 of Active Listening. In this lesson, you'll learn about Conflict Resolution—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Conflict Resolution"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Conflict Resolution. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Conflict Resolution before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Conflict Resolution without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Conflict Resolution\n// Replace this with your own practice\nconsole.log(\"Learning Conflict Resolution...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Conflict Resolution in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Conflict Resolution is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Conflict Resolution to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m4l2",
+          "title": "Negotiation: Active Listening - Lesson 11",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 11 of Active Listening. In this lesson, you'll learn about Negotiation—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Negotiation"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Negotiation. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Negotiation before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Negotiation without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Negotiation\n// Replace this with your own practice\nconsole.log(\"Learning Negotiation...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Negotiation in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Negotiation is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Negotiation to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m4l3",
+          "title": "Networking: Active Listening - Lesson 12",
+          "minutes": 29,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 12 of Active Listening. In this lesson, you'll learn about Networking—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Networking"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Networking. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Networking before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Networking without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Networking\n// Replace this with your own practice\nconsole.log(\"Learning Networking...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Networking in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Networking is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Networking to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Mastery",
+      "summary": "Learn the essentials of module 5 for Active Listening.",
+      "lessons": [
+        {
+          "id": "course-018-m5l1",
+          "title": "Capstone Presentation: Active Listening - Lesson 13",
+          "minutes": 22,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 13 of Active Listening. In this lesson, you'll learn about Capstone Presentation—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Capstone Presentation"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Capstone Presentation. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Capstone Presentation before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Capstone Presentation without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Capstone Presentation\n// Replace this with your own practice\nconsole.log(\"Learning Capstone Presentation...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Capstone Presentation in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Capstone Presentation is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Capstone Presentation to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m5l2",
+          "title": "Review: Active Listening - Lesson 14",
+          "minutes": 19,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 14 of Active Listening. In this lesson, you'll learn about Review—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Review"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Review. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Review before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Review in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Review is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        },
+        {
+          "id": "course-018-m5l3",
+          "title": "Growth Plan: Active Listening - Lesson 15",
+          "minutes": 25,
+          "content": [
+            {
+              "type": "lead",
+              "text": "Welcome to Lesson 15 of Active Listening. In this lesson, you'll learn about Growth Plan—a fundamental concept in Communication."
+            },
+            {
+              "type": "h",
+              "text": "Core Concept: Growth Plan"
+            },
+            {
+              "type": "p",
+              "text": "Every great active listening practitioner starts with understanding Growth Plan. This lesson walks you through the key ideas, common mistakes, and a practical example you can try today."
+            },
+            {
+              "type": "list",
+              "style": "bullet",
+              "items": [
+                [
+                  "Listen actively",
+                  "Speak clearly",
+                  "Read body language"
+                ],
+                [
+                  "Handle difficult topics",
+                  "Use positive body language",
+                  "Modulate your voice"
+                ],
+                [
+                  "Structure your talk",
+                  "Engage your audience",
+                  "Write clearly"
+                ],
+                [
+                  "Resolve conflicts",
+                  "Negotiate effectively",
+                  "Build relationships"
+                ],
+                [
+                  "Deliver your talk",
+                  "Review performance",
+                  "Plan growth"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Pro Tip",
+              "text": "The most successful practitioners in Communication always practice Growth Plan before moving to more advanced topics."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Common Mistake",
+              "text": "Beginners often rush through Growth Plan without mastering the fundamentals. Take your time and build a solid foundation."
+            },
+            {
+              "type": "code",
+              "language": "text",
+              "code": "// Example: Growth Plan\n// Replace this with your own practice\nconsole.log(\"Learning Growth Plan...\");"
+            },
+            {
+              "type": "quiz",
+              "question": "What is the main purpose of Growth Plan in Active Listening?",
+              "options": [
+                "To learn the fundamentals",
+                "To skip the basics",
+                "To memorize everything",
+                "To avoid practice"
+              ],
+              "answer": 0,
+              "explanation": "The goal of Growth Plan is to build a solid foundation you can build on."
+            },
+            {
+              "type": "h3",
+              "text": "Apply it"
+            },
+            {
+              "type": "p",
+              "text": "Try applying Growth Plan to a small project this week. Reflect on what worked and what needs more practice."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalAssessment": {
+    "title": "undefined Assessment",
+    "intro": "Answer all 8 questions. Score 80% or higher to earn the undefined badge and certificate. You can retake the assessment if needed.",
+    "passScore": 80,
+    "questions": [
+      {
+        "question": "What is the primary focus of Active Listening?",
+        "options": [
+          "Theory only",
+          "Practical application",
+          "History",
+          "Unrelated topics"
+        ],
+        "answer": 1,
+        "explanation": "Active Listening focuses on practical, usable skills."
+      },
+      {
+        "question": "Which level is this course designed for?",
+        "options": [
+          "Beginner",
+          "Expert only",
+          "Level 99",
+          "No level"
+        ],
+        "answer": 0,
+        "explanation": "This course is designed for beginner learners."
+      },
+      {
+        "question": "How many modules does this course have?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The course is organized into 5 modules."
+      },
+      {
+        "question": "What do you earn on completion?",
+        "options": [
+          "Nothing",
+          "A badge and certificate",
+          "A trophy",
+          "An email"
+        ],
+        "answer": 1,
+        "explanation": "Completing the course and assessment earns a badge and certificate."
+      },
+      {
+        "question": "Can you retake the final assessment?",
+        "options": [
+          "No",
+          "Yes, unlimited",
+          "Once",
+          "Only with payment"
+        ],
+        "answer": 1,
+        "explanation": "You can retake the assessment if you need to."
+      },
+      {
+        "question": "Is practice recommended?",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only for experts"
+        ],
+        "answer": 0,
+        "explanation": "Practice is essential to mastering any skill."
+      },
+      {
+        "question": "What is included in each lesson?",
+        "options": [
+          "Only videos",
+          "Content, examples, and a quiz",
+          "Only quizzes",
+          "Only reading"
+        ],
+        "answer": 1,
+        "explanation": "Lessons include content, examples, and knowledge checks."
+      },
+      {
+        "question": "Who can take this course?",
+        "options": [
+          "Only experts",
+          "Anyone interested",
+          "Only paid members",
+          "Only students"
+        ],
+        "answer": 1,
+        "explanation": "Anyone interested in the topic can take this course."
+      }
+    ]
+  }
+}
