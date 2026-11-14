@@ -8,284 +8,141 @@
   "description": "Build real hardware projects with Arduino-compatible boards. Learn to read sensors, control LEDs, and debug electronic circuits from the ground up.",
   "icon": "chip",
   "color": "#FF7A59",
-  "accent": "#F6F2EA",
+  "accent": "#FFE7DE",
   "badge": {
     "name": "Circuit Starter",
     "icon": "bolt",
     "description": "Awarded for completing Microcontrollers 101."
   },
-  "skills": [
-    "Arduino programming",
-    "Circuit design",
-    "Sensor integration",
-    "Debugging hardware"
-  ],
+  "skills": ["Arduino programming", "Circuit design", "Sensor integration", "Debugging hardware"],
   "path": "courses/technology/microcontrollers-101/course.json",
   "featured": false,
   "modules": [
     {
       "id": "m1",
-      "title": "Module 1: Foundations",
-      "summary": "Learn the essentials of module 1 for Microcontrollers 101.",
+      "title": "Module 1: Electronics Foundations",
+      "summary": "Learn about voltage, current, resistance, and how microcontrollers work.",
       "lessons": [
         {
           "id": "microcontrollers-101-m1l1",
-          "title": "Introduction: Microcontrollers 101 - Lesson 1",
-          "minutes": 22,
+          "title": "Introduction: What is a Microcontroller?",
+          "minutes": 15,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Introduction and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "A microcontroller is a tiny computer on a single chip that can sense the world, make decisions, and control real hardware. This is the brain behind your washing machine, microwave, bike light, and thermostat."
             },
             {
               "type": "h",
-              "text": "Core Concept: Introduction"
+              "text": "Microcontroller vs Computer"
             },
             {
               "type": "p",
-              "text": "This lesson covers the fundamentals of Introduction. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
+              "text": "A microcontroller is designed to do ONE job reliably, often for years without rebooting. Your laptop runs an operating system, manages windows, and waits for you to decide what happens next. A microcontroller usually runs one program forever."
             },
             {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Question", "Microcontroller", "Everyday Computer"],
+              "rows": [
+                ["Typical job", "One dedicated task", "Many general-purpose tasks"],
+                ["Operating system", "Usually none", "Windows, macOS, Linux"],
+                ["Startup time", "Milliseconds", "Seconds to minutes"],
+                ["Power use", "Very low", "Much higher"],
+                ["Example", "Plant moisture alarm", "Laptop running a spreadsheet"]
               ]
             },
             {
               "type": "callout",
               "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Introduction with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Introduction without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Introduction\n// Replace this with your own practice\nconsole.log(\"Learning Introduction...\");"
+              "title": "You do not need to memorize electronics",
+              "text": "Start with the working model: a pin can be an input or an output, and a program decides what to do with it. The details become familiar through building."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Introduction in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Introduction that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Introduction to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Which task best fits a microcontroller?",
+              "options": ["Editing a video", "Watching a plant's soil moisture and sounding an alarm when it is dry", "Running three browser tabs", "Storing a family photo album"],
+              "answer": 1,
+              "explanation": "A microcontroller is ideal for a small, repeated, dedicated job such as monitoring a sensor and controlling an output."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m1l2",
-          "title": "Core Concepts: Microcontrollers 101 - Lesson 2",
-          "minutes": 29,
+          "title": "Voltage, Current, and Resistance",
+          "minutes": 18,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Core Concepts and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Electricity is the flow of electrons through a conductor. Three key concepts you need to know: voltage, current, and resistance."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Core Concepts"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Core Concepts. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Term", "Analogy", "Unit"],
+              "rows": [
+                ["Voltage", "Water pressure in a pipe", "Volts (V)"],
+                ["Current", "Amount of water flowing per second", "Amperes (Amps)"],
+                ["Resistance", "Narrowness of the pipe", "Ohms (Ω)"]
               ]
             },
             {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Core Concepts with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Core Concepts without mastering the fundamentals. Take your time and build a solid foundation."
+              "type": "p",
+              "text": "Ohm's Law connects these three: V = I × R. Voltage equals current times resistance. If you know any two values, you can calculate the third."
             },
             {
               "type": "code",
               "language": "text",
-              "code": "// Example: Core Concepts\n// Replace this with your own practice\nconsole.log(\"Learning Core Concepts...\");"
+              "code": "V = I × R\nVoltage = Current × Resistance\n\nExample:\nA 5V circuit with a 100Ω resistor:\nI = 5V / 100Ω = 0.05A (50mA)"
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Never short a power pin to ground",
+              "text": "Connecting 5V directly to GND without resistance can damage your board. Always have a component (LED, resistor, motor) between power and ground."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Core Concepts in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Core Concepts that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Core Concepts to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "What does a 220Ω resistor do in a simple LED circuit?",
+              "options": ["Makes the LED brighter", "Limits current so the LED and pin are not damaged", "Stores the program", "Changes the LED colour"],
+              "answer": 1,
+              "explanation": "The resistor controls the current. It protects both the LED and the microcontroller pin."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m1l3",
-          "title": "Hands-on Practice: Microcontrollers 101 - Lesson 3",
-          "minutes": 13,
+          "title": "Breadboard and Jumper Wires",
+          "minutes": 20,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Hands-on Practice and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "A breadboard lets you prototype circuits without soldering. It has rows and columns that are internally connected."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Hands-on Practice"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Hands-on Practice. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
+              "type": "image",
+              "caption": "Breadboard layout showing connected rows",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Breadboard.svg/1200px-Breadboard.svg.png"
             },
             {
               "type": "list",
               "style": "bullet",
               "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+                "Center column: Each hole in a 5-hole row is connected",
+                "Power rails: The long columns on the edges run the full length (usually red for +, blue for -)",
+                "Jumper wires: Connect components on the breadboard to your microcontroller pins"
               ]
             },
             {
               "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Hands-on Practice with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
               "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Hands-on Practice without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Hands-on Practice\n// Replace this with your own practice\nconsole.log(\"Learning Hands-on Practice...\");"
+              "title": "Build with power off",
+              "text": "Always disconnect USB power before changing your circuit. This prevents accidental shorts that can damage components."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Hands-on Practice in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Hands-on Practice that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Hands-on Practice to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Which part of a breadboard connects all holes in a row together?",
+              "options": ["Power rails", "Center section rows", "Outer columns", "Nothing - all holes are separate"],
+              "answer": 1,
+              "explanation": "In a breadboard, each row of 5 holes is internally connected. Components plugged into the same row are electrically connected."
             }
           ]
         }
@@ -293,267 +150,154 @@
     },
     {
       "id": "m2",
-      "title": "Module 2: Core Skills",
-      "summary": "Learn the essentials of module 2 for Microcontrollers 101.",
+      "title": "Module 2: Your First Circuit",
+      "summary": "Build your first LED circuit and write your first Arduino program.",
       "lessons": [
         {
           "id": "microcontrollers-101-m2l1",
-          "title": "Advanced Techniques: Microcontrollers 101 - Lesson 4",
-          "minutes": 22,
+          "title": "LED Circuit and Blink Program",
+          "minutes": 20,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Advanced Techniques and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Your first circuit: an LED that blinks. You'll learn to wire an LED with a resistor and write your first Arduino sketch."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Advanced Techniques"
+              "type": "image",
+              "caption": "LED circuit diagram",
+              "url": "https://www.arduino.cc/en/uploads/Tutorial/BlinkCircuit.png"
             },
             {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Advanced Techniques. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
+              "type": "steps",
               "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+                {
+                  "title": "Disconnect power",
+                  "text": "Build with the USB cable unplugged."
+                },
+                {
+                  "title": "Place the LED",
+                  "text": "Put the LED across the centre gap of the breadboard so its two legs are in different rows."
+                },
+                {
+                  "title": "Add the resistor",
+                  "text": "Connect the resistor from the LED's anode row to a free row."
+                },
+                {
+                  "title": "Wire the signal",
+                  "text": "Connect that free row to digital pin 8. Connect the LED's cathode row to GND."
+                },
+                {
+                  "title": "Check, plug in, upload",
+                  "text": "Look for stray wires touching each other, then connect USB and upload the blink test."
+                }
               ]
             },
             {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Advanced Techniques with real examples before moving to the next lesson."
+              "type": "code",
+              "language": "cpp",
+              "code": "const int LED_PIN = 8;\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(LED_PIN, HIGH);  // LED on\n  delay(500);                   // wait 500 ms\n  digitalWrite(LED_PIN, LOW);   // LED off\n  delay(500);                   // wait 500 ms\n}"
             },
             {
               "type": "callout",
               "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Advanced Techniques without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Advanced Techniques\n// Replace this with your own practice\nconsole.log(\"Learning Advanced Techniques...\");"
+              "title": "LED polarity matters",
+              "text": "The longer leg (anode) goes toward the resistor/power. The shorter leg (cathode) goes toward GND. If reversed, the LED won't light."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Advanced Techniques in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Advanced Techniques that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Advanced Techniques to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "What does pinMode(LED_PIN, OUTPUT) do?",
+              "options": ["Reads the pin value", "Sets the pin to send output signals", "Deletes the pin", "Turns the pin off"],
+              "answer": 1,
+              "explanation": "pinMode(LED_PIN, OUTPUT) configures the pin to send signals (output) rather than read them (input)."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m2l2",
-          "title": "Best Practices: Microcontrollers 101 - Lesson 5",
-          "minutes": 14,
+          "title": "Serial Monitor: Your First Debugger",
+          "minutes": 18,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Best Practices and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "The Serial Monitor lets your board talk to your computer. It's the quickest way to see what your program is actually doing."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Best Practices"
+              "type": "code",
+              "language": "cpp",
+              "code": "int counter = 0;\n\nvoid setup() {\n  Serial.begin(9600);\n  Serial.println(\"Board started\");\n}\n\nvoid loop() {\n  Serial.print(\"Loop \");\n  Serial.println(counter);\n  counter++;\n  delay(1000);\n}"
             },
             {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Best Practices. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
+              "type": "steps",
               "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+                {
+                  "title": "Connect USB",
+                  "text": "Plug your board into your computer."
+                },
+                {
+                  "title": "Open Serial Monitor",
+                  "text": "In Arduino IDE: Tools > Serial Monitor, or click the magnifying glass icon."
+                },
+                {
+                  "title": "Set baud rate",
+                  "text": "Make sure it says 9600 baud - this must match Serial.begin(9600) in your code."
+                },
+                {
+                  "title": "Watch output",
+                  "text": "You should see counter values incrementing every second."
+                }
               ]
             },
             {
               "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Best Practices with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
               "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Best Practices without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Best Practices\n// Replace this with your own practice\nconsole.log(\"Learning Best Practices...\");"
+              "title": "Baud rates must match",
+              "text": "If you see garbage characters, the serial monitor baud rate doesn't match Serial.begin(). Change one to match the other."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Best Practices in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Best Practices that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Best Practices to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "What must match between Serial.begin() and the serial monitor?",
+              "options": ["The USB cable colour", "The baud rate", "The board colour", "The number of LEDs"],
+              "answer": 1,
+              "explanation": "Both sides must use the same communication speed, such as 9600 baud."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m2l3",
-          "title": "Common Mistakes: Microcontrollers 101 - Lesson 6",
-          "minutes": 12,
+          "title": "Project: Traffic Light",
+          "minutes": 30,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Common Mistakes and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Combine three LEDs, timing, and structure to build a traffic light. This teaches state sequencing without needing a button yet."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Common Mistakes"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Common Mistakes. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["State", "Red", "Amber", "Green", "Duration"],
+              "rows": [
+                ["1", "ON", "OFF", "OFF", "3 seconds"],
+                ["2", "ON", "ON", "OFF", "1 second"],
+                ["3", "OFF", "OFF", "ON", "4 seconds"],
+                ["4", "OFF", "ON", "OFF", "1 second"]
               ]
             },
             {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Common Mistakes with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Common Mistakes without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
               "type": "code",
-              "language": "text",
-              "code": "// Example: Common Mistakes\n// Replace this with your own practice\nconsole.log(\"Learning Common Mistakes...\");"
+              "language": "cpp",
+              "code": "const int RED = 8;\nconst int AMBER = 9;\nconst int GREEN = 10;\n\nvoid setup() {\n  pinMode(RED, OUTPUT);\n  pinMode(AMBER, OUTPUT);\n  pinMode(GREEN, OUTPUT);\n}\n\nvoid showState(int r, int a, int g) {\n  digitalWrite(RED, r);\n  digitalWrite(AMBER, a);\n  digitalWrite(GREEN, g);\n}\n\nvoid loop() {\n  showState(HIGH, LOW, LOW);\n  delay(3000);\n  showState(HIGH, HIGH, LOW);\n  delay(1000);\n  showState(LOW, LOW, HIGH);\n  delay(4000);\n  showState(LOW, HIGH, LOW);\n  delay(1000);\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Extension: Add a pedestrian button",
+              "text": "When pressed, finish the current green phase safely, then switch to red after a short delay."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Common Mistakes in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Common Mistakes that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Common Mistakes to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Why put the three output settings inside a showState() function?",
+              "options": ["Functions make the board run faster", "It avoids repeating the same three lines and makes the states easier to read", "Functions are required before using delay()", "It changes the pin voltage"],
+              "answer": 1,
+              "explanation": "The function gives a name to a repeated action. The code becomes easier to read, test, and change."
             }
           ]
         }
@@ -561,267 +305,102 @@
     },
     {
       "id": "m3",
-      "title": "Module 3: Practice",
-      "summary": "Learn the essentials of module 3 for Microcontrollers 101.",
+      "title": "Module 3: Sensors and Analog Input",
+      "summary": "Learn to read analog sensors like light and temperature sensors.",
       "lessons": [
         {
           "id": "microcontrollers-101-m3l1",
-          "title": "Real-world Application: Microcontrollers 101 - Lesson 7",
-          "minutes": 22,
+          "title": "Analog Input and Voltage Dividers",
+          "minutes": 20,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Real-world Application and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Digital pins see HIGH or LOW. Analog inputs see a range. That range is what lets a microcontroller measure light, temperature, position, and sound."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Real-world Application"
+              "type": "code",
+              "language": "cpp",
+              "code": "const int SENSOR_PIN = A0;\n\nvoid setup() {\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int raw = analogRead(SENSOR_PIN);\n  float voltage = raw * (5.0 / 1023.0);\n  Serial.print(raw);\n  Serial.print(\" raw, \");\n  Serial.print(voltage, 2);\n  Serial.println(\" V\");\n  delay(250);\n}"
             },
             {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Real-world Application. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Condition", "Example reading", "Action"],
+              "rows": [
+                ["Bright room", "200-450", "LED off"],
+                ["Dim room", "450-650", "No change yet"],
+                ["Dark room", "Above 700", "LED on"]
               ]
             },
             {
               "type": "callout",
               "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Real-world Application with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Real-world Application without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Real-world Application\n// Replace this with your own practice\nconsole.log(\"Learning Real-world Application...\");"
+              "title": "Calibrate before you decide",
+              "text": "Record your sensor's raw values in its real environment. A 'dark' reading in a bright room may never occur in a dark cupboard."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Real-world Application in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Real-world Application that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Real-world Application to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "On a 5V, 10-bit analog input, what does a reading of 1023 represent?",
+              "options": ["0V", "About 2.5V", "Close to 5V", "A disconnected pin"],
+              "answer": 2,
+              "explanation": "The maximum raw value corresponds to the reference voltage, approximately 5V on this type of board."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m3l2",
-          "title": "Case Studies: Microcontrollers 101 - Lesson 8",
-          "minutes": 12,
+          "title": "PWM and Dimming LEDs",
+          "minutes": 18,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Case Studies and how to apply it in real-world scenarios within the context of Microcontrollers 101."
-            },
-            {
-              "type": "h",
-              "text": "Core Concept: Case Studies"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Case Studies. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Case Studies with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Case Studies without mastering the fundamentals. Take your time and build a solid foundation."
+              "text": "A digital pin can only be fully on or fully off, yet an LED can appear dim. PWM switches the pin on and off very quickly."
             },
             {
               "type": "code",
-              "language": "text",
-              "code": "// Example: Case Studies\n// Replace this with your own practice\nconsole.log(\"Learning Case Studies...\");"
+              "language": "cpp",
+              "code": "const int LED_PIN = 9;  // PWM-capable\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  for (int brightness = 0; brightness <= 255; brightness += 5) {\n    analogWrite(LED_PIN, brightness);\n    delay(20);\n  }\n  for (int brightness = 255; brightness >= 0; brightness -= 5) {\n    analogWrite(LED_PIN, brightness);\n    delay(20);\n  }\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "note",
+              "title": "analogWrite is not true analog",
+              "text": "The pin still switches digitally. PWM only makes the average power adjustable."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Case Studies in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Case Studies that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Case Studies to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "What does analogWrite(pin, 127) do?",
+              "options": ["Sets exactly 1.27V", "Turns the pin off", "Produces roughly half duty cycle", "Switches the pin to an input"],
+              "answer": 2,
+              "explanation": "127 is about half of the 0-255 range, so the pin is HIGH for roughly half of each PWM cycle."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m3l3",
-          "title": "Project Work: Microcontrollers 101 - Lesson 9",
-          "minutes": 29,
+          "title": "Project: Automatic Night Light",
+          "minutes": 28,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Project Work and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Build a light that turns on when the room gets dark. Combines an analog sensor, threshold, and hysteresis."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Project Work"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Project Work. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Project Work with real examples before moving to the next lesson."
+              "type": "code",
+              "language": "cpp",
+              "code": "const int LDR_PIN = A0;\nconst int LED_PIN = 9;\nconst int ON_THRESHOLD = 700;\nconst int OFF_THRESHOLD = 620;\nbool lightOn = false;\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  int light = analogRead(LDR_PIN);\n  if (!lightOn && light > ON_THRESHOLD) lightOn = true;\n  if (lightOn && light < OFF_THRESHOLD) lightOn = false;\n  digitalWrite(LED_PIN, lightOn ? HIGH : LOW);\n  Serial.println(light);\n  delay(100);\n}"
             },
             {
               "type": "callout",
               "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Project Work without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Project Work\n// Replace this with your own practice\nconsole.log(\"Learning Project Work...\");"
+              "title": "Hysteresis prevents flicker",
+              "text": "Without two thresholds (ON and OFF), a reading hovering around 650 could switch the light on and off rapidly."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Project Work in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Project Work that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Project Work to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Why use two thresholds instead of one?",
+              "options": ["To make the sensor more expensive", "To prevent rapid on/off switching around a single threshold", "To increase the board's memory", "Because analog pins require two values"],
+              "answer": 1,
+              "explanation": "Hysteresis adds a small dead band so small fluctuations don't cause the output to flicker."
             }
           ]
         }
@@ -829,267 +408,116 @@
     },
     {
       "id": "m4",
-      "title": "Module 4: Advanced Techniques",
-      "summary": "Learn the essentials of module 4 for Microcontrollers 101.",
+      "title": "Module 4: Digital Input and Serial Communication",
+      "summary": "Buttons, pull-up resistors, serial debugging, and serial communication.",
       "lessons": [
         {
           "id": "microcontrollers-101-m4l1",
-          "title": "Optimization: Microcontrollers 101 - Lesson 10",
-          "minutes": 24,
+          "title": "Buttons and Pull-up Resistors",
+          "minutes": 20,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Optimization and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "A button seems simple, but a floating input can behave unpredictably. A pull-up resistor gives the pin a known state when the button is not pressed."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Optimization"
+              "type": "code",
+              "language": "cpp",
+              "code": "const int BUTTON_PIN = 2;\nconst int LED_PIN = 8;\n\nvoid setup() {\n  pinMode(BUTTON_PIN, INPUT_PULLUP);\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  int buttonState = digitalRead(BUTTON_PIN);\n  if (buttonState == LOW) {\n    digitalWrite(LED_PIN, HIGH);\n  } else {\n    digitalWrite(LED_PIN, LOW);\n  }\n}"
             },
             {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Optimization. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Button state", "Pin reads", "LED state"],
+              "rows": [
+                ["Unpressed", "HIGH", "OFF"],
+                ["Pressed", "LOW", "ON"]
               ]
             },
             {
               "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Optimization with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
               "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Optimization without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Optimization\n// Replace this with your own practice\nconsole.log(\"Learning Optimization...\");"
+              "title": "Mechanical switches bounce",
+              "text": "When a physical button closes, metal contacts can chatter for a few milliseconds. Debouncing means ignoring new changes for a short time."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Optimization in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
+              "question": "With INPUT_PULLUP, what does an unpressed button read?",
+              "options": ["HIGH", "LOW", "Randomly changing", "Cannot be read"],
               "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Optimization that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Optimization to a small project this week. Reflect on what worked and what needs more practice."
+              "explanation": "The pull-up holds the pin HIGH. Pressing connects it to GND, pulling it LOW."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m4l2",
-          "title": "Troubleshooting: Microcontrollers 101 - Lesson 11",
-          "minutes": 17,
+          "title": "Serial Communication Basics",
+          "minutes": 18,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Troubleshooting and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Serial communication lets your board send text to your computer. Perfect for debugging and remote control."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Troubleshooting"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Troubleshooting. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
+              "type": "code",
+              "language": "cpp",
+              "code": "String command = \"\";\n\nvoid setup() {\n  Serial.begin(9600);\n  Serial.println(\"Type: on, off, or status\");\n}\n\nvoid loop() {\n  while (Serial.available()) {\n    char c = Serial.read();\n    if (c == '\\n' || c == '\\r') {\n      command.trim();\n      if (command == \"on\") digitalWrite(LED_BUILTIN, HIGH);\n      else if (command == \"off\") digitalWrite(LED_BUILTIN, LOW);\n      else if (command == \"status\") Serial.println(digitalRead(LED_BUILTIN) ? \"on\" : \"off\");\n      command = \"\";\n    } else {\n      command += c;\n    }\n  }\n}"
             },
             {
               "type": "list",
               "style": "bullet",
               "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+                "Serial.begin(9600) - Start serial at 9600 baud",
+                "Serial.print() - Write text without newline",
+                "Serial.println() - Write text with newline",
+                "Serial.available() - Check if data waiting",
+                "Serial.read() - Read one byte"
               ]
             },
             {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Troubleshooting with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Troubleshooting without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Troubleshooting\n// Replace this with your own practice\nconsole.log(\"Learning Troubleshooting...\");"
-            },
-            {
               "type": "quiz",
-              "question": "What is the main goal of learning Troubleshooting in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Troubleshooting that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Troubleshooting to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Why wait for a newline before handling a serial command?",
+              "options": ["It makes the LED brighter", "It ensures the whole command arrived", "It reduces board voltage", "It changes the baud rate"],
+              "answer": 1,
+              "explanation": "Characters arrive individually. Waiting for a line ending lets you process a complete command."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m4l3",
-          "title": "Advanced Patterns: Microcontrollers 101 - Lesson 12",
-          "minutes": 14,
+          "title": "Capstone: Plant Monitor",
+          "minutes": 40,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Advanced Patterns and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Build a plant monitor that reads soil moisture, shows status lights, and reports values over serial."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Advanced Patterns"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Advanced Patterns. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Component", "Pin", "Purpose"],
+              "rows": [
+                ["Soil sensor", "A0", "Read moisture level"],
+                ["Green LED", "8", "Moist soil"],
+                ["Amber LED", "9", "Getting dry"],
+                ["Red LED", "10", "Dry soil"]
               ]
             },
             {
-              "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Advanced Patterns with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Advanced Patterns without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
               "type": "code",
-              "language": "text",
-              "code": "// Example: Advanced Patterns\n// Replace this with your own practice\nconsole.log(\"Learning Advanced Patterns...\");"
+              "language": "cpp",
+              "code": "const int SOIL_PIN = A0;\nconst int GREEN = 8;\nconst int AMBER = 9;\nconst int RED = 10;\nconst int DRY_THRESHOLD = 700;\nconst int WET_THRESHOLD = 420;\n\nvoid setup() {\n  Serial.begin(9600);\n  pinMode(GREEN, OUTPUT);\n  pinMode(AMBER, OUTPUT);\n  pinMode(RED, OUTPUT);\n}\n\nvoid loop() {\n  int soil = analogRead(SOIL_PIN);\n  digitalWrite(GREEN, soil < WET_THRESHOLD);\n  digitalWrite(AMBER, soil >= WET_THRESHOLD && soil < DRY_THRESHOLD);\n  digitalWrite(RED, soil >= DRY_THRESHOLD);\n  Serial.print(millis() / 1000);\n  Serial.print(\"s, soil=\");\n  Serial.print(soil);\n  Serial.print(\", status=\");\n  Serial.println(soil < WET_THRESHOLD ? \"moist\" : soil < DRY_THRESHOLD ? \"watch\" : \"dry\");\n  delay(2000);\n}"
+            },
+            {
+              "type": "callout",
+              "tone": "challenge",
+              "title": "Extension ideas",
+              "text": "Add a push button for manual reading, log to SD card, or add a Wi-Fi module for notifications."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Advanced Patterns in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Advanced Patterns that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Advanced Patterns to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Why calibrate a soil sensor in your own pot?",
+              "options": ["Because the sensor changes colour", "Because raw readings depend on sensor, soil, and power conditions", "Because calibration increases board voltage", "Because serial output requires it"],
+              "answer": 1,
+              "explanation": "Sensor output varies between setups. Calibration turns a generic device into a measurement you can trust."
             }
           ]
         }
@@ -1097,366 +525,178 @@
     },
     {
       "id": "m5",
-      "title": "Module 5: Mastery",
-      "summary": "Learn the essentials of module 5 for Microcontrollers 101.",
+      "title": "Module 5: Troubleshooting and Best Practices",
+      "summary": "Debugging circuits, reading datasheets, and project documentation.",
       "lessons": [
         {
           "id": "microcontrollers-101-m5l1",
-          "title": "Capstone Project: Microcontrollers 101 - Lesson 13",
-          "minutes": 14,
+          "title": "Debugging Circuits",
+          "minutes": 20,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Capstone Project and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "Debugging is narrowing the space between what you expected and what is actually happening."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Capstone Project"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Capstone Project. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Symptom", "Likely checks"],
+              "rows": [
+                ["Board not recognised", "USB cable, port selection, driver, board type"],
+                ["LED never lights", "Polarity, resistor placement, pin number, code"],
+                ["Button unpredictable", "Floating input, missing ground, bouncing"],
+                ["Sensor values stuck", "Power, shared ground, wrong analog pin, wiring"]
               ]
             },
             {
               "type": "callout",
               "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Capstone Project with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Capstone Project without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Capstone Project\n// Replace this with your own practice\nconsole.log(\"Learning Capstone Project...\");"
+              "title": "Change one thing at a time",
+              "text": "After each change, test again. Several simultaneous changes make results impossible to interpret."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Capstone Project in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Capstone Project that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Capstone Project to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "What is the best first step when a circuit does not work?",
+              "options": ["Replace every part", "Change all the code at once", "Describe the actual behaviour and isolate the failing layer", "Buy a new computer"],
+              "answer": 2,
+              "explanation": "Careful observation narrows the problem. Test power, wiring, input, code, and output one layer at a time."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m5l2",
-          "title": "Review: Microcontrollers 101 - Lesson 14",
-          "minutes": 17,
+          "title": "Reading Datasheets",
+          "minutes": 16,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Review and how to apply it in real-world scenarios within the context of Microcontrollers 101."
+              "text": "A datasheet is a reference manual. Learn to find absolute maximum ratings, operating conditions, pin descriptions, and application circuits."
             },
             {
-              "type": "h",
-              "text": "Core Concept: Review"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Review. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
-            },
-            {
-              "type": "list",
-              "style": "bullet",
-              "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+              "type": "table",
+              "headers": ["Document part", "Question it answers"],
+              "rows": [
+                ["Absolute maximum ratings", "What will damage the part?"],
+                ["Recommended operating conditions", "What range should I actually use?"],
+                ["Pin configuration", "Where does each wire go?"],
+                ["Typical application", "What does a known-good circuit look like?"]
               ]
             },
             {
               "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Review with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
               "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Review without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Review\n// Replace this with your own practice\nconsole.log(\"Learning Review...\");"
+              "title": "The board's 5V pin is not unlimited",
+              "text": "The regulator and USB port have current limits. Motors, servos, and LED strips should usually have their own power supply."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Review in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Review that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Review to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Which datasheet section tells you if a sensor's signal pin is safe with a 5V board?",
+              "options": ["The marketing title", "The absolute maximum ratings and logic-level specifications", "The page count", "The barcode"],
+              "answer": 1,
+              "explanation": "These sections define the voltages the part can tolerate and the levels it considers high or low."
             }
           ]
         },
         {
           "id": "microcontrollers-101-m5l3",
-          "title": "Next Steps: Microcontrollers 101 - Lesson 15",
-          "minutes": 14,
+          "title": "Final Capstone Review",
+          "minutes": 22,
           "content": [
             {
               "type": "lead",
-              "text": "In this lesson you'll learn about Next Steps and how to apply it in real-world scenarios within the context of Microcontrollers 101."
-            },
-            {
-              "type": "h",
-              "text": "Core Concept: Next Steps"
-            },
-            {
-              "type": "p",
-              "text": "This lesson covers the fundamentals of Next Steps. You'll learn practical techniques you can apply immediately in your microcontrollers 101 projects."
+              "text": "Review everything: microcontroller basics, circuits, serial communication, sensors, PWM, and debugging.",
             },
             {
               "type": "list",
               "style": "bullet",
               "items": [
-                [
-                  "Understand the fundamentals",
-                  "Identify key components",
-                  "Apply basic techniques"
-                ],
-                [
-                  "Implement advanced features",
-                  "Follow best practices",
-                  "Avoid common pitfalls"
-                ],
-                [
-                  "Build real projects",
-                  "Analyze case studies",
-                  "Complete hands-on exercises"
-                ],
-                [
-                  "Optimize performance",
-                  "Debug effectively",
-                  "Apply advanced patterns"
-                ],
-                [
-                  "Complete capstone",
-                  "Review learning",
-                  "Plan next steps"
-                ]
+                "Can you explain what a microcontroller does?",
+                "Can you wire an LED with a resistor?",
+                "Can you read an analog sensor?",
+                "Can you use serial monitor to debug?",
+                "Can you build the plant monitor?"
               ]
             },
             {
               "type": "callout",
-              "tone": "tip",
-              "title": "Pro Tip",
-              "text": "Practice Next Steps with real examples before moving to the next lesson."
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "title": "Common Mistake",
-              "text": "Beginners often rush through Next Steps without mastering the fundamentals. Take your time and build a solid foundation."
-            },
-            {
-              "type": "code",
-              "language": "text",
-              "code": "// Example: Next Steps\n// Replace this with your own practice\nconsole.log(\"Learning Next Steps...\");"
+              "tone": "challenge",
+              "title": "Final project: Plant Monitor",
+              "text": "Build a plant monitor that reads soil moisture, shows status with LEDs, and reports values over serial. Add calibration and comments to your code."
             },
             {
               "type": "quiz",
-              "question": "What is the main goal of learning Next Steps in Microcontrollers 101?",
-              "options": [
-                "To learn the fundamentals",
-                "To skip the basics",
-                "To memorize everything",
-                "To avoid practice"
-              ],
-              "answer": 0,
-              "explanation": "The goal is to build a solid foundation in Next Steps that you can build on."
-            },
-            {
-              "type": "h3",
-              "text": "Apply it"
-            },
-            {
-              "type": "p",
-              "text": "Try applying Next Steps to a small project this week. Reflect on what worked and what needs more practice."
+              "question": "Why calibrate a soil sensor in your own pot?",
+              "options": ["Because the sensor changes colour", "Because raw readings depend on sensor, soil, and power conditions", "Because calibration increases board voltage", "Because serial output requires it"],
+              "answer": 1,
+              "explanation": "Sensor output varies between setups. Calibration turns a generic device into a measurement you can trust."
             }
           ]
         }
       ]
+    },
+    "finalAssessment": {
+      "title": "Circuit Starter Assessment",
+      "intro": "Answer all 8 questions. You need 80% to pass and unlock the Circuit Starter badge and certificate. You can retake the assessment if needed.",
+      "passScore": 80,
+      "questions": [
+        {
+          "question": "What is the main role of a microcontroller?",
+          "options": [
+            "Run a full desktop operating system",
+            "Perform a dedicated sensing-and-control job",
+            "Store a family photo library",
+            "Replace a computer monitor"
+          ],
+          "answer": 1,
+          "explanation": "Microcontrollers are designed for focused, repeated tasks such as reading sensors and controlling outputs."
+        },
+        {
+          "question": "What does a 220 ohm resistor do in a simple LED circuit?",
+          "options": [
+            "Limits current",
+            "Stores program code",
+            "Increases the supply voltage",
+            "Changes the LED colour"
+          ],
+          "answer": 0,
+          "explanation": "The resistor protects the LED and microcontroller pin by limiting current."
+        },
+        {
+          "question": "Which section of setup() runs once at startup?",
+          "options": ["setup()", "loop()", "digitalRead()", "delay()"],
+          "answer": 0,
+          "explanation": "setup() runs once; loop() runs repeatedly."
+        },
+        {
+          "question": "With INPUT_PULLUP, what does an unpressed button usually read?",
+          "options": ["LOW", "HIGH", "0V always", "Undefined"],
+          "answer": 1,
+          "explanation": "The internal pull-up holds the input HIGH until the button pulls it to GND."
+        },
+        {
+          "question": "Which Arduino function reads a changing analog voltage?",
+          "options": ["digitalWrite()", "analogRead()", "pinMode()", "Serial.println()"],
+          "answer": 1,
+          "explanation": "analogRead() returns a number representing the voltage on an analog input."
+        },
+        {
+          "question": "What is hysteresis used for in the night-light project?",
+          "options": ["Making the LED brighter", "Preventing flicker around a threshold", "Increasing baud rate", "Changing the board's clock speed"],
+          "answer": 1,
+          "explanation": "Hysteresis uses separate on and off thresholds to avoid rapid switching."
+        },
+        {
+          "question": "Why should a motor often have its own power supply?",
+          "options": ["Motors only work with USB", "Motors can draw more current than the board can safely supply", "Motors require analog pins", "Motors cannot share a ground"],
+          "answer": 1,
+          "explanation": "Motor current can exceed the board's regulator capacity and cause resets or damage."
+        },
+        {
+          "question": "What is the best first step when a circuit does not work?",
+          "options": ["Replace every part", "Change all the code at once", "Describe the actual behaviour and isolate the failing layer", "Buy a new computer"],
+          "answer": 2,
+          "explanation": "Careful observation narrows the problem. Test power, wiring, input, code, and output one layer at a time."
+        }
+      ]
     }
-  ],
-  "finalAssessment": {
-    "title": "Circuit Starter Assessment",
-    "intro": "Answer all 8 questions. Score 80% or higher to earn the Circuit Starter badge and certificate. You can retake the assessment if needed.",
-    "passScore": 80,
-    "questions": [
-      {
-        "question": "What is the primary focus of Microcontrollers 101?",
-        "options": [
-          "Theory only",
-          "Practical application",
-          "History",
-          "Unrelated topics"
-        ],
-        "answer": 1,
-        "explanation": "Microcontrollers 101 focuses on practical, usable skills."
-      },
-      {
-        "question": "Which level is this course designed for?",
-        "options": [
-          "Beginner",
-          "Expert only",
-          "Level 99",
-          "No level"
-        ],
-        "answer": 0,
-        "explanation": "This course is designed for beginner learners."
-      },
-      {
-        "question": "How many modules does this course have?",
-        "options": [
-          "1",
-          "3",
-          "5",
-          "10"
-        ],
-        "answer": 2,
-        "explanation": "The course is organized into 5 modules."
-      },
-      {
-        "question": "What do you earn on completion?",
-        "options": [
-          "Nothing",
-          "A badge and certificate",
-          "A trophy",
-          "An email"
-        ],
-        "answer": 1,
-        "explanation": "Completing the course and assessment earns a badge and certificate."
-      },
-      {
-        "question": "Can you retake the final assessment?",
-        "options": [
-          "No",
-          "Yes, unlimited",
-          "Once",
-          "Only with payment"
-        ],
-        "answer": 1,
-        "explanation": "You can retake the assessment if you need to."
-      },
-      {
-        "question": "Is practice recommended?",
-        "options": [
-          "Yes",
-          "No",
-          "Maybe",
-          "Only for experts"
-        ],
-        "answer": 0,
-        "explanation": "Practice is essential to mastering any skill."
-      },
-      {
-        "question": "What is included in each lesson?",
-        "options": [
-          "Only videos",
-          "Content, examples, and a quiz",
-          "Only quizzes",
-          "Only reading"
-        ],
-        "answer": 1,
-        "explanation": "Lessons include content, examples, and knowledge checks."
-      },
-      {
-        "question": "Who can take this course?",
-        "options": [
-          "Only experts",
-          "Anyone interested",
-          "Only paid members",
-          "Only students"
-        ],
-        "answer": 1,
-        "explanation": "Anyone interested in the topic can take this course."
-      }
-    ]
   }
 }
